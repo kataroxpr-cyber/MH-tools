@@ -1,0 +1,560 @@
+{
+  "reviewDate": "2026-10-24",
+  "target": "Windows MH Classic Tools 0.18.0",
+  "method": "PE/PDB identity correlation and compiler-recorded source-file checksums",
+  "documentsVerified": 76,
+  "mismatches": [],
+  "assemblies": [
+    {
+      "assembly": "ClassicMhTools.dll",
+      "dllSha256": "150ecbebc8d403a1222ab87cc6bfebafd654f55f441018511898fa14803f67b2",
+      "pdbSha256": "0ff15acf702a65a3355eca573f00de923cf4b474ca449a49f0eba99c5a136a48",
+      "pdbIdentityMatches": true,
+      "generatedDocumentsNotCompared": 18,
+      "files": [
+        {
+          "path": "src/MH4UModern/App.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ae0755f094a7c871eb0bc5de942db1c3d613ab77d9eab331908dd2b40844c290",
+          "actualHash": "ae0755f094a7c871eb0bc5de942db1c3d613ab77d9eab331908dd2b40844c290",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/AssemblyInfo.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "f2a26cab2fe067ed531a68c388d269f0160e5e1ff5152ccaf1d1b248a523905f",
+          "actualHash": "f2a26cab2fe067ed531a68c388d269f0160e5e1ff5152ccaf1d1b248a523905f",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ChangelogWindow.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "c9eede2732bd7c93389e209d3e2e9bbc22d6be1d24831f36c64a2270addbe2a7",
+          "actualHash": "c9eede2732bd7c93389e209d3e2e9bbc22d6be1d24831f36c64a2270addbe2a7",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ChangePreviewWindow.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "fb55472e9998aa7d0b66d21e1dde0fb758ca8128dbc0afc8d6e2d53b5a576c7e",
+          "actualHash": "fb55472e9998aa7d0b66d21e1dde0fb758ca8128dbc0afc8d6e2d53b5a576c7e",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ColorPickerWindow.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "4c59cf6f0590b4e990d3596125104f1788b5f928534548aabd05d08a154b086f",
+          "actualHash": "4c59cf6f0590b4e990d3596125104f1788b5f928534548aabd05d08a154b086f",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/DecorationPickerWindow.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ae57fa0878a4210e2fe2d9b5b27236872ac2498d3a345a1f0ad6aa039c31c640",
+          "actualHash": "ae57fa0878a4210e2fe2d9b5b27236872ac2498d3a345a1f0ad6aa039c31c640",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/MainWindow.CustomQuests.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "6f884a5475ec11bf3aac46b39894351e9f3b16e84b6c2fe6a39e3410ab0eca34",
+          "actualHash": "6f884a5475ec11bf3aac46b39894351e9f3b16e84b6c2fe6a39e3410ab0eca34",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/MainWindow.Overview.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "238b7c2f0608b7e11d789c2dbf6ba9102cb25b7d7a3e216cf57890a1ccbc2c53",
+          "actualHash": "238b7c2f0608b7e11d789c2dbf6ba9102cb25b7d7a3e216cf57890a1ccbc2c53",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/MainWindow.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "b372bf71c549c113a6ef5bf98c4cc431244cc345b884dc7ae440f63618d860cc",
+          "actualHash": "b372bf71c549c113a6ef5bf98c4cc431244cc345b884dc7ae440f63618d860cc",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/ArmorRarityService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "8d4ca0c57ea52e6c0a042151fcd753ac7882e13d5fd92928799ed8f64938bbf9",
+          "actualHash": "8d4ca0c57ea52e6c0a042151fcd753ac7882e13d5fd92928799ed8f64938bbf9",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/EquipmentCatalogIconService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "713ceb4d4ad05d48ae3bdc2f8c315f4562cbfcc474bad6d02fc81ead3d313b74",
+          "actualHash": "713ceb4d4ad05d48ae3bdc2f8c315f4562cbfcc474bad6d02fc81ead3d313b74",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/EquipmentSortService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "e4c65cfc3f9fda42de17c214dbfbb54349b82b666522a3dc435e01da6572eb58",
+          "actualHash": "e4c65cfc3f9fda42de17c214dbfbb54349b82b666522a3dc435e01da6572eb58",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/ItemCategoryService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "8307b00be229051d1e6d2163c1c1212e2ed549cd36deccae5af265d854930aa1",
+          "actualHash": "8307b00be229051d1e6d2163c1c1212e2ed549cd36deccae5af265d854930aa1",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/ItemIconService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "13986afde5aa96701cf1243bb4951cd7a8e00685d6b49e6c207a8a464a860d75",
+          "actualHash": "13986afde5aa96701cf1243bb4951cd7a8e00685d6b49e6c207a8a464a860d75",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/PropertyInspectorService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "a425fca4aa074909dd414c8f11501c7e78dd5f7df685e34ecdebc388adfe2fc1",
+          "actualHash": "a425fca4aa074909dd414c8f11501c7e78dd5f7df685e34ecdebc388adfe2fc1",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/QuestPresentationService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "aa41c2ba5fe341537a43696c00a301c365b0aa583a255ca5ff6202bd4b3032bb",
+          "actualHash": "aa41c2ba5fe341537a43696c00a301c365b0aa583a255ca5ff6202bd4b3032bb",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/RecentFilesService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "96640e20cd12602df6173a78061e9227d44e64420216ec2f38318163c900b598",
+          "actualHash": "96640e20cd12602df6173a78061e9227d44e64420216ec2f38318163c900b598",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/SearchableComboBoxBehavior.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "6ee6aef0983c2511c2b09fcdaab908b6ab59f6124a52bd882b105713bf469651",
+          "actualHash": "6ee6aef0983c2511c2b09fcdaab908b6ab59f6124a52bd882b105713bf469651",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Services/VersionNoticeService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "01de907b4f8e980d765b602dcc4de3fef0486318d6e6e001a0fb5ff886b7edd0",
+          "actualHash": "01de907b4f8e980d765b602dcc4de3fef0486318d6e6e001a0fb5ff886b7edd0",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/BackupRowViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "9244be4c74edc1ea85f81514344de345d5b7dcafaed6a70247c63cefbc8d1a82",
+          "actualHash": "9244be4c74edc1ea85f81514344de345d5b7dcafaed6a70247c63cefbc8d1a82",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/BindableBase.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "b660c81a5a965735cd95f7af686eb8244a9a1e1e424bbbba9c3a88b93fcca023",
+          "actualHash": "b660c81a5a965735cd95f7af686eb8244a9a1e1e424bbbba9c3a88b93fcca023",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/CharacterEditorViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ccaca96c76374ce642c8c1752ce8408c343f3798a38bdcd7a88455eee9b356ba",
+          "actualHash": "ccaca96c76374ce642c8c1752ce8408c343f3798a38bdcd7a88455eee9b356ba",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/CustomQuestEditorViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "d2ac51adc30bc6d714f1c347aa4bea6248a8186c25712ad265a926d2fb0d4807",
+          "actualHash": "d2ac51adc30bc6d714f1c347aa4bea6248a8186c25712ad265a926d2fb0d4807",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/CustomQuestEditorViewModel.Layout.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "d0adf77f2706531e8f7d1f69119fb6cf9e083971bae47535aa544fd5ae4ff8b4",
+          "actualHash": "d0adf77f2706531e8f7d1f69119fb6cf9e083971bae47535aa544fd5ae4ff8b4",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/EditablePropertyViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ec1c1f3637b050efe0f0837d7481ee9688aaf23f2f4fb0ca9483d9655b97c1d4",
+          "actualHash": "ec1c1f3637b050efe0f0837d7481ee9688aaf23f2f4fb0ca9483d9655b97c1d4",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/EquipmentRowViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "376001892bb5c2a47cd16d4859a46eaa8a525715a382d3104518e470f5873518",
+          "actualHash": "376001892bb5c2a47cd16d4859a46eaa8a525715a382d3104518e470f5873518",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/IQuestEditorLayout.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "f9a942f55e12e4b7f4a7371fda55d44003d4f10eaa6c102d62868b4208f3fa66",
+          "actualHash": "f9a942f55e12e4b7f4a7371fda55d44003d4f10eaa6c102d62868b4208f3fa66",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/ItemRowViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "7720b826b8ee5976115785ed015c9c32b2f5e2f0bb33245392b21f2f93a5cebe",
+          "actualHash": "7720b826b8ee5976115785ed015c9c32b2f5e2f0bb33245392b21f2f93a5cebe",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/PalicoRowViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "10dda56fcad042f28ab9e5109ca37a7e724efcc5e45521d949f92de1713ca5d2",
+          "actualHash": "10dda56fcad042f28ab9e5109ca37a7e724efcc5e45521d949f92de1713ca5d2",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/QuestCreationViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "c702fc6d938f6f6c8e98cdf48c68ac227fdf49271765ddbfcc4c8f29dac55abc",
+          "actualHash": "c702fc6d938f6f6c8e98cdf48c68ac227fdf49271765ddbfcc4c8f29dac55abc",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/QuestRowViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "9e7683a46083fe4ce4ba11c3c2aba2266c0046b5d74246fda8f8f1f6fba01de3",
+          "actualHash": "9e7683a46083fe4ce4ba11c3c2aba2266c0046b5d74246fda8f8f1f6fba01de3",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ViewModels/RecentSaveRowViewModel.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "3526b6101c9b364ad7e8b4254e40cdc9532e77b0023b207b3412f6de67c8e6f2",
+          "actualHash": "3526b6101c9b364ad7e8b4254e40cdc9532e77b0023b207b3412f6de67c8e6f2",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/CreationFieldInput.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ac1faad88d635b18713ab61d8505ff6fd498cec87acc539c0a2178e3d06850f2",
+          "actualHash": "ac1faad88d635b18713ab61d8505ff6fd498cec87acc539c0a2178e3d06850f2",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/CustomQuestsView.Helpers.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "600a7ad1bf4d78bd91b3a9b04d461466b5027318c9027fc14075a27821875b33",
+          "actualHash": "600a7ad1bf4d78bd91b3a9b04d461466b5027318c9027fc14075a27821875b33",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/CustomQuestsView.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "be2c7baa9319ff5594f8f3075cc4e75efdef4b5e96f65db41b9c8275dce6114a",
+          "actualHash": "be2c7baa9319ff5594f8f3075cc4e75efdef4b5e96f65db41b9c8275dce6114a",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestChoicePicker.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "2864f23a0c42506a0902fd9dd444d8fe128ffba7c5e7b64a1e00dc5ce56395a5",
+          "actualHash": "2864f23a0c42506a0902fd9dd444d8fe128ffba7c5e7b64a1e00dc5ce56395a5",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestCreationEditor.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "7bacb18bec8a5017f6d404fac29c3787268bd1965ed8ba13f95f6dafa2677ed2",
+          "actualHash": "7bacb18bec8a5017f6d404fac29c3787268bd1965ed8ba13f95f6dafa2677ed2",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestItemBoxEditor.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "fbc9630fce6f3a10a36a6c74aa988b43a9a32a4dcf5992d05672cfe8674d1b77",
+          "actualHash": "fbc9630fce6f3a10a36a6c74aa988b43a9a32a4dcf5992d05672cfe8674d1b77",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestMapPreview.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "1dc61458f996434d9b798f1acfa885e5fd99df2677d167b3d0d4ab91c0ce2650",
+          "actualHash": "1dc61458f996434d9b798f1acfa885e5fd99df2677d167b3d0d4ab91c0ce2650",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestMonsterEditor.xaml.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "394cbdae7020d4b8ec1f652fc8f50d4498c21b514ed43d15fc7de45a8aaf3c07",
+          "actualHash": "394cbdae7020d4b8ec1f652fc8f50d4498c21b514ed43d15fc7de45a8aaf3c07",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/App.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "db41634a9a40a998be55f2eb8ce5d45f5fe38bb2f77b6f989976b1cb4b5096be",
+          "actualHash": "db41634a9a40a998be55f2eb8ce5d45f5fe38bb2f77b6f989976b1cb4b5096be",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ChangelogWindow.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "bdbdce4be6a9c691cb4c5e4d9c568b6d8ec48aaac1a58586bc131afcdec24e35",
+          "actualHash": "bdbdce4be6a9c691cb4c5e4d9c568b6d8ec48aaac1a58586bc131afcdec24e35",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ChangePreviewWindow.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "98d9b1bfe04273a36f4793619cf7455065ffccfc987fd5cfa046b4364756d351",
+          "actualHash": "98d9b1bfe04273a36f4793619cf7455065ffccfc987fd5cfa046b4364756d351",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/ColorPickerWindow.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "4fff07a60b0f601ea2c7f4ff46b11b673c6a6176638630412eaa649ef88514c0",
+          "actualHash": "4fff07a60b0f601ea2c7f4ff46b11b673c6a6176638630412eaa649ef88514c0",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/DecorationPickerWindow.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "6882b527c2bb3cf57db5be6a4cfe45c2967e21ca0b82ecd8813d648ccdf73679",
+          "actualHash": "6882b527c2bb3cf57db5be6a4cfe45c2967e21ca0b82ecd8813d648ccdf73679",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/MainWindow.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ec0ad1b6e4e4d1d2b843c49a77b902524f6bee4c059133b8c95fc7527200aae3",
+          "actualHash": "ec0ad1b6e4e4d1d2b843c49a77b902524f6bee4c059133b8c95fc7527200aae3",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/CreationFieldInput.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "50d7d1cf6f15dbb3b3d3156f36d5ea83527dd6fa74d76f2990428e38812247b5",
+          "actualHash": "50d7d1cf6f15dbb3b3d3156f36d5ea83527dd6fa74d76f2990428e38812247b5",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/CustomQuestsView.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "14a641155d3ce9a1c6c2fce485b6400be40f40fda529c952d167b42d1ef5670c",
+          "actualHash": "14a641155d3ce9a1c6c2fce485b6400be40f40fda529c952d167b42d1ef5670c",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestChoicePicker.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "33c87cd536cb3876916486476bfef8efb765f8199099e1282db1331c0f432563",
+          "actualHash": "33c87cd536cb3876916486476bfef8efb765f8199099e1282db1331c0f432563",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestCreationEditor.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "aef767af6c75e3b5048baa27af3a3ca38de2aa686771fb2e6aa9bc2ebd5b3e96",
+          "actualHash": "aef767af6c75e3b5048baa27af3a3ca38de2aa686771fb2e6aa9bc2ebd5b3e96",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestItemBoxEditor.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "516b2f027f380f54074640d30a6a840195d4988bafecce4d3c46ee013dc584ad",
+          "actualHash": "516b2f027f380f54074640d30a6a840195d4988bafecce4d3c46ee013dc584ad",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestMapPreview.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "9edd20b6dfe3d1c6e40f140f1894f429f044fc0fde2bd9c6e8e5a7496a527d27",
+          "actualHash": "9edd20b6dfe3d1c6e40f140f1894f429f044fc0fde2bd9c6e8e5a7496a527d27",
+          "matches": true
+        },
+        {
+          "path": "src/MH4UModern/Views/QuestMonsterEditor.xaml",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "8c1e6bb008daf305722c4a575d303c95c647a75dfffa38405791ba88683206d0",
+          "actualHash": "8c1e6bb008daf305722c4a575d303c95c647a75dfffa38405791ba88683206d0",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "assembly": "ClassicMhTools.Core.dll",
+      "dllSha256": "23b4d751464d1f9747e819d8ee3e168da6eb62e27764dab52ac89aff92a75328",
+      "pdbSha256": "bc1034b6f1cef46de502684de83bf9d0bb0dee4153a4cb31045902c17d686d2f",
+      "pdbIdentityMatches": true,
+      "generatedDocumentsNotCompared": 3,
+      "files": [
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestCreation.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "4bbf0ad27bca6cf259be8f2352c896a636d189dc531fc233b93307b217ac9e33",
+          "actualHash": "4bbf0ad27bca6cf259be8f2352c896a636d189dc531fc233b93307b217ac9e33",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestCreationPolicy.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "5162ef3e9f7108c978c69acb019151a466feadc94add10cb2b10aa384b77b906",
+          "actualHash": "5162ef3e9f7108c978c69acb019151a466feadc94add10cb2b10aa384b77b906",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestCrypto.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "ae7f791472432fff2f7c78ab3af7a1fb4aaadfb479b86a982d183e6a6fe8c240",
+          "actualHash": "ae7f791472432fff2f7c78ab3af7a1fb4aaadfb479b86a982d183e6a6fe8c240",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestDocument.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "527464bb1f98d72d453e73d6beb1c09c8bd9413991e5dad1ffa827216ba9a246",
+          "actualHash": "527464bb1f98d72d453e73d6beb1c09c8bd9413991e5dad1ffa827216ba9a246",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestExtdataLocator.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "a0a901006034fc5536632f25ae29879a72e859f70fc6d96f3b6a9ea11cc201f5",
+          "actualHash": "a0a901006034fc5536632f25ae29879a72e859f70fc6d96f3b6a9ea11cc201f5",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestExtdataSet.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "9fe223d98e1d575b2935650eef01e94129fa609dc1ed8267856d50f19405db9a",
+          "actualHash": "9fe223d98e1d575b2935650eef01e94129fa609dc1ed8267856d50f19405db9a",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestPresetPolicy.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "a72f18bbb9221328f5796639762b7aede7b65dd984cf54db2d43b4ec9c177714",
+          "actualHash": "a72f18bbb9221328f5796639762b7aede7b65dd984cf54db2d43b4ec9c177714",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/QuestReferenceCatalog.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "71279bfafe671b0a992c60a526e3a5ffa5b31dd58eb68148e042864180103a94",
+          "actualHash": "71279bfafe671b0a992c60a526e3a5ffa5b31dd58eb68148e042864180103a94",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/CustomQuests/StoryHelperExperiment.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "2080ec8e08359ee763ce60e2e0680d2cf90a7490dd6d78f92e3bf106b6ce5cb2",
+          "actualHash": "2080ec8e08359ee763ce60e2e0680d2cf90a7490dd6d78f92e3bf106b6ce5cb2",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Models/ChangeRecord.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "a79a8d5eb05bc314af63357f8031e0fa58e190f999b999b72fbcb4f46d4d726c",
+          "actualHash": "a79a8d5eb05bc314af63357f8031e0fa58e190f999b999b72fbcb4f46d4d726c",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Models/SaveIdentity.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "71f32bbd0cc20a8067b157eec3a025344525822c4bdd465ee968a87213969edd",
+          "actualHash": "71f32bbd0cc20a8067b157eec3a025344525822c4bdd465ee968a87213969edd",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/BackupService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "816c33d4e073959bcb612cc00a18e8f86e14c3ef8643ae764c33fc3d77435e9a",
+          "actualHash": "816c33d4e073959bcb612cc00a18e8f86e14c3ef8643ae764c33fc3d77435e9a",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/DecorationCatalogService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "186292022fceb54d1ec44771e4d2eeceff08bc00e3bf7e19bcb13722592f4639",
+          "actualHash": "186292022fceb54d1ec44771e4d2eeceff08bc00e3bf7e19bcb13722592f4639",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/DirtyTracker.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "9c6be3c7979255375936d0f29b7c439aed7d6083c8ead00f9a4da94eeb3578ab",
+          "actualHash": "9c6be3c7979255375936d0f29b7c439aed7d6083c8ead00f9a4da94eeb3578ab",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/EmulatorPathSettings.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "6b358a6f403e8d53ff835b3adf4677909bc3339880f132c39ec33da6d9f63ab0",
+          "actualHash": "6b358a6f403e8d53ff835b3adf4677909bc3339880f132c39ec33da6d9f63ab0",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/EmulatorSaveService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "739a23fd9dced0f059a0d44d43abb3a2b17382cc57a9d084e72ee9421bc6d267",
+          "actualHash": "739a23fd9dced0f059a0d44d43abb3a2b17382cc57a9d084e72ee9421bc6d267",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/EquipmentReferenceService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "9db7c714ac4d509955e1363bffbf1145466fdd62669956902b1d5726b2b86024",
+          "actualHash": "9db7c714ac4d509955e1363bffbf1145466fdd62669956902b1d5726b2b86024",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/ExtendedEquipmentService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "e2f59a5aa23b1cd4e469fbc204e86bf1a5c22f790ebc30fa6bc487cf3ccc8775",
+          "actualHash": "e2f59a5aa23b1cd4e469fbc204e86bf1a5c22f790ebc30fa6bc487cf3ccc8775",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/GameCatalogService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "28d9e640f7bb37a4758e8764ce09e6bf88be164bed90741c6ffa4c65f2b81d27",
+          "actualHash": "28d9e640f7bb37a4758e8764ce09e6bf88be164bed90741c6ffa4c65f2b81d27",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/SaveSnapshot.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "2230a98ca31836e164ef720d3e8dc33da07aad37581b3da11c88500da148c554",
+          "actualHash": "2230a98ca31836e164ef720d3e8dc33da07aad37581b3da11c88500da148c554",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/UndoManager.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "35f23f6239600e57b5493afde99ad3a1358c1b08e491309628dff9e8d3af8f15",
+          "actualHash": "35f23f6239600e57b5493afde99ad3a1358c1b08e491309628dff9e8d3af8f15",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/ValidationService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "30b8241f1bd116ff413518ff2e6644ac4e6c3344d4bf4e99978ea40986c8abfa",
+          "actualHash": "30b8241f1bd116ff413518ff2e6644ac4e6c3344d4bf4e99978ea40986c8abfa",
+          "matches": true
+        },
+        {
+          "path": "src/ClassicMhTools.Core/Services/WaistArmorIdFixService.cs",
+          "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "recordedHash": "5e260a115807c39344af240d8c198f03005ab1e0c1a884efb22bcc190f9fac48",
+          "actualHash": "5e260a115807c39344af240d8c198f03005ab1e0c1a884efb22bcc190f9fac48",
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "limits": "Checks source documents in published portable PDBs, not project files, data, all XAML inputs, compiler version, or byte-for-byte rebuild reproducibility. Absolute private build paths omitted."
+}

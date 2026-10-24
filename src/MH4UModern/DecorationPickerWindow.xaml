@@ -1,0 +1,80 @@
+<Window x:Class="MH4UModern.DecorationPickerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Choose Decoration"
+        Width="760" Height="560" MinWidth="680" MinHeight="500"
+        WindowStartupLocation="CenterOwner" ResizeMode="CanResizeWithGrip"
+        Background="{DynamicResource WindowBrush}">
+    <Grid Margin="18">
+        <Border Style="{StaticResource CardStyle}" Padding="0">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="{DynamicResource Surface2Brush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1" CornerRadius="14,14,0,0" Padding="18,15">
+                    <Grid>
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <TextBlock Text="Choose decoration by skill" FontSize="20" FontWeight="SemiBold"/>
+                            <TextBlock Text="Search a skill first, then choose which jewel for that skill goes in this slot." Style="{StaticResource MutedTextStyle}" FontSize="11" Margin="0,3,0,0"/>
+                        </StackPanel>
+                        <Button Grid.Column="1" Content="✕" Style="{StaticResource IconButtonStyle}" Click="Cancel_Click"/>
+                    </Grid>
+                </Border>
+
+                <Grid Grid.Row="1" Margin="16">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="0.75*"/><ColumnDefinition Width="14"/><ColumnDefinition Width="1.25*"/></Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Style="{StaticResource EditorSectionStyle}">
+                        <Grid>
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                            <TextBlock Text="1  SKILL" Style="{StaticResource EditorSectionHeaderStyle}"/>
+                            <TextBox x:Name="SkillSearchBox" Grid.Row="1" Style="{StaticResource SearchBoxStyle}" Margin="0,0,0,8" TextChanged="SkillSearchBox_TextChanged"/>
+                            <ListBox x:Name="SkillList" Grid.Row="2" SelectionChanged="SkillList_SelectionChanged">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate><TextBlock Text="{Binding}" Margin="5,3" FontWeight="SemiBold"/></DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Grid>
+                    </Border>
+
+                    <Border Grid.Column="2" Style="{StaticResource EditorSectionStyle}">
+                        <Grid>
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                            <TextBlock Text="2  DECORATION" Style="{StaticResource EditorSectionHeaderStyle}"/>
+                            <TextBlock x:Name="DecorationPrompt" Grid.Row="1" Text="Select a skill to see its available decorations." Style="{StaticResource MutedTextStyle}" Margin="0,0,0,8"/>
+                            <ListBox x:Name="DecorationList" Grid.Row="2" MouseDoubleClick="DecorationList_MouseDoubleClick" SelectionChanged="DecorationList_SelectionChanged">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Style="{StaticResource FieldCardStyle}" Margin="0,0,0,6" Padding="10,8">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                                <StackPanel>
+                                                    <TextBlock Text="{Binding Name}" FontWeight="SemiBold"/>
+                                                    <TextBlock Text="{Binding SkillSummary}" Style="{StaticResource MutedTextStyle}" FontSize="10" Margin="0,2,0,0"/>
+                                                </StackPanel>
+                                                <StackPanel Grid.Column="1" HorizontalAlignment="Right" Margin="12,0,0,0">
+                                                    <TextBlock Text="{Binding SlotText}" HorizontalAlignment="Right" Foreground="{DynamicResource AccentBrush}" FontSize="10" FontWeight="SemiBold"/>
+                                                    <TextBlock Text="{Binding RarityText}" HorizontalAlignment="Right" Style="{StaticResource MutedTextStyle}" FontSize="9"/>
+                                                </StackPanel>
+                                            </Grid>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Grid>
+                    </Border>
+                </Grid>
+
+                <Border Grid.Row="2" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0" Padding="16,12">
+                    <Grid>
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <Button Content="No decoration" Style="{StaticResource CompactButtonStyle}" Click="None_Click"/>
+                        <TextBlock x:Name="CurrentText" Grid.Column="1" Style="{StaticResource MutedTextStyle}" FontSize="10" VerticalAlignment="Center" Margin="12,0"/>
+                        <Button Grid.Column="2" Content="Cancel" Style="{StaticResource CompactButtonStyle}" Click="Cancel_Click" Margin="0,0,7,0"/>
+                        <Button x:Name="SelectButton" Grid.Column="3" Content="Use decoration" Style="{StaticResource AccentButtonStyle}" Click="Select_Click" IsEnabled="False"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,1235 @@
+item_id	name	page	slot_in_page	asset
+1	Book of Combos 1	1	1	1.png
+2	Book of Combos 2	1	2	2.png
+3	Book of Combos 3	1	3	3.png
+4	Book of Combos 4	1	4	4.png
+5	Book of Combos 5	1	5	5.png
+8	Potion	1	6	8.png
+9	Mega Potion	1	7	9.png
+11	Mega Nutrients	1	8	11.png
+12	Antidote	1	9	12.png
+15	Mega Dash Juice	1	11	15.png
+16	Demondrug	1	13	16.png
+17	Mega Demondrug	1	14	17.png
+18	Might Pill	1	15	18.png
+20	Mega Armorskin	1	16	20.png
+22	Cool Drink	1	17	22.png
+23	Hot Drink	1	18	23.png
+24	Cleanser	1	19	24.png
+25	Deodorant	1	20	25.png
+26	Psychoserum	1	21	26.png
+27	Herbal Medicine	1	22	27.png
+28	Max Potion	1	23	28.png
+30	Catalyst	1	24	30.png
+31	Energy Drink	1	25	31.png
+32	Gunpowder	1	26	32.png
+33	Lifecrystals	1	27	33.png
+35	Tranquilizer	1	29	35.png
+44	Raw Meat	1	31	44.png
+45	Poisoned Meat	1	33	45.png
+46	Tinged Meat	1	34	46.png
+47	Drugged Meat	1	35	47.png
+49	Well-done Steak	1	36	49.png
+51	Chilled Meat	1	37	51.png
+52	Hot Meat	1	38	52.png
+53	Mosswine Jerky	1	39	53.png
+54	Boomerang	1	40	54.png
+61	Paintball	1	41	61.png
+62	Flash Bomb	1	43	62.png
+63	Sonic Bomb	1	44	63.png
+64	Dung	1	45	64.png
+65	Dung Bomb	1	46	65.png
+66	Smoke Bomb	1	47	66.png
+67	Poison Smoke Bomb	1	48	67.png
+68	Farcaster	1	49	68.png
+69	Tranq Bomb	1	51	69.png
+70	Spider Web	1	52	70.png
+71	Net	1	53	71.png
+72	Trap Tool	1	54	72.png
+73	Pitfall Trap	1	55	73.png
+74	Shock Trap	1	56	74.png
+75	Small Barrel	1	57	75.png
+76	Large Barrel	1	58	76.png
+77	Barrel Bomb S	1	59	77.png
+79	Barrel Bomb L	1	61	79.png
+81	Bounce Bomb	1	62	81.png
+83	Felvine Bomb	1	63	83.png
+85	Huskberry	1	64	85.png
+86	Bone Husk	1	68	86.png
+94	Pellet S Lv2	1	87	94.png
+95	Pellet S Lv3	1	88	95.png
+97	Crag S Lv2	1	89	97.png
+98	Crag S Lv3	1	90	98.png
+99	Clust S Lv1	1	91	99.png
+100	Clust S Lv2	1	93	100.png
+108	Poison S Lv2	1	94	108.png
+112	Sleep S Lv2	1	95	112.png
+114	Exhaust S Lv2	1	96	114.png
+115	Slicing S	1	97	115.png
+116	WyvernFire	1	99	116.png
+117	Blast S	1	100	117.png
+118	Recover S Lv1	2	2	118.png
+119	Recover S Lv2	2	5	119.png
+120	Demon S	2	6	120.png
+121	Armor S	2	7	121.png
+122	Paint S	2	8	122.png
+123	Tranq S	2	12	123.png
+125	Empty Phial	2	13	125.png
+126	Power Coating	2	15	126.png
+127	C.Range Coating	2	16	127.png
+128	Poison Coating	2	19	128.png
+129	Para Coating	2	22	129.png
+130	Sleep Coating	2	23	130.png
+131	Exhaust Coating	2	24	131.png
+132	Blast Coating	2	25	132.png
+134	Power Nectar: Fire	3	79	134.png
+135	Stam Nectar: Water	3	83	135.png
+136	Spd Nectar: Thunder	3	87	136.png
+137	Speed Nectar: Ice	3	89	137.png
+138	Stam Nectar: Dragon	3	84	138.png
+139	Power+ Nectar	3	80	139.png
+140	Stamina+ Nectar	3	85	140.png
+141	Speed+ Nectar	3	91	141.png
+144	Nectar: Thunder+	3	92	144.png
+145	Nectar: Ice+	3	94	145.png
+146	Nectar: Dragon+	3	96	146.png
+147	Power+ Nectar: Fire	3	81	147.png
+148	Stam+ Nectar: Water	3	86	148.png
+152	Spd Nectar: Thunder+	3	88	152.png
+153	Speed Nectar: Ice+	3	90	153.png
+155	Worm	2	28	155.png
+156	Mega Fishing Fly	2	31	156.png
+160	Goldenfish Bait	2	32	160.png
+161	Old Pickaxe	2	33	161.png
+162	Iron Pickaxe	2	34	162.png
+163	Mega Pickaxe	2	35	163.png
+164	Old Bug Net	2	37	164.png
+165	Bug Net	2	38	165.png
+166	Mega Bug Net	2	39	166.png
+168	Whetstone	2	40	168.png
+170	Garbage	2	41	170.png
+171	Field Horn	2	45	171.png
+172	Health Horn	2	46	172.png
+174	Demon Horn	2	47	174.png
+177	Herb	2	50	177.png
+178	Antidote Herb	2	52	178.png
+179	Fire Herb	2	53	179.png
+180	Ivy	2	54	180.png
+181	Sleep Herb	2	55	181.png
+182	Sap Plant	2	57	182.png
+183	Felvine	2	59	183.png
+184	Gloamgrass Root	2	62	184.png
+185	Hot Pepper	2	63	185.png
+186	Cathangea Seed	2	64	186.png
+187	Cathangea	2	65	187.png
+189	Blue Mushroom	2	66	189.png
+190	Nitroshroom	2	67	190.png
+191	Parashroom	2	68	191.png
+192	Toadstool	2	69	192.png
+193	Exciteshroom	2	71	193.png
+194	Mopeshroom	2	72	194.png
+196	Paintberry	2	73	196.png
+197	Might Seed	2	74	197.png
+199	Nulberry	2	75	199.png
+200	Dragonfell Berry	2	77	200.png
+202	Needleberry	2	78	202.png
+203	Latchberry	2	81	203.png
+205	Bumblepumpkin	2	82	205.png
+206	Stone	2	83	206.png
+208	Earth Crystal	2	84	208.png
+209	Machalite Ore	2	85	209.png
+210	Dragonite Ore	2	86	210.png
+211	Lightcrystal	2	87	211.png
+212	Ice Crystal	2	88	212.png
+213	Firestone	2	89	213.png
+214	Gossamite Ore	2	90	214.png
+215	Heavenly Crystal	2	91	215.png
+216	Carbalite Ore	2	94	216.png
+217	Novacrystal	2	96	217.png
+218	Fucium Ore	2	97	218.png
+219	Firecell Stone	3	1	219.png
+220	Yoldspar Ore	3	3	220.png
+221	Abrasive	3	6	221.png
+222	Quality Abrasive	3	8	222.png
+223	Awesome Abrasive	3	10	223.png
+224	Armor Stone	3	13	224.png
+225	Armor Sphere	3	16	225.png
+226	Armor Sphere+	3	18	226.png
+227	Adv Armor Sphere	3	21	227.png
+228	Hard Armor Sphere	3	23	228.png
+229	Heavy Armor Sphere	3	25	229.png
+230	True Armor Sphere	3	27	230.png
+231	Whetfish	3	36	231.png
+232	Sushifish	3	37	232.png
+233	Sleepyfish	3	40	233.png
+234	Pin Tuna	3	41	234.png
+236	Popfish	3	42	236.png
+237	Scatterfish	3	43	237.png
+238	Burst Arowana	3	44	238.png
+239	Bomb Arowana	3	45	239.png
+240	Glutton Tuna	3	46	240.png
+241	Gastronome Tuna	3	47	241.png
+242	Small Goldenfish	3	48	242.png
+243	Wanchovy	3	49	243.png
+244	Ancient Fish	3	51	244.png
+245	Blue Cutthroat	3	52	245.png
+248	Insect Husk	3	58	248.png
+250	Stinkhopper	3	62	250.png
+251	Snakebee Larva	3	63	251.png
+252	Godbug	3	64	252.png
+254	Flashbug	3	65	254.png
+255	Thunderbug	3	67	255.png
+256	Glueglopper	3	68	256.png
+258	Hercudrome	3	69	258.png
+259	Fulgurbug	3	70	259.png
+260	Rare Scarab	3	73	260.png
+261	Great Hornfly	3	76	261.png
+262	Butterfly Beetle	3	78	262.png
+264	Monster Bone M	3	97	264.png
+265	Monster Bone L	3	98	265.png
+266	Mystery Bone	3	99	266.png
+267	Unknown Skull	4	1	267.png
+268	Monster Bone+	4	2	268.png
+269	Monster Keenbone	4	4	269.png
+270	Monster Hardbone	4	6	270.png
+271	Elder Dragon Bone	4	11	271.png
+272	Avian Finebone	4	13	272.png
+273	Brute Bone	4	15	273.png
+274	Jumbo Bone	4	16	274.png
+275	Stoutbone	4	17	275.png
+276	Dragonbone Relic	4	20	276.png
+277	Wyvern Fang	4	23	277.png
+278	Wyvern Claw	4	34	278.png
+279	Bird Wyvern Gem	4	38	279.png
+280	Wyvern Gem	4	40	280.png
+281	Elder Dragon Blood	4	43	281.png
+285	Slickaxe	13	18	285.png
+286	Screamer Sac	4	46	286.png
+287	Poison Sac	4	48	287.png
+288	Toxin Sac	4	49	288.png
+289	Paralysis Sac	4	51	289.png
+290	Sleep Sac	4	53	290.png
+291	Flame Sac	4	55	291.png
+292	Inferno Sac	4	56	292.png
+293	Electro Sac	4	59	293.png
+294	Thunder Sac	4	60	294.png
+295	Frost Sac	4	62	295.png
+296	Freezer Sac	4	63	296.png
+297	Aqua Sac	4	65	297.png
+298	Torrent Sac	4	66	298.png
+299	Dash Extract	4	68	299.png
+300	Pale Extract	4	69	300.png
+301	Gargwa Feather	4	70	301.png
+302	Kelbi Horn	4	71	302.png
+303	Blue Kelbi Horn	4	72	303.png
+304	Warm Pelt	4	73	304.png
+305	High-quality Pelt	4	74	305.png
+306	Rhenoplos Shell	4	75	306.png
+307	Rhenoplos Carapace	4	76	307.png
+308	Rhenoplos Scalp	4	77	308.png
+310	Slagtoth Hide+	4	79	310.png
+311	Bnahabra Shell	4	80	311.png
+312	Bnahabra Carapace	4	81	312.png
+313	Bnahabra Wing	4	82	313.png
+314	Altaroth Jaw	4	83	314.png
+315	Altaroth Stomach	4	84	315.png
+316	Quality Stomach	4	85	316.png
+318	Konchu Shell	4	88	318.png
+319	Konchu Carapace	4	89	319.png
+320	Remobra Hide	4	91	320.png
+321	Remobra Hide+	4	92	321.png
+322	Striped Skin	4	94	322.png
+323	Remobra Head	4	95	323.png
+324	Jaggi Scale	4	96	324.png
+325	Jaggi Scale+	4	97	325.png
+326	Jaggi Hide	4	98	326.png
+327	Bird Wyvern Fang	4	99	327.png
+328	Tough Bird Wyv Hide	4	100	328.png
+329	G.Jaggi Hide	5	1	329.png
+330	G.Jaggi Hide+	5	2	330.png
+332	G.Jaggi Claw+	5	3	332.png
+333	King's Frill	5	4	333.png
+334	Great Jaggi Head	5	5	334.png
+335	Velociprey Scale	5	6	335.png
+336	Velociprey Scale+	5	7	336.png
+337	Velociprey Hide	5	8	337.png
+338	Velociprey Hide+	5	9	338.png
+339	Velocidrome Hide	5	10	339.png
+340	Velocidrome Claw	5	11	340.png
+341	Velocidrome Claw+	5	12	341.png
+342	Velocidrome Head	5	14	342.png
+343	Genprey Fang	5	15	343.png
+344	Genprey Scale	5	16	344.png
+345	Genprey Scale+	5	17	345.png
+346	Genprey Hide	5	18	346.png
+347	Genprey Hide+	5	19	347.png
+348	Gendrome Hide	5	20	348.png
+349	Gendrome Tail	5	21	349.png
+350	Gendrome Head	5	22	350.png
+351	Ioprey Fang	5	23	351.png
+352	Ioprey Scale	5	24	352.png
+353	Ioprey Scale+	5	25	353.png
+354	Ioprey Hide	5	26	354.png
+355	Ioprey Hide+	5	27	355.png
+356	Iodrome Hide	5	28	356.png
+357	Iodrome Head	5	29	357.png
+358	Lagombi Pelt	5	30	358.png
+360	Lagombi Ear	5	32	360.png
+361	Lagombi Ear+	5	33	361.png
+362	Lagombi Plastron	5	35	362.png
+363	Lagombi Plastron+	5	36	363.png
+364	Lagombi Iceclaw	5	37	364.png
+365	Lagombi Frozenclaw	5	38	365.png
+366	Kut-Ku Scale	5	39	366.png
+367	Kut-Ku Scale+	5	40	367.png
+368	Kut-Ku Shell	5	42	368.png
+369	Kut-Ku Carapace	5	43	369.png
+370	Kut-Ku Ear	5	45	370.png
+371	Kut-Ku Auricle	5	46	371.png
+372	Giant Beak	5	48	372.png
+373	Splendid Beak	5	49	373.png
+374	Kut-Ku Webbing	5	50	374.png
+376	Blue Kut-Ku Scale+	5	52	376.png
+377	Blue Kut-Ku Carapace	5	54	377.png
+378	Rubbery Hide	5	55	378.png
+379	Rubbery Hide+	5	56	379.png
+380	Gypceros Head	5	58	380.png
+381	Rubbery Purple Hide	5	60	381.png
+382	P.Gypceros Wing	5	62	382.png
+383	Garuga Scale	5	64	383.png
+384	Garuga Scale+	5	65	384.png
+385	Garuga Shell	5	67	385.png
+386	Garuga Carapace	5	68	386.png
+388	Garuga Auricle	5	70	388.png
+390	Rejuvenated Beak	5	71	390.png
+391	Garuga Wing	5	72	391.png
+392	Garuga Tail	5	74	392.png
+393	Garuga Mane	5	76	393.png
+394	Kecha Pelt	5	78	394.png
+395	Kecha Pelt+	5	79	395.png
+396	Kecha Longbone	5	81	396.png
+397	Kecha Grandbone	5	82	397.png
+399	Kecha Ear	5	85	399.png
+400	Kecha Ear+	5	86	400.png
+401	Kecha Tail	5	88	401.png
+402	Conga Pelt	5	94	402.png
+403	Conga Pelt+	5	95	403.png
+404	Sharp Claw	5	96	404.png
+405	Congalala Pelt	5	97	405.png
+406	Congalala Pelt+	5	98	406.png
+407	Vibrant Pelt	5	100	407.png
+408	Congalala Claw	6	1	408.png
+409	Congalala Claw+	6	2	409.png
+410	Congalala Fang	6	4	410.png
+411	E.Congalala Pelt+	6	6	411.png
+412	E.Congalala Fang+	6	8	412.png
+414	Rajang Horn+	6	11	414.png
+415	Rajang Fang+	6	13	415.png
+417	Rajang Claw+	6	16	417.png
+418	Rajang Tail	6	18	418.png
+419	Gold Rajang Pelt	6	19	419.png
+420	Rajang Ragehair	6	21	420.png
+423	Tetsucabra Scale	6	25	423.png
+424	Tetsucabra Scale+	6	26	424.png
+425	Tetsucabra Shell	6	28	425.png
+426	Tetsucabra Carapace	6	29	426.png
+427	Tetsucabra Claw	6	31	427.png
+428	Tetsucabra Claw+	6	32	428.png
+430	Tetsucabra Tusks+	6	34	430.png
+431	Dignified Skull	6	36	431.png
+432	Paddock Oil	6	42	432.png
+433	Paddock Oil+	6	43	433.png
+434	Sharqskin Scale	6	45	434.png
+435	Meaty Hide	6	46	435.png
+437	Zamtrios Hide	6	48	437.png
+438	Zamtrios Hide+	6	49	438.png
+439	Zamtrios Scale	6	51	439.png
+440	Zamtrios Scale+	6	52	440.png
+441	Zamtrios Fin	6	54	441.png
+442	Zamtrios Fin+	6	55	442.png
+443	Zamtrios Sawtooth	6	57	443.png
+444	Zamtrios Tailblade	6	59	444.png
+445	Najarala Shell	6	66	445.png
+446	Najarala Carapace	6	67	446.png
+447	Najarala Hide	6	69	447.png
+448	Najarala Hide+	6	70	448.png
+449	Najarala Marrow	6	72	449.png
+450	Najarala Medulla	6	73	450.png
+451	Najarala Sounder	6	74	451.png
+452	Najarala Sounder+	6	75	452.png
+453	Najarala Fang	6	77	453.png
+454	Chilling Beak	6	78	454.png
+455	Nerscylla Shell	6	83	455.png
+456	Nerscylla Carapace	6	84	456.png
+457	Nerscylla Chelicera	6	86	457.png
+458	Nerscylla Shear	6	87	458.png
+459	Nerscylla Claw	6	89	459.png
+460	Nerscylla Sharpclaw	6	90	460.png
+461	Nerscylla Spike	6	92	461.png
+462	Nerscylla Spike+	6	93	462.png
+463	Monster Fluid	6	99	463.png
+464	Monster Broth	6	100	464.png
+465	Seltas Shell	7	3	465.png
+466	Seltas Carapace	7	4	466.png
+467	Seltas Wing	7	6	467.png
+468	Seltas Innerwing	7	7	468.png
+469	Seltas Horn	7	9	469.png
+470	Seltas Horn+	7	10	470.png
+471	S.Queen Shell	7	15	471.png
+472	S.Queen Carapace	7	16	472.png
+473	S.Queen Pectus	7	18	473.png
+474	S.Queen Hardpectus	7	19	474.png
+475	S.Queen Claw	7	20	475.png
+476	S.Queen Sharpclaw	7	21	476.png
+477	S.Queen Jaw	7	23	477.png
+478	S.Queen Crescent	7	25	478.png
+479	S.Queen Extract	7	27	479.png
+480	S.Queen Concentrate	7	28	480.png
+481	Flabby Hide	7	48	481.png
+482	Pearl Hide	7	49	482.png
+483	Pale Bone	7	52	483.png
+484	Pale Steak	7	53	484.png
+485	Alluring Hide	7	55	485.png
+486	Alluring Webbing	7	57	486.png
+487	Rathian Scale	7	59	487.png
+488	Rathian Scale+	7	60	488.png
+489	Rathian Shell	7	62	489.png
+490	Rathian Carapace	7	63	490.png
+491	Rathian Webbing	7	65	491.png
+492	Rathian Spike	7	66	492.png
+493	Rathian Spike+	7	67	493.png
+494	Rathian Plate	7	69	494.png
+495	Rathian Ruby	7	70	495.png
+496	P.Rathian Scale+	7	72	496.png
+497	P.Rathian Carapace	7	74	497.png
+498	G.Rathian Scale+	7	76	498.png
+499	G.Rathian Carapace	7	77	499.png
+500	G.Rathian Spike+	7	79	500.png
+501	Rathalos Scale	7	81	501.png
+502	Rathalos Scale+	7	82	502.png
+504	Rathalos Carapace	7	84	504.png
+505	Rathalos Webbing	7	86	505.png
+506	Rathalos Wing	7	87	506.png
+507	Rathalos Tail	7	89	507.png
+508	Rathalos Plate	7	91	508.png
+509	Rathalos Ruby	7	92	509.png
+511	A.Rathalos Carapace	7	95	511.png
+513	A.Rathalos Wing	7	97	513.png
+514	S.Rathalos Scale+	7	98	514.png
+515	S.Rathalos Carapace	7	100	515.png
+516	S.Rathalos Tail	8	2	516.png
+517	Rath Wingtalon	8	4	517.png
+518	Rath Marrow	8	6	518.png
+519	Rath Medulla	8	7	519.png
+520	Rath Gleam	8	8	520.png
+521	Zinogre Shell	8	29	521.png
+522	Zinogre Carapace	8	30	522.png
+523	Zinogre Shockfur	8	32	523.png
+524	Zinogre Electrofur	8	33	524.png
+525	Zinogre Horn	8	35	525.png
+526	Zinogre Horn+	8	36	526.png
+527	Zinogre Claw	8	38	527.png
+528	Zinogre Claw+	8	39	528.png
+530	Zinogre Shocker	8	42	530.png
+531	Zinogre Shocker+	8	43	531.png
+532	Zinogre Plate	8	45	532.png
+533	Zinogre Jasper	8	46	533.png
+534	S.Zinogre Carapace	8	47	534.png
+535	S.Zinogre Horn+	8	49	535.png
+536	S.Zinogre Claw+	8	51	536.png
+537	S.Zinogre Tail	8	53	537.png
+538	S.Zin Drakeshell	8	55	538.png
+539	Dracophage Bug	8	57	539.png
+540	S.Zinogre Dragonhair	8	58	540.png
+541	S.Zinogre Umbrage	8	60	541.png
+542	Brach Shell	8	62	542.png
+543	Brach Carapace	8	63	543.png
+544	Brach Ebonshell	8	65	544.png
+545	Brach Ebonshell+	8	66	545.png
+546	Brach Scalp	8	68	546.png
+547	Brach Scalp+	8	69	547.png
+548	Mystery Slime	8	71	548.png
+549	Brach Hammer	8	73	549.png
+550	Brach Pounder	8	74	550.png
+552	Brach Marrow	8	77	552.png
+553	Brach Gem	8	78	553.png
+554	Basarios Shell	8	84	554.png
+555	Basarios Carapace	8	85	555.png
+556	Basarios Wing	8	87	556.png
+557	Basarios Tears	8	88	557.png
+558	R.Basarios Wing	8	89	558.png
+560	Gravios Shell	8	92	560.png
+561	Gravios Carapace	8	93	561.png
+563	Gravios Medulla	8	96	563.png
+564	Gravios Wing	8	97	564.png
+565	B.Gravios Carapace	8	100	565.png
+566	B.Gravios Scalp	9	2	566.png
+567	Tigrex Scale	9	5	567.png
+568	Tigrex Scale+	9	6	568.png
+569	Tigrex Shell	9	8	569.png
+570	Tigrex Carapace	9	9	570.png
+571	Tigrex Tail	9	11	571.png
+572	Tigrex Claw	9	13	572.png
+573	Tigrex Claw+	9	14	573.png
+574	Tigrex Fang	9	16	574.png
+576	Tigrex Scalp	9	18	576.png
+577	Tigrex Maw	9	19	577.png
+578	B.Tigrex Scale+	9	22	578.png
+579	B.Tigrex Carapace	9	24	579.png
+580	B.Tigrex Claw+	9	26	580.png
+581	B.Tigrex Fang+	9	28	581.png
+582	M.Tigrex Scale+	9	30	582.png
+584	M.Tigrex Blastclaw	9	33	584.png
+585	M.Tigrex Fang+	9	35	585.png
+586	M.Tigrex Tail	9	37	586.png
+587	Pulsating Blastheart	9	39	587.png
+588	Gore Magala Scale	9	41	588.png
+589	Gore Magala Scale+	9	43	589.png
+590	Gore Magala Shell	9	46	590.png
+591	Gore Magala Carapace	9	47	591.png
+592	Gore Magala Wing	9	49	592.png
+593	Gore Magala Wing+	9	50	593.png
+594	Gore Magala Ripclaw	9	52	594.png
+595	Gore Magala Ripclaw+	9	53	595.png
+596	Gore Magala Tail	9	55	596.png
+597	Gore Magala Plate	9	57	597.png
+598	Gore Magala Nyctgem	9	58	598.png
+599	Gore Magala Feeler	9	60	599.png
+600	Gore Magala Feeler+	9	61	600.png
+601	Defiled Scale	9	63	601.png
+602	S.Magala Scale	9	68	602.png
+603	S.Magala Scale+	9	69	603.png
+604	S.Magala Shell	9	71	604.png
+605	S.Magala Carapace	9	72	605.png
+606	S.Magala Prismwing	9	74	606.png
+607	S.Magala Prismwing+	9	75	607.png
+608	S.Magala Caress	9	77	608.png
+609	S.Magala Caress+	9	78	609.png
+610	S.Magala Tail	9	80	610.png
+611	S.Magala Plate	9	81	611.png
+612	S.Magala Phosgem	9	82	612.png
+613	S.Magala Horn	9	84	613.png
+614	S.Magala Horn+	9	85	614.png
+615	Pure Scale	9	87	615.png
+616	Deviljho Scale	10	1	616.png
+617	Deviljho Hide	10	3	617.png
+618	Deviljho Tallfang	10	5	618.png
+619	Deviljho Talon	10	7	619.png
+620	Deviljho Scalp	10	9	620.png
+621	Deviljho Tail	10	10	621.png
+622	Deviljho Saliva	10	12	622.png
+623	Black Blood	10	13	623.png
+624	Spattered Hide	10	15	624.png
+625	Deviljho Gem	10	17	625.png
+627	Kirin Hide	10	19	627.png
+628	Kirin Hide+	10	20	628.png
+629	Kirin Mane	10	22	629.png
+630	Kirin Thundertail	10	24	630.png
+631	Kirin Azure Horn	10	26	631.png
+632	Kirin Icehorn	10	28	632.png
+633	Kirin Frost Tail	10	30	633.png
+635	Daora Carapace	10	32	635.png
+636	Daora Claw+	10	34	636.png
+637	Daora Tail	10	36	637.png
+638	Daora Webbing	10	38	638.png
+639	Daora Horn+	10	40	639.png
+640	Daora Gem	10	42	640.png
+641	Teostra Carapace	10	48	641.png
+642	Teostra Mane	10	50	642.png
+644	Teostra Horn+	10	51	644.png
+645	Fire Dragon Scale+	10	53	645.png
+646	Teostra Claw+	10	55	646.png
+647	Teostra Webbing	10	57	647.png
+648	Teostra Powder	10	58	648.png
+649	Teostra Gem	10	59	649.png
+650	D.Mohran Shell	10	64	650.png
+651	D.Mohran Carapace	10	65	651.png
+652	D.Mohran Bloodscale	10	67	652.png
+653	D.Mohran Bloodscale+	10	68	653.png
+654	D.Mohran Brace	10	70	654.png
+655	D.Mohran Brace+	10	71	655.png
+656	Brutal Horn	10	73	656.png
+657	Brutal Horn+	10	74	657.png
+658	Dah'renstone	10	76	658.png
+659	Earth Dragongem	10	77	659.png
+660	Akantor Scale+	10	80	660.png
+661	Akantor Carapace	10	82	661.png
+662	Akantor Tail	10	83	662.png
+663	Akantor Hardclaw	10	84	663.png
+664	Akantor Tallfang	10	85	664.png
+665	Akantor Spike	10	87	665.png
+666	Akantor Gem	10	89	666.png
+668	Fatalis Scale	11	4	668.png
+669	Fatalis Shell	11	6	669.png
+670	Fatalis Eye	11	8	670.png
+671	Fatalis Webbing	11	10	671.png
+672	Fatalis Bloodhorn	11	12	672.png
+673	Fatalis Bloodscale	11	13	673.png
+674	Fatalis Bloodshell	11	14	674.png
+675	Fatalis Devileye	11	15	675.png
+676	Fatalis Bloodwing	11	16	676.png
+677	Dalamadur Steel	11	27	677.png
+678	Dalam Tail Scale	11	29	678.png
+679	Dalamadur Gazer	11	31	679.png
+680	Dalamadur Pectus	11	32	680.png
+681	Dalamadur Glaive	11	34	681.png
+682	Dalamadur Talon	11	36	682.png
+683	Dalam Tail Shell	11	38	683.png
+684	Dalamadur Fanblade	11	40	684.png
+685	Vortex Bone	11	42	685.png
+686	Skyblade Gem	11	43	686.png
+687	Shattered Omen	11	45	687.png
+688	Frenzy Shard	11	62	688.png
+689	Frenzy Crystal	11	63	689.png
+690	Vile Frenzy Crystal	11	64	690.png
+691	Small Lobstershell	11	71	691.png
+692	Lobster Tail Fan	11	72	692.png
+693	Plesioth Scale	11	73	693.png
+694	Plesioth Fin	11	74	694.png
+696	Arzuros Pelt	11	77	696.png
+699	Vivid Feather	11	78	699.png
+705	Ceanataur Shell	11	79	705.png
+707	Uragaan Marrow	11	80	707.png
+709	Nargacuga Blackfur	11	81	709.png
+710	Nargacuga Marrow	11	82	710.png
+713	Duramboros Horn	11	83	713.png
+714	Lavasioth Scale	11	84	714.png
+715	Lavasioth Fin	11	85	715.png
+716	Diablos Shell	11	86	716.png
+717	Majestic Horn	11	87	717.png
+718	Lao-Shan Shell	11	88	718.png
+719	Lao-Shan Claw	11	89	719.png
+720	Lao-Shan Horn	11	90	720.png
+722	Cephalos Fin+	11	91	722.png
+723	Cephalos Scale+	11	92	723.png
+724	Hermitaur Carapace	11	93	724.png
+725	Hermitaur Claw+	11	94	725.png
+730	Barioth Pelt+	11	95	730.png
+738	Lunastra Carapace	11	96	738.png
+741	Chameleos Gem	11	97	741.png
+743	Tsukami Fluid	11	98	743.png
+746	Ukanlos Shoveljaw	11	99	746.png
+747	Ukanlos Carapace	11	100	747.png
+748	Ukanlos Gem	12	1	748.png
+755	Alatreon Plate	12	2	755.png
+757	Skypiercer	12	3	757.png
+760	Rusted Fragment	12	36	760.png
+761	Ancient Fragment	12	37	761.png
+831	Pinnacle Coin	12	39	831.png
+832	Hunter King Coin	12	40	832.png
+834	Beast Coin	12	44	834.png
+839	Vermin Coin	12	47	839.png
+840	Toad Coin	12	49	840.png
+842	Voucher	12	53	842.png
+843	Gourmet Voucher	12	56	843.png
+844	Studio Pass	12	57	844.png
+852	Fan Club Invite	12	81	852.png
+853	Monqlo Ticket	12	63	853.png
+854	Gold Studio Pass	12	60	854.png
+855	Platinum Pass	12	61	855.png
+857	Amulet Keepsake	12	74	857.png
+863	Goddess's Melody	12	69	863.png
+864	Goddess's Embrace	12	70	864.png
+866	Uniqlo Ticket	12	62	866.png
+874	Fan Club Certificate	12	84	874.png
+876	Goddess's Fire	12	65	876.png
+877	Super Mushroom	12	64	877.png
+879	D.Mohran Ticket	12	88	879.png
+881	Dalamadur Ticket	12	89	881.png
+882	Rajang Ticket	12	90	882.png
+883	Gore Magala Ticket	12	91	883.png
+885	Oroshi Kirin Ticket	12	92	885.png
+886	Commendation	12	93	886.png
+887	Commendation G	12	94	887.png
+888	Accolade	12	95	888.png
+889	Accolade G	12	96	889.png
+890	Caravan Ticket	12	99	890.png
+891	Palico Ticket	13	2	891.png
+892	Meownster Ticket	13	3	892.png
+893	Quester's Ticket	13	4	893.png
+894	Kushala Daora Ticket	13	12	894.png
+896	Pawprint Stamp	13	13	896.png
+897	VE Ticket	13	14	897.png
+952	Royal Ludroth Scrap	13	27	952.png
+953	Plesioth Scrap	13	29	953.png
+955	Aquaglow Jewel	13	31	955.png
+956	Sunspire Jewel	13	32	956.png
+957	Bloodrun Jewel	13	34	957.png
+958	Lazurite Jewel	13	36	958.png
+959	Adamant Orb	13	39	959.png
+960	Antidote Jewel 1	13	44	960.png
+967	Standfast Jwl 1	13	45	967.png
+970	Ninja Jewel 1	13	51	970.png
+971	Vitality Jewel 1	13	52	971.png
+974	Razor Jewel 1	13	53	974.png
+975	Razor Jewel 3	13	54	975.png
+978	Fencer Jewel 1	13	56	978.png
+979	Fencer Jewel 3	13	57	979.png
+983	Grinder Jewel 1	13	58	983.png
+984	Ironwall Jewel 1	13	59	984.png
+985	Ironwall Jewel 2	13	60	985.png
+986	Shield Jewel 1	13	61	986.png
+987	Shield Jewel 2	13	62	987.png
+988	Quickload Jwl 1	13	63	988.png
+989	Quickload Jwl 2	13	64	989.png
+990	Absorber Jewel 1	13	65	990.png
+994	Pierce Jewel 1	13	68	994.png
+1000	PiercePlus Jwl 1	13	69	1000.png
+1001	PelletPlus Jwl 1	13	70	1001.png
+1002	CragPlus Jewel 1	13	71	1002.png
+1003	ClustPlus Jwl 1	13	72	1003.png
+1004	Disabler Jewel 1	13	73	1004.png
+1005	Disabler Jewel 2	13	74	1005.png
+1006	Element Jewel 1	13	75	1006.png
+1007	Element Jewel 3	13	76	1007.png
+1008	Bombardier Jwl 1	13	77	1008.png
+1009	Hungerless Jwl 1	13	78	1009.png
+1011	Attack Jewel 1	13	79	1011.png
+1012	Attack Jewel 2	13	80	1012.png
+1014	Defense Jewel 1	13	81	1014.png
+1015	Defense Jewel 2	13	82	1015.png
+1016	Protection Jwl 1	13	84	1016.png
+1017	Asylum Jewel 1	13	85	1017.png
+1018	Earplug Jewel 1	13	86	1018.png
+1019	Earplug Jewel 3	13	87	1019.png
+1021	Friendship Jwl 1	13	88	1021.png
+1022	Friendship Jwl 2	13	89	1022.png
+1024	Fire Res Jewel 1	13	90	1024.png
+1027	ThunderRes Jwl 1	13	91	1027.png
+1029	Heat Res Jewel 1	13	92	1029.png
+1030	Cold Res Jewel 1	13	93	1030.png
+1033	Gathering Jwl 1	13	94	1033.png
+1038	Psychic Jewel 1	13	95	1038.png
+1045	Potential Jwl 1	13	96	1045.png
+1046	Potential Jwl 2	13	97	1046.png
+1047	Enduring Jewel 1	13	98	1047.png
+1048	Sprinter Jewel 1	13	99	1048.png
+1050	Capacity Jewel 2	13	100	1050.png
+1052	Sniper Jewel 1	14	2	1052.png
+1054	Gobbler Jewel 3	14	3	1054.png
+1055	Carver Jewel 1	14	5	1055.png
+1058	Tectonic Jewel 1	14	6	1058.png
+1059	Jumping Jewel 1	14	7	1059.png
+1060	Draw Jewel 1	14	9	1060.png
+1062	Trapmaster Jwl 1	14	10	1062.png
+1064	Physique Jewel 2	14	11	1064.png
+1066	Capture Jewel 3	14	12	1066.png
+1067	Perception Jwl 1	14	13	1067.png
+1068	Charger Jewel 1	14	14	1068.png
+1069	Charger Jewel 3	14	15	1069.png
+1070	Gambit Jewel 1	14	16	1070.png
+1071	Gambit Jewel 3	14	17	1071.png
+1072	Resistor Jewel 1	14	18	1072.png
+1073	Release Jewel 2	14	19	1073.png
+1074	Catalyst Jewel 3	14	20	1074.png
+1075	Fortitude Jwl 1	14	25	1075.png
+1076	Fortitude Jwl 2	14	26	1076.png
+1086	Bolt Jewel 2	14	27	1086.png
+1087	Frost Jewel 1	14	28	1087.png
+1088	Frost Jewel 2	14	29	1088.png
+1090	Dragon Jewel 2	14	30	1090.png
+1093	Destroyer Jwl 1	14	31	1093.png
+1094	Destroyer Jwl 3	14	32	1094.png
+1095	Throttle Jewel 1	14	33	1095.png
+1096	Throttle Jewel 2	14	34	1096.png
+1097	KO Jewel 1	14	35	1097.png
+1098	Drain Jewel 1	14	36	1098.png
+1099	Drain Jewel 2	14	37	1099.png
+1100	Sonorous Jewel 1	14	38	1100.png
+1101	Artillery Jwl 1	14	39	1101.png
+1103	Nul-Fire Jewel 1	14	40	1103.png
+1110	Refresh Jewel 1	14	41	1110.png
+1111	Refresh Jewel 2	14	42	1111.png
+1113	SlicePlus Jwl 1	14	43	1113.png
+1116	Sleepcoat Jwl 1	14	44	1116.png
+1122	Guts Jewel 1	14	45	1122.png
+1129	Microbio Jewel 1	14	46	1129.png
+1131	Spirit Jewel 2	14	47	1131.png
+1132	Flawless Jewel 1	14	48	1132.png
+1133	Flawless Jewel 2	14	49	1133.png
+1134	Steady Jewel 1	14	50	1134.png
+1135	Steady Jewel 3	14	52	1135.png
+1140	KO Jewel 2	14	53	1140.png
+1141	Charmer Jewel 1	14	54	1141.png
+1181	Honed Jwl 1	14	55	1181.png
+1189	Hale Jwl 1	14	57	1189.png
+1197	Nimble Jwl 1	14	58	1197.png
+1202	Hardy Jwl 1	14	59	1202.png
+1214	Aegis Jwl 3	14	61	1214.png
+1215	Tactful Jwl 2	14	63	1215.png
+1216	Tactful Jwl 3	14	64	1216.png
+1218	Broad Jwl 3	14	65	1218.png
+1224	Avid Jwl 1	14	67	1224.png
+1228	Avid Jwl 3	14	68	1228.png
+1229	Power++ Nectar	3	82	1229.png
+1234	Nectar: Thunder++	3	93	1234.png
+1235	Nectar: Ice++	3	95	1235.png
+1258	Coinperch M	3	53	1258.png
+1259	Coinperch L	3	54	1259.png
+1260	Cathangeafish Fry	3	56	1260.png
+1261	Cathangeafish	3	57	1261.png
+1262	Dundorma Tuna	3	55	1262.png
+1264	Rathian Shard	7	61	1264.png
+1265	Rathian Cortex	7	64	1265.png
+1266	Rathian Surspike	7	68	1266.png
+1267	Rathian Mantle	7	71	1267.png
+1268	Rath Wingtalon+	8	5	1268.png
+1269	P.Rathian Shard	7	73	1269.png
+1270	P.Rathian Cortex	7	75	1270.png
+1272	G.Rathian Cortex	7	78	1272.png
+1273	G.Rath Surspike	7	80	1273.png
+1274	Firegleam Dollop	8	9	1274.png
+1275	Rathalos Shard	7	83	1275.png
+1276	Rathalos Cortex	7	85	1276.png
+1277	Rathalos Lash	7	90	1277.png
+1278	Rathalos Fellwing	7	88	1278.png
+1279	Rathalos Mantle	7	93	1279.png
+1280	A.Rathalos Shard	7	94	1280.png
+1281	A.Rathalos Cortex	7	96	1281.png
+1283	S.Rathalos Shard	7	99	1283.png
+1284	S.Rath Cortex	8	1	1284.png
+1285	S.Rath Lash	8	3	1285.png
+1286	Kut-Ku Shard	5	41	1286.png
+1287	Kut-Ku Cortex	5	44	1287.png
+1288	Kut-Ku Fellwing	5	51	1288.png
+1289	Kut-Ku Luckear	5	47	1289.png
+1290	Blue Kut-Ku Shard	5	53	1290.png
+1292	Garuga Shard	5	66	1292.png
+1293	Garuga Cortex	5	69	1293.png
+1294	Garuga Silverpelt	5	77	1294.png
+1295	Garuga Fellwing	5	73	1295.png
+1296	Garuga Lash	5	75	1296.png
+1297	Rubbery Finehide	5	57	1297.png
+1298	Gypceros Hardhead	5	59	1298.png
+1299	Rubbery Purple Hide+	5	61	1299.png
+1300	P.Gypceros Fellwing	5	63	1300.png
+1301	Tigrex Shard	9	7	1301.png
+1302	Tigrex Cortex	9	10	1302.png
+1303	Tigrex Hardfang	9	17	1303.png
+1304	Tigrex Hardclaw	9	15	1304.png
+1305	Tigrex Lash	9	12	1305.png
+1306	Tigrex Mantle	9	21	1306.png
+1307	B.Tigrex Shard	9	23	1307.png
+1308	B.Tigrex Cortex	9	25	1308.png
+1309	B.Tigrex Hardfang	9	29	1309.png
+1310	B.Tigrex Hardclaw	9	27	1310.png
+1311	M.Tigrex Shard	9	31	1311.png
+1312	M.Tigrex Cortex	9	32	1312.png
+1313	M.Tigrex Hardfang	9	36	1313.png
+1314	M.Tigrex Trigger	9	34	1314.png
+1315	M.Tigrex Lash	9	38	1315.png
+1316	Dire Blastheart	9	40	1316.png
+1318	Velocidrome Hardclaw	5	13	1318.png
+1319	Congalala Fur	5	99	1319.png
+1320	Congalala Hardclaw	6	3	1320.png
+1321	Beastly Fang	6	5	1321.png
+1322	E.Congalala Fur	6	7	1322.png
+1323	E.Congalala Hardclaw	6	9	1323.png
+1324	Vibrant Comb	6	10	1324.png
+1325	Rajang Wildpelt	6	15	1325.png
+1326	Rajang Hardhorn	6	12	1326.png
+1327	Rajang Hardfang	6	14	1327.png
+1328	Rajang Hardclaw	6	17	1328.png
+1329	Gold Rajang Pelt+	6	20	1329.png
+1330	Rajang Apoplexy	6	22	1330.png
+1331	Ghoulish Gold Gorer	6	24	1331.png
+1332	Rajang Heart	6	23	1332.png
+1333	Kecha Fur	5	80	1333.png
+1334	Kecha Leadbone	5	83	1334.png
+1335	Kecha Auricle	5	87	1335.png
+1336	Kecha Ripper	5	84	1336.png
+1337	Kecha Lash	5	89	1337.png
+1338	A.Kecha Fur	5	90	1338.png
+1339	A.Kecha Leadbone	5	91	1339.png
+1341	A.Kecha Ripper	5	92	1341.png
+1342	A.Kecha Lash	5	93	1342.png
+1343	Tetsucabra Shard	6	27	1343.png
+1344	Tetsucabra Cortex	6	30	1344.png
+1345	Tetsucabra Gnawrl	6	35	1345.png
+1346	Tetsucabra Hardclaw	6	33	1346.png
+1347	Vicious Visage	6	37	1347.png
+1348	B.Tetsucabra Shard	6	38	1348.png
+1349	B.Tetsucabra Cortex	6	39	1349.png
+1350	B.Tetsucabra Gnawrl	6	41	1350.png
+1351	B.TetsucabraHardclaw	6	40	1351.png
+1352	Zamtrios Shard	6	53	1352.png
+1353	Zamtrios Piel	6	50	1353.png
+1354	Zamtrios Grandfin	6	56	1354.png
+1355	Zamtrios Sawtooth+	6	58	1355.png
+1356	Zamtrios Tailbrand	6	60	1356.png
+1357	T.Zamtrios Shard	6	62	1357.png
+1358	T.Zamtrios Piel	6	61	1358.png
+1359	T.Zamtrios Grandfin	6	63	1359.png
+1360	T.Zamtrios Sawtooth+	6	64	1360.png
+1361	T.Zamtrios Tailbrand	6	65	1361.png
+1362	Najarala Piel	6	71	1362.png
+1363	Najarala Cortex	6	68	1363.png
+1364	Heart-stopping Beak	6	79	1364.png
+1365	Najarala Ampsounder	6	76	1365.png
+1366	T.Najarala Piel	6	81	1366.png
+1367	T.Najarala Cortex	6	80	1367.png
+1368	T.Najarala Splasher	6	82	1368.png
+1369	Dalamadur Steel+	11	28	1369.png
+1370	Dalamadur Glaive+	11	35	1370.png
+1371	Dalamadur Pectus+	11	33	1371.png
+1372	Dalamadur Ripper	11	37	1372.png
+1373	Dalamadur Fanblade+	11	41	1373.png
+1374	Dalam Tail Scale+	11	30	1374.png
+1375	Dalam Tail Shell+	11	39	1375.png
+1376	Skyblade Drgnsphire	11	44	1376.png
+1377	S.Dalamadur Steel+	11	46	1377.png
+1378	S.Dalamadur Glaive+	11	48	1378.png
+1379	S.Dalamadur Gazer	11	49	1379.png
+1380	S.Dalamadur Pectus+	11	50	1380.png
+1381	S.Dalamadur Ripper	11	51	1381.png
+1382	S.Dalam Fanblade+	11	53	1382.png
+1383	S.Dalam Tail Scale+	11	47	1383.png
+1384	S.Dalam Tail Shell+	11	52	1384.png
+1385	Seltas Cortex	7	5	1385.png
+1386	Seltas Razorwing	7	8	1386.png
+1387	Seltas Hardhorn	7	11	1387.png
+1388	D.Seltas Cortex	7	12	1388.png
+1389	D.Seltas Razorwing	7	13	1389.png
+1390	D.Seltas Hardhorn	7	14	1390.png
+1391	S.Queen Cortex	7	17	1391.png
+1393	S.Queen Maw	7	24	1393.png
+1394	S.Queen Hardclaw	7	22	1394.png
+1395	S.Queen Moonlash	7	26	1395.png
+1396	D.S.QueenConcentrate	7	29	1396.png
+1397	D.S.Queen Cortex	7	30	1397.png
+1398	D.S.Queen Pectus+	7	31	1398.png
+1399	D.S.Queen Maw	7	33	1399.png
+1400	D.S.Queen Hardclaw	7	32	1400.png
+1401	D.S.Queen Moonlash	7	34	1401.png
+1402	Nerscylla Cortex	6	85	1402.png
+1403	Nerscylla Scishorn	6	88	1403.png
+1404	Nerscylla Hardclaw	6	91	1404.png
+1405	Nerscylla Surspike	6	94	1405.png
+1406	S.Nerscylla Cortex	6	95	1406.png
+1407	S.Nerscylla Scishorn	6	96	1407.png
+1408	S.Nerscylla Hardclaw	6	97	1408.png
+1409	S.Nerscylla Surspike	6	98	1409.png
+1410	Gore Magala Shard	9	44	1410.png
+1411	Gore Magala Cortex	9	48	1411.png
+1412	Gore Magala Sensor	9	62	1412.png
+1413	Gore Magala Shredder	9	54	1413.png
+1414	Gore Magala Eclipse	9	51	1414.png
+1415	Gore Magala Lash	9	56	1415.png
+1416	Gore Magala Mantle	9	59	1416.png
+1417	Chaos Scale	9	64	1417.png
+1418	Diametrical Horn	9	65	1418.png
+1419	Antinomic Wing	9	66	1419.png
+1420	Contrary Scale	9	67	1420.png
+1421	S.Magala Shard	9	70	1421.png
+1422	S.Magala Cortex	9	73	1422.png
+1423	S.Magala Hardhorn	9	86	1423.png
+1424	S.Magala Purifier	9	79	1424.png
+1425	S.Magala Lightwing	9	76	1425.png
+1427	S.Magala Mantle	9	83	1427.png
+1428	Daora Cortex	10	33	1428.png
+1429	Daora Hardhorn	10	41	1429.png
+1430	Daora Fellwing	10	39	1430.png
+1431	Daora Lash	10	37	1431.png
+1432	Daora Shard	10	31	1432.png
+1433	Daora Hardclaw	10	35	1433.png
+1434	Steelrust Drakeshell	10	44	1434.png
+1435	Silverpeak Corona	10	47	1435.png
+1436	Steelrust Claw	10	45	1436.png
+1437	Maelstriker Wing	10	46	1437.png
+1438	Steelrust Scale	10	43	1438.png
+1439	Flame Shard	10	54	1439.png
+1440	Teostra Cortex	10	49	1440.png
+1441	Teostra Hardhorn	10	52	1441.png
+1442	Fire Dragon Hardclaw	10	56	1442.png
+1444	Akantor Shard	10	81	1444.png
+1446	Akantor Greatfang	10	86	1446.png
+1448	Akantor Thickspike	10	88	1448.png
+1450	Conquest Sphere	10	91	1450.png
+1451	Kirin Finehide	10	21	1451.png
+1452	Kirin Azure Peak	10	27	1452.png
+1453	Platinum Mane	10	23	1453.png
+1454	Kirin Thunderlash	10	25	1454.png
+1455	Kirin Ice Peak	10	29	1455.png
+1457	Pearl Glosshide	7	50	1457.png
+1458	Khezu Special Cut	7	54	1458.png
+1459	Alluring Glosshide	7	56	1459.png
+1460	Alluring Fellwing	7	58	1460.png
+1461	Basarios Cortex	8	86	1461.png
+1463	R.Basarios Cortex	8	91	1463.png
+1464	R.Basarios Fellwing	8	90	1464.png
+1465	Gravios Cortex	8	94	1465.png
+1466	Gravios Crown	8	95	1466.png
+1467	Gravios Fellwing	8	98	1467.png
+1468	Gravios Pallium	8	99	1468.png
+1469	B.Gravios Cortex	9	1	1469.png
+1470	B.Gravios Crown	9	3	1470.png
+1471	B.Gravios Pallium	9	4	1471.png
+1472	Deviljho Shard	10	2	1472.png
+1473	Deviljho Blackpiel	10	4	1473.png
+1474	Deviljho Hardfang	10	6	1474.png
+1475	Deviljho Ripper	10	8	1475.png
+1476	Deviljho Flail	10	11	1476.png
+1477	Deviljho Crook	10	18	1477.png
+1478	Bloodied Ebonhide	10	16	1478.png
+1479	Vile Fang	10	14	1479.png
+1480	Brach Cortex	8	64	1480.png
+1481	Fine Brach Ebonshell	8	67	1481.png
+1482	Brach Crown	8	70	1482.png
+1483	Brach Pounder+	8	75	1483.png
+1484	Brach Lash	8	76	1484.png
+1485	Brach Pallium	8	79	1485.png
+1486	Glowing Slime	8	72	1486.png
+1493	D.Mohran Rockskin	10	66	1493.png
+1494	D.Mohran Heavyscale	10	69	1494.png
+1495	Brutal Biter	10	75	1495.png
+1496	D.Mohran Allbrace	10	72	1496.png
+1497	Earth Dragonsphire	10	78	1497.png
+1498	Lagombi Fur	5	31	1498.png
+1499	Lagombi Auricle	5	34	1499.png
+1500	Zinogre Electrofur+	8	34	1500.png
+1501	Zinogre Cortex	8	31	1501.png
+1502	Zinogre Hardhorn	8	37	1502.png
+1503	Zinogre Hardclaw	8	40	1503.png
+1504	Zinogre D-Shocker	8	44	1504.png
+1505	Zinogre Lash	8	41	1505.png
+1507	S.Zin Dragonlocks	8	59	1507.png
+1508	S.Zinogre Cortex	8	48	1508.png
+1509	S.Zinogre Hardhorn	8	50	1509.png
+1510	S.Zinogre Hardclaw	8	52	1510.png
+1511	S.Zinogre Drakehold	8	56	1511.png
+1512	S.Zinogre Lash	8	54	1512.png
+1513	S.Zinogre Skymerald	8	61	1513.png
+1514	Seregios Slavescale	9	88	1514.png
+1515	Seregios Slavescale+	9	89	1515.png
+1516	Seregios Airblade	9	90	1516.png
+1517	Seregios Airblade+	9	91	1517.png
+1518	Seregios Carver	9	92	1518.png
+1519	Seregios Carver+	9	93	1519.png
+1521	Seregios Impaler+	9	98	1521.png
+1522	Seregios Breacher	9	94	1522.png
+1523	Seregios Breacher+	9	95	1523.png
+1524	Seregios Scraper	9	96	1524.png
+1525	Seregios Scraper+	9	97	1525.png
+1526	Seregios Dissenter	9	99	1526.png
+1527	Seregios Lens	9	100	1527.png
+1528	Gogmazios Battlement	11	54	1528.png
+1529	Gogmazios Fortress	11	55	1529.png
+1530	Gogmazios Gasher	11	56	1530.png
+1531	Gogmazios Offenders	11	57	1531.png
+1532	Gogmazios Fiberwing	11	58	1532.png
+1533	Gogmazios Briartail	11	59	1533.png
+1534	Wartorn Dragonsphire	11	60	1534.png
+1535	Heavy Drakesbone Oil	11	61	1535.png
+1536	Diablos Cortex	8	19	1536.png
+1537	Diablos Chine	8	20	1537.png
+1538	Twisted Stouthorn	8	22	1538.png
+1539	Diablos Hardhorn	8	23	1539.png
+1540	Diablos Tailcase+	8	21	1540.png
+1541	Blos Medulla	8	25	1541.png
+1542	B.Diablos Cortex	8	26	1542.png
+1543	B.Diablos Chine	8	27	1543.png
+1544	Blackcurl Stouthorn	8	28	1544.png
+1545	Monoblos Carapace	8	10	1545.png
+1546	Monoblos Cortex	8	11	1546.png
+1547	Monoblos Thoracic	8	12	1547.png
+1548	Monoblos Chine	8	13	1548.png
+1549	Scarlet Finehorn	8	14	1549.png
+1551	Monoblos Heart	8	15	1551.png
+1552	W.Monoblos Cortex	8	16	1552.png
+1553	W.Monoblos Chine	8	17	1553.png
+1554	Argent Stouthorn	8	18	1554.png
+1555	Hermitaur Cortex	7	36	1555.png
+1556	Hermitaur Hardclaw	7	37	1556.png
+1557	Black Pearl	7	39	1557.png
+1559	Wyvern Scalp	7	38	1559.png
+1560	Hermitaur Purpshell	7	40	1560.png
+1561	Hermitaur Purpclaw	7	41	1561.png
+1562	Cephalos Shard	7	42	1562.png
+1563	Cephalos Purpscale	7	43	1563.png
+1564	Cephalos Grandfin	7	46	1564.png
+1565	Cephalos Pinkfin	7	47	1565.png
+1566	Cephalos Fang+	7	44	1566.png
+1567	Cephalos Hardfang	7	45	1567.png
+1569	Ukanlos Cortex	10	92	1569.png
+1570	Ukanlos Underscale	10	93	1570.png
+1571	Ukanlos Underscale+	10	94	1571.png
+1572	Ukanlos Tail	10	99	1572.png
+1573	Ukanlos Flail	10	100	1573.png
+1574	Ukanlos Digger	10	95	1574.png
+1575	Ukanlos Digger+	10	96	1575.png
+1576	Ukanlos Shoveljaw+	11	1	1576.png
+1577	Ukanlos Fin+	10	97	1577.png
+1578	Ukanlos Strongfin	10	98	1578.png
+1579	Ukanlos Stone	11	2	1579.png
+1580	Chameleos Finehide	10	60	1580.png
+1581	Chameleos Hardhorn	10	62	1581.png
+1582	Chameleos Fellwing	10	61	1582.png
+1583	Chameleos Lash	10	63	1583.png
+1584	Fatalis Shard	11	5	1584.png
+1585	Fatalis Cortex	11	7	1585.png
+1586	Fatalis Hardhorn	11	3	1586.png
+1587	Fatalis Evil Eye	11	9	1587.png
+1588	Fatalis Fellwing	11	11	1588.png
+1589	Fatalis Flamescale	11	18	1589.png
+1590	Fatalis Flameshell	11	19	1590.png
+1591	Fatalis Flamehorn	11	17	1591.png
+1592	Fatalis Flamewing	11	21	1592.png
+1593	Fatalis Devileye+	11	20	1593.png
+1594	Old Fatalis Shard	11	23	1594.png
+1595	Old Fatalis Cortex	11	24	1595.png
+1596	Old Fatalis Fellwing	11	26	1596.png
+1597	Old Fatalis Hardhorn	11	22	1597.png
+1598	Old Fatalis Souleye	11	25	1598.png
+1599	Deadly Poison Sac	4	50	1599.png
+1600	Conflagrant Sac	4	57	1600.png
+1601	Flood Sac	4	67	1601.png
+1602	Cryo Sac	4	64	1602.png
+1603	Lightning Sac	4	61	1603.png
+1604	Omniplegia Sac	4	52	1604.png
+1605	Coma Sac	4	54	1605.png
+1606	Fey Wyvern Gem	4	39	1606.png
+1607	Paddock Cream	6	44	1607.png
+1608	Lrg ElderDragon Bone	4	12	1608.png
+1609	Lrg Elder Dragon Gem	4	45	1609.png
+1610	Lrg Wyvern Gem	4	41	1610.png
+1611	Monster Slogbone	4	8	1611.png
+1612	Dragonbone Artifact	4	21	1612.png
+1613	Massive Bone	4	18	1613.png
+1615	Rhenoplos Bone	4	78	1615.png
+1616	Avian Stoutbone	4	14	1616.png
+1617	Remobra Finehide	4	93	1617.png
+1618	Meaty Piel	6	47	1618.png
+1619	Crushing Fang	4	86	1619.png
+1620	Sml Hermitaur Shell	7	35	1620.png
+1621	Piercing Claw	4	87	1621.png
+1623	Konchu Cortex	4	90	1623.png
+1624	Monster Essence	7	1	1624.png
+1629	Emperor Hopper	3	74	1629.png
+1630	Flutterfly	3	75	1630.png
+1631	Elder Bfly Beetle	3	77	1631.png
+1634	Meteor Crystal	2	93	1634.png
+1635	Eltalite Ore	2	98	1635.png
+1636	Meldspar Ore	2	99	1636.png
+1637	Allfire Stone	3	2	1637.png
+1638	Purecrystal	3	5	1638.png
+1639	Cosmicite Ore	3	4	1639.png
+1640	Distorted Fragment	12	38	1640.png
+1641	Ultimate Abrasive	3	12	1641.png
+1642	Sovereign Orb	13	42	1642.png
+1643	Strong Armor Sphere	3	34	1643.png
+1644	Divine Armor Sphere	3	35	1644.png
+1645	Pure Frenzy Crystal	11	66	1645.png
+1646	Zenith Wyvern Gem	11	69	1646.png
+1647	Zenith Wyvern Gem L	11	70	1647.png
+1655	Humble Scrap+	13	19	1655.png
+1656	Handsome Scrap+	13	20	1656.png
+1659	Rhenoplos Scrap+	13	24	1659.png
+1660	Great Jaggi Scrap+	13	25	1660.png
+1661	Bnahabra Scrap+	13	22	1661.png
+1662	Bulldrome Scrap+	13	23	1662.png
+1668	Yian Kut-Ku Scrap+	13	21	1668.png
+1703	Gore Magala Scrap+	13	26	1703.png
+1716	Black Belt Coin G	12	41	1716.png
+1717	Expert Coin G	12	42	1717.png
+1718	Legend Coin G	12	43	1718.png
+1720	Conqueror's Seal	12	97	1720.png
+1721	Conqueror's Seal G	12	98	1721.png
+1722	Caravan Ticket G	12	100	1722.png
+1723	Immenseness Ticket	13	16	1723.png
+1724	Immenseness Ticket S	13	17	1724.png
+1727	Portable Steam Bomb	1	50	1727.png
+1728	Disposable Earplugs	1	28	1728.png
+1729	Garrison Bllsta Ammo	2	48	1729.png
+1730	Dense Marcoal	2	49	1730.png
+1737	Brach Warhead	8	80	1737.png
+1738	Brach Obliterator	8	82	1738.png
+1739	Immortal Reactor	8	83	1739.png
+1740	Flashpoint Slime	8	81	1740.png
+1741	G.Plesioth Shard	11	75	1741.png
+1742	Fine G.Plesioth Fin	11	76	1742.png
+1744	Royal Ludroth Scrap+	13	28	1744.png
+1745	Plesioth Scrap+	13	30	1745.png
+1748	S.Barioth Sharpclaw	12	4	1748.png
+1750	Qurupeco Shard	12	5	1750.png
+1753	Gobul Piel	12	6	1753.png
+1756	Arzuros Cortex	12	7	1756.png
+1760	Barioth Thickfur	12	9	1760.png
+1761	Heavy Amber Tusk	12	8	1761.png
+1762	Barroth Cortex	12	10	1762.png
+1773	Uragaan Pallium	12	11	1773.png
+1775	Nargacuga Cutwing+	12	12	1775.png
+1776	Nargacuga Mantle	12	13	1776.png
+1779	Lagiacrus Mantle	12	14	1779.png
+1782	Lavasioth Shard	12	15	1782.png
+1783	Fine Lavasioth Fin	12	16	1783.png
+1785	Ceadeus Scale	12	17	1785.png
+1787	Deep Dragongem	12	18	1787.png
+1788	Tsukami Fillet	12	19	1788.png
+1789	Ancient Dragonmoss	12	20	1789.png
+1792	Mohran Allbrace	12	21	1792.png
+1793	Deific Fang	12	22	1793.png
+1795	Lunastra Tail	12	23	1795.png
+1796	Lao-Shan Azure Claw	12	24	1796.png
+1797	Miralis Scale	12	33	1797.png
+1798	Miralis Smelter	12	35	1798.png
+1800	A.Lagi D-Shocker	12	29	1800.png
+1801	A.Lagi Dynamo	12	30	1801.png
+1804	Lao-Shan Cortex	12	31	1804.png
+1806	Lao-Shan Mantle	12	32	1806.png
+1808	Amatsu Webbing	12	25	1808.png
+1810	Alatreon Mantle	12	26	1810.png
+1811	Alatreon Riptalon	12	27	1811.png
+1812	Azure Dragonsphire	12	28	1812.png
+1818	CritElementJwl 1	14	22	1818.png
+1820	Crit Status Jwl 1	14	23	1820.png
+1821	Crit Status Jwl 2	14	24	1821.png
+1822	Precise Jewel 1	13	66	1822.png
+1823	Precise Jewel 2	13	67	1823.png
+1824	Fungiform Jewel 1	14	4	1824.png
+1826	Staunch Jewel 1	13	48	1826.png
+1827	Clean Jewel 1	13	46	1827.png
+1828	Rodeo Jewel 1	13	47	1828.png
+1829	Sane Jewel 1	13	49	1829.png
+1830	Sane Jewel 3	13	50	1830.png
+1831	Artisan Jewel 3	13	55	1831.png
+1832	Defense Jewel 3	13	83	1832.png
+1833	TrueCatalystJwl 3	14	21	1833.png
+1834	Cutting Jwl 1	14	56	1834.png
+1841	True Arcane Jwl 3	14	60	1841.png
+1846	Supplicant Jwl 1	14	66	1846.png
+1868	True Aegis Jwl 3	14	62	1868.png
+1874	Laden Jewel 3	14	1	1874.png
+1875	Daimyo Coin	12	52	1875.png
+1876	Argosy Ticket	13	5	1876.png
+1877	Yukumo Ticket	13	6	1877.png
+1878	Felcote Ticket	13	7	1878.png
+1879	Shakalaka Ticket	13	8	1879.png
+1880	Instructor's Ticket	13	9	1880.png
+1881	Guild Clerk Ticket	13	10	1881.png
+1882	Jumbo Ticket	13	11	1882.png
+1883	Hunter's Ticket	12	85	1883.png
+1884	Deviljho Ticket	12	86	1884.png
+1885	Amatsu Ticket	12	87	1885.png
+1887	Wonderful Pass	12	58	1887.png
+1888	Special Pass	12	59	1888.png
+1893	Clockwork Blueprint	12	75	1893.png
+1895	Fan Club Newsletter	12	82	1895.png
+1896	Fan Club Cheer	12	83	1896.png
+1897	E-Tank	12	73	1897.png
+1898	Vintage Meat Ticket	12	77	1898.png
+1899	Fake Catalog	12	78	1899.png
+1900	Recruitment Poster	12	79	1900.png
+1901	Hero's Seal	12	80	1901.png
+1902	Design Pattern	12	67	1902.png
+1903	Weapon Data	12	66	1903.png
+1905	The Tale of Poogie	12	76	1905.png
+1906	Goddess's Grace	12	68	1906.png
+1907	Gold Ring	12	71	1907.png
+1908	Festival Drum Music	12	72	1908.png
+1918	Flying Coin G	12	45	1918.png
+1919	Brute Coin G	12	46	1919.png
+1920	Vermin Coin G	12	48	1920.png
+1921	Toad Coin G	12	50	1921.png
+1922	Snake Coin G	12	51	1922.png
+1923	Ace Ticket	13	1	1923.png
+1926	Jumping Jewel 2	14	8	1926.png

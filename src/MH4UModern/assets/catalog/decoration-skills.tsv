@@ -1,0 +1,439 @@
+name	num_slots	rarity	skill	points
+Absorber Jewel 1	1	4	Reload Spd	-1
+Absorber Jewel 1	1	4	Recoil	1
+Absorber Jewel 3	3	6	Reload Spd	-2
+Absorber Jewel 3	3	6	Recoil	4
+Aegis Jwl 2	2	5	Stalwart	3
+Aegis Jwl 3	3	6	Stalwart	4
+Alarm Jewel 1	1	4	Anti-Theft	2
+Antidote Jewel 1	1	4	Poison	1
+Antidote Jewel 1	1	4	Stun	-1
+Antidote Jewel 2	2	5	Poison	3
+Antidote Jewel 2	2	5	Stun	-1
+Arcane Jwl 1	1	4	Arcana	2
+Arcane Jwl 2	2	5	Arcana	4
+Arcane Jwl 3	3	6	Arcana	5
+Artillery Jwl 1	1	4	Artillery	2
+Artisan Jewel 3	3	8	Handicraft	3
+Artisan Jewel 3	3	8	Sharpness	-2
+Asylum Jewel 1	1	4	Protection	2
+Attack Jewel 1	1	4	Attack	1
+Attack Jewel 1	1	4	Defense	-1
+Attack Jewel 2	2	5	Attack	3
+Attack Jewel 2	2	5	Defense	-1
+Attack Jewel 3	3	6	Attack	5
+Attack Jewel 3	3	6	Defense	-1
+Avid Jwl 1	1	4	Avarice	2
+Avid Jwl 2	2	5	Avarice	3
+Avid Jwl 3	3	6	Avarice	6
+Biology Jewel 1	1	4	Biology	1
+Biology Jewel 1	1	4	Sense	-1
+BlastPlus Jwl 1	1	4	Blast S+	2
+Blastcoat Jwl 1	1	4	Blast C+	2
+Blaze Jewel 1	1	4	Fire Atk	1
+Blaze Jewel 1	1	4	Water Atk	-1
+Blaze Jewel 2	2	5	Fire Atk	3
+Blaze Jewel 2	2	5	Water Atk	-1
+Blessing Jewel 1	1	4	Whim	2
+Bolt Jewel 1	1	4	ThunderAtk	1
+Bolt Jewel 1	1	4	Ice Atk	-1
+Bolt Jewel 2	2	5	ThunderAtk	3
+Bolt Jewel 2	2	5	Ice Atk	-1
+Bombardier Jwl 1	1	4	Bomb Boost	2
+Brawn Jwl 1	1	4	Brawn	2
+Brawn Jwl 2	2	5	Brawn	4
+Brawn Jwl 3	3	6	Brawn	5
+Broad Jwl 2	2	5	Amplify	3
+Broad Jwl 3	3	6	Amplify	4
+Calm Jwl 1	1	4	SteadyHand	2
+Calm Jwl 2	2	5	SteadyHand	3
+Calm Jwl 3	3	6	SteadyHand	3
+Capacity Jewel 2	2	5	Reload Spd	-1
+Capacity Jewel 2	2	5	Loading	1
+Capacity Jewel 3	3	6	Reload Spd	-2
+Capacity Jewel 3	3	6	Loading	2
+Capture Jewel 1	1	4	Fate	-1
+Capture Jewel 1	1	4	Tranquilzr	1
+Capture Jewel 3	3	6	Fate	-2
+Capture Jewel 3	3	6	Tranquilzr	4
+Carver Jewel 1	1	4	Carving	1
+Carver Jewel 1	1	4	Fate	-1
+Carver Jewel 3	3	6	Carving	4
+Carver Jewel 3	3	6	Fate	-2
+Catalyst Jewel 3	3	6	FreeElemnt	2
+Catalyst Jewel 3	3	6	Status	-2
+Charger Jewel 1	1	4	FastCharge	1
+Charger Jewel 1	1	4	Constitutn	-1
+Charger Jewel 3	3	6	FastCharge	4
+Charger Jewel 3	3	6	Constitutn	-2
+Charmer Jewel 1	1	4	Charmer	1
+Clean Jewel 1	1	7	Sticky Res	2
+ClustPlus Jwl 1	1	4	Reload Spd	-1
+ClustPlus Jwl 1	1	4	Clust S+	1
+Cold Res Jewel 1	1	4	Cold Res	2
+CragPlus Jewel 1	1	4	Crag S+	2
+Crit Status Jwl 1	1	8	Attack	-1
+Crit Status Jwl 1	1	8	CritStatus	1
+Crit Status Jwl 2	2	9	Attack	-1
+Crit Status Jwl 2	2	9	CritStatus	3
+CritElementJwl 1	1	8	Attack	-1
+CritElementJwl 1	1	8	CritElemnt	1
+CritElementJwl 2	2	9	Attack	-1
+CritElementJwl 2	2	9	CritElemnt	3
+Cutting Jwl 1	1	4	Edge Lore	2
+Cutting Jwl 2	2	5	Edge Lore	4
+Cutting Jwl 3	3	6	Edge Lore	5
+Def Lock Jewel 1	1	4	Def Lock	2
+Defense Jewel 1	1	4	Attack	-1
+Defense Jewel 1	1	4	Defense	1
+Defense Jewel 2	2	5	Attack	-1
+Defense Jewel 2	2	5	Defense	3
+Defense Jewel 3	3	7	Attack	-1
+Defense Jewel 3	3	7	Defense	5
+Destroyer Jwl 1	1	4	Expert	-1
+Destroyer Jwl 1	1	4	Destroyer	1
+Destroyer Jwl 3	3	6	Expert	-2
+Destroyer Jwl 3	3	6	Destroyer	4
+Disabler Jewel 1	1	4	Status	1
+Disabler Jewel 1	1	4	Elemental	-1
+Disabler Jewel 2	2	5	Status	3
+Disabler Jewel 2	2	5	Elemental	-1
+Dragon Jewel 1	1	4	Status	-1
+Dragon Jewel 1	1	4	Dragon Atk	1
+Dragon Jewel 2	2	5	Status	-1
+Dragon Jewel 2	2	5	Dragon Atk	3
+Dragon Res Jwl 1	1	4	Dragon Res	1
+Dragon Res Jwl 1	1	4	Poison	-1
+Drain Jewel 1	1	4	Stamina	-1
+Drain Jewel 1	1	4	Stam Drain	1
+Drain Jewel 2	2	5	Stamina	-1
+Drain Jewel 2	2	5	Stam Drain	3
+Draincoat Jwl 1	1	4	Exhaust C+	2
+Draw Jewel 1	1	4	Crit Draw	1
+Draw Jewel 1	1	4	Expert	-1
+Draw Jewel 2	2	5	Crit Draw	3
+Draw Jewel 2	2	5	Expert	-1
+Earplug Jewel 1	1	4	Hearing	1
+Earplug Jewel 1	1	4	Protection	-1
+Earplug Jewel 3	3	6	Hearing	4
+Earplug Jewel 3	3	6	Protection	-2
+Element Jewel 1	1	4	Status	-1
+Element Jewel 1	1	4	Elemental	1
+Element Jewel 3	3	6	Status	-2
+Element Jewel 3	3	6	Elemental	4
+Enduring Jewel 1	1	4	LastingPwr	2
+Evasion Jewel 1	1	4	Evasion	1
+Evasion Jewel 1	1	4	Health	-1
+Evasion Jewel 2	2	5	Evasion	3
+Evasion Jewel 2	2	5	Health	-1
+Expert Jewel 1	1	4	Expert	1
+Expert Jewel 1	1	4	Dragon Res	-1
+Expert Jewel 2	2	5	Expert	3
+Expert Jewel 2	2	5	Dragon Res	-1
+Expert Jewel 3	3	6	Expert	5
+Expert Jewel 3	3	6	Dragon Res	-1
+Factory Jewel 1	1	4	Combo Plus	2
+Fate Jewel 1	1	4	Fate	1
+Fate Jewel 1	1	4	Whim	-1
+Fate Jewel 3	3	6	Fate	4
+Fate Jewel 3	3	6	Whim	-2
+Fencer Jewel 1	1	4	Fencing	1
+Fencer Jewel 1	1	4	Handicraft	-1
+Fencer Jewel 3	3	6	Fencing	4
+Fencer Jewel 3	3	6	Handicraft	-2
+Fire Res Jewel 1	1	4	Fire Res	1
+Fire Res Jewel 1	1	4	Water Res	-1
+Flawless Jewel 1	1	4	Unscathed	1
+Flawless Jewel 1	1	4	Rec Speed	-1
+Flawless Jewel 2	2	5	Unscathed	3
+Flawless Jewel 2	2	5	Rec Speed	-1
+Footing Jewel 1	1	4	Sleep	-1
+Footing Jewel 1	1	4	Tremor Res	1
+Forceshot Jwl 1	1	4	Recoil	-1
+Forceshot Jwl 1	1	4	Normal Up	1
+Forceshot Jwl 3	3	6	Recoil	-2
+Forceshot Jwl 3	3	6	Normal Up	4
+Fortitude Jwl 1	1	4	Rec Level	-1
+Fortitude Jwl 1	1	4	Survivor	1
+Fortitude Jwl 2	2	5	Rec Level	-1
+Fortitude Jwl 2	2	5	Survivor	3
+Friendship Jwl 1	1	4	Wide-Range	1
+Friendship Jwl 1	1	4	Sense	-1
+Friendship Jwl 2	2	5	Wide-Range	3
+Friendship Jwl 2	2	5	Sense	-1
+Frost Jewel 1	1	4	Fire Atk	-1
+Frost Jewel 1	1	4	Ice Atk	1
+Frost Jewel 2	2	5	Fire Atk	-1
+Frost Jewel 2	2	5	Ice Atk	3
+Fungiform Jewel 1	1	7	Carnivore	-1
+Fungiform Jewel 1	1	7	Mycology	2
+Furtive Jwl 1	1	4	Covert	2
+Furtive Jwl 2	2	5	Covert	4
+Furtive Jwl 3	3	6	Covert	5
+Gambit Jewel 1	1	4	PunishDraw	1
+Gambit Jewel 1	1	4	Sharpness	-1
+Gambit Jewel 3	3	6	PunishDraw	4
+Gambit Jewel 3	3	6	Sharpness	-2
+Gathering Jwl 1	1	4	Gathering	2
+Gobbler Jewel 1	1	4	Rec Level	-1
+Gobbler Jewel 1	1	4	Eating	1
+Gobbler Jewel 3	3	6	Rec Level	-2
+Gobbler Jewel 3	3	6	Eating	4
+Grinder Jewel 1	1	4	Sharpener	2
+Guts Jewel 1	1	4	Guts	1
+Guts Jewel 1	1	4	Combo Rate	-1
+Guts Jewel 2	2	5	Guts	3
+Guts Jewel 2	2	5	Combo Rate	-1
+Hale Jwl 1	1	4	Status Res	2
+Hale Jwl 2	2	5	Status Res	3
+Hale Jwl 3	3	6	Status Res	3
+Handicraft Jwl 2	2	5	Handicraft	1
+Handicraft Jwl 2	2	5	Sharpness	-1
+Handicraft Jwl 3	3	6	Handicraft	2
+Handicraft Jwl 3	3	6	Sharpness	-2
+Hardy Jwl 1	1	4	Resilience	2
+Hardy Jwl 2	2	5	Resilience	4
+Hardy Jwl 3	3	6	Resilience	4
+Heat Res Jewel 1	1	4	Heat Res	2
+Honed Jwl 1	1	4	Edgemaster	2
+Honed Jwl 2	2	5	Edgemaster	3
+Honed Jwl 3	3	6	Edgemaster	3
+Honeybee Jewel 1	1	4	Whim	-1
+Honeybee Jewel 1	1	4	Honey	1
+Hungerless Jwl 1	1	4	Hunger	2
+Ice Res Jewel 1	1	4	Fire Res	-1
+Ice Res Jewel 1	1	4	Ice Res	1
+Impactful Jwl 1	1	4	Brutality	2
+Impactful Jwl 2	2	5	Brutality	4
+Impactful Jwl 3	3	6	Brutality	4
+Intense Jwl 2	2	5	Ferocity	3
+Intense Jwl 3	3	6	Ferocity	4
+Ire Jwl 1	1	4	Fury	2
+Ire Jwl 2	2	5	Fury	3
+Ire Jwl 3	3	6	Fury	3
+Ironwall Jewel 1	1	4	Guard	1
+Ironwall Jewel 1	1	4	Constitutn	-1
+Ironwall Jewel 2	2	5	Guard	3
+Ironwall Jewel 2	2	5	Constitutn	-1
+Jumping Jewel 1	1	4	Health	-1
+Jumping Jewel 1	1	4	Evade Dist	1
+Jumping Jewel 2	2	8	Health	-1
+Jumping Jewel 2	2	8	Evade Dist	3
+KO Jewel 1	1	4	FastCharge	-1
+KO Jewel 1	1	4	KO	1
+KO Jewel 2	2	5	FastCharge	-1
+KO Jewel 2	2	5	KO	3
+Laden Jewel 3	3	8	Reload Spd	-2
+Laden Jewel 3	3	8	Loading	3
+Leader Jewel 1	1	4	Gathering	-1
+Leader Jewel 1	1	4	TeamLeader	1
+Leader Jewel 2	2	5	Gathering	-1
+Leader Jewel 2	2	5	TeamLeader	3
+Meateater Jwl 1	1	4	Carnivore	1
+Meateater Jwl 1	1	4	Hunger	-1
+Meatlover Jwl 1	1	4	Carnivore	2
+Medicine Jewel 1	1	4	Rec Level	1
+Medicine Jewel 1	1	4	Rec Speed	-1
+Medicine Jewel 2	2	5	Rec Level	3
+Medicine Jewel 2	2	5	Rec Speed	-1
+Metabolism Jwl 1	1	4	Gluttony	2
+Microbio Jewel 1	1	4	Biology	2
+Morale Jewel 1	1	5	TeamPlayer	2
+Nimble Jwl 1	1	4	Nimbleness	2
+Nimble Jwl 2	2	5	Nimbleness	4
+Nimble Jwl 3	3	6	Nimbleness	4
+Ninja Jewel 1	1	4	Sense	2
+Nul-Dragon Jwl 1	1	4	Dragon Res	2
+Nul-Fire Jewel 1	1	4	Fire Res	2
+Nul-Ice Jewel 1	1	4	Ice Res	2
+Nul-Thundr Jwl 1	1	4	ThunderRes	2
+Nul-Water Jwl 1	1	4	Water Res	2
+Paracoat Jewel 1	1	4	Attack	-1
+Paracoat Jewel 1	1	4	Para C+	1
+Paracoat Jewel 2	2	5	Attack	-1
+Paracoat Jewel 2	2	5	Para C+	3
+Paralysis Jwl 1	1	4	Poison	-1
+Paralysis Jwl 1	1	4	Paralysis	1
+Paralysis Jwl 2	2	5	Poison	-1
+Paralysis Jwl 2	2	5	Paralysis	3
+Pellet Jewel 1	1	4	Recoil	-1
+Pellet Jewel 1	1	4	Pellet Up	1
+Pellet Jewel 3	3	6	Recoil	-2
+Pellet Jewel 3	3	6	Pellet Up	4
+PelletPlus Jwl 1	1	4	Pellet S+	2
+Pep Jewel 1	1	4	Sleep	1
+Pep Jewel 1	1	4	Mud/Snow	-1
+Pep Jewel 2	2	5	Sleep	3
+Pep Jewel 2	2	5	Mud/Snow	-1
+Perception Jwl 1	1	4	Perception	2
+Physique Jewel 1	1	4	Stamina	-1
+Physique Jewel 1	1	4	Constitutn	1
+Physique Jewel 2	2	5	Stamina	-1
+Physique Jewel 2	2	5	Constitutn	3
+Pierce Jewel 1	1	4	Recoil	-1
+Pierce Jewel 1	1	4	Pierce Up	1
+Pierce Jewel 3	3	6	Recoil	-2
+Pierce Jewel 3	3	6	Pierce Up	4
+PiercePlus Jwl 1	1	4	Pierce S+	2
+Player Jewel 1	1	4	LastingPwr	-1
+Player Jewel 1	1	4	TeamPlayer	1
+Poisoncoat Jwl 1	1	4	Poison C+	2
+Potential Jwl 1	1	4	Potential	1
+Potential Jwl 1	1	4	Protection	-1
+Potential Jwl 2	2	5	Potential	3
+Potential Jwl 2	2	5	Protection	-1
+Powercoat Jwl 1	1	4	Expert	-1
+Powercoat Jwl 1	1	4	Power C+	1
+Powercoat Jwl 2	2	5	Expert	-1
+Powercoat Jwl 2	2	5	Power C+	3
+Precise Jewel 1	1	9	Loading	-1
+Precise Jewel 1	1	9	Dead Eye	1
+Precise Jewel 2	2	9	Loading	-1
+Precise Jewel 2	2	9	Dead Eye	3
+Professor Jwl 1	1	4	Combo Rate	2
+Protection Jwl 1	1	4	Protection	1
+Psychic Jewel 1	1	4	Psychic	2
+Queenbee Jewel 1	1	4	Honey	2
+Quickload Jwl 1	1	4	Reload Spd	1
+Quickload Jwl 1	1	4	Recoil	-1
+Quickload Jwl 2	2	5	Reload Spd	3
+Quickload Jwl 2	2	5	Recoil	-1
+Rangecoat Jwl 1	1	4	C.Range C+	2
+Ranger Jewel 1	1	4	Ranger	2
+Razor Jewel 1	1	4	Handicraft	-1
+Razor Jewel 1	1	4	Sharpness	1
+Razor Jewel 3	3	6	Handicraft	-2
+Razor Jewel 3	3	6	Sharpness	4
+Recovery Jewel 1	1	4	Eating	-1
+Recovery Jewel 1	1	4	Rec Speed	1
+Recovery Jewel 2	2	5	Eating	-1
+Recovery Jewel 2	2	5	Rec Speed	3
+Refresh Jewel 1	1	4	Evasion	-1
+Refresh Jewel 1	1	4	Stam Recov	1
+Refresh Jewel 2	2	5	Evasion	-1
+Refresh Jewel 2	2	5	Stam Recov	3
+Release Jewel 2	2	5	FreeElemnt	1
+Release Jewel 2	2	5	Status	-1
+Resistor Jewel 1	1	4	Blight Res	1
+Resistor Jewel 1	1	4	Health	-1
+Resistor Jewel 3	3	6	Blight Res	4
+Resistor Jewel 3	3	6	Health	-2
+Rodeo Jewel 1	1	7	Mounting	2
+Salvo Jewel 1	1	4	Reload Spd	-1
+Salvo Jewel 1	1	4	Rapid Fire	1
+Salvo Jewel 3	3	6	Reload Spd	-2
+Salvo Jewel 3	3	6	Rapid Fire	4
+Sane Jewel 1	1	8	Evasion	-1
+Sane Jewel 1	1	8	Frenzy Res	1
+Sane Jewel 3	3	8	Evasion	-2
+Sane Jewel 3	3	8	Frenzy Res	4
+Satiated Jewel 1	1	7	Whim	-1
+Satiated Jewel 1	1	7	LightEater	2
+Sheath Jewel 1	1	4	Sharpener	-1
+Sheath Jewel 1	1	4	Sheathing	1
+Sheath Jewel 2	2	5	Sharpener	-1
+Sheath Jewel 2	2	5	Sheathing	3
+Shield Jewel 1	1	4	Guard Up	1
+Shield Jewel 1	1	4	Stamina	-1
+Shield Jewel 2	2	5	Guard Up	3
+Shield Jewel 2	2	5	Stamina	-1
+ShotPlus Jewel 1	1	4	Reload Spd	-1
+ShotPlus Jewel 1	1	4	Normal S+	1
+ShotPlus Jewel 2	2	5	Reload Spd	-1
+ShotPlus Jewel 2	2	5	Normal S+	3
+Sleepcoat Jwl 1	1	4	Sleep C+	2
+SlicePlus Jwl 1	1	4	Slicing S+	2
+Sniper Jewel 1	1	4	Precision	2
+Sonorous Jewel 1	1	4	Maestro	2
+Spirit Jewel 1	1	4	Spirit	1
+Spirit Jewel 1	1	4	Guard	-1
+Spirit Jewel 2	2	5	Spirit	3
+Spirit Jewel 2	2	5	Guard	-1
+Spree Jewel 1	1	4	Spd Gather	2
+Sprinter Jewel 1	1	4	Stamina	1
+Sprinter Jewel 1	1	4	Hunger	-1
+Sprinter Jewel 3	3	6	Stamina	4
+Sprinter Jewel 3	3	6	Hunger	-2
+Standfast Jwl 1	1	4	Stun	2
+Staunch Jewel 1	1	4	Bleeding	2
+Steadfast Jwl 1	1	4	Paralysis	-1
+Steadfast Jwl 1	1	4	Stun	1
+Steady Jewel 1	1	4	Unshakable	1
+Steady Jewel 1	1	4	Defense	-1
+Steady Jewel 3	3	6	Unshakable	4
+Steady Jewel 3	3	6	Defense	-2
+Stream Jewel 1	1	4	Water Atk	1
+Stream Jewel 1	1	4	ThunderAtk	-1
+Stream Jewel 2	2	5	Water Atk	3
+Stream Jewel 2	2	5	ThunderAtk	-1
+Supplicant Jwl 1	1	4	Prayer	2
+Supplicant Jwl 2	2	5	Prayer	4
+Supplicant Jwl 3	3	6	Prayer	5
+Tactful Jwl 2	2	5	Prudence	3
+Tactful Jwl 3	3	6	Prudence	4
+Tectonic Jewel 1	1	4	Tremor Res	2
+Tenderizer Jwl 1	1	4	Tenderizer	1
+Tenderizer Jwl 1	1	4	Health	-1
+Tenderizer Jwl 3	3	6	Tenderizer	4
+Tenderizer Jwl 3	3	6	Health	-2
+Throttle Jewel 1	1	4	Gloves Off	1
+Throttle Jewel 1	1	4	Sense	-1
+Throttle Jewel 2	2	5	Gloves Off	3
+Throttle Jewel 2	2	5	Sense	-1
+ThunderRes Jwl 1	1	4	ThunderRes	1
+ThunderRes Jwl 1	1	4	Ice Res	-1
+Torchlight Jwl 1	1	4	Flame Aura	2
+Tracker Jewel 1	1	4	Sleep	-1
+Tracker Jewel 1	1	4	Mud/Snow	1
+Transportr Jwl 1	1	4	Transportr	2
+Trapmaster Jwl 1	1	4	SpeedSetup	2
+Trekker Jewel 1	1	4	Mud/Snow	2
+Trove Jwl 1	1	4	Hoarding	2
+Trove Jwl 2	2	5	Hoarding	3
+Trove Jwl 3	3	6	Hoarding	6
+True Aegis Jwl 2	2	6	Stalwart	4
+True Aegis Jwl 3	3	7	Stalwart	5
+True Arcane Jwl 3	3	7	Arcana	6
+True Avid Jwl 1	1	5	Avarice	3
+True Avid Jwl 2	2	6	Avarice	4
+True Brawn Jwl 3	3	7	Brawn	6
+True Broad Jwl 2	2	6	Amplify	4
+True Broad Jwl 3	3	7	Amplify	5
+True Calm Jwl 2	2	6	SteadyHand	4
+True Calm Jwl 3	3	7	SteadyHand	4
+True Hale Jwl 2	2	6	Status Res	4
+True Hale Jwl 3	3	7	Status Res	4
+True Hardy Jwl 1	1	5	Resilience	3
+True Hardy Jwl 3	3	7	Resilience	5
+True Honed Jwl 2	2	6	Edgemaster	4
+True Honed Jwl 3	3	7	Edgemaster	4
+True Ire Jwl 2	2	6	Fury	4
+True Ire Jwl 3	3	7	Fury	4
+True Nimble Jwl 1	1	5	Nimbleness	3
+True Nimble Jwl 3	3	7	Nimbleness	5
+True Trove Jwl 1	1	5	Hoarding	3
+True Trove Jwl 2	2	6	Hoarding	4
+TrueCatalystJwl 3	3	8	FreeElemnt	3
+TrueCatalystJwl 3	3	8	Status	-2
+TrueCuttingJwl 3	3	7	Edge Lore	6
+TrueFurtiveJwl 3	3	7	Covert	6
+TrueImpactfulJwl3	3	7	Brutality	5
+TrueIntenseJwl 2	2	6	Ferocity	4
+TrueIntenseJwl 3	3	7	Ferocity	5
+TrueTactfulJwl 2	2	6	Prudence	4
+TrueTactfulJwl 3	3	7	Prudence	5
+TrueWithdrawnJwl3	3	7	Readiness	5
+UltimateCalmJwl 3	3	8	SteadyHand	5
+UltimateHaleJwl 3	3	8	Status Res	5
+UltimateHonedJwl3	3	8	Edgemaster	5
+UltimateIreJwl 3	3	8	Fury	5
+Vitality Jewel 1	1	4	Health	2
+Water Res Jwl 1	1	4	Water Res	1
+Water Res Jwl 1	1	4	ThunderRes	-1
+Wind Res Jewel 1	1	4	Fate	-1
+Wind Res Jewel 1	1	4	Wind Res	1
+Wind Res Jewel 2	2	5	Fate	-1
+Wind Res Jewel 2	2	5	Wind Res	3
+Withdrawn Jwl 1	1	4	Readiness	2
+Withdrawn Jwl 2	2	5	Readiness	4
+Withdrawn Jwl 3	3	6	Readiness	4

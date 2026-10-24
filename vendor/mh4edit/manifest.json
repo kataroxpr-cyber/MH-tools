@@ -1,0 +1,7 @@
+{
+  "upstreamVersion": "1.0.2",
+  "importedFrom": "MH4UModern-v0.12.1",
+  "file": "mh4edit.dll",
+  "sha256": "30282552b7996117fa9041738758b548f1a63aba74791d34ad0fa80938baa214",
+  "license": "LICENSE.txt"
+}

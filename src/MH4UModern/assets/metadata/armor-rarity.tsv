@@ -1,0 +1,5 @@
+# Optional exact armor-name<TAB>rarity override (1-10).
+# v0.4 also includes an offline catalog inference fallback for standard MH4U armor sets.
+# Exact rows added here take priority over the fallback.
+# Example:
+# Regios Vambraces S	6
