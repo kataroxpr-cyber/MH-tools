@@ -1,0 +1,653 @@
+﻿{
+    "date":  "2026-10-24",
+    "product":  "MH Classic Tools",
+    "version":  "0.18.0",
+    "platform":  "Windows x64",
+    "purpose":  "Editor-only source review",
+    "intendedRepository":  "https://github.com/kataroxpr-cyber/MH-tools",
+    "uploaded":  false,
+    "codeLicense":  "Inherited and vendor licenses retained; no new blanket license selected",
+    "artworkIncluded":  false,
+    "neutralPlaceholderIcon":  true,
+    "historicalSourceRecovery":  "QuestCreation.cs matches published PDB checksum",
+    "sourceAuditPending":  false,
+    "buildVerificationPending":  false,
+    "privateDataAndGamePayloadsExcluded":  true,
+    "files":  [
+                  {
+                      "path":  ".gitattributes",
+                      "bytes":  80,
+                      "sha256":  "32cc1e5bcbd5f2ef955a950d96ad7ecb2bfcb29db2baa74feacdeb62dfbff951"
+                  },
+                  {
+                      "path":  ".gitignore",
+                      "bytes":  315,
+                      "sha256":  "12defc19f44dbd11cc4df8d3d78f5910d09fe8725868f944dc5d3522774ac787"
+                  },
+                  {
+                      "path":  "ClassicMhTools.sln",
+                      "bytes":  1960,
+                      "sha256":  "27aaf54c88c909a232e18867e35657a055f0c7629b8e918f7527224852278506"
+                  },
+                  {
+                      "path":  "CREDITS.md",
+                      "bytes":  4792,
+                      "sha256":  "5dfbf561faa8531e20831b421e649af71370d33d860ba06e797bda4e83bf7744"
+                  },
+                  {
+                      "path":  "Directory.Build.props",
+                      "bytes":  257,
+                      "sha256":  "7e84ff3b6c8096eb362c482b32d7395122b52c699cc87a39444e0c5565fe10d2"
+                  },
+                  {
+                      "path":  "global.json",
+                      "bytes":  108,
+                      "sha256":  "546b7a626451526a3d390b862254cb0d15f62042ad1b4e40eccbb44168ba8f7c"
+                  },
+                  {
+                      "path":  "LICENSE-UPSTREAM-MIT.txt",
+                      "bytes":  1066,
+                      "sha256":  "671995f694bb1fdf051b7207447e994585fe2fcf8320b87ac2a47c55e78e567a"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  4327,
+                      "sha256":  "7e4190b25c4c47a3846bbbe4023f1b9165d59d5434fd9b45335a108d62ec34cb"
+                  },
+                  {
+                      "path":  "RELEASE_STATUS.md",
+                      "bytes":  1261,
+                      "sha256":  "9d1a6bcbd3e3049e909baafc58368d6e85e5a2535550b721d2922414cd18e085"
+                  },
+                  {
+                      "path":  "REVIEW.md",
+                      "bytes":  3799,
+                      "sha256":  "e6373371fa790f10c77eba6a267ea16425993f3905929307ab7844db1b05110d"
+                  },
+                  {
+                      "path":  "THIRD_PARTY_NOTICES.md",
+                      "bytes":  5042,
+                      "sha256":  "7329a1cf67457c1e43ce5e295477086f231f34b3bedc4800d4c2654205aba6d0"
+                  },
+                  {
+                      "path":  "review/known-issues/QuestWaveTests.cs.txt",
+                      "bytes":  4302,
+                      "sha256":  "7fff8b1d1e245c300954bb78dd0d7eb7586a532b29d4f5c199df0fd0bc38cdc1"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/ClassicMhTools.Core.csproj",
+                      "bytes":  643,
+                      "sha256":  "b799b6d043ddc12599600bb9a788f785cd8c452d2463fab00a6e0a5ecb09a7b0"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestCreation.cs",
+                      "bytes":  20396,
+                      "sha256":  "4bbf0ad27bca6cf259be8f2352c896a636d189dc531fc233b93307b217ac9e33"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestCreationPolicy.cs",
+                      "bytes":  1740,
+                      "sha256":  "5162ef3e9f7108c978c69acb019151a466feadc94add10cb2b10aa384b77b906"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestCrypto.cs",
+                      "bytes":  4925,
+                      "sha256":  "ae7f791472432fff2f7c78ab3af7a1fb4aaadfb479b86a982d183e6a6fe8c240"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestDocument.cs",
+                      "bytes":  15108,
+                      "sha256":  "527464bb1f98d72d453e73d6beb1c09c8bd9413991e5dad1ffa827216ba9a246"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestExtdataLocator.cs",
+                      "bytes":  2251,
+                      "sha256":  "a0a901006034fc5536632f25ae29879a72e859f70fc6d96f3b6a9ea11cc201f5"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestExtdataSet.cs",
+                      "bytes":  10417,
+                      "sha256":  "9fe223d98e1d575b2935650eef01e94129fa609dc1ed8267856d50f19405db9a"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestPresetPolicy.cs",
+                      "bytes":  1734,
+                      "sha256":  "a72f18bbb9221328f5796639762b7aede7b65dd984cf54db2d43b4ec9c177714"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/QuestReferenceCatalog.cs",
+                      "bytes":  2136,
+                      "sha256":  "71279bfafe671b0a992c60a526e3a5ffa5b31dd58eb68148e042864180103a94"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/CustomQuests/StoryHelperExperiment.cs",
+                      "bytes":  11348,
+                      "sha256":  "2080ec8e08359ee763ce60e2e0680d2cf90a7490dd6d78f92e3bf106b6ce5cb2"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Models/ChangeRecord.cs",
+                      "bytes":  299,
+                      "sha256":  "a79a8d5eb05bc314af63357f8031e0fa58e190f999b999b72fbcb4f46d4d726c"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Models/SaveIdentity.cs",
+                      "bytes":  1497,
+                      "sha256":  "71f32bbd0cc20a8067b157eec3a025344525822c4bdd465ee968a87213969edd"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/BackupService.cs",
+                      "bytes":  2123,
+                      "sha256":  "816c33d4e073959bcb612cc00a18e8f86e14c3ef8643ae764c33fc3d77435e9a"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/DecorationCatalogService.cs",
+                      "bytes":  4415,
+                      "sha256":  "186292022fceb54d1ec44771e4d2eeceff08bc00e3bf7e19bcb13722592f4639"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/DirtyTracker.cs",
+                      "bytes":  441,
+                      "sha256":  "9c6be3c7979255375936d0f29b7c439aed7d6083c8ead00f9a4da94eeb3578ab"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/EmulatorPathSettings.cs",
+                      "bytes":  1317,
+                      "sha256":  "6b358a6f403e8d53ff835b3adf4677909bc3339880f132c39ec33da6d9f63ab0"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/EmulatorSaveService.cs",
+                      "bytes":  5039,
+                      "sha256":  "739a23fd9dced0f059a0d44d43abb3a2b17382cc57a9d084e72ee9421bc6d267"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/EquipmentReferenceService.cs",
+                      "bytes":  3050,
+                      "sha256":  "9db7c714ac4d509955e1363bffbf1145466fdd62669956902b1d5726b2b86024"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/ExtendedEquipmentService.cs",
+                      "bytes":  4725,
+                      "sha256":  "e2f59a5aa23b1cd4e469fbc204e86bf1a5c22f790ebc30fa6bc487cf3ccc8775"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/GameCatalogService.cs",
+                      "bytes":  8796,
+                      "sha256":  "28d9e640f7bb37a4758e8764ce09e6bf88be164bed90741c6ffa4c65f2b81d27"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/SaveSnapshot.cs",
+                      "bytes":  7692,
+                      "sha256":  "2230a98ca31836e164ef720d3e8dc33da07aad37581b3da11c88500da148c554"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/UndoManager.cs",
+                      "bytes":  1710,
+                      "sha256":  "35f23f6239600e57b5493afde99ad3a1358c1b08e491309628dff9e8d3af8f15"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/ValidationService.cs",
+                      "bytes":  2541,
+                      "sha256":  "30b8241f1bd116ff413518ff2e6644ac4e6c3344d4bf4e99978ea40986c8abfa"
+                  },
+                  {
+                      "path":  "src/ClassicMhTools.Core/Services/WaistArmorIdFixService.cs",
+                      "bytes":  2676,
+                      "sha256":  "5e260a115807c39344af240d8c198f03005ab1e0c1a884efb22bcc190f9fac48"
+                  },
+                  {
+                      "path":  "src/MH4UModern/App.xaml",
+                      "bytes":  536,
+                      "sha256":  "db41634a9a40a998be55f2eb8ce5d45f5fe38bb2f77b6f989976b1cb4b5096be"
+                  },
+                  {
+                      "path":  "src/MH4UModern/App.xaml.cs",
+                      "bytes":  3745,
+                      "sha256":  "ae0755f094a7c871eb0bc5de942db1c3d613ab77d9eab331908dd2b40844c290"
+                  },
+                  {
+                      "path":  "src/MH4UModern/AssemblyInfo.cs",
+                      "bytes":  131,
+                      "sha256":  "f2a26cab2fe067ed531a68c388d269f0160e5e1ff5152ccaf1d1b248a523905f"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ChangelogWindow.xaml",
+                      "bytes":  4114,
+                      "sha256":  "bdbdce4be6a9c691cb4c5e4d9c568b6d8ec48aaac1a58586bc131afcdec24e35"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ChangelogWindow.xaml.cs",
+                      "bytes":  431,
+                      "sha256":  "c9eede2732bd7c93389e209d3e2e9bbc22d6be1d24831f36c64a2270addbe2a7"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ChangePreviewWindow.xaml",
+                      "bytes":  2876,
+                      "sha256":  "98d9b1bfe04273a36f4793619cf7455065ffccfc987fd5cfa046b4364756d351"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ChangePreviewWindow.xaml.cs",
+                      "bytes":  926,
+                      "sha256":  "fb55472e9998aa7d0b66d21e1dde0fb758ca8128dbc0afc8d6e2d53b5a576c7e"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ColorPickerWindow.xaml",
+                      "bytes":  8565,
+                      "sha256":  "4fff07a60b0f601ea2c7f4ff46b11b673c6a6176638630412eaa649ef88514c0"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ColorPickerWindow.xaml.cs",
+                      "bytes":  7572,
+                      "sha256":  "4c59cf6f0590b4e990d3596125104f1788b5f928534548aabd05d08a154b086f"
+                  },
+                  {
+                      "path":  "src/MH4UModern/DecorationPickerWindow.xaml",
+                      "bytes":  6395,
+                      "sha256":  "6882b527c2bb3cf57db5be6a4cfe45c2967e21ca0b82ecd8813d648ccdf73679"
+                  },
+                  {
+                      "path":  "src/MH4UModern/DecorationPickerWindow.xaml.cs",
+                      "bytes":  3206,
+                      "sha256":  "ae57fa0878a4210e2fe2d9b5b27236872ac2498d3a345a1f0ad6aa039c31c640"
+                  },
+                  {
+                      "path":  "src/MH4UModern/MainWindow.CustomQuests.cs",
+                      "bytes":  8730,
+                      "sha256":  "6f884a5475ec11bf3aac46b39894351e9f3b16e84b6c2fe6a39e3410ab0eca34"
+                  },
+                  {
+                      "path":  "src/MH4UModern/MainWindow.Overview.cs",
+                      "bytes":  17807,
+                      "sha256":  "238b7c2f0608b7e11d789c2dbf6ba9102cb25b7d7a3e216cf57890a1ccbc2c53"
+                  },
+                  {
+                      "path":  "src/MH4UModern/MainWindow.xaml",
+                      "bytes":  125827,
+                      "sha256":  "ec0ad1b6e4e4d1d2b843c49a77b902524f6bee4c059133b8c95fc7527200aae3"
+                  },
+                  {
+                      "path":  "src/MH4UModern/MainWindow.xaml.cs",
+                      "bytes":  109833,
+                      "sha256":  "b372bf71c549c113a6ef5bf98c4cc431244cc345b884dc7ae440f63618d860cc"
+                  },
+                  {
+                      "path":  "src/MH4UModern/MH4UModern.csproj",
+                      "bytes":  2164,
+                      "sha256":  "5d2130a16a564571396ae7e3b126bf3714030b29f576a04859c9ad2aeddb2b3b"
+                  },
+                  {
+                      "path":  "src/MH4UModern/THIRD_PARTY_NOTICES.md",
+                      "bytes":  5042,
+                      "sha256":  "7329a1cf67457c1e43ce5e295477086f231f34b3bedc4800d4c2654205aba6d0"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/armor.tsv",
+                      "bytes":  186187,
+                      "sha256":  "ad9108df3dc0f58b67f3aeb9df2a85153d274d97bdeba1d208216cb0aa9a9a5d"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/decoration-skills.tsv",
+                      "bytes":  13505,
+                      "sha256":  "d7147c31a05143615d3221872c51d6c8b5f29cfa93c1fcfcb8cde2b38aee8af2"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/decorations.tsv",
+                      "bytes":  11912,
+                      "sha256":  "b663b6572fefb16b55fa014d513227569099444fcb0c40329132ec6e532b502d"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/items.tsv",
+                      "bytes":  146200,
+                      "sha256":  "76ad26da56cc0bf381560ee9bbb0a9828256c6bb9ea7300f04c697f113ec3c4a"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/LICENSE-MH4U-DATABASE.txt",
+                      "bytes":  1077,
+                      "sha256":  "81e10050255c448d5561f34b7be793c22bc2c61d298aeb3ed4662c5d35f35dce"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/skill-trees.tsv",
+                      "bytes":  8852,
+                      "sha256":  "3323fe80ea00df737bc8725353e0bc6709b8f7ebb9238e41a9ea5a8cc5b40fdb"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/catalog/weapons.tsv",
+                      "bytes":  329255,
+                      "sha256":  "4d09c18cfabe0b43a611a4231cf160caae29e901ccf11a5648f70db808735a91"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/items/item-icons.tsv",
+                      "bytes":  150,
+                      "sha256":  "b1754681bb8967aac3a225ec1e574aa161e7ad28f64b54cf808ea4345e5dbb40"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/items/item-reference-map.tsv",
+                      "bytes":  41191,
+                      "sha256":  "aa4e6add789637f3fd4422130cc9a8c9d2ffd456e43407b6ad8f45d3021e64bb"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/items-clean/mapping.tsv",
+                      "bytes":  41357,
+                      "sha256":  "604e3e8c170d3b748c96950a357c9f8bdf1dccc2fd033b7f87da26a025b412df"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/metadata/armor-rarity.tsv",
+                      "bytes":  236,
+                      "sha256":  "b7f64cf5dffe98b186076c9768526629265dfe0cb87fe99bf5d43718a1df3123"
+                  },
+                  {
+                      "path":  "src/MH4UModern/assets/quests/reference.json",
+                      "bytes":  203705,
+                      "sha256":  "79ab13e426917e05c502b2c691bc0582d0604fdab9e3f10c3ccdf38fc906f18a"
+                  },
+                  {
+                      "path":  "src/MH4UModern/images/app.ico",
+                      "bytes":  323,
+                      "sha256":  "8afa7f0eafabd03445795031d9183999d1b0148d141f7769b43c76a615d19117"
+                  },
+                  {
+                      "path":  "src/MH4UModern/lists/itemlist.txt",
+                      "bytes":  45403,
+                      "sha256":  "210fa781232e739b1026cd4800f9b79cbf924b88f5a47493ff1bc6cc10edba0c"
+                  },
+                  {
+                      "path":  "src/MH4UModern/lists/weapons.csv",
+                      "bytes":  83972,
+                      "sha256":  "3557ecc810841a9c025801406ea20bf91f2b22bd7d5c67b1d2611485c1e72a78"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/ArmorRarityService.cs",
+                      "bytes":  7719,
+                      "sha256":  "8d4ca0c57ea52e6c0a042151fcd753ac7882e13d5fd92928799ed8f64938bbf9"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/EquipmentCatalogIconService.cs",
+                      "bytes":  3333,
+                      "sha256":  "713ceb4d4ad05d48ae3bdc2f8c315f4562cbfcc474bad6d02fc81ead3d313b74"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/EquipmentSortService.cs",
+                      "bytes":  10159,
+                      "sha256":  "e4c65cfc3f9fda42de17c214dbfbb54349b82b666522a3dc435e01da6572eb58"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/ItemCategoryService.cs",
+                      "bytes":  1543,
+                      "sha256":  "8307b00be229051d1e6d2163c1c1212e2ed549cd36deccae5af265d854930aa1"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/ItemIconService.cs",
+                      "bytes":  6196,
+                      "sha256":  "13986afde5aa96701cf1243bb4951cd7a8e00685d6b49e6c207a8a464a860d75"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/PropertyInspectorService.cs",
+                      "bytes":  5304,
+                      "sha256":  "a425fca4aa074909dd414c8f11501c7e78dd5f7df685e34ecdebc388adfe2fc1"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/QuestPresentationService.cs",
+                      "bytes":  2351,
+                      "sha256":  "aa41c2ba5fe341537a43696c00a301c365b0aa583a255ca5ff6202bd4b3032bb"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/RecentFilesService.cs",
+                      "bytes":  1361,
+                      "sha256":  "96640e20cd12602df6173a78061e9227d44e64420216ec2f38318163c900b598"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/SearchableComboBoxBehavior.cs",
+                      "bytes":  5080,
+                      "sha256":  "6ee6aef0983c2511c2b09fcdaab908b6ab59f6124a52bd882b105713bf469651"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Services/VersionNoticeService.cs",
+                      "bytes":  739,
+                      "sha256":  "01de907b4f8e980d765b602dcc4de3fef0486318d6e6e001a0fb5ff886b7edd0"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Themes/ModernTheme.xaml",
+                      "bytes":  33812,
+                      "sha256":  "2b96257f913606b1fbc934ab512bb15a2df5de2cc7ffca548cff666b3bccd64c"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/BackupRowViewModel.cs",
+                      "bytes":  382,
+                      "sha256":  "9244be4c74edc1ea85f81514344de345d5b7dcafaed6a70247c63cefbc8d1a82"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/BindableBase.cs",
+                      "bytes":  660,
+                      "sha256":  "b660c81a5a965735cd95f7af686eb8244a9a1e1e424bbbba9c3a88b93fcca023"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/CharacterEditorViewModel.cs",
+                      "bytes":  13844,
+                      "sha256":  "ccaca96c76374ce642c8c1752ce8408c343f3798a38bdcd7a88455eee9b356ba"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/CustomQuestEditorViewModel.cs",
+                      "bytes":  10538,
+                      "sha256":  "d2ac51adc30bc6d714f1c347aa4bea6248a8186c25712ad265a926d2fb0d4807"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/CustomQuestEditorViewModel.Layout.cs",
+                      "bytes":  14538,
+                      "sha256":  "d0adf77f2706531e8f7d1f69119fb6cf9e083971bae47535aa544fd5ae4ff8b4"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/EditablePropertyViewModel.cs",
+                      "bytes":  5746,
+                      "sha256":  "ec1c1f3637b050efe0f0837d7481ee9688aaf23f2f4fb0ca9483d9655b97c1d4"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/EquipmentRowViewModel.cs",
+                      "bytes":  2804,
+                      "sha256":  "376001892bb5c2a47cd16d4859a46eaa8a525715a382d3104518e470f5873518"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/IQuestEditorLayout.cs",
+                      "bytes":  1564,
+                      "sha256":  "f9a942f55e12e4b7f4a7371fda55d44003d4f10eaa6c102d62868b4208f3fa66"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/ItemRowViewModel.cs",
+                      "bytes":  4359,
+                      "sha256":  "7720b826b8ee5976115785ed015c9c32b2f5e2f0bb33245392b21f2f93a5cebe"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/PalicoRowViewModel.cs",
+                      "bytes":  1755,
+                      "sha256":  "10dda56fcad042f28ab9e5109ca37a7e724efcc5e45521d949f92de1713ca5d2"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/QuestCreationViewModel.cs",
+                      "bytes":  34041,
+                      "sha256":  "c702fc6d938f6f6c8e98cdf48c68ac227fdf49271765ddbfcc4c8f29dac55abc"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/QuestRowViewModel.cs",
+                      "bytes":  1109,
+                      "sha256":  "9e7683a46083fe4ce4ba11c3c2aba2266c0046b5d74246fda8f8f1f6fba01de3"
+                  },
+                  {
+                      "path":  "src/MH4UModern/ViewModels/RecentSaveRowViewModel.cs",
+                      "bytes":  1745,
+                      "sha256":  "3526b6101c9b364ad7e8b4254e40cdc9532e77b0023b207b3412f6de67c8e6f2"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/CreationFieldInput.xaml",
+                      "bytes":  1795,
+                      "sha256":  "50d7d1cf6f15dbb3b3d3156f36d5ea83527dd6fa74d76f2990428e38812247b5"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/CreationFieldInput.xaml.cs",
+                      "bytes":  1273,
+                      "sha256":  "ac1faad88d635b18713ab61d8505ff6fd498cec87acc539c0a2178e3d06850f2"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/CustomQuestsView.Helpers.cs",
+                      "bytes":  4916,
+                      "sha256":  "600a7ad1bf4d78bd91b3a9b04d461466b5027318c9027fc14075a27821875b33"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/CustomQuestsView.xaml",
+                      "bytes":  15158,
+                      "sha256":  "14a641155d3ce9a1c6c2fce485b6400be40f40fda529c952d167b42d1ef5670c"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/CustomQuestsView.xaml.cs",
+                      "bytes":  73768,
+                      "sha256":  "be2c7baa9319ff5594f8f3075cc4e75efdef4b5e96f65db41b9c8275dce6114a"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestChoicePicker.xaml",
+                      "bytes":  3386,
+                      "sha256":  "33c87cd536cb3876916486476bfef8efb765f8199099e1282db1331c0f432563"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestChoicePicker.xaml.cs",
+                      "bytes":  4922,
+                      "sha256":  "2864f23a0c42506a0902fd9dd444d8fe128ffba7c5e7b64a1e00dc5ce56395a5"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestCreationEditor.xaml",
+                      "bytes":  15078,
+                      "sha256":  "aef767af6c75e3b5048baa27af3a3ca38de2aa686771fb2e6aa9bc2ebd5b3e96"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestCreationEditor.xaml.cs",
+                      "bytes":  9710,
+                      "sha256":  "7bacb18bec8a5017f6d404fac29c3787268bd1965ed8ba13f95f6dafa2677ed2"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestItemBoxEditor.xaml",
+                      "bytes":  6885,
+                      "sha256":  "516b2f027f380f54074640d30a6a840195d4988bafecce4d3c46ee013dc584ad"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestItemBoxEditor.xaml.cs",
+                      "bytes":  12079,
+                      "sha256":  "fbc9630fce6f3a10a36a6c74aa988b43a9a32a4dcf5992d05672cfe8674d1b77"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestMapPreview.xaml",
+                      "bytes":  779,
+                      "sha256":  "9edd20b6dfe3d1c6e40f140f1894f429f044fc0fde2bd9c6e8e5a7496a527d27"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestMapPreview.xaml.cs",
+                      "bytes":  1609,
+                      "sha256":  "1dc61458f996434d9b798f1acfa885e5fd99df2677d167b3d0d4ab91c0ce2650"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestMonsterEditor.xaml",
+                      "bytes":  3683,
+                      "sha256":  "8c1e6bb008daf305722c4a575d303c95c647a75dfffa38405791ba88683206d0"
+                  },
+                  {
+                      "path":  "src/MH4UModern/Views/QuestMonsterEditor.xaml.cs",
+                      "bytes":  3635,
+                      "sha256":  "394cbdae7020d4b8ec1f652fc8f50d4498c21b514ed43d15fc7de45a8aaf3c07"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/BackupServiceTests.cs",
+                      "bytes":  1375,
+                      "sha256":  "a03351e12e80638a151c57569aed0e2599641da38b68751986faa9a1e4e4aea2"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/CatalogAndIntegrityTests.cs",
+                      "bytes":  1902,
+                      "sha256":  "d4e7b352b272675b609f3819b625b7a1675db445a0d1ecc88d91bbe80385b3fa"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/ClassicMhTools.Core.Tests.csproj",
+                      "bytes":  1586,
+                      "sha256":  "4d4d0aed64334ec6ab6f116cdd024c39c09374183c14c8b950cdf54c32ce358b"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/CustomQuestTests.cs",
+                      "bytes":  21268,
+                      "sha256":  "d4e112f6021e69b05b467221a9f2230c98235132ea0765a48c5eb35ac94910ef"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/EmulatorSaveServiceTests.cs",
+                      "bytes":  10197,
+                      "sha256":  "a8e570c5f2955c8de020cb976c6b1d169e1e2f6ec0b4c0c5fba8a4d0ed7e12cd"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/EquipmentReferenceTests.cs",
+                      "bytes":  1547,
+                      "sha256":  "7ca6951c5c826c8cb933834afa5e1ffcb9975c22ce76d0d960a484b099f66a28"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/ExtendedEquipmentTests.cs",
+                      "bytes":  1727,
+                      "sha256":  "f0c1a0491c79e80cfde4cf947797e0be2c841fd3f2b98fc2a328ecedbca0d41c"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/QuestCreationTests.cs",
+                      "bytes":  13829,
+                      "sha256":  "459fef22b0ebf35a28333aaabc73cf035afe48b359ce26d373715788d74911d3"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/QuestExpansionTests.cs",
+                      "bytes":  6694,
+                      "sha256":  "d99a222287467175b2ccd6491fe3ff56c14048c8508718ae4fd0dc3915e05cd8"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/StoryHelperExperimentTests.cs",
+                      "bytes":  9885,
+                      "sha256":  "c8e7073dc872e5585a03cd86209650c9e1a15332c6ebe797170b56bb2cb0aa98"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/TestEnvironment.cs",
+                      "bytes":  975,
+                      "sha256":  "c0670088896d0f86e10498f828f18153800e3f8d175acdb251d0fa6805d1da74"
+                  },
+                  {
+                      "path":  "tests/ClassicMhTools.Core.Tests/UndoManagerTests.cs",
+                      "bytes":  1497,
+                      "sha256":  "6daa4a0373bd26467282f35046375b8aee3568bbf512512f8c8b71d07363fc5c"
+                  },
+                  {
+                      "path":  "vendor/bouncycastle/LICENSE.md",
+                      "bytes":  1167,
+                      "sha256":  "750fbcbc238b1908d192c62835b81450cb68ad8da7327e6623b7ee7f8a7fb1e9"
+                  },
+                  {
+                      "path":  "vendor/mh4edit/LICENSE.txt",
+                      "bytes":  1066,
+                      "sha256":  "671995f694bb1fdf051b7207447e994585fe2fcf8320b87ac2a47c55e78e567a"
+                  },
+                  {
+                      "path":  "vendor/mh4edit/manifest.json",
+                      "bytes":  206,
+                      "sha256":  "39182bf8da0eac03558145ca4d9a21f0919c83add6fb8924c5dfee55b7f43f7c"
+                  },
+                  {
+                      "path":  "vendor/mh4edit/mh4edit.dll",
+                      "bytes":  531456,
+                      "sha256":  "30282552b7996117fa9041738758b548f1a63aba74791d34ad0fa80938baa214"
+                  },
+                  {
+                      "path":  "vendor/mh4u-database/LICENSE.txt",
+                      "bytes":  1077,
+                      "sha256":  "81e10050255c448d5561f34b7be793c22bc2c61d298aeb3ed4662c5d35f35dce"
+                  },
+                  {
+                      "path":  "vendor/system.io.hashing/LICENSE.TXT",
+                      "bytes":  1139,
+                      "sha256":  "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+                  },
+                  {
+                      "path":  "review/PUBLISHED-SOURCE-CHECKS.json",
+                      "bytes":  29422,
+                      "sha256":  "4f9e41c1d7d0aa5824c219cfe273772999c3ede7cb8de00d7b18647d12e86512"
+                  },
+                  {
+                      "path":  "review/VERIFICATION.json",
+                      "bytes":  1102,
+                      "sha256":  "63a904a8588cb3dbadae205fdfef36928d8c8712351801be1868153cf09f0d13"
+                  }
+              ]
+}

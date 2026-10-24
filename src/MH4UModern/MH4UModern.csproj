@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ClassicMhTools</AssemblyName>
+    <RootNamespace>MH4UModern</RootNamespace>
+    <Product>Classic MH Tools</Product>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <Version>0.18.0</Version>
+    <AssemblyVersion>0.18.0.0</AssemblyVersion>
+    <FileVersion>0.18.0.0</FileVersion>
+    <ApplicationIcon>images\app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="mh4edit">
+      <HintPath>..\..\vendor\mh4edit\mh4edit.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassicMhTools.Core\ClassicMhTools.Core.csproj" />
+    <Content Include="..\..\vendor\mh4edit\LICENSE.txt" Link="licenses\mh4edit\LICENSE.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\vendor\bouncycastle\LICENSE.md" Link="licenses\bouncycastle\LICENSE.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\vendor\system.io.hashing\LICENSE.TXT" Link="licenses\system.io.hashing\LICENSE.TXT" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\vendor\mh4u-database\LICENSE.txt" Link="licenses\mh4u-database\LICENSE.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\app.ico" />
+    <Content Include="images\**\*.*" Exclude="images\app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lists\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="THIRD_PARTY_NOTICES.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

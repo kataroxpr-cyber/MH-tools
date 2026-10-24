@@ -1,0 +1,88 @@
+using System.Buffers.Binary;
+using ClassicMhTools.Core.CustomQuests;
+
+namespace ClassicMhTools.Core.Tests;
+
+public sealed class QuestWaveTests
+{
+    private static int Pointer(byte[] data, int at) => (int)BinaryPrimitives.ReadUInt32LittleEndian(data.AsSpan(at));
+
+    [Theory]
+    [InlineData(1, 9)] [InlineData(2, 10)] [InlineData(3, 11)] [InlineData(4, 12)]
+    [InlineData(8, 8)] [InlineData(9, 9)] [InlineData(10, 10)] [InlineData(12, 12)]
+    public void SequentialLargeWavesUseTheReferenceEditorsAutomaticTypeBit(byte type, byte expected)
+    {
+        // Values independently obtained by executing the supplied reference editor's $fix.fix.
+        var draft = new QuestCreationDraft { Type = type };
+        draft.Monsters.Add(new() { Id = 2, Wave = 2 });
+        draft.Objectives[1] = new() { Type = 1, Target = 2, Quantity = 1 };
+        var raw = draft.Build().ToArray();
+        Assert.Equal(expected, raw[Pointer(raw, 0)]);
+        Assert.Equal(type, draft.Type);
+        Assert.Equal(raw, QuestCreationDraft.FromJson(draft.ToJson()).Build().ToArray());
+        var table = Pointer(raw, 0x28);
+        Assert.Equal(1, Pointer(raw, Pointer(raw, table)));
+        Assert.Equal(2, Pointer(raw, Pointer(raw, table + 4)));
+        Assert.Equal(0, Pointer(raw, table + 8));
+        Assert.Equal(raw, QuestCrypto.DecodeMib(QuestCrypto.EncodeMib(raw)));
+    }
+
+    [Theory]
+    [InlineData(1)] [InlineData(2)] [InlineData(3)] [InlineData(4)]
+    [InlineData(8)] [InlineData(9)] [InlineData(10)] [InlineData(12)]
+    public void OneLargeWaveAndLaterSmallWavesDoNotChangeTheSelectedType(byte type)
+    {
+        var draft = new QuestCreationDraft { Type = type };
+        var raw = draft.Build().ToArray();
+        Assert.Equal(type, raw[Pointer(raw, 0)]);
+        draft.Monsters.Add(new() { Kind = 2, Id = 50, Wave = 2 });
+        draft.SmallConditions[0] = new() { Type = 1, Target = 1, Quantity = 1 };
+        raw = draft.Build().ToArray();
+        Assert.Equal(type, raw[Pointer(raw, 0)]);
+        Assert.Equal(new byte[] { 1, 0, 0, 0, 1, 0, 1, 1 }, raw.AsSpan(0x64, 8).ToArray());
+    }
+
+    [Fact]
+    public void AllFiveLargeWavesAreOrderedTerminatedAndKeepTheSequenceBitAfterInstall()
+    {
+        var draft = new QuestCreationDraft();
+        foreach (var wave in new byte[] { 5, 3, 2, 4 }) draft.Monsters.Add(new() { Id = wave, Wave = wave });
+        var raw = draft.Build().ToArray();
+        var table = Pointer(raw, 0x28);
+        for (var wave = 0; wave < 5; wave++)
+        {
+            var spawn = Pointer(raw, table + wave * 4);
+            Assert.Equal(wave + 1, Pointer(raw, spawn));
+            Assert.Equal(uint.MaxValue, BinaryPrimitives.ReadUInt32LittleEndian(raw.AsSpan(spawn + 0x28)));
+        }
+        Assert.Equal(0, Pointer(raw, table + 20));
+        var files = Enumerable.Range(0, 5).Select(_ => QuestCrypto.EncodeContainer(new(new byte[QuestCrypto.PayloadSize], 16, new byte[256]))).ToArray();
+        var patch = QuestExtdataSet.FromFiles(files).PlanInstall(new(raw));
+        files[patch.FileNumber - 1] = patch.ToArray();
+        var installed = QuestExtdataSet.FromFiles(files).Quests.Single().Document.ToArray();
+        Assert.Equal(raw, installed.AsSpan(0, raw.Length).ToArray());
+        Assert.Equal((byte)11, installed[Pointer(installed, 0)]);
+    }
+
+    [Fact]
+    public void OfficialMultiWaveFixturesUseTheSameSequenceBitWithoutMutation()
+    {
+        var root = Environment.GetEnvironmentVariable("CLASSIC_MH_QUEST_FIXTURES");
+        if (string.IsNullOrWhiteSpace(root)) return;
+        var count = 0;
+        foreach (var file in Directory.EnumerateFiles(Path.Combine(root, "official-mibs"), "*.mib"))
+        {
+            var original = File.ReadAllBytes(file);
+            var raw = QuestCrypto.DecodeMib(original);
+            var document = new QuestDocument(raw);
+            if (document.NumberFields.Any(f => f.Section == "Large Monsters" && f.Name.StartsWith("Wave 2,")))
+            {
+                Assert.True((raw[Pointer(raw, 0)] & 8) != 0, Path.GetFileName(file));
+                count++;
+            }
+            Assert.Equal(raw, document.ToArray());
+            Assert.Equal(original, File.ReadAllBytes(file));
+        }
+        Assert.True(count > 0, "Official fixtures must include sequential large-monster waves.");
+    }
+}

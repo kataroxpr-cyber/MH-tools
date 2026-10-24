@@ -1,0 +1,1235 @@
+item_id	name	symbol_type	source_symbol
+1	Book of Combos 1	Book	icon_067
+2	Book of Combos 2	Book	icon_067
+3	Book of Combos 3	Book	icon_067
+4	Book of Combos 4	Book	icon_067
+5	Book of Combos 5	Book	icon_067
+8	Potion	Liquid	icon_034
+9	Mega Potion	Liquid	icon_034
+11	Mega Nutrients	Liquid	icon_034
+12	Antidote	Liquid	icon_034
+15	Mega Dash Juice	Liquid	icon_034
+16	Demondrug	Liquid	icon_034
+17	Mega Demondrug	Liquid	icon_034
+18	Might Pill	Sac	icon_041
+20	Mega Armorskin	Liquid	icon_034
+22	Cool Drink	Liquid	icon_034
+23	Hot Drink	Liquid	icon_034
+24	Cleanser	Liquid	icon_034
+25	Deodorant	Smoke	icon_039
+26	Psychoserum	Liquid	icon_034
+27	Herbal Medicine	Sac	icon_041
+28	Max Potion	Sac	icon_041
+30	Catalyst	Sac	icon_041
+31	Energy Drink	Liquid	icon_034
+32	Gunpowder	Sac	icon_041
+33	Lifecrystals	Sac	icon_041
+35	Tranquilizer	Liquid	icon_034
+44	Raw Meat	Meat	icon_004
+45	Poisoned Meat	Meat	icon_004
+46	Tinged Meat	Meat	icon_004
+47	Drugged Meat	Meat	icon_004
+49	Well-done Steak	Meat	icon_004
+51	Chilled Meat	Meat	icon_004
+52	Hot Meat	Meat	icon_004
+53	Mosswine Jerky	Meat	icon_004
+54	Boomerang	Boomerang	icon_053
+61	Paintball	Bomb	icon_040
+62	Flash Bomb	Bomb	icon_040
+63	Sonic Bomb	Bomb	icon_040
+64	Dung	Dung	icon_022
+65	Dung Bomb	Dung	icon_022
+66	Smoke Bomb	Smoke	icon_039
+67	Poison Smoke Bomb	Smoke	icon_039
+68	Farcaster	Smoke	icon_039
+69	Tranq Bomb	Bomb	icon_040
+70	Spider Web	Spider-Web	icon_007
+71	Net	Spider-Web	icon_007
+72	Trap Tool	Traptool	icon_035
+73	Pitfall Trap	Trap	icon_036
+74	Shock Trap	Trap	icon_036
+75	Small Barrel	Barrel	icon_037
+76	Large Barrel	Barrel	icon_037
+77	Barrel Bomb S	Barrel-Bomb	icon_038
+79	Barrel Bomb L	Barrel-Bomb	icon_038
+81	Bounce Bomb	Barrel-Bomb	icon_038
+83	Felvine Bomb	Barrel-Bomb	icon_038
+85	Huskberry	Husk	icon_049
+86	Bone Husk	Husk	icon_049
+94	Pellet S Lv2	Ammo	icon_048
+95	Pellet S Lv3	Ammo	icon_048
+97	Crag S Lv2	Ammo	icon_048
+98	Crag S Lv3	Ammo	icon_048
+99	Clust S Lv1	Ammo	icon_048
+100	Clust S Lv2	Ammo	icon_048
+108	Poison S Lv2	Ammo	icon_048
+112	Sleep S Lv2	Ammo	icon_048
+114	Exhaust S Lv2	Ammo	icon_048
+115	Slicing S	Ammo	icon_048
+116	WyvernFire	Ammo	icon_048
+117	Blast S	Ammo	icon_048
+118	Recover S Lv1	Ammo	icon_048
+119	Recover S Lv2	Ammo	icon_048
+120	Demon S	Ammo	icon_048
+121	Armor S	Ammo	icon_048
+122	Paint S	Ammo	icon_048
+123	Tranq S	Ammo	icon_048
+125	Empty Phial	fallback	
+126	Power Coating	fallback	
+127	C.Range Coating	fallback	
+128	Poison Coating	fallback	
+129	Para Coating	fallback	
+130	Sleep Coating	fallback	
+131	Exhaust Coating	fallback	
+132	Blast Coating	fallback	
+134	Power Nectar: Fire	fallback	
+135	Stam Nectar: Water	fallback	
+136	Spd Nectar: Thunder	fallback	
+137	Speed Nectar: Ice	fallback	
+138	Stam Nectar: Dragon	fallback	
+139	Power+ Nectar	fallback	
+140	Stamina+ Nectar	fallback	
+141	Speed+ Nectar	fallback	
+144	Nectar: Thunder+	fallback	
+145	Nectar: Ice+	fallback	
+146	Nectar: Dragon+	fallback	
+147	Power+ Nectar: Fire	fallback	
+148	Stam+ Nectar: Water	fallback	
+152	Spd Nectar: Thunder+	fallback	
+153	Speed Nectar: Ice+	fallback	
+155	Worm	fallback	
+156	Mega Fishing Fly	Fish	icon_002
+160	Goldenfish Bait	Fish	icon_002
+161	Old Pickaxe	Pickaxe	icon_033
+162	Iron Pickaxe	Pickaxe	icon_033
+163	Mega Pickaxe	Pickaxe	icon_033
+164	Old Bug Net	Bugnet	icon_025
+165	Bug Net	Bugnet	icon_025
+166	Mega Bug Net	Bugnet	icon_025
+168	Whetstone	Whetstone	icon_066
+170	Garbage	QuestionMark	icon_069
+171	Field Horn	Flute	icon_052
+172	Health Horn	Flute	icon_052
+174	Demon Horn	Flute	icon_052
+177	Herb	Herb	icon_003
+178	Antidote Herb	Herb	icon_003
+179	Fire Herb	Herb	icon_003
+180	Ivy	Herb	icon_003
+181	Sleep Herb	Herb	icon_003
+182	Sap Plant	Herb	icon_003
+183	Felvine	Herb	icon_003
+184	Gloamgrass Root	Herb	icon_003
+185	Hot Pepper	Herb	icon_003
+186	Cathangea Seed	Seed	icon_008
+187	Cathangea	Herb	icon_003
+189	Blue Mushroom	Mushroom	icon_001
+190	Nitroshroom	Mushroom	icon_001
+191	Parashroom	Mushroom	icon_001
+192	Toadstool	Mushroom	icon_001
+193	Exciteshroom	Mushroom	icon_001
+194	Mopeshroom	Mushroom	icon_001
+196	Paintberry	Seed	icon_008
+197	Might Seed	Seed	icon_008
+199	Nulberry	Seed	icon_008
+200	Dragonfell Berry	Seed	icon_008
+202	Needleberry	Seed	icon_008
+203	Latchberry	Seed	icon_008
+205	Bumblepumpkin	Seed	icon_008
+206	Stone	Ore	icon_009
+208	Earth Crystal	Ore	icon_009
+209	Machalite Ore	Ore	icon_009
+210	Dragonite Ore	Ore	icon_009
+211	Lightcrystal	Ore	icon_009
+212	Ice Crystal	Ore	icon_009
+213	Firestone	Ore	icon_009
+214	Gossamite Ore	Ore	icon_009
+215	Heavenly Crystal	Ore	icon_009
+216	Carbalite Ore	Ore	icon_009
+217	Novacrystal	Ore	icon_009
+218	Fucium Ore	Ore	icon_009
+219	Firecell Stone	Ore	icon_009
+220	Yoldspar Ore	Ore	icon_009
+221	Abrasive	Whetstone	icon_066
+222	Quality Abrasive	Whetstone	icon_066
+223	Awesome Abrasive	Whetstone	icon_066
+224	Armor Stone	Ore	icon_009
+225	Armor Sphere	Sphere	icon_065
+226	Armor Sphere+	Sphere	icon_065
+227	Adv Armor Sphere	Sphere	icon_065
+228	Hard Armor Sphere	Sphere	icon_065
+229	Heavy Armor Sphere	Sphere	icon_065
+230	True Armor Sphere	Sphere	icon_065
+231	Whetfish	Fish	icon_002
+232	Sushifish	Fish	icon_002
+233	Sleepyfish	Fish	icon_002
+234	Pin Tuna	Fish	icon_002
+236	Popfish	Fish	icon_002
+237	Scatterfish	Fish	icon_002
+238	Burst Arowana	Fish	icon_002
+239	Bomb Arowana	Fish	icon_002
+240	Glutton Tuna	Fish	icon_002
+241	Gastronome Tuna	Fish	icon_002
+242	Small Goldenfish	Fish	icon_002
+243	Wanchovy	Fish	icon_002
+244	Ancient Fish	Fish	icon_002
+245	Blue Cutthroat	Fish	icon_002
+248	Insect Husk	Bug	icon_006
+250	Stinkhopper	Bug	icon_006
+251	Snakebee Larva	Bug	icon_006
+252	Godbug	Bug	icon_006
+254	Flashbug	Bug	icon_006
+255	Thunderbug	Bug	icon_006
+256	Glueglopper	Bug	icon_006
+258	Hercudrome	Bug	icon_006
+259	Fulgurbug	Bug	icon_006
+260	Rare Scarab	Bug	icon_006
+261	Great Hornfly	Bug	icon_006
+262	Butterfly Beetle	Bug	icon_006
+264	Monster Bone M	Bone	icon_020
+265	Monster Bone L	Bone	icon_020
+266	Mystery Bone	Bone	icon_020
+267	Unknown Skull	Bone	icon_020
+268	Monster Bone+	Bone	icon_020
+269	Monster Keenbone	Bone	icon_020
+270	Monster Hardbone	Bone	icon_020
+271	Elder Dragon Bone	Bone	icon_020
+272	Avian Finebone	Bone	icon_020
+273	Brute Bone	Bone	icon_020
+274	Jumbo Bone	Bone	icon_020
+275	Stoutbone	Bone	icon_020
+276	Dragonbone Relic	Bone	icon_020
+277	Wyvern Fang	Fang	icon_016
+278	Wyvern Claw	Fang	icon_016
+279	Bird Wyvern Gem	Monster-Jewel	icon_040
+280	Wyvern Gem	Monster-Jewel	icon_040
+281	Elder Dragon Blood	Liquid	icon_034
+285	Slickaxe	fallback	
+286	Screamer Sac	Sac	icon_041
+287	Poison Sac	Sac	icon_041
+288	Toxin Sac	Sac	icon_041
+289	Paralysis Sac	Sac	icon_041
+290	Sleep Sac	Sac	icon_041
+291	Flame Sac	Sac	icon_041
+292	Inferno Sac	Sac	icon_041
+293	Electro Sac	Sac	icon_041
+294	Thunder Sac	Sac	icon_041
+295	Frost Sac	Sac	icon_041
+296	Freezer Sac	Sac	icon_041
+297	Aqua Sac	Sac	icon_041
+298	Torrent Sac	Sac	icon_041
+299	Dash Extract	Liquid	icon_034
+300	Pale Extract	Liquid	icon_034
+301	Gargwa Feather	Webbing	icon_005
+302	Kelbi Horn	Fang	icon_016
+303	Blue Kelbi Horn	Fang	icon_016
+304	Warm Pelt	Hide	icon_017
+305	High-quality Pelt	Hide	icon_017
+306	Rhenoplos Shell	Shell	icon_080
+307	Rhenoplos Carapace	Carapace	icon_019
+308	Rhenoplos Scalp	fallback	
+310	Slagtoth Hide+	Hide	icon_017
+311	Bnahabra Shell	Shell	icon_080
+312	Bnahabra Carapace	Carapace	icon_019
+313	Bnahabra Wing	fallback	
+314	Altaroth Jaw	Fang	icon_016
+315	Altaroth Stomach	fallback	
+316	Quality Stomach	fallback	
+318	Konchu Shell	Shell	icon_080
+319	Konchu Carapace	Carapace	icon_019
+320	Remobra Hide	Hide	icon_017
+321	Remobra Hide+	Hide	icon_017
+322	Striped Skin	Hide	icon_017
+323	Remobra Head	fallback	
+324	Jaggi Scale	Scale	icon_018
+325	Jaggi Scale+	Scale	icon_018
+326	Jaggi Hide	Hide	icon_017
+327	Bird Wyvern Fang	Fang	icon_016
+328	Tough Bird Wyv Hide	Hide	icon_017
+329	G.Jaggi Hide	Hide	icon_017
+330	G.Jaggi Hide+	Hide	icon_017
+332	G.Jaggi Claw+	Fang	icon_016
+333	King's Frill	fallback	
+334	Great Jaggi Head	fallback	
+335	Velociprey Scale	Scale	icon_018
+336	Velociprey Scale+	Scale	icon_018
+337	Velociprey Hide	Hide	icon_017
+338	Velociprey Hide+	Hide	icon_017
+339	Velocidrome Hide	Hide	icon_017
+340	Velocidrome Claw	Fang	icon_016
+341	Velocidrome Claw+	Fang	icon_016
+342	Velocidrome Head	fallback	
+343	Genprey Fang	Fang	icon_016
+344	Genprey Scale	Scale	icon_018
+345	Genprey Scale+	Scale	icon_018
+346	Genprey Hide	Hide	icon_017
+347	Genprey Hide+	Hide	icon_017
+348	Gendrome Hide	Hide	icon_017
+349	Gendrome Tail	fallback	
+350	Gendrome Head	fallback	
+351	Ioprey Fang	Fang	icon_016
+352	Ioprey Scale	Scale	icon_018
+353	Ioprey Scale+	Scale	icon_018
+354	Ioprey Hide	Hide	icon_017
+355	Ioprey Hide+	Hide	icon_017
+356	Iodrome Hide	Hide	icon_017
+357	Iodrome Head	fallback	
+358	Lagombi Pelt	Hide	icon_017
+360	Lagombi Ear	fallback	
+361	Lagombi Ear+	fallback	
+362	Lagombi Plastron	Shell	icon_080
+363	Lagombi Plastron+	Shell	icon_080
+364	Lagombi Iceclaw	Fang	icon_016
+365	Lagombi Frozenclaw	Fang	icon_016
+366	Kut-Ku Scale	Scale	icon_018
+367	Kut-Ku Scale+	Scale	icon_018
+368	Kut-Ku Shell	Shell	icon_080
+369	Kut-Ku Carapace	Carapace	icon_019
+370	Kut-Ku Ear	fallback	
+371	Kut-Ku Auricle	fallback	
+372	Giant Beak	Fang	icon_016
+373	Splendid Beak	Fang	icon_016
+374	Kut-Ku Webbing	Webbing	icon_005
+376	Blue Kut-Ku Scale+	Scale	icon_018
+377	Blue Kut-Ku Carapace	Carapace	icon_019
+378	Rubbery Hide	Hide	icon_017
+379	Rubbery Hide+	Hide	icon_017
+380	Gypceros Head	fallback	
+381	Rubbery Purple Hide	Hide	icon_017
+382	P.Gypceros Wing	fallback	
+383	Garuga Scale	Scale	icon_018
+384	Garuga Scale+	Scale	icon_018
+385	Garuga Shell	Shell	icon_080
+386	Garuga Carapace	Carapace	icon_019
+388	Garuga Auricle	fallback	
+390	Rejuvenated Beak	Fang	icon_016
+391	Garuga Wing	fallback	
+392	Garuga Tail	fallback	
+393	Garuga Mane	fallback	
+394	Kecha Pelt	Hide	icon_017
+395	Kecha Pelt+	Hide	icon_017
+396	Kecha Longbone	Bone	icon_020
+397	Kecha Grandbone	Bone	icon_020
+399	Kecha Ear	fallback	
+400	Kecha Ear+	fallback	
+401	Kecha Tail	fallback	
+402	Conga Pelt	Hide	icon_017
+403	Conga Pelt+	Hide	icon_017
+404	Sharp Claw	Fang	icon_016
+405	Congalala Pelt	Hide	icon_017
+406	Congalala Pelt+	Hide	icon_017
+407	Vibrant Pelt	Hide	icon_017
+408	Congalala Claw	Fang	icon_016
+409	Congalala Claw+	Fang	icon_016
+410	Congalala Fang	Fang	icon_016
+411	E.Congalala Pelt+	Hide	icon_017
+412	E.Congalala Fang+	Fang	icon_016
+414	Rajang Horn+	Fang	icon_016
+415	Rajang Fang+	Fang	icon_016
+417	Rajang Claw+	Fang	icon_016
+418	Rajang Tail	fallback	
+419	Gold Rajang Pelt	Hide	icon_017
+420	Rajang Ragehair	fallback	
+423	Tetsucabra Scale	Scale	icon_018
+424	Tetsucabra Scale+	Scale	icon_018
+425	Tetsucabra Shell	Shell	icon_080
+426	Tetsucabra Carapace	Carapace	icon_019
+427	Tetsucabra Claw	Fang	icon_016
+428	Tetsucabra Claw+	Fang	icon_016
+430	Tetsucabra Tusks+	Fang	icon_016
+431	Dignified Skull	Bone	icon_020
+432	Paddock Oil	Sac	icon_041
+433	Paddock Oil+	Sac	icon_041
+434	Sharqskin Scale	Scale	icon_018
+435	Meaty Hide	Hide	icon_017
+437	Zamtrios Hide	Hide	icon_017
+438	Zamtrios Hide+	Hide	icon_017
+439	Zamtrios Scale	Scale	icon_018
+440	Zamtrios Scale+	Scale	icon_018
+441	Zamtrios Fin	fallback	
+442	Zamtrios Fin+	fallback	
+443	Zamtrios Sawtooth	Fang	icon_016
+444	Zamtrios Tailblade	fallback	
+445	Najarala Shell	Shell	icon_080
+446	Najarala Carapace	Carapace	icon_019
+447	Najarala Hide	Hide	icon_017
+448	Najarala Hide+	Hide	icon_017
+449	Najarala Marrow	Sac	icon_041
+450	Najarala Medulla	Sac	icon_041
+451	Najarala Sounder	fallback	
+452	Najarala Sounder+	fallback	
+453	Najarala Fang	Fang	icon_016
+454	Chilling Beak	Fang	icon_016
+455	Nerscylla Shell	Shell	icon_080
+456	Nerscylla Carapace	Carapace	icon_019
+457	Nerscylla Chelicera	fallback	
+458	Nerscylla Shear	fallback	
+459	Nerscylla Claw	Fang	icon_016
+460	Nerscylla Sharpclaw	Fang	icon_016
+461	Nerscylla Spike	fallback	
+462	Nerscylla Spike+	fallback	
+463	Monster Fluid	Sac	icon_041
+464	Monster Broth	Sac	icon_041
+465	Seltas Shell	Shell	icon_080
+466	Seltas Carapace	Carapace	icon_019
+467	Seltas Wing	fallback	
+468	Seltas Innerwing	fallback	
+469	Seltas Horn	Fang	icon_016
+470	Seltas Horn+	Fang	icon_016
+471	S.Queen Shell	Shell	icon_080
+472	S.Queen Carapace	Carapace	icon_019
+473	S.Queen Pectus	fallback	
+474	S.Queen Hardpectus	fallback	
+475	S.Queen Claw	Fang	icon_016
+476	S.Queen Sharpclaw	Fang	icon_016
+477	S.Queen Jaw	Fang	icon_016
+478	S.Queen Crescent	fallback	
+479	S.Queen Extract	Sac	icon_041
+480	S.Queen Concentrate	fallback	
+481	Flabby Hide	Hide	icon_017
+482	Pearl Hide	Hide	icon_017
+483	Pale Bone	Bone	icon_020
+484	Pale Steak	fallback	
+485	Alluring Hide	Hide	icon_017
+486	Alluring Webbing	Webbing	icon_005
+487	Rathian Scale	Scale	icon_018
+488	Rathian Scale+	Scale	icon_018
+489	Rathian Shell	Shell	icon_080
+490	Rathian Carapace	Carapace	icon_019
+491	Rathian Webbing	Webbing	icon_005
+492	Rathian Spike	fallback	
+493	Rathian Spike+	fallback	
+494	Rathian Plate	Monster-Jewel	icon_040
+495	Rathian Ruby	Monster-Jewel	icon_040
+496	P.Rathian Scale+	Scale	icon_018
+497	P.Rathian Carapace	Carapace	icon_019
+498	G.Rathian Scale+	Scale	icon_018
+499	G.Rathian Carapace	Carapace	icon_019
+500	G.Rathian Spike+	fallback	
+501	Rathalos Scale	Scale	icon_018
+502	Rathalos Scale+	Scale	icon_018
+504	Rathalos Carapace	Carapace	icon_019
+505	Rathalos Webbing	Webbing	icon_005
+506	Rathalos Wing	fallback	
+507	Rathalos Tail	fallback	
+508	Rathalos Plate	Monster-Jewel	icon_040
+509	Rathalos Ruby	Monster-Jewel	icon_040
+511	A.Rathalos Carapace	Carapace	icon_019
+513	A.Rathalos Wing	fallback	
+514	S.Rathalos Scale+	Scale	icon_018
+515	S.Rathalos Carapace	Carapace	icon_019
+516	S.Rathalos Tail	fallback	
+517	Rath Wingtalon	Fang	icon_016
+518	Rath Marrow	Sac	icon_041
+519	Rath Medulla	Sac	icon_041
+520	Rath Gleam	fallback	
+521	Zinogre Shell	Shell	icon_080
+522	Zinogre Carapace	Carapace	icon_019
+523	Zinogre Shockfur	Hide	icon_017
+524	Zinogre Electrofur	Hide	icon_017
+525	Zinogre Horn	Fang	icon_016
+526	Zinogre Horn+	Fang	icon_016
+527	Zinogre Claw	Fang	icon_016
+528	Zinogre Claw+	Fang	icon_016
+530	Zinogre Shocker	fallback	
+531	Zinogre Shocker+	fallback	
+532	Zinogre Plate	Monster-Jewel	icon_040
+533	Zinogre Jasper	fallback	
+534	S.Zinogre Carapace	Carapace	icon_019
+535	S.Zinogre Horn+	Fang	icon_016
+536	S.Zinogre Claw+	Fang	icon_016
+537	S.Zinogre Tail	fallback	
+538	S.Zin Drakeshell	Shell	icon_080
+539	Dracophage Bug	Bug	icon_006
+540	S.Zinogre Dragonhair	fallback	
+541	S.Zinogre Umbrage	fallback	
+542	Brach Shell	Shell	icon_080
+543	Brach Carapace	Carapace	icon_019
+544	Brach Ebonshell	Shell	icon_080
+545	Brach Ebonshell+	Shell	icon_080
+546	Brach Scalp	fallback	
+547	Brach Scalp+	fallback	
+548	Mystery Slime	fallback	
+549	Brach Hammer	fallback	
+550	Brach Pounder	fallback	
+552	Brach Marrow	Sac	icon_041
+553	Brach Gem	Monster-Jewel	icon_040
+554	Basarios Shell	Shell	icon_080
+555	Basarios Carapace	Carapace	icon_019
+556	Basarios Wing	fallback	
+557	Basarios Tears	fallback	
+558	R.Basarios Wing	fallback	
+560	Gravios Shell	Shell	icon_080
+561	Gravios Carapace	Carapace	icon_019
+563	Gravios Medulla	Sac	icon_041
+564	Gravios Wing	fallback	
+565	B.Gravios Carapace	Carapace	icon_019
+566	B.Gravios Scalp	fallback	
+567	Tigrex Scale	Scale	icon_018
+568	Tigrex Scale+	Scale	icon_018
+569	Tigrex Shell	Shell	icon_080
+570	Tigrex Carapace	Carapace	icon_019
+571	Tigrex Tail	fallback	
+572	Tigrex Claw	Fang	icon_016
+573	Tigrex Claw+	Fang	icon_016
+574	Tigrex Fang	Fang	icon_016
+576	Tigrex Scalp	fallback	
+577	Tigrex Maw	fallback	
+578	B.Tigrex Scale+	Scale	icon_018
+579	B.Tigrex Carapace	Carapace	icon_019
+580	B.Tigrex Claw+	Fang	icon_016
+581	B.Tigrex Fang+	Fang	icon_016
+582	M.Tigrex Scale+	Scale	icon_018
+584	M.Tigrex Blastclaw	Fang	icon_016
+585	M.Tigrex Fang+	Fang	icon_016
+586	M.Tigrex Tail	fallback	
+587	Pulsating Blastheart	fallback	
+588	Gore Magala Scale	Scale	icon_018
+589	Gore Magala Scale+	Scale	icon_018
+590	Gore Magala Shell	Shell	icon_080
+591	Gore Magala Carapace	Carapace	icon_019
+592	Gore Magala Wing	Ore	icon_009
+593	Gore Magala Wing+	Ore	icon_009
+594	Gore Magala Ripclaw	Fang	icon_016
+595	Gore Magala Ripclaw+	Fang	icon_016
+596	Gore Magala Tail	Ore	icon_009
+597	Gore Magala Plate	Monster-Jewel	icon_040
+598	Gore Magala Nyctgem	Monster-Jewel	icon_040
+599	Gore Magala Feeler	Ore	icon_009
+600	Gore Magala Feeler+	Ore	icon_009
+601	Defiled Scale	Scale	icon_018
+602	S.Magala Scale	Scale	icon_018
+603	S.Magala Scale+	Scale	icon_018
+604	S.Magala Shell	Shell	icon_080
+605	S.Magala Carapace	Carapace	icon_019
+606	S.Magala Prismwing	fallback	
+607	S.Magala Prismwing+	fallback	
+608	S.Magala Caress	fallback	
+609	S.Magala Caress+	fallback	
+610	S.Magala Tail	fallback	
+611	S.Magala Plate	Monster-Jewel	icon_040
+612	S.Magala Phosgem	Monster-Jewel	icon_040
+613	S.Magala Horn	Fang	icon_016
+614	S.Magala Horn+	Fang	icon_016
+615	Pure Scale	Scale	icon_018
+616	Deviljho Scale	Scale	icon_018
+617	Deviljho Hide	Hide	icon_017
+618	Deviljho Tallfang	Fang	icon_016
+619	Deviljho Talon	Fang	icon_016
+620	Deviljho Scalp	fallback	
+621	Deviljho Tail	fallback	
+622	Deviljho Saliva	fallback	
+623	Black Blood	Sac	icon_041
+624	Spattered Hide	Hide	icon_017
+625	Deviljho Gem	Monster-Jewel	icon_040
+627	Kirin Hide	Hide	icon_017
+628	Kirin Hide+	Hide	icon_017
+629	Kirin Mane	fallback	
+630	Kirin Thundertail	fallback	
+631	Kirin Azure Horn	Fang	icon_016
+632	Kirin Icehorn	Fang	icon_016
+633	Kirin Frost Tail	fallback	
+635	Daora Carapace	Carapace	icon_019
+636	Daora Claw+	Fang	icon_016
+637	Daora Tail	fallback	
+638	Daora Webbing	Webbing	icon_005
+639	Daora Horn+	Fang	icon_016
+640	Daora Gem	Monster-Jewel	icon_040
+641	Teostra Carapace	Carapace	icon_019
+642	Teostra Mane	fallback	
+644	Teostra Horn+	Fang	icon_016
+645	Fire Dragon Scale+	Scale	icon_018
+646	Teostra Claw+	Fang	icon_016
+647	Teostra Webbing	Webbing	icon_005
+648	Teostra Powder	fallback	
+649	Teostra Gem	Monster-Jewel	icon_040
+650	D.Mohran Shell	Shell	icon_080
+651	D.Mohran Carapace	Carapace	icon_019
+652	D.Mohran Bloodscale	Scale	icon_018
+653	D.Mohran Bloodscale+	Scale	icon_018
+654	D.Mohran Brace	fallback	
+655	D.Mohran Brace+	fallback	
+656	Brutal Horn	Fang	icon_016
+657	Brutal Horn+	Fang	icon_016
+658	Dah'renstone	Ore	icon_009
+659	Earth Dragongem	Monster-Jewel	icon_040
+660	Akantor Scale+	Scale	icon_018
+661	Akantor Carapace	Carapace	icon_019
+662	Akantor Tail	fallback	
+663	Akantor Hardclaw	Fang	icon_016
+664	Akantor Tallfang	Fang	icon_016
+665	Akantor Spike	fallback	
+666	Akantor Gem	Monster-Jewel	icon_040
+668	Fatalis Scale	Scale	icon_018
+669	Fatalis Shell	Shell	icon_080
+670	Fatalis Eye	fallback	
+671	Fatalis Webbing	Webbing	icon_005
+672	Fatalis Bloodhorn	Fang	icon_016
+673	Fatalis Bloodscale	Scale	icon_018
+674	Fatalis Bloodshell	Shell	icon_080
+675	Fatalis Devileye	fallback	
+676	Fatalis Bloodwing	Sac	icon_041
+677	Dalamadur Steel	fallback	
+678	Dalam Tail Scale	Scale	icon_018
+679	Dalamadur Gazer	fallback	
+680	Dalamadur Pectus	fallback	
+681	Dalamadur Glaive	fallback	
+682	Dalamadur Talon	Fang	icon_016
+683	Dalam Tail Shell	Shell	icon_080
+684	Dalamadur Fanblade	fallback	
+685	Vortex Bone	Bone	icon_020
+686	Skyblade Gem	Monster-Jewel	icon_040
+687	Shattered Omen	fallback	
+688	Frenzy Shard	Scale	icon_018
+689	Frenzy Crystal	Ore	icon_009
+690	Vile Frenzy Crystal	Ore	icon_009
+691	Small Lobstershell	Shell	icon_080
+692	Lobster Tail Fan	fallback	
+693	Plesioth Scale	Scale	icon_018
+694	Plesioth Fin	fallback	
+696	Arzuros Pelt	Hide	icon_017
+699	Vivid Feather	fallback	
+705	Ceanataur Shell	Shell	icon_080
+707	Uragaan Marrow	Sac	icon_041
+709	Nargacuga Blackfur	Hide	icon_017
+710	Nargacuga Marrow	Sac	icon_041
+713	Duramboros Horn	Fang	icon_016
+714	Lavasioth Scale	Scale	icon_018
+715	Lavasioth Fin	fallback	
+716	Diablos Shell	Shell	icon_080
+717	Majestic Horn	Fang	icon_016
+718	Lao-Shan Shell	Shell	icon_080
+719	Lao-Shan Claw	Fang	icon_016
+720	Lao-Shan Horn	Fang	icon_016
+722	Cephalos Fin+	fallback	
+723	Cephalos Scale+	Scale	icon_018
+724	Hermitaur Carapace	Carapace	icon_019
+725	Hermitaur Claw+	Fang	icon_016
+730	Barioth Pelt+	Hide	icon_017
+738	Lunastra Carapace	Carapace	icon_019
+741	Chameleos Gem	Monster-Jewel	icon_040
+743	Tsukami Fluid	Sac	icon_041
+746	Ukanlos Shoveljaw	Fang	icon_016
+747	Ukanlos Carapace	Carapace	icon_019
+748	Ukanlos Gem	Monster-Jewel	icon_040
+755	Alatreon Plate	Monster-Jewel	icon_040
+757	Skypiercer	fallback	
+760	Rusted Fragment	fallback	
+761	Ancient Fragment	fallback	
+831	Pinnacle Coin	Coin	icon_064
+832	Hunter King Coin	Coin	icon_064
+834	Beast Coin	Coin	icon_064
+839	Vermin Coin	Coin	icon_064
+840	Toad Coin	Coin	icon_064
+842	Voucher	Ticket	icon_054
+843	Gourmet Voucher	Ticket	icon_054
+844	Studio Pass	Ticket	icon_054
+852	Fan Club Invite	fallback	
+853	Monqlo Ticket	Ticket	icon_054
+854	Gold Studio Pass	Ticket	icon_054
+855	Platinum Pass	Ticket	icon_054
+857	Amulet Keepsake	fallback	
+863	Goddess's Melody	fallback	
+864	Goddess's Embrace	fallback	
+866	Uniqlo Ticket	Ticket	icon_054
+874	Fan Club Certificate	fallback	
+876	Goddess's Fire	fallback	
+877	Super Mushroom	Mushroom	icon_001
+879	D.Mohran Ticket	Ticket	icon_054
+881	Dalamadur Ticket	Ticket	icon_054
+882	Rajang Ticket	Ticket	icon_054
+883	Gore Magala Ticket	Ticket	icon_054
+885	Oroshi Kirin Ticket	Ticket	icon_054
+886	Commendation	fallback	
+887	Commendation G	fallback	
+888	Accolade	fallback	
+889	Accolade G	fallback	
+890	Caravan Ticket	Ticket	icon_054
+891	Palico Ticket	Ticket	icon_054
+892	Meownster Ticket	Ticket	icon_054
+893	Quester's Ticket	Ticket	icon_054
+894	Kushala Daora Ticket	Ticket	icon_054
+896	Pawprint Stamp	fallback	
+897	VE Ticket	Ticket	icon_054
+952	Royal Ludroth Scrap	Scraps	icon_073
+953	Plesioth Scrap	Scraps	icon_073
+955	Aquaglow Jewel	Jewel	icon_068
+956	Sunspire Jewel	Jewel	icon_068
+957	Bloodrun Jewel	Jewel	icon_068
+958	Lazurite Jewel	Jewel	icon_068
+959	Adamant Orb	Jewel	icon_068
+960	Antidote Jewel 1	Jewel	icon_068
+967	Standfast Jwl 1	fallback	
+970	Ninja Jewel 1	Jewel	icon_068
+971	Vitality Jewel 1	Jewel	icon_068
+974	Razor Jewel 1	Jewel	icon_068
+975	Razor Jewel 3	Jewel	icon_068
+978	Fencer Jewel 1	Jewel	icon_068
+979	Fencer Jewel 3	Jewel	icon_068
+983	Grinder Jewel 1	Jewel	icon_068
+984	Ironwall Jewel 1	Jewel	icon_068
+985	Ironwall Jewel 2	Jewel	icon_068
+986	Shield Jewel 1	Jewel	icon_068
+987	Shield Jewel 2	Jewel	icon_068
+988	Quickload Jwl 1	fallback	
+989	Quickload Jwl 2	fallback	
+990	Absorber Jewel 1	Jewel	icon_068
+994	Pierce Jewel 1	Jewel	icon_068
+1000	PiercePlus Jwl 1	fallback	
+1001	PelletPlus Jwl 1	fallback	
+1002	CragPlus Jewel 1	Jewel	icon_068
+1003	ClustPlus Jwl 1	fallback	
+1004	Disabler Jewel 1	Jewel	icon_068
+1005	Disabler Jewel 2	Jewel	icon_068
+1006	Element Jewel 1	Jewel	icon_068
+1007	Element Jewel 3	Jewel	icon_068
+1008	Bombardier Jwl 1	fallback	
+1009	Hungerless Jwl 1	fallback	
+1011	Attack Jewel 1	Jewel	icon_068
+1012	Attack Jewel 2	Jewel	icon_068
+1014	Defense Jewel 1	Jewel	icon_068
+1015	Defense Jewel 2	Jewel	icon_068
+1016	Protection Jwl 1	fallback	
+1017	Asylum Jewel 1	Jewel	icon_068
+1018	Earplug Jewel 1	Jewel	icon_068
+1019	Earplug Jewel 3	Jewel	icon_068
+1021	Friendship Jwl 1	fallback	
+1022	Friendship Jwl 2	fallback	
+1024	Fire Res Jewel 1	Jewel	icon_068
+1027	ThunderRes Jwl 1	fallback	
+1029	Heat Res Jewel 1	Jewel	icon_068
+1030	Cold Res Jewel 1	Jewel	icon_068
+1033	Gathering Jwl 1	fallback	
+1038	Psychic Jewel 1	Jewel	icon_068
+1045	Potential Jwl 1	fallback	
+1046	Potential Jwl 2	fallback	
+1047	Enduring Jewel 1	Jewel	icon_068
+1048	Sprinter Jewel 1	Jewel	icon_068
+1050	Capacity Jewel 2	Jewel	icon_068
+1052	Sniper Jewel 1	Jewel	icon_068
+1054	Gobbler Jewel 3	Jewel	icon_068
+1055	Carver Jewel 1	Fang	icon_016
+1058	Tectonic Jewel 1	Jewel	icon_068
+1059	Jumping Jewel 1	Jewel	icon_068
+1060	Draw Jewel 1	Jewel	icon_068
+1062	Trapmaster Jwl 1	fallback	
+1064	Physique Jewel 2	Jewel	icon_068
+1066	Capture Jewel 3	Jewel	icon_068
+1067	Perception Jwl 1	fallback	
+1068	Charger Jewel 1	Jewel	icon_068
+1069	Charger Jewel 3	Jewel	icon_068
+1070	Gambit Jewel 1	Jewel	icon_068
+1071	Gambit Jewel 3	Jewel	icon_068
+1072	Resistor Jewel 1	Jewel	icon_068
+1073	Release Jewel 2	Jewel	icon_068
+1074	Catalyst Jewel 3	Jewel	icon_068
+1075	Fortitude Jwl 1	fallback	
+1076	Fortitude Jwl 2	fallback	
+1086	Bolt Jewel 2	Jewel	icon_068
+1087	Frost Jewel 1	Jewel	icon_068
+1088	Frost Jewel 2	Jewel	icon_068
+1090	Dragon Jewel 2	Jewel	icon_068
+1093	Destroyer Jwl 1	fallback	
+1094	Destroyer Jwl 3	fallback	
+1095	Throttle Jewel 1	Jewel	icon_068
+1096	Throttle Jewel 2	Jewel	icon_068
+1097	KO Jewel 1	Jewel	icon_068
+1098	Drain Jewel 1	Jewel	icon_068
+1099	Drain Jewel 2	Jewel	icon_068
+1100	Sonorous Jewel 1	Jewel	icon_068
+1101	Artillery Jwl 1	fallback	
+1103	Nul-Fire Jewel 1	Jewel	icon_068
+1110	Refresh Jewel 1	Jewel	icon_068
+1111	Refresh Jewel 2	Jewel	icon_068
+1113	SlicePlus Jwl 1	fallback	
+1116	Sleepcoat Jwl 1	fallback	
+1122	Guts Jewel 1	Jewel	icon_068
+1129	Microbio Jewel 1	Jewel	icon_068
+1131	Spirit Jewel 2	Jewel	icon_068
+1132	Flawless Jewel 1	Jewel	icon_068
+1133	Flawless Jewel 2	Jewel	icon_068
+1134	Steady Jewel 1	Jewel	icon_068
+1135	Steady Jewel 3	Jewel	icon_068
+1140	KO Jewel 2	Jewel	icon_068
+1141	Charmer Jewel 1	Jewel	icon_068
+1181	Honed Jwl 1	fallback	
+1189	Hale Jwl 1	fallback	
+1197	Nimble Jwl 1	fallback	
+1202	Hardy Jwl 1	fallback	
+1214	Aegis Jwl 3	fallback	
+1215	Tactful Jwl 2	fallback	
+1216	Tactful Jwl 3	fallback	
+1218	Broad Jwl 3	fallback	
+1224	Avid Jwl 1	fallback	
+1228	Avid Jwl 3	fallback	
+1229	Power++ Nectar	fallback	
+1234	Nectar: Thunder++	fallback	
+1235	Nectar: Ice++	fallback	
+1258	Coinperch M	Fish	icon_002
+1259	Coinperch L	Fish	icon_002
+1260	Cathangeafish Fry	Fish	icon_002
+1261	Cathangeafish	Fish	icon_002
+1262	Dundorma Tuna	Fish	icon_002
+1264	Rathian Shard	Scale	icon_018
+1265	Rathian Cortex	Carapace	icon_019
+1266	Rathian Surspike	fallback	
+1267	Rathian Mantle	Monster-Jewel	icon_040
+1268	Rath Wingtalon+	Fang	icon_016
+1269	P.Rathian Shard	Scale	icon_018
+1270	P.Rathian Cortex	Carapace	icon_019
+1272	G.Rathian Cortex	Carapace	icon_019
+1273	G.Rath Surspike	fallback	
+1274	Firegleam Dollop	fallback	
+1275	Rathalos Shard	Scale	icon_018
+1276	Rathalos Cortex	Carapace	icon_019
+1277	Rathalos Lash	fallback	
+1278	Rathalos Fellwing	fallback	
+1279	Rathalos Mantle	Monster-Jewel	icon_040
+1280	A.Rathalos Shard	Scale	icon_018
+1281	A.Rathalos Cortex	Carapace	icon_019
+1283	S.Rathalos Shard	Scale	icon_018
+1284	S.Rath Cortex	Carapace	icon_019
+1285	S.Rath Lash	fallback	
+1286	Kut-Ku Shard	Scale	icon_018
+1287	Kut-Ku Cortex	Carapace	icon_019
+1288	Kut-Ku Fellwing	fallback	
+1289	Kut-Ku Luckear	fallback	
+1290	Blue Kut-Ku Shard	Scale	icon_018
+1292	Garuga Shard	Scale	icon_018
+1293	Garuga Cortex	Carapace	icon_019
+1294	Garuga Silverpelt	Hide	icon_017
+1295	Garuga Fellwing	fallback	
+1296	Garuga Lash	fallback	
+1297	Rubbery Finehide	Hide	icon_017
+1298	Gypceros Hardhead	fallback	
+1299	Rubbery Purple Hide+	Hide	icon_017
+1300	P.Gypceros Fellwing	fallback	
+1301	Tigrex Shard	Scale	icon_018
+1302	Tigrex Cortex	Carapace	icon_019
+1303	Tigrex Hardfang	Fang	icon_016
+1304	Tigrex Hardclaw	Fang	icon_016
+1305	Tigrex Lash	fallback	
+1306	Tigrex Mantle	Monster-Jewel	icon_040
+1307	B.Tigrex Shard	Scale	icon_018
+1308	B.Tigrex Cortex	Carapace	icon_019
+1309	B.Tigrex Hardfang	Fang	icon_016
+1310	B.Tigrex Hardclaw	Fang	icon_016
+1311	M.Tigrex Shard	Scale	icon_018
+1312	M.Tigrex Cortex	Carapace	icon_019
+1313	M.Tigrex Hardfang	Fang	icon_016
+1314	M.Tigrex Trigger	fallback	
+1315	M.Tigrex Lash	fallback	
+1316	Dire Blastheart	fallback	
+1318	Velocidrome Hardclaw	Fang	icon_016
+1319	Congalala Fur	Hide	icon_017
+1320	Congalala Hardclaw	Fang	icon_016
+1321	Beastly Fang	Fang	icon_016
+1322	E.Congalala Fur	Hide	icon_017
+1323	E.Congalala Hardclaw	Fang	icon_016
+1324	Vibrant Comb	fallback	
+1325	Rajang Wildpelt	Hide	icon_017
+1326	Rajang Hardhorn	Fang	icon_016
+1327	Rajang Hardfang	Fang	icon_016
+1328	Rajang Hardclaw	Fang	icon_016
+1329	Gold Rajang Pelt+	Hide	icon_017
+1330	Rajang Apoplexy	fallback	
+1331	Ghoulish Gold Gorer	Ore	icon_009
+1332	Rajang Heart	fallback	
+1333	Kecha Fur	Hide	icon_017
+1334	Kecha Leadbone	Bone	icon_020
+1335	Kecha Auricle	fallback	
+1336	Kecha Ripper	Fang	icon_016
+1337	Kecha Lash	fallback	
+1338	A.Kecha Fur	Hide	icon_017
+1339	A.Kecha Leadbone	Bone	icon_020
+1341	A.Kecha Ripper	Fang	icon_016
+1342	A.Kecha Lash	fallback	
+1343	Tetsucabra Shard	Scale	icon_018
+1344	Tetsucabra Cortex	Carapace	icon_019
+1345	Tetsucabra Gnawrl	Fang	icon_016
+1346	Tetsucabra Hardclaw	Fang	icon_016
+1347	Vicious Visage	Bone	icon_020
+1348	B.Tetsucabra Shard	Scale	icon_018
+1349	B.Tetsucabra Cortex	Carapace	icon_019
+1350	B.Tetsucabra Gnawrl	Fang	icon_016
+1351	B.TetsucabraHardclaw	Fang	icon_016
+1352	Zamtrios Shard	Scale	icon_018
+1353	Zamtrios Piel	Hide	icon_017
+1354	Zamtrios Grandfin	fallback	
+1355	Zamtrios Sawtooth+	Fang	icon_016
+1356	Zamtrios Tailbrand	fallback	
+1357	T.Zamtrios Shard	Scale	icon_018
+1358	T.Zamtrios Piel	Hide	icon_017
+1359	T.Zamtrios Grandfin	fallback	
+1360	T.Zamtrios Sawtooth+	Fang	icon_016
+1361	T.Zamtrios Tailbrand	fallback	
+1362	Najarala Piel	Hide	icon_017
+1363	Najarala Cortex	Carapace	icon_019
+1364	Heart-stopping Beak	Fang	icon_016
+1365	Najarala Ampsounder	fallback	
+1366	T.Najarala Piel	Hide	icon_017
+1367	T.Najarala Cortex	Carapace	icon_019
+1368	T.Najarala Splasher	fallback	
+1369	Dalamadur Steel+	fallback	
+1370	Dalamadur Glaive+	fallback	
+1371	Dalamadur Pectus+	fallback	
+1372	Dalamadur Ripper	Fang	icon_016
+1373	Dalamadur Fanblade+	fallback	
+1374	Dalam Tail Scale+	Scale	icon_018
+1375	Dalam Tail Shell+	Shell	icon_080
+1376	Skyblade Drgnsphire	fallback	
+1377	S.Dalamadur Steel+	fallback	
+1378	S.Dalamadur Glaive+	fallback	
+1379	S.Dalamadur Gazer	fallback	
+1380	S.Dalamadur Pectus+	fallback	
+1381	S.Dalamadur Ripper	Fang	icon_016
+1382	S.Dalam Fanblade+	fallback	
+1383	S.Dalam Tail Scale+	Scale	icon_018
+1384	S.Dalam Tail Shell+	Shell	icon_080
+1385	Seltas Cortex	Carapace	icon_019
+1386	Seltas Razorwing	fallback	
+1387	Seltas Hardhorn	Fang	icon_016
+1388	D.Seltas Cortex	Carapace	icon_019
+1389	D.Seltas Razorwing	fallback	
+1390	D.Seltas Hardhorn	Fang	icon_016
+1391	S.Queen Cortex	Carapace	icon_019
+1393	S.Queen Maw	fallback	
+1394	S.Queen Hardclaw	Fang	icon_016
+1395	S.Queen Moonlash	fallback	
+1396	D.S.QueenConcentrate	fallback	
+1397	D.S.Queen Cortex	Carapace	icon_019
+1398	D.S.Queen Pectus+	fallback	
+1399	D.S.Queen Maw	fallback	
+1400	D.S.Queen Hardclaw	Fang	icon_016
+1401	D.S.Queen Moonlash	fallback	
+1402	Nerscylla Cortex	Carapace	icon_019
+1403	Nerscylla Scishorn	Fang	icon_016
+1404	Nerscylla Hardclaw	Fang	icon_016
+1405	Nerscylla Surspike	fallback	
+1406	S.Nerscylla Cortex	Carapace	icon_019
+1407	S.Nerscylla Scishorn	Fang	icon_016
+1408	S.Nerscylla Hardclaw	Fang	icon_016
+1409	S.Nerscylla Surspike	fallback	
+1410	Gore Magala Shard	Scale	icon_018
+1411	Gore Magala Cortex	Carapace	icon_019
+1412	Gore Magala Sensor	Ore	icon_009
+1413	Gore Magala Shredder	Ore	icon_009
+1414	Gore Magala Eclipse	Ore	icon_009
+1415	Gore Magala Lash	Ore	icon_009
+1416	Gore Magala Mantle	Monster-Jewel	icon_040
+1417	Chaos Scale	Scale	icon_018
+1418	Diametrical Horn	Fang	icon_016
+1419	Antinomic Wing	fallback	
+1420	Contrary Scale	Scale	icon_018
+1421	S.Magala Shard	Scale	icon_018
+1422	S.Magala Cortex	Carapace	icon_019
+1423	S.Magala Hardhorn	Fang	icon_016
+1424	S.Magala Purifier	fallback	
+1425	S.Magala Lightwing	fallback	
+1427	S.Magala Mantle	Monster-Jewel	icon_040
+1428	Daora Cortex	Carapace	icon_019
+1429	Daora Hardhorn	Fang	icon_016
+1430	Daora Fellwing	fallback	
+1431	Daora Lash	fallback	
+1432	Daora Shard	Scale	icon_018
+1433	Daora Hardclaw	Fang	icon_016
+1434	Steelrust Drakeshell	Shell	icon_080
+1435	Silverpeak Corona	fallback	
+1436	Steelrust Claw	Fang	icon_016
+1437	Maelstriker Wing	fallback	
+1438	Steelrust Scale	Scale	icon_018
+1439	Flame Shard	Scale	icon_018
+1440	Teostra Cortex	Carapace	icon_019
+1441	Teostra Hardhorn	Fang	icon_016
+1442	Fire Dragon Hardclaw	Fang	icon_016
+1444	Akantor Shard	Scale	icon_018
+1446	Akantor Greatfang	Fang	icon_016
+1448	Akantor Thickspike	fallback	
+1450	Conquest Sphere	fallback	
+1451	Kirin Finehide	Hide	icon_017
+1452	Kirin Azure Peak	fallback	
+1453	Platinum Mane	fallback	
+1454	Kirin Thunderlash	fallback	
+1455	Kirin Ice Peak	fallback	
+1457	Pearl Glosshide	Hide	icon_017
+1458	Khezu Special Cut	fallback	
+1459	Alluring Glosshide	Hide	icon_017
+1460	Alluring Fellwing	fallback	
+1461	Basarios Cortex	Carapace	icon_019
+1463	R.Basarios Cortex	Carapace	icon_019
+1464	R.Basarios Fellwing	fallback	
+1465	Gravios Cortex	Carapace	icon_019
+1466	Gravios Crown	fallback	
+1467	Gravios Fellwing	fallback	
+1468	Gravios Pallium	Monster-Jewel	icon_040
+1469	B.Gravios Cortex	Carapace	icon_019
+1470	B.Gravios Crown	fallback	
+1471	B.Gravios Pallium	Monster-Jewel	icon_040
+1472	Deviljho Shard	Scale	icon_018
+1473	Deviljho Blackpiel	Hide	icon_017
+1474	Deviljho Hardfang	Fang	icon_016
+1475	Deviljho Ripper	Fang	icon_016
+1476	Deviljho Flail	fallback	
+1477	Deviljho Crook	fallback	
+1478	Bloodied Ebonhide	Hide	icon_017
+1479	Vile Fang	Fang	icon_016
+1480	Brach Cortex	Carapace	icon_019
+1481	Fine Brach Ebonshell	Shell	icon_080
+1482	Brach Crown	fallback	
+1483	Brach Pounder+	fallback	
+1484	Brach Lash	fallback	
+1485	Brach Pallium	Monster-Jewel	icon_040
+1486	Glowing Slime	fallback	
+1493	D.Mohran Rockskin	Hide	icon_017
+1494	D.Mohran Heavyscale	Scale	icon_018
+1495	Brutal Biter	fallback	
+1496	D.Mohran Allbrace	fallback	
+1497	Earth Dragonsphire	fallback	
+1498	Lagombi Fur	Hide	icon_017
+1499	Lagombi Auricle	fallback	
+1500	Zinogre Electrofur+	Hide	icon_017
+1501	Zinogre Cortex	Carapace	icon_019
+1502	Zinogre Hardhorn	Fang	icon_016
+1503	Zinogre Hardclaw	Fang	icon_016
+1504	Zinogre D-Shocker	fallback	
+1505	Zinogre Lash	fallback	
+1507	S.Zin Dragonlocks	fallback	
+1508	S.Zinogre Cortex	Carapace	icon_019
+1509	S.Zinogre Hardhorn	Fang	icon_016
+1510	S.Zinogre Hardclaw	Fang	icon_016
+1511	S.Zinogre Drakehold	fallback	
+1512	S.Zinogre Lash	fallback	
+1513	S.Zinogre Skymerald	fallback	
+1514	Seregios Slavescale	Scale	icon_018
+1515	Seregios Slavescale+	Scale	icon_018
+1516	Seregios Airblade	Fang	icon_016
+1517	Seregios Airblade+	Fang	icon_016
+1518	Seregios Carver	Fang	icon_016
+1519	Seregios Carver+	Fang	icon_016
+1521	Seregios Impaler+	fallback	
+1522	Seregios Breacher	fallback	
+1523	Seregios Breacher+	fallback	
+1524	Seregios Scraper	Scraps	icon_073
+1525	Seregios Scraper+	Scraps	icon_073
+1526	Seregios Dissenter	fallback	
+1527	Seregios Lens	fallback	
+1528	Gogmazios Battlement	fallback	
+1529	Gogmazios Fortress	fallback	
+1530	Gogmazios Gasher	fallback	
+1531	Gogmazios Offenders	fallback	
+1532	Gogmazios Fiberwing	fallback	
+1533	Gogmazios Briartail	fallback	
+1534	Wartorn Dragonsphire	fallback	
+1535	Heavy Drakesbone Oil	Bone	icon_020
+1536	Diablos Cortex	Carapace	icon_019
+1537	Diablos Chine	fallback	
+1538	Twisted Stouthorn	Fang	icon_016
+1539	Diablos Hardhorn	Fang	icon_016
+1540	Diablos Tailcase+	fallback	
+1541	Blos Medulla	Sac	icon_041
+1542	B.Diablos Cortex	Carapace	icon_019
+1543	B.Diablos Chine	fallback	
+1544	Blackcurl Stouthorn	Fang	icon_016
+1545	Monoblos Carapace	Carapace	icon_019
+1546	Monoblos Cortex	Carapace	icon_019
+1547	Monoblos Thoracic	fallback	
+1548	Monoblos Chine	fallback	
+1549	Scarlet Finehorn	Fang	icon_016
+1551	Monoblos Heart	fallback	
+1552	W.Monoblos Cortex	Carapace	icon_019
+1553	W.Monoblos Chine	fallback	
+1554	Argent Stouthorn	Fang	icon_016
+1555	Hermitaur Cortex	Carapace	icon_019
+1556	Hermitaur Hardclaw	Fang	icon_016
+1557	Black Pearl	fallback	
+1559	Wyvern Scalp	fallback	
+1560	Hermitaur Purpshell	Shell	icon_080
+1561	Hermitaur Purpclaw	Fang	icon_016
+1562	Cephalos Shard	Scale	icon_018
+1563	Cephalos Purpscale	Scale	icon_018
+1564	Cephalos Grandfin	fallback	
+1565	Cephalos Pinkfin	fallback	
+1566	Cephalos Fang+	Fang	icon_016
+1567	Cephalos Hardfang	Fang	icon_016
+1569	Ukanlos Cortex	Carapace	icon_019
+1570	Ukanlos Underscale	Scale	icon_018
+1571	Ukanlos Underscale+	Scale	icon_018
+1572	Ukanlos Tail	fallback	
+1573	Ukanlos Flail	fallback	
+1574	Ukanlos Digger	fallback	
+1575	Ukanlos Digger+	fallback	
+1576	Ukanlos Shoveljaw+	Fang	icon_016
+1577	Ukanlos Fin+	fallback	
+1578	Ukanlos Strongfin	fallback	
+1579	Ukanlos Stone	Ore	icon_009
+1580	Chameleos Finehide	Hide	icon_017
+1581	Chameleos Hardhorn	Fang	icon_016
+1582	Chameleos Fellwing	fallback	
+1583	Chameleos Lash	fallback	
+1584	Fatalis Shard	Scale	icon_018
+1585	Fatalis Cortex	Carapace	icon_019
+1586	Fatalis Hardhorn	Fang	icon_016
+1587	Fatalis Evil Eye	fallback	
+1588	Fatalis Fellwing	fallback	
+1589	Fatalis Flamescale	Scale	icon_018
+1590	Fatalis Flameshell	Shell	icon_080
+1591	Fatalis Flamehorn	Fang	icon_016
+1592	Fatalis Flamewing	fallback	
+1593	Fatalis Devileye+	fallback	
+1594	Old Fatalis Shard	Scale	icon_018
+1595	Old Fatalis Cortex	Carapace	icon_019
+1596	Old Fatalis Fellwing	fallback	
+1597	Old Fatalis Hardhorn	Fang	icon_016
+1598	Old Fatalis Souleye	fallback	
+1599	Deadly Poison Sac	Sac	icon_041
+1600	Conflagrant Sac	Sac	icon_041
+1601	Flood Sac	Sac	icon_041
+1602	Cryo Sac	Sac	icon_041
+1603	Lightning Sac	Sac	icon_041
+1604	Omniplegia Sac	Sac	icon_041
+1605	Coma Sac	Sac	icon_041
+1606	Fey Wyvern Gem	Monster-Jewel	icon_040
+1607	Paddock Cream	Sac	icon_041
+1608	Lrg ElderDragon Bone	Bone	icon_020
+1609	Lrg Elder Dragon Gem	Monster-Jewel	icon_040
+1610	Lrg Wyvern Gem	Monster-Jewel	icon_040
+1611	Monster Slogbone	Bone	icon_020
+1612	Dragonbone Artifact	Bone	icon_020
+1613	Massive Bone	Bone	icon_020
+1615	Rhenoplos Bone	Bone	icon_020
+1616	Avian Stoutbone	Bone	icon_020
+1617	Remobra Finehide	Hide	icon_017
+1618	Meaty Piel	Hide	icon_017
+1619	Crushing Fang	Fang	icon_016
+1620	Sml Hermitaur Shell	Shell	icon_080
+1621	Piercing Claw	Fang	icon_016
+1623	Konchu Cortex	Carapace	icon_019
+1624	Monster Essence	Sac	icon_041
+1629	Emperor Hopper	Bug	icon_006
+1630	Flutterfly	Bug	icon_006
+1631	Elder Bfly Beetle	Bug	icon_006
+1634	Meteor Crystal	Ore	icon_009
+1635	Eltalite Ore	Ore	icon_009
+1636	Meldspar Ore	Ore	icon_009
+1637	Allfire Stone	Ore	icon_009
+1638	Purecrystal	Ore	icon_009
+1639	Cosmicite Ore	Ore	icon_009
+1640	Distorted Fragment	QuestionMark	icon_069
+1641	Ultimate Abrasive	Whetstone	icon_066
+1642	Sovereign Orb	Jewel	icon_068
+1643	Strong Armor Sphere	Sphere	icon_065
+1644	Divine Armor Sphere	Sphere	icon_065
+1645	Pure Frenzy Crystal	Ore	icon_009
+1646	Zenith Wyvern Gem	Monster-Jewel	icon_040
+1647	Zenith Wyvern Gem L	Monster-Jewel	icon_040
+1655	Humble Scrap+	Scraps	icon_073
+1656	Handsome Scrap+	Scraps	icon_073
+1659	Rhenoplos Scrap+	Scraps	icon_073
+1660	Great Jaggi Scrap+	Scraps	icon_073
+1661	Bnahabra Scrap+	Scraps	icon_073
+1662	Bulldrome Scrap+	Scraps	icon_073
+1668	Yian Kut-Ku Scrap+	Scraps	icon_073
+1703	Gore Magala Scrap+	Scraps	icon_073
+1716	Black Belt Coin G	Coin	icon_064
+1717	Expert Coin G	Coin	icon_064
+1718	Legend Coin G	Coin	icon_064
+1720	Conqueror's Seal	fallback	
+1721	Conqueror's Seal G	fallback	
+1722	Caravan Ticket G	Ticket	icon_054
+1723	Immenseness Ticket	Ticket	icon_054
+1724	Immenseness Ticket S	Ticket	icon_054
+1727	Portable Steam Bomb	Smoke	icon_039
+1728	Disposable Earplugs	Sac	icon_041
+1729	Garrison Bllsta Ammo	Ammo	icon_048
+1730	Dense Marcoal	Coin	icon_064
+1737	Brach Warhead	fallback	
+1738	Brach Obliterator	fallback	
+1739	Immortal Reactor	fallback	
+1740	Flashpoint Slime	fallback	
+1741	G.Plesioth Shard	Scale	icon_018
+1742	Fine G.Plesioth Fin	fallback	
+1744	Royal Ludroth Scrap+	Scraps	icon_073
+1745	Plesioth Scrap+	Scraps	icon_073
+1748	S.Barioth Sharpclaw	Fang	icon_016
+1750	Qurupeco Shard	Scale	icon_018
+1753	Gobul Piel	Hide	icon_017
+1756	Arzuros Cortex	Carapace	icon_019
+1760	Barioth Thickfur	Hide	icon_017
+1761	Heavy Amber Tusk	Fang	icon_016
+1762	Barroth Cortex	Carapace	icon_019
+1773	Uragaan Pallium	Monster-Jewel	icon_040
+1775	Nargacuga Cutwing+	fallback	
+1776	Nargacuga Mantle	Monster-Jewel	icon_040
+1779	Lagiacrus Mantle	Monster-Jewel	icon_040
+1782	Lavasioth Shard	Scale	icon_018
+1783	Fine Lavasioth Fin	fallback	
+1785	Ceadeus Scale	Scale	icon_018
+1787	Deep Dragongem	Monster-Jewel	icon_040
+1788	Tsukami Fillet	fallback	
+1789	Ancient Dragonmoss	fallback	
+1792	Mohran Allbrace	fallback	
+1793	Deific Fang	Fang	icon_016
+1795	Lunastra Tail	fallback	
+1796	Lao-Shan Azure Claw	Fang	icon_016
+1797	Miralis Scale	Scale	icon_018
+1798	Miralis Smelter	fallback	
+1800	A.Lagi D-Shocker	fallback	
+1801	A.Lagi Dynamo	fallback	
+1804	Lao-Shan Cortex	Carapace	icon_019
+1806	Lao-Shan Mantle	Monster-Jewel	icon_040
+1808	Amatsu Webbing	Webbing	icon_005
+1810	Alatreon Mantle	Monster-Jewel	icon_040
+1811	Alatreon Riptalon	Fang	icon_016
+1812	Azure Dragonsphire	fallback	
+1818	CritElementJwl 1	fallback	
+1820	Crit Status Jwl 1	fallback	
+1821	Crit Status Jwl 2	fallback	
+1822	Precise Jewel 1	Jewel	icon_068
+1823	Precise Jewel 2	Jewel	icon_068
+1824	Fungiform Jewel 1	Jewel	icon_068
+1826	Staunch Jewel 1	Jewel	icon_068
+1827	Clean Jewel 1	Jewel	icon_068
+1828	Rodeo Jewel 1	Jewel	icon_068
+1829	Sane Jewel 1	Jewel	icon_068
+1830	Sane Jewel 3	Jewel	icon_068
+1831	Artisan Jewel 3	Jewel	icon_068
+1832	Defense Jewel 3	Jewel	icon_068
+1833	TrueCatalystJwl 3	fallback	
+1834	Cutting Jwl 1	fallback	
+1841	True Arcane Jwl 3	fallback	
+1846	Supplicant Jwl 1	fallback	
+1868	True Aegis Jwl 3	fallback	
+1874	Laden Jewel 3	Jewel	icon_068
+1875	Daimyo Coin	Coin	icon_064
+1876	Argosy Ticket	Ticket	icon_054
+1877	Yukumo Ticket	Ticket	icon_054
+1878	Felcote Ticket	Ticket	icon_054
+1879	Shakalaka Ticket	Ticket	icon_054
+1880	Instructor's Ticket	Ticket	icon_054
+1881	Guild Clerk Ticket	Ticket	icon_054
+1882	Jumbo Ticket	Ticket	icon_054
+1883	Hunter's Ticket	Ticket	icon_054
+1884	Deviljho Ticket	Ticket	icon_054
+1885	Amatsu Ticket	Ticket	icon_054
+1887	Wonderful Pass	Ticket	icon_054
+1888	Special Pass	Ticket	icon_054
+1893	Clockwork Blueprint	fallback	
+1895	Fan Club Newsletter	fallback	
+1896	Fan Club Cheer	fallback	
+1897	E-Tank	fallback	
+1898	Vintage Meat Ticket	Ticket	icon_054
+1899	Fake Catalog	fallback	
+1900	Recruitment Poster	fallback	
+1901	Hero's Seal	fallback	
+1902	Design Pattern	fallback	
+1903	Weapon Data	fallback	
+1905	The Tale of Poogie	fallback	
+1906	Goddess's Grace	fallback	
+1907	Gold Ring	fallback	
+1908	Festival Drum Music	fallback	
+1918	Flying Coin G	Coin	icon_064
+1919	Brute Coin G	Coin	icon_064
+1920	Vermin Coin G	Coin	icon_064
+1921	Toad Coin G	Coin	icon_064
+1922	Snake Coin G	Coin	icon_064
+1923	Ace Ticket	Ticket	icon_054
+1926	Jumping Jewel 2	Jewel	icon_068

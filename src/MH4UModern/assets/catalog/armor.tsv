@@ -1,0 +1,3088 @@
+name	database_id	slot	rarity	defense	max_defense	fire_res	water_res	thunder_res	ice_res	dragon_res	gender	hunter_type	num_slots
+Ace Coat	4486	Waist	9	50	91	4	1	1	1	3	Male	Gunner	1
+Ace Faulds	4481	Waist	9	92	141	3	0	0	0	2	Male	Blade	1
+Ace Greaves	4482	Legs	9	92	141	3	0	0	0	2	Male	Blade	3
+Ace Guards	4485	Arms	9	50	91	4	1	1	1	3	Male	Gunner	3
+Ace Headgear	4478	Head	9	92	141	3	0	0	0	2	Male	Blade	1
+Ace Leggings	4487	Legs	9	50	91	4	1	1	1	3	Male	Gunner	3
+Ace Mail	4479	Body	9	92	141	3	0	0	0	2	Male	Blade	2
+Ace Mask	4483	Head	9	50	91	4	1	1	1	3	Male	Gunner	1
+Ace Vambraces	4480	Arms	9	92	141	3	0	0	0	2	Male	Blade	3
+Ace Vest	4484	Body	9	50	91	4	1	1	1	3	Male	Gunner	2
+Acorn Helm	4909	Head	10	40	92	2	2	0	-2	0	Both	Both	0
+Adamance Archbraces	3338	Arms	7	64	127	3	2	-4	3	-4	Female	Blade	2
+Adamance Archgirdle	3339	Waist	7	64	127	3	2	-4	3	-4	Female	Blade	1
+Adamance Archhelm	3336	Head	7	64	127	3	2	-4	3	-4	Female	Blade	2
+Adamance Archplate	3337	Body	7	64	127	3	2	-4	3	-4	Female	Blade	0
+Adamance Archpleats	3340	Legs	7	64	127	3	2	-4	3	-4	Female	Blade	0
+Adamance Braces	2312	Arms	3	26	126	2	1	-3	2	-3	Female	Blade	0
+Adamance Girdle	2313	Waist	3	26	126	2	1	-3	2	-3	Female	Blade	1
+Adamance Helm	2310	Head	3	26	126	2	1	-3	2	-3	Female	Blade	2
+Adamance Plate	2311	Body	3	26	126	2	1	-3	2	-3	Female	Blade	1
+Adamance Pleats	2314	Legs	3	26	126	2	1	-3	2	-3	Female	Blade	0
+Aelucanth Alae	2706	Waist	4	9	75	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Alae X	4156	Waist	8	50	91	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Brachia	2700	Arms	4	18	120	-4	0	3	-1	1	Male	Blade	1
+Aelucanth Brachia X	4150	Arms	8	92	141	-4	0	3	-1	1	Male	Blade	1
+Aelucanth Clypeus	2703	Head	4	9	75	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Clypeus X	4153	Head	8	50	91	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Crura	2702	Legs	4	18	120	-4	0	3	-1	1	Male	Blade	2
+Aelucanth Crura X	4152	Legs	8	92	141	-4	0	3	-1	1	Male	Blade	2
+Aelucanth Elytra	2701	Waist	4	18	120	-4	0	3	-1	1	Male	Blade	1
+Aelucanth Elytra X	4151	Waist	8	92	141	-4	0	3	-1	1	Male	Blade	1
+Aelucanth Manus	2705	Arms	4	9	75	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Manus X	4155	Arms	8	50	91	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Pleuron	2704	Body	4	9	75	-3	1	4	0	2	Male	Gunner	1
+Aelucanth Pleuron X	4154	Body	8	50	91	-3	1	4	0	2	Male	Gunner	0
+Aelucanth Tarsi	2707	Legs	4	9	75	-3	1	4	0	2	Male	Gunner	2
+Aelucanth Tarsi X	4157	Legs	8	50	91	-3	1	4	0	2	Male	Gunner	2
+Aelucanth Thorax	2699	Body	4	18	120	-4	0	3	-1	1	Male	Blade	1
+Aelucanth Thorax X	4149	Body	8	92	141	-4	0	3	-1	1	Male	Blade	0
+Aelucanth Vertex	2698	Head	4	18	120	-4	0	3	-1	1	Male	Blade	1
+Aelucanth Vertex X	4148	Head	8	92	141	-4	0	3	-1	1	Male	Blade	1
+Agnaktor Cap	3168	Head	6	30	80	4	-4	1	0	1	Both	Gunner	0
+Agnaktor Cap X	4105	Head	8	47	90	4	-4	1	0	1	Both	Gunner	0
+Agnaktor Coat	3171	Waist	6	30	80	4	-4	1	0	1	Both	Gunner	2
+Agnaktor Coat X	4108	Waist	8	47	90	4	-4	1	0	1	Both	Gunner	3
+Agnaktor Faulds	3166	Waist	6	59	126	3	-5	0	-1	0	Both	Blade	1
+Agnaktor Faulds X	4103	Waist	8	88	139	3	-5	0	-1	0	Both	Blade	3
+Agnaktor Greaves	3167	Legs	6	59	126	3	-5	0	-1	0	Both	Blade	1
+Agnaktor Greaves X	4104	Legs	8	88	139	3	-5	0	-1	0	Both	Blade	2
+Agnaktor Guards	3170	Arms	6	30	80	4	-4	1	0	1	Both	Gunner	1
+Agnaktor Guards X	4107	Arms	8	47	90	4	-4	1	0	1	Both	Gunner	3
+Agnaktor Helm	3163	Head	6	59	126	3	-5	0	-1	0	Both	Blade	0
+Agnaktor Helm X	4100	Head	8	88	139	3	-5	0	-1	0	Both	Blade	0
+Agnaktor Leggings	3172	Legs	6	30	80	4	-4	1	0	1	Both	Gunner	1
+Agnaktor Leggings X	4109	Legs	8	47	90	4	-4	1	0	1	Both	Gunner	2
+Agnaktor Mail	3164	Body	6	59	126	3	-5	0	-1	0	Both	Blade	1
+Agnaktor Mail X	4101	Body	8	88	139	3	-5	0	-1	0	Both	Blade	0
+Agnaktor Vambraces	3165	Arms	6	59	126	3	-5	0	-1	0	Both	Blade	2
+Agnaktor Vambraces X	4102	Arms	8	88	139	3	-5	0	-1	0	Both	Blade	3
+Agnaktor Vest	3169	Body	6	30	80	4	-4	1	0	1	Both	Gunner	1
+Agnaktor Vest X	4106	Body	8	47	90	4	-4	1	0	1	Both	Gunner	0
+Akantor Aegis	3357	Body	7	65	128	4	0	-3	2	-5	Both	Blade	1
+Akantor Aegis X	4664	Body	10	110	150	4	0	-3	2	-5	Both	Blade	2
+Akantor Boots	3365	Legs	7	33	81	5	1	-2	3	-4	Both	Gunner	0
+Akantor Boots X	4672	Legs	10	64	97	5	1	-2	3	-4	Both	Gunner	0
+Akantor Cincture	3359	Waist	7	65	128	4	0	-3	2	-5	Both	Blade	2
+Akantor Cincture X	4666	Waist	10	110	150	4	0	-3	2	-5	Both	Blade	2
+Akantor Claws	3358	Arms	7	65	128	4	0	-3	2	-5	Both	Blade	1
+Akantor Claws X	4665	Arms	10	110	150	4	0	-3	2	-5	Both	Blade	2
+Akantor Fangs	3361	Head	7	33	81	5	1	-2	3	-4	Both	Gunner	1
+Akantor Fangs X	4668	Head	10	64	97	5	1	-2	3	-4	Both	Gunner	2
+Akantor Gauntlets	3363	Arms	7	33	81	5	1	-2	3	-4	Both	Gunner	1
+Akantor Gauntlets X	4670	Arms	10	64	97	5	1	-2	3	-4	Both	Gunner	2
+Akantor Hessian	3360	Legs	7	65	128	4	0	-3	2	-5	Both	Blade	0
+Akantor Hessian X	4667	Legs	10	110	150	4	0	-3	2	-5	Both	Blade	0
+Akantor Mask	3356	Head	7	65	128	4	0	-3	2	-5	Both	Blade	0
+Akantor Mask X	4663	Head	10	110	150	4	0	-3	2	-5	Both	Blade	1
+Akantor Plate	3362	Body	7	33	81	5	1	-2	3	-4	Both	Gunner	1
+Akantor Plate X	4669	Body	10	64	97	5	1	-2	3	-4	Both	Gunner	2
+Akantor Sash	3364	Waist	7	33	81	5	1	-2	3	-4	Both	Gunner	2
+Akantor Sash X	4671	Waist	10	64	97	5	1	-2	3	-4	Both	Gunner	2
+Alloy Cap	1954	Head	1	4	73	0	2	-1	0	1	Both	Gunner	1
+Alloy Cap S	2679	Head	4	14	75	0	3	-2	-1	1	Both	Gunner	0
+Alloy Coat	1957	Waist	1	4	73	0	2	-1	0	1	Both	Gunner	0
+Alloy Coat S	2682	Waist	4	14	75	0	3	-2	-1	1	Both	Gunner	0
+Alloy Coil	1952	Waist	1	8	114	-1	1	-2	-1	0	Both	Blade	0
+Alloy Coil S	2677	Waist	4	28	116	-1	2	-3	-2	0	Both	Blade	0
+Alloy Greaves	1953	Legs	1	8	114	-1	1	-2	-1	0	Both	Blade	0
+Alloy Greaves S	2678	Legs	4	28	116	-1	2	-3	-2	0	Both	Blade	0
+Alloy Guards	1956	Arms	1	4	73	0	2	-1	0	1	Both	Gunner	1
+Alloy Guards S	2681	Arms	4	14	75	0	3	-2	-1	1	Both	Gunner	0
+Alloy Helm	1949	Head	1	8	114	-1	1	-2	-1	0	Both	Blade	1
+Alloy Helm S	2674	Head	4	28	116	-1	2	-3	-2	0	Both	Blade	0
+Alloy Leggings	1958	Legs	1	4	73	0	2	-1	0	1	Both	Gunner	0
+Alloy Leggings S	2683	Legs	4	14	75	0	3	-2	-1	1	Both	Gunner	0
+Alloy Mail	1950	Body	1	8	114	-1	1	-2	-1	0	Both	Blade	1
+Alloy Mail S	2675	Body	4	28	116	-1	2	-3	-2	0	Both	Blade	0
+Alloy Vambraces	1951	Arms	1	8	114	-1	1	-2	-1	0	Both	Blade	1
+Alloy Vambraces S	2676	Arms	4	28	116	-1	2	-3	-2	0	Both	Blade	0
+Alloy Vest	1955	Body	1	4	73	0	2	-1	0	1	Both	Gunner	1
+Alloy Vest S	2680	Body	4	14	75	0	3	-2	-1	1	Both	Gunner	0
+Amagi Hachigane	3581	Head	7	34	81	4	2	1	-3	-3	Female	Gunner	2
+Amagi Hakama	3585	Legs	7	34	81	4	2	1	-3	-3	Female	Gunner	0
+Amagi Koshiate	3584	Waist	7	34	81	4	2	1	-3	-3	Female	Gunner	1
+Amagi Kote	3583	Arms	7	34	81	4	2	1	-3	-3	Female	Gunner	2
+Amagi Muneate	3582	Body	7	34	81	4	2	1	-3	-3	Female	Gunner	1
+Amplifeathers	4539	Head	9	53		0	0	0	0	0	Both	Both	0
+Arc Cap	2325	Head	3	12	78	-2	4	1	2	-4	Male	Gunner	2
+Arc Cap S	3271	Head	7	33	81	-3	5	1	4	-5	Male	Gunner	2
+Arc Cap X	4548	Head	10	63	98	-3	5	1	4	-5	Male	Gunner	2
+Arc Coat	2328	Waist	3	12	78	-2	4	1	2	-4	Male	Gunner	1
+Arc Coat S	3274	Waist	7	33	81	-3	5	1	4	-5	Male	Gunner	1
+Arc Coat X	4551	Waist	10	63	98	-3	5	1	4	-5	Male	Gunner	2
+Arc Faulds	2323	Waist	3	24	126	-3	3	0	1	-5	Male	Blade	1
+Arc Faulds S	3269	Waist	7	65	128	-4	4	0	3	-6	Male	Blade	1
+Arc Faulds X	4546	Waist	10	109	151	-4	4	0	3	-6	Male	Blade	2
+Arc Greaves	2324	Legs	3	24	126	-3	3	0	1	-5	Male	Blade	2
+Arc Greaves S	3270	Legs	7	65	128	-4	4	0	3	-6	Male	Blade	2
+Arc Greaves X	4547	Legs	10	109	151	-4	4	0	3	-6	Male	Blade	3
+Arc Guards	2327	Arms	3	12	78	-2	4	1	2	-4	Male	Gunner	1
+Arc Guards S	3273	Arms	7	33	81	-3	5	1	4	-5	Male	Gunner	0
+Arc Guards X	4550	Arms	10	63	98	-3	5	1	4	-5	Male	Gunner	1
+Arc Helm	2320	Head	3	24	126	-3	3	0	1	-5	Male	Blade	1
+Arc Helm S	3266	Head	7	65	128	-4	4	0	3	-6	Male	Blade	1
+Arc Helm X	4543	Head	10	109	151	-4	4	0	3	-6	Male	Blade	1
+Arc Leggings	2329	Legs	3	12	78	-2	4	1	2	-4	Male	Gunner	2
+Arc Leggings S	3275	Legs	7	33	81	-3	5	1	4	-5	Male	Gunner	2
+Arc Leggings X	4552	Legs	10	63	98	-3	5	1	4	-5	Male	Gunner	3
+Arc Mail	2321	Body	3	24	126	-3	3	0	1	-5	Male	Blade	1
+Arc Mail S	3267	Body	7	65	128	-4	4	0	3	-6	Male	Blade	1
+Arc Mail X	4544	Body	10	109	151	-4	4	0	3	-6	Male	Blade	2
+Arc Vambraces	2322	Arms	3	24	126	-3	3	0	1	-5	Male	Blade	1
+Arc Vambraces S	3268	Arms	7	65	128	-4	4	0	3	-6	Male	Blade	0
+Arc Vambraces X	4545	Arms	10	109	151	-4	4	0	3	-6	Male	Blade	1
+Arc Vest	2326	Body	3	12	78	-2	4	1	2	-4	Male	Gunner	1
+Arc Vest S	3272	Body	7	33	81	-3	5	1	4	-5	Male	Gunner	1
+Arc Vest X	4549	Body	10	63	98	-3	5	1	4	-5	Male	Gunner	1
+Archer's Belt	3241	Waist	6	27	79	1	1	1	1	1	Both	Gunner	2
+Archer's Espadrilles	3242	Legs	6	27	79	1	1	1	1	1	Both	Gunner	1
+Archer's Gauntlets	3240	Arms	6	27	79	1	1	1	1	1	Both	Gunner	0
+Archer's Girdle	3239	Body	6	27	79	1	1	1	1	1	Both	Gunner	0
+Archer's Turban	3238	Head	6	27	79	1	1	1	1	1	Both	Gunner	2
+Artian Cap S	3013	Head	5	26	79	1	-2	-2	3	4	Both	Gunner	1
+Artian Cap X	4453	Head	9	50	91	1	-2	-2	3	4	Both	Gunner	2
+Artian Coat S	3016	Waist	5	26	79	1	-2	-2	3	4	Both	Gunner	2
+Artian Coat X	4456	Waist	9	50	91	1	-2	-2	3	4	Both	Gunner	2
+Artian Coil S	3011	Waist	5	51	122	0	-3	-3	2	3	Both	Blade	2
+Artian Coil X	4451	Waist	9	92	141	0	-3	-3	2	3	Both	Blade	2
+Artian Greaves	2432	Legs	3	20	122	0	-3	-3	1	2	Both	Blade	1
+Artian Greaves S	3012	Legs	5	51	122	0	-3	-3	2	3	Both	Blade	1
+Artian Greaves X	4452	Legs	9	92	141	0	-3	-3	2	3	Both	Blade	1
+Artian Guards	2434	Arms	3	10	76	1	-2	-2	2	3	Both	Gunner	1
+Artian Guards S	3015	Arms	5	26	79	1	-2	-2	3	4	Both	Gunner	2
+Artian Guards X	4455	Arms	9	50	91	1	-2	-2	3	4	Both	Gunner	2
+Artian Helm S	3008	Head	5	51	122	0	-3	-3	2	3	Both	Blade	1
+Artian Helm X	4448	Head	9	92	141	0	-3	-3	2	3	Both	Blade	2
+Artian Leggings	2435	Legs	3	10	76	1	-2	-2	2	3	Both	Gunner	1
+Artian Leggings S	3017	Legs	5	26	79	1	-2	-2	3	4	Both	Gunner	1
+Artian Leggings X	4457	Legs	9	50	91	1	-2	-2	3	4	Both	Gunner	1
+Artian Mail	2430	Body	3	20	122	0	-3	-3	1	2	Both	Blade	1
+Artian Mail S	3009	Body	5	51	122	0	-3	-3	2	3	Both	Blade	2
+Artian Mail X	4449	Body	9	92	141	0	-3	-3	2	3	Both	Blade	2
+Artian Vambraces	2431	Arms	3	20	122	0	-3	-3	1	2	Both	Blade	1
+Artian Vambraces S	3010	Arms	5	51	122	0	-3	-3	2	3	Both	Blade	2
+Artian Vambraces X	4450	Arms	9	92	141	0	-3	-3	2	3	Both	Blade	2
+Artian Vest	2433	Body	3	10	76	1	-2	-2	2	3	Both	Gunner	1
+Artian Vest S	3014	Body	5	26	79	1	-2	-2	3	4	Both	Gunner	2
+Artian Vest X	4454	Body	9	50	91	1	-2	-2	3	4	Both	Gunner	2
+Arzuros Cap	2165	Head	2	7	74	-1	2	1	0	2	Both	Gunner	2
+Arzuros Coat	2168	Waist	2	7	74	-1	2	1	0	2	Both	Gunner	1
+Arzuros Faulds	2163	Waist	2	13	117	-2	1	0	-1	1	Both	Blade	1
+Arzuros Greaves	2164	Legs	2	13	117	-2	1	0	-1	1	Both	Blade	0
+Arzuros Guards	2167	Arms	2	7	74	-1	2	1	0	2	Both	Gunner	1
+Arzuros Helm	2160	Head	2	13	117	-2	1	0	-1	1	Both	Blade	1
+Arzuros Leggings	2169	Legs	2	7	74	-1	2	1	0	2	Both	Gunner	0
+Arzuros Mail	2161	Body	2	13	117	-2	1	0	-1	1	Both	Blade	1
+Arzuros Vambraces	2162	Arms	2	13	117	-2	1	0	-1	1	Both	Blade	1
+Arzuros Vest	2166	Body	2	7	74	-1	2	1	0	2	Both	Gunner	1
+Auroros Gauntlets	2412	Arms	3	26	126	-2	2	0	2	-4	Male	Blade	1
+Auroros Helm	2410	Head	3	26	126	-2	2	0	2	-4	Male	Blade	1
+Auroros Pants	2414	Legs	3	26	126	-2	2	0	2	-4	Male	Blade	2
+Auroros Tassets	2413	Waist	3	26	126	-2	2	0	2	-4	Male	Blade	1
+Auroros Torso	2411	Body	3	26	126	-2	2	0	2	-4	Male	Blade	1
+Barioth Cap	2973	Head	5	29	80	-4	1	0	4	1	Both	Gunner	1
+Barioth Cap X	4095	Head	8	47	90	-4	1	0	4	1	Both	Gunner	1
+Barioth Coat	2976	Waist	5	29	80	-4	1	0	4	1	Both	Gunner	0
+Barioth Coat X	4098	Waist	8	47	90	-4	1	0	4	1	Both	Gunner	0
+Barioth Faulds	2971	Waist	5	57	126	-5	0	-1	3	0	Both	Blade	0
+Barioth Faulds X	4093	Waist	8	87	138	-5	0	-1	3	0	Both	Blade	0
+Barioth Greaves	2972	Legs	5	57	126	-5	0	-1	3	0	Both	Blade	1
+Barioth Greaves X	4094	Legs	8	87	138	-5	0	-1	3	0	Both	Blade	1
+Barioth Guards	2975	Arms	5	29	80	-4	1	0	4	1	Both	Gunner	1
+Barioth Guards X	4097	Arms	8	47	90	-4	1	0	4	1	Both	Gunner	1
+Barioth Helm	2968	Head	5	57	126	-5	0	-1	3	0	Both	Blade	1
+Barioth Helm X	4090	Head	8	87	138	-5	0	-1	3	0	Both	Blade	1
+Barioth Leggings	2977	Legs	5	29	80	-4	1	0	4	1	Both	Gunner	1
+Barioth Leggings X	4099	Legs	8	47	90	-4	1	0	4	1	Both	Gunner	1
+Barioth Mail	2969	Body	5	57	126	-5	0	-1	3	0	Both	Blade	2
+Barioth Mail X	4091	Body	8	87	138	-5	0	-1	3	0	Both	Blade	2
+Barioth Vambraces	2970	Arms	5	57	126	-5	0	-1	3	0	Both	Blade	1
+Barioth Vambraces X	4092	Arms	8	87	138	-5	0	-1	3	0	Both	Blade	1
+Barioth Vest	2974	Body	5	29	80	-4	1	0	4	1	Both	Gunner	2
+Barioth Vest X	4096	Body	8	47	90	-4	1	0	4	1	Both	Gunner	2
+Barrage Earring	4542	Head	9	64	97	0	0	0	0	0	Both	Blade	0
+Barroth Cap	2185	Head	2	8	74	1	1	2	-1	1	Both	Gunner	1
+Barroth Cap X	4065	Head	8	45	88	1	1	2	-1	1	Both	Gunner	1
+Barroth Coat	2188	Waist	2	8	74	5	-3	2	-1	1	Both	Gunner	1
+Barroth Coat X	4068	Waist	8	45	88	5	-3	2	-1	1	Both	Gunner	1
+Barroth Faulds	2183	Waist	2	18	120	4	-4	1	-2	0	Both	Blade	1
+Barroth Faulds X	4063	Waist	8	85	136	4	-4	1	-2	0	Both	Blade	1
+Barroth Greaves	2184	Legs	2	18	120	4	-4	1	-2	0	Both	Blade	1
+Barroth Greaves X	4064	Legs	8	85	136	4	-4	1	-2	0	Both	Blade	2
+Barroth Guards	2187	Arms	2	8	74	-3	5	2	-1	1	Both	Gunner	0
+Barroth Guards X	4067	Arms	8	45	88	-3	5	2	-1	1	Both	Gunner	1
+Barroth Helm	2180	Head	2	18	120	0	0	1	-2	0	Both	Blade	1
+Barroth Helm X	4060	Head	8	85	136	0	0	1	-2	0	Both	Blade	1
+Barroth Leggings	2189	Legs	2	8	74	5	-3	2	-1	1	Both	Gunner	1
+Barroth Leggings X	4069	Legs	8	45	88	5	-3	2	-1	1	Both	Gunner	2
+Barroth Mail	2181	Body	2	18	120	-4	4	1	-2	0	Both	Blade	0
+Barroth Mail X	4061	Body	8	85	136	-4	4	1	-2	0	Both	Blade	0
+Barroth Vambraces	2182	Arms	2	18	120	-4	4	1	-2	0	Both	Blade	1
+Barroth Vambraces X	4062	Arms	8	85	136	-4	4	1	-2	0	Both	Blade	1
+Barroth Vest	2186	Body	2	8	74	-3	5	2	-1	1	Both	Gunner	0
+Barroth Vest X	4066	Body	8	45	88	-3	5	2	-1	1	Both	Gunner	0
+Basarios Cap	2155	Head	2	9	75	1	-1	2	2	-2	Both	Gunner	2
+Basarios Cap S	2923	Head	5	25	79	0	-1	2	2	-2	Both	Gunner	1
+Basarios Cap U	3138	Head	6	27	79	1	-1	1	-2	2	Both	Gunner	1
+Basarios Cap X	4035	Head	8	46	89	0	-1	2	2	-2	Both	Gunner	1
+Basarios Cap Z	4045	Head	8	47	90	1	-1	1	-2	2	Both	Gunner	2
+Basarios Coat	2158	Waist	2	9	75	1	-1	2	2	-2	Both	Gunner	2
+Basarios Coat S	2926	Waist	5	25	79	0	-1	2	2	-2	Both	Gunner	1
+Basarios Coat U	3141	Waist	6	27	79	1	-1	1	-2	2	Both	Gunner	1
+Basarios Coat X	4038	Waist	8	46	89	0	-1	2	2	-2	Both	Gunner	1
+Basarios Coat Z	4048	Waist	8	47	90	1	-1	1	-2	2	Both	Gunner	1
+Basarios Greaves	2154	Legs	2	18	120	0	-2	1	1	-3	Both	Blade	1
+Basarios Greaves S	2922	Legs	5	50	121	-1	-2	1	1	-3	Both	Blade	2
+Basarios Greaves U	3137	Legs	6	53	124	0	-2	0	-3	1	Both	Blade	2
+Basarios Greaves X	4034	Legs	8	86	137	-1	-2	1	1	-3	Both	Blade	2
+Basarios Greaves Z	4044	Legs	8	88	139	0	-2	0	-3	1	Both	Blade	2
+Basarios Guards	2157	Arms	2	9	75	1	-1	2	2	-2	Both	Gunner	1
+Basarios Guards S	2925	Arms	5	25	79	0	-1	2	2	-2	Both	Gunner	2
+Basarios Guards U	3140	Arms	6	27	79	1	-1	1	-2	2	Both	Gunner	2
+Basarios Guards X	4037	Arms	8	46	89	0	-1	2	2	-2	Both	Gunner	2
+Basarios Guards Z	4047	Arms	8	47	90	1	-1	1	-2	2	Both	Gunner	2
+Basarios Helm	2150	Head	2	18	120	0	-2	1	1	-3	Both	Blade	2
+Basarios Helm S	2918	Head	5	50	121	-1	-2	1	1	-3	Both	Blade	1
+Basarios Helm U	3133	Head	6	53	124	0	-2	0	-3	1	Both	Blade	1
+Basarios Helm X	4030	Head	8	86	137	-1	-2	1	1	-3	Both	Blade	1
+Basarios Helm Z	4040	Head	8	88	139	0	-2	0	-3	1	Both	Blade	1
+Basarios Leggings	2159	Legs	2	9	75	1	-1	2	2	-2	Both	Gunner	1
+Basarios Leggings S	2927	Legs	5	25	79	0	-1	2	2	-2	Both	Gunner	2
+Basarios Leggings U	3142	Legs	6	27	79	1	-1	1	-2	2	Both	Gunner	2
+Basarios Leggings X	4039	Legs	8	46	89	0	-1	2	2	-2	Both	Gunner	2
+Basarios Leggings Z	4049	Legs	8	47	90	1	-1	1	-2	2	Both	Gunner	2
+Basarios Mail	2151	Body	2	18	120	0	-2	1	1	-3	Both	Blade	0
+Basarios Mail S	2919	Body	5	50	121	-1	-2	1	1	-3	Both	Blade	1
+Basarios Mail U	3134	Body	6	53	124	0	-2	0	-3	1	Both	Blade	1
+Basarios Mail X	4031	Body	8	86	137	-1	-2	1	1	-3	Both	Blade	1
+Basarios Mail Z	4041	Body	8	88	139	0	-2	0	-3	1	Both	Blade	1
+Basarios Tassets	2153	Waist	2	18	120	0	-2	1	1	-3	Both	Blade	2
+Basarios Tassets S	2921	Waist	5	50	121	-1	-2	1	1	-3	Both	Blade	1
+Basarios Tassets U	3136	Waist	6	53	124	0	-2	0	-3	1	Both	Blade	1
+Basarios Tassets X	4033	Waist	8	86	137	-1	-2	1	1	-3	Both	Blade	1
+Basarios Tassets Z	4043	Waist	8	88	139	0	-2	0	-3	1	Both	Blade	1
+Basarios Vambraces	2152	Arms	2	18	120	0	-2	1	1	-3	Both	Blade	1
+Basarios Vambraces S	2920	Arms	5	50	121	-1	-2	1	1	-3	Both	Blade	2
+Basarios Vambraces U	3135	Arms	6	53	124	0	-2	0	-3	1	Both	Blade	2
+Basarios Vambraces X	4032	Arms	8	86	137	-1	-2	1	1	-3	Both	Blade	2
+Basarios Vambraces Z	4042	Arms	8	88	139	0	-2	0	-3	1	Both	Blade	2
+Basarios Vest	2156	Body	2	9	75	1	-1	2	2	-2	Both	Gunner	0
+Basarios Vest S	2924	Body	5	25	79	0	-1	2	2	-2	Both	Gunner	1
+Basarios Vest U	3139	Body	6	27	79	1	-1	1	-2	2	Both	Gunner	1
+Basarios Vest X	4036	Body	8	46	89	0	-1	2	2	-2	Both	Gunner	1
+Basarios Vest Z	4046	Body	8	47	90	1	-1	1	-2	2	Both	Gunner	1
+Battle Cap	2225	Head	2	7	74	3	-1	-1	0	1	Both	Gunner	2
+Battle Coat	2228	Waist	2	7	74	3	-1	-1	0	1	Both	Gunner	1
+Battle Greaves	2224	Legs	2	14	116	2	-2	-2	-1	0	Both	Blade	1
+Battle Guards	2227	Arms	2	7	74	3	-1	-1	0	1	Both	Gunner	1
+Battle Helm	2220	Head	2	14	116	2	-2	-2	-1	0	Both	Blade	2
+Battle Leggings	2229	Legs	2	7	74	3	-1	-1	0	1	Both	Gunner	1
+Battle Mail	2221	Body	2	14	116	2	-2	-2	-1	0	Both	Blade	0
+Battle Tassets	2223	Waist	2	14	116	2	-2	-2	-1	0	Both	Blade	1
+Battle Vambraces	2222	Arms	2	14	116	2	-2	-2	-1	0	Both	Blade	1
+Battle Vest	2226	Body	2	7	74	3	-1	-1	0	1	Both	Gunner	0
+Black Belt Cap	3248	Head	6	28	80	3	3	3	3	3	Both	Gunner	0
+Black Belt Coat	3251	Waist	6	28	80	3	3	3	3	3	Both	Gunner	2
+Black Belt Greaves	3247	Legs	6	55	124	2	2	2	2	2	Both	Blade	2
+Black Belt Guards	3250	Arms	6	28	80	3	3	3	3	3	Both	Gunner	0
+Black Belt Helm	3243	Head	6	55	124	2	2	2	2	2	Both	Blade	0
+Black Belt Leggings	3252	Legs	6	28	80	3	3	3	3	3	Both	Gunner	2
+Black Belt Mail	3244	Body	6	55	124	2	2	2	2	2	Both	Blade	1
+Black Belt Tassets	3246	Waist	6	55	124	2	2	2	2	2	Both	Blade	2
+Black Belt Vambraces	3245	Arms	6	55	124	2	2	2	2	2	Both	Blade	0
+Black Belt Vest	3249	Body	6	28	80	3	3	3	3	3	Both	Gunner	1
+Black Leather Chaps	3607	Legs	7	15	123	2	2	2	2	2	Both	Blade	1
+Black Leather Pants	3608	Legs	7	8	79	3	3	3	3	3	Both	Gunner	1
+Blango Cap	2953	Head	5	28	80	-3	3	1	3	2	Both	Gunner	1
+Blango Coat	2956	Waist	5	28	80	-3	3	1	3	2	Both	Gunner	0
+Blango Greaves	2952	Legs	5	55	124	-4	2	0	2	1	Both	Blade	2
+Blango Guards	2955	Arms	5	28	80	-3	3	1	3	2	Both	Gunner	0
+Blango Helm	2948	Head	5	55	124	-4	2	0	2	1	Both	Blade	1
+Blango Leggings	2957	Legs	5	28	80	-3	3	1	3	2	Both	Gunner	2
+Blango Mail	2949	Body	5	55	124	-4	2	0	2	1	Both	Blade	1
+Blango Tassets	2951	Waist	5	55	124	-4	2	0	2	1	Both	Blade	0
+Blango Vambraces	2950	Arms	5	55	124	-4	2	0	2	1	Both	Blade	0
+Blango Vest	2954	Body	5	28	80	-3	3	1	3	2	Both	Gunner	1
+Blue Star Boots	3613	Legs	7	26	116	1	1	1	1	1	Both	Blade	2
+Blue Star Braces	3611	Arms	7	26	116	1	1	1	1	1	Both	Blade	1
+Blue Star Coat	3617	Waist	7	13	72	2	2	2	2	2	Both	Gunner	1
+Blue Star Coil	3612	Waist	7	26	116	1	1	1	1	1	Both	Blade	1
+Blue Star Footwear	3618	Legs	7	13	72	2	2	2	2	2	Both	Gunner	2
+Blue Star Hat	3614	Head	7	13	72	2	2	2	2	2	Both	Gunner	1
+Blue Star Jacket	3615	Body	7	13	72	2	2	2	2	2	Both	Gunner	2
+Blue Star Lobos	3609	Head	7	26	116	1	1	1	1	1	Both	Blade	1
+Blue Star Sleeves	3616	Arms	7	13	72	2	2	2	2	2	Both	Gunner	1
+Blue Star Suit	3610	Body	7	26	116	1	1	1	1	1	Both	Blade	2
+Bnahabra Boots	1970	Legs	2	10	116	-4	-1	2	-1	2	Both	Blade	0
+Bnahabra Boots S	2456	Legs	4	33	116	-5	-1	2	-1	3	Both	Blade	1
+Bnahabra Boots X	3760	Legs	8	72	129	-5	-1	2	-1	3	Both	Blade	2
+Bnahabra Coat	1974	Waist	2	5	73	-3	0	3	0	3	Both	Gunner	0
+Bnahabra Coat S	2460	Waist	4	16	76	-4	0	3	0	4	Both	Gunner	0
+Bnahabra Coat X	3764	Waist	8	38	84	-4	0	3	0	4	Both	Gunner	1
+Bnahabra Coil	1969	Waist	2	10	116	-4	-1	2	-1	2	Both	Blade	0
+Bnahabra Coil S	2455	Waist	4	33	116	-5	-1	2	-1	3	Both	Blade	0
+Bnahabra Coil X	3759	Waist	8	72	129	-5	-1	2	-1	3	Both	Blade	1
+Bnahabra Gloves	1968	Arms	2	10	116	-4	-1	2	-1	2	Both	Blade	0
+Bnahabra Gloves S	2454	Arms	4	33	116	-5	-1	2	-1	3	Both	Blade	0
+Bnahabra Gloves X	3758	Arms	8	72	129	-5	-1	2	-1	3	Both	Blade	0
+Bnahabra Hat	1966	Head	2	10	116	-4	-1	2	-1	2	Both	Blade	0
+Bnahabra Hat S	2452	Head	4	33	116	-5	-1	2	-1	3	Both	Blade	1
+Bnahabra Hat X	3756	Head	8	72	129	-5	-1	2	-1	3	Both	Blade	2
+Bnahabra Headpiece	1971	Head	2	5	73	-3	0	3	0	3	Both	Gunner	0
+Bnahabra Headpiece S	2457	Head	4	16	76	-4	0	3	0	4	Both	Gunner	1
+Bnahabra Headpiece X	3761	Head	8	38	84	-4	0	3	0	4	Both	Gunner	2
+Bnahabra Pants	1975	Legs	2	5	73	-3	0	3	0	3	Both	Gunner	0
+Bnahabra Pants S	2461	Legs	4	16	76	-4	0	3	0	4	Both	Gunner	1
+Bnahabra Pants X	3765	Legs	8	38	84	-4	0	3	0	4	Both	Gunner	2
+Bnahabra Sleeves	1973	Arms	2	5	73	-3	0	3	0	3	Both	Gunner	0
+Bnahabra Sleeves S	2459	Arms	4	16	76	-4	0	3	0	4	Both	Gunner	0
+Bnahabra Sleeves X	3763	Arms	8	38	84	-4	0	3	0	4	Both	Gunner	0
+Bnahabra Suit	1967	Body	2	10	116	-4	-1	2	-1	2	Both	Blade	0
+Bnahabra Suit S	2453	Body	4	33	116	-5	-1	2	-1	3	Both	Blade	0
+Bnahabra Suit X	3757	Body	8	72	129	-5	-1	2	-1	3	Both	Blade	0
+Bnahabra Vest	1972	Body	2	5	73	-3	0	3	0	3	Both	Gunner	0
+Bnahabra Vest S	2458	Body	4	16	76	-4	0	3	0	4	Both	Gunner	0
+Bnahabra Vest X	3762	Body	8	38	84	-4	0	3	0	4	Both	Gunner	0
+Bone Cap	1944	Head	1	4	73	2	1	0	-1	1	Both	Gunner	0
+Bone Cap S	2669	Head	4	13	75	3	1	0	-2	1	Both	Gunner	0
+Bone Coat	1947	Waist	1	4	73	2	1	0	-1	1	Both	Gunner	1
+Bone Coat S	2672	Waist	4	13	75	3	1	0	-2	1	Both	Gunner	0
+Bone Faulds	1942	Waist	1	7	113	1	0	-1	-2	0	Both	Blade	1
+Bone Faulds S	2667	Waist	4	27	117	2	0	-1	-3	0	Both	Blade	0
+Bone Greaves	1943	Legs	1	7	113	1	0	-1	-2	0	Both	Blade	1
+Bone Greaves S	2668	Legs	4	27	117	2	0	-1	-3	0	Both	Blade	0
+Bone Guards	1946	Arms	1	4	73	2	1	0	-1	1	Both	Gunner	1
+Bone Guards S	2671	Arms	4	13	75	3	1	0	-2	1	Both	Gunner	0
+Bone Helm	1939	Head	1	7	113	1	0	-1	-2	0	Both	Blade	0
+Bone Helm S	2664	Head	4	27	117	2	0	-1	-3	0	Both	Blade	0
+Bone Leggings	1948	Legs	1	4	73	2	1	0	-1	1	Both	Gunner	1
+Bone Leggings S	2673	Legs	4	13	75	3	1	0	-2	1	Both	Gunner	0
+Bone Mail	1940	Body	1	7	113	1	0	-1	-2	0	Both	Blade	1
+Bone Mail S	2665	Body	4	27	117	2	0	-1	-3	0	Both	Blade	0
+Bone Vambraces	1941	Arms	1	7	113	1	0	-1	-2	0	Both	Blade	1
+Bone Vambraces S	2666	Arms	4	27	117	2	0	-1	-3	0	Both	Blade	0
+Bone Vest	1945	Body	1	4	73	2	1	0	-1	1	Both	Gunner	1
+Bone Vest S	2670	Body	4	13	75	3	1	0	-2	1	Both	Gunner	0
+Borealis Chest	2421	Body	3	26	126	-2	2	0	2	-4	Female	Blade	1
+Borealis Crown	2420	Head	3	26	126	-2	2	0	2	-4	Female	Blade	1
+Borealis Gauntlets	2422	Arms	3	26	126	-2	2	0	2	-4	Female	Blade	1
+Borealis Hakama	2424	Legs	3	26	126	-2	2	0	2	-4	Female	Blade	2
+Borealis Tassets	2423	Waist	3	26	126	-2	2	0	2	-4	Female	Blade	1
+Braces of Anat	3621	Arms	7	26	105	-3	-3	-3	-3	-3	Both	Blade	0
+Braces of Rage	4867	Arms	10	100	151	-4	-4	-4	-4	-4	Both	Blade	0
+Brachy Leggings S	3122	Legs	6	28	80	4	-3	1	-1	1	Both	Gunner	1
+Brachydios Braces	2292	Arms	3	22	124	2	-4	0	-2	0	Both	Blade	2
+Brachydios Braces S	3115	Arms	6	57	126	3	-4	0	-2	0	Both	Blade	1
+Brachydios Braces X	4330	Arms	9	96	143	3	-4	0	-2	0	Both	Blade	1
+Brachydios Cap	2295	Head	3	11	77	3	-3	1	-1	1	Both	Gunner	1
+Brachydios Cap S	3118	Head	6	28	80	4	-3	1	-1	1	Both	Gunner	2
+Brachydios Cap X	4333	Head	9	53	93	4	-3	1	-1	1	Both	Gunner	2
+Brachydios Coat	2298	Waist	3	11	77	3	-3	1	-1	1	Both	Gunner	2
+Brachydios Coat S	3121	Waist	6	28	80	4	-3	1	-1	1	Both	Gunner	1
+Brachydios Coat X	4336	Waist	9	53	93	4	-3	1	-1	1	Both	Gunner	2
+Brachydios Faulds	2293	Waist	3	22	124	2	-4	0	-2	0	Both	Blade	2
+Brachydios Faulds S	3116	Waist	6	57	126	3	-4	0	-2	0	Both	Blade	1
+Brachydios Faulds X	4331	Waist	9	96	143	3	-4	0	-2	0	Both	Blade	2
+Brachydios Greaves	2294	Legs	3	22	124	2	-4	0	-2	0	Both	Blade	1
+Brachydios Greaves S	3117	Legs	6	57	126	3	-4	0	-2	0	Both	Blade	1
+Brachydios Greaves X	4332	Legs	9	96	143	3	-4	0	-2	0	Both	Blade	2
+Brachydios Guards	2297	Arms	3	11	77	3	-3	1	-1	1	Both	Gunner	2
+Brachydios Guards S	3120	Arms	6	28	80	4	-3	1	-1	1	Both	Gunner	1
+Brachydios Guards X	4335	Arms	9	53	93	4	-3	1	-1	1	Both	Gunner	1
+Brachydios Helm	2290	Head	3	22	124	2	-4	0	-2	0	Both	Blade	1
+Brachydios Helm S	3113	Head	6	57	126	3	-4	0	-2	0	Both	Blade	2
+Brachydios Helm X	4328	Head	9	96	143	3	-4	0	-2	0	Both	Blade	2
+Brachydios Leggings	2299	Legs	3	11	77	3	-3	1	-1	1	Both	Gunner	1
+Brachydios Leggings X	4337	Legs	9	53	93	4	-3	1	-1	1	Both	Gunner	2
+Brachydios Mail	2291	Body	3	22	124	2	-4	0	-2	0	Both	Blade	1
+Brachydios Mail S	3114	Body	6	57	126	3	-4	0	-2	0	Both	Blade	1
+Brachydios Mail X	4329	Body	9	96	143	3	-4	0	-2	0	Both	Blade	1
+Brachydios Vest	2296	Body	3	11	77	3	-3	1	-1	1	Both	Gunner	1
+Brachydios Vest S	3119	Body	6	28	80	4	-3	1	-1	1	Both	Gunner	1
+Brachydios Vest X	4334	Body	9	53	93	4	-3	1	-1	1	Both	Gunner	1
+Brachydium Cap	4708	Head	10	69	98	5	-2	1	-2	1	Both	Gunner	1
+Brachydium Coat	4711	Waist	10	69	98	5	-2	1	-2	1	Both	Gunner	1
+Brachydium Faulds	4706	Waist	10	116	152	4	-3	0	-3	0	Both	Blade	1
+Brachydium Greaves	4707	Legs	10	116	152	4	-3	0	-3	0	Both	Blade	3
+Brachydium Guards	4710	Arms	10	69	98	5	-2	1	-2	1	Both	Gunner	1
+Brachydium Helm	4703	Head	10	116	152	4	-3	0	-3	0	Both	Blade	1
+Brachydium Leggings	4712	Legs	10	69	98	5	-2	1	-2	1	Both	Gunner	3
+Brachydium Mail	4704	Body	10	116	152	4	-3	0	-3	0	Both	Blade	3
+Brachydium Vambraces	4705	Arms	10	116	152	4	-3	0	-3	0	Both	Blade	1
+Brachydium Vest	4709	Body	10	69	98	5	-2	1	-2	1	Both	Gunner	3
+Bulldrome Mask	4906	Head	10	40	92	0	0	2	2	1	Both	Both	0
+Butterfly Alae	3006	Waist	5	21	78	4	-4	5	-3	2	Female	Gunner	2
+Butterfly Alae X	4146	Waist	8	38	84	4	-4	5	-3	2	Female	Gunner	2
+Butterfly Brachia	3000	Arms	5	43	118	3	-5	3	-4	2	Female	Blade	2
+Butterfly Brachia X	4140	Arms	8	72	129	3	-5	3	-4	2	Female	Blade	2
+Butterfly Clypeus	3003	Head	5	21	78	4	-4	5	-3	2	Female	Gunner	1
+Butterfly Clypeus X	4143	Head	8	38	84	4	-4	5	-3	2	Female	Gunner	1
+Butterfly Crura	3002	Legs	5	43	118	3	-5	3	-4	2	Female	Blade	1
+Butterfly Crura X	4142	Legs	8	72	129	3	-5	3	-4	2	Female	Blade	1
+Butterfly Elytra	3001	Waist	5	43	118	3	-5	3	-4	2	Female	Blade	2
+Butterfly Elytra X	4141	Waist	8	72	129	3	-5	3	-4	2	Female	Blade	2
+Butterfly Manus	3005	Arms	5	21	78	4	-4	5	-3	2	Female	Gunner	2
+Butterfly Manus X	4145	Arms	8	38	84	4	-4	5	-3	2	Female	Gunner	2
+Butterfly Pleuron	3004	Body	5	21	78	4	-4	5	-3	2	Female	Gunner	1
+Butterfly Pleuron X	4144	Body	8	38	84	4	-4	5	-3	2	Female	Gunner	1
+Butterfly Tarsi	3007	Legs	5	21	78	4	-4	5	-3	2	Female	Gunner	1
+Butterfly Tarsi X	4147	Legs	8	38	84	4	-4	5	-3	2	Female	Gunner	1
+Butterfly Thorax	2999	Body	5	43	118	3	-5	3	-4	2	Female	Blade	1
+Butterfly Thorax X	4139	Body	8	72	129	3	-5	3	-4	2	Female	Blade	1
+Butterfly Vertex	2998	Head	5	43	118	3	-5	3	-4	2	Female	Blade	1
+Butterfly Vertex X	4138	Head	8	72	129	3	-5	3	-4	2	Female	Blade	1
+Cap of Anat	3624	Head	7	13	65	-2	-2	-2	-2	-2	Both	Gunner	1
+Cap of Rage	4870	Head	10	55	97	-3	-3	-3	-3	-3	Both	Gunner	0
+Caravaneer's Armlets	3265	Arms	6	31	80	2	2	2	2	2	Both	Both	1
+Carnage Boots	3465	Legs	7	34	81	3	4	2	-1	-1	Both	Gunner	2
+Carnage Helm	3461	Head	7	34	81	3	4	2	-1	-1	Both	Gunner	2
+Carnage Raiment	3462	Body	7	34	81	3	4	2	-1	-1	Both	Gunner	1
+Carnage Vambraces	3463	Arms	7	34	81	3	4	2	-1	-1	Both	Gunner	1
+Carnage Wrap	3464	Waist	7	34	81	3	4	2	-1	-1	Both	Gunner	1
+Ceanataur Braces	2202	Arms	2	21	123	1	2	-1	-1	0	Both	Blade	1
+Ceanataur Cap	2205	Head	2	10	76	2	3	0	0	1	Both	Gunner	2
+Ceanataur Coat	2208	Waist	2	10	76	2	3	0	0	1	Both	Gunner	0
+Ceanataur Greaves	2204	Legs	2	21	123	1	2	-1	-1	0	Both	Blade	2
+Ceanataur Guards	2207	Arms	2	10	76	2	3	0	0	1	Both	Gunner	1
+Ceanataur Helm	2200	Head	2	21	123	1	2	-1	-1	0	Both	Blade	1
+Ceanataur Leggings	2209	Legs	2	10	76	2	3	0	0	1	Both	Gunner	1
+Ceanataur Mail	2201	Body	2	21	123	1	2	-1	-1	0	Both	Blade	0
+Ceanataur Tassets	2203	Waist	2	21	123	1	2	-1	-1	0	Both	Blade	2
+Ceanataur Vest	2206	Body	2	10	76	2	3	0	0	1	Both	Gunner	2
+Cephalos Cap	2581	Head	4	20	77	-2	3	-3	3	1	Both	Gunner	2
+Cephalos Cap X	3795	Head	8	40	86	4	1	-1	-2	2	Both	Gunner	2
+Cephalos Coat	2584	Waist	4	20	77	-2	3	-3	3	1	Both	Gunner	1
+Cephalos Coat X	3798	Waist	8	40	86	4	1	-1	-2	2	Both	Gunner	1
+Cephalos Greaves	2580	Legs	4	40	117	-3	2	-4	2	0	Both	Blade	0
+Cephalos Greaves X	3794	Legs	8	74	131	3	0	-2	-3	1	Both	Blade	0
+Cephalos Guards	2583	Arms	4	20	77	-2	3	-3	3	1	Both	Gunner	1
+Cephalos Guards X	3797	Arms	8	40	86	4	1	-1	-2	2	Both	Gunner	1
+Cephalos Helm	2576	Head	4	40	117	-3	2	-4	2	0	Both	Blade	1
+Cephalos Helm X	3790	Head	8	74	131	3	0	-2	-3	1	Both	Blade	1
+Cephalos Leggings	2585	Legs	4	20	77	-2	3	-3	3	1	Both	Gunner	0
+Cephalos Leggings X	3799	Legs	8	40	86	4	1	-1	-2	2	Both	Gunner	0
+Cephalos Mail	2577	Body	4	40	117	-3	2	-4	2	0	Both	Blade	2
+Cephalos Mail X	3791	Body	8	74	131	3	0	-2	-3	1	Both	Blade	2
+Cephalos Tassets	2579	Waist	4	40	117	-3	2	-4	2	0	Both	Blade	1
+Cephalos Tassets X	3793	Waist	8	74	131	3	0	-2	-3	1	Both	Blade	1
+Cephalos Vambraces	2578	Arms	4	40	117	-3	2	-4	2	0	Both	Blade	1
+Cephalos Vambraces X	3792	Arms	8	74	131	3	0	-2	-3	1	Both	Blade	1
+Cephalos Vest	2582	Body	4	20	77	-2	3	-3	3	1	Both	Gunner	2
+Cephalos Vest X	3796	Body	8	40	86	4	1	-1	-2	2	Both	Gunner	2
+Chainmail Armor S	2645	Body	4	23	115	2	2	-3	1	0	Both	Blade	2
+Chainmail Belt	1927	Waist	1	4	73	2	1	-2	1	0	Both	Both	1
+Chainmail Braces S	2646	Arms	4	23	115	2	2	-3	1	0	Both	Blade	1
+Chainmail Cap S	2649	Head	4	11	75	3	3	-2	2	1	Both	Gunner	1
+Chainmail Coat S	2652	Waist	4	11	75	3	3	-2	2	1	Both	Gunner	1
+Chainmail Faulds S	2647	Waist	4	23	115	2	2	-3	1	0	Both	Blade	1
+Chainmail Gloves	1926	Arms	1	4	73	2	1	-2	1	0	Both	Both	1
+Chainmail Greaves S	2648	Legs	4	23	115	2	2	-3	1	0	Both	Blade	1
+Chainmail Guards S	2651	Arms	4	11	75	3	3	-2	2	1	Both	Gunner	1
+Chainmail Headgear	1924	Head	1	4	73	2	1	-2	1	0	Both	Both	1
+Chainmail Helm S	2644	Head	4	23	115	2	2	-3	1	0	Both	Blade	1
+Chainmail Leggings S	2653	Legs	4	11	75	3	3	-2	2	1	Both	Gunner	1
+Chainmail Trousers	1928	Legs	1	4	73	2	1	-2	1	0	Both	Both	1
+Chainmail Vest	1925	Body	1	4	73	2	1	-2	1	0	Both	Both	0
+Chainmail Vest S	2650	Body	4	11	75	3	3	-2	2	1	Both	Gunner	2
+Chakra Anklet	3022	Legs	5	18	77	-3	0	0	3	1	Both	Both	3
+Chakra Bracelet	3020	Arms	5	18	77	0	3	-3	0	1	Both	Both	3
+Chakra Earring	3018	Head	5	18	77	0	0	0	0	1	Both	Both	3
+Chakra Necklace	3019	Body	5	18	77	3	-3	0	0	1	Both	Both	3
+Chakra Waistlet	3021	Waist	5	18	77	0	0	3	-3	1	Both	Both	3
+Cham Camise	3482	Body	7	35	81	-3	4	1	5	0	Both	Gunner	1
+Cham Coat	3484	Waist	7	35	81	-3	4	1	5	0	Both	Gunner	1
+Cham Hat	3481	Head	7	35	81	-3	4	1	5	0	Both	Gunner	1
+Cham Sleeves	3483	Arms	7	35	81	-3	4	1	5	0	Both	Gunner	2
+Cham Trousers	3485	Legs	7	35	81	-3	4	1	5	0	Both	Gunner	2
+Champion Feather	3264	Head	6	25	79	0	0	0	0	0	Both	Both	3
+Chaos Cap	4353	Head	9	60	96	-4	5	-2	3	-5	Male	Gunner	1
+Chaos Coat	4356	Waist	9	60	96	-4	5	-2	3	-2	Male	Gunner	1
+Chaos Faulds	4351	Waist	9	106	148	-5	4	-3	2	-3	Male	Blade	1
+Chaos Greaves	4352	Legs	9	106	148	-5	4	-3	2	-3	Male	Blade	3
+Chaos Guards	4355	Arms	9	60	96	-4	5	-2	3	-4	Male	Gunner	3
+Chaos Helm	4348	Head	9	106	148	-5	4	-3	2	-6	Male	Blade	1
+Chaos Leggings	4357	Legs	9	60	96	-4	5	-2	3	-2	Male	Gunner	3
+Chaos Mail	4349	Body	9	106	148	-5	4	-3	2	-3	Male	Blade	2
+Chaos Vambraces	4350	Arms	9	106	148	-5	4	-3	2	-5	Male	Blade	3
+Chaos Vest	4354	Body	9	60	96	-4	5	-2	3	-2	Male	Gunner	2
+Chaoshroom	4901	Head	10	40	92	2	2	2	2	2	Both	Both	0
+Chrome Metal Boots	2685	Legs	4	40	117	2	-2	0	0	0	Both	Blade	0
+Chrome Metal Coat	2686	Waist	4	20	77	3	-1	1	1	1	Both	Gunner	0
+Chrome Metal Coil	2684	Waist	4	40	117	2	-2	0	0	0	Both	Blade	0
+Chrome Metal Feet	2687	Legs	4	20	77	3	-1	1	1	1	Both	Gunner	0
+Conga Cap	2055	Head	2	7	74	-2	2	2	0	3	Both	Gunner	1
+Conga Cap S	2541	Head	4	19	77	-3	2	2	0	4	Both	Gunner	2
+Conga Cap U	2783	Head	5	20	77	2	1	1	-3	4	Both	Gunner	1
+Conga Cap X	3835	Head	8	40	86	-3	2	2	0	4	Both	Gunner	2
+Conga Cap Z	3845	Head	8	41	87	2	1	1	-3	4	Both	Gunner	1
+Conga Coat	2058	Waist	2	7	74	-2	2	2	0	3	Both	Gunner	1
+Conga Coat S	2544	Waist	4	19	77	-3	2	2	0	4	Both	Gunner	1
+Conga Coat U	2786	Waist	5	20	77	2	1	1	-3	4	Both	Gunner	1
+Conga Coat X	3838	Waist	8	40	86	-3	2	2	0	4	Both	Gunner	1
+Conga Coat Z	3848	Waist	8	41	87	2	1	1	-3	4	Both	Gunner	2
+Conga Greaves	2054	Legs	2	14	116	-3	1	1	-1	2	Both	Blade	1
+Conga Greaves S	2540	Legs	4	38	117	-4	1	1	-1	3	Both	Blade	1
+Conga Greaves U	2782	Legs	5	40	117	1	0	0	-4	3	Both	Blade	1
+Conga Greaves X	3834	Legs	8	74	131	-4	1	1	-1	3	Both	Blade	1
+Conga Greaves Z	3844	Legs	8	76	133	1	0	0	-4	3	Both	Blade	3
+Conga Guards	2057	Arms	2	7	74	-2	2	2	0	3	Both	Gunner	1
+Conga Guards S	2543	Arms	4	19	77	-3	2	2	0	4	Both	Gunner	1
+Conga Guards U	2785	Arms	5	20	77	2	1	1	-3	4	Both	Gunner	1
+Conga Guards X	3837	Arms	8	40	86	-3	2	2	0	4	Both	Gunner	1
+Conga Guards Z	3847	Arms	8	41	87	2	1	1	-3	4	Both	Gunner	1
+Conga Helm	2050	Head	2	14	116	-3	1	1	-1	2	Both	Blade	1
+Conga Helm S	2536	Head	4	38	117	-4	1	1	-1	3	Both	Blade	2
+Conga Helm U	2778	Head	5	40	117	1	0	0	-4	3	Both	Blade	1
+Conga Helm X	3830	Head	8	74	131	-4	1	1	-1	3	Both	Blade	2
+Conga Helm Z	3840	Head	8	76	133	1	0	0	-4	3	Both	Blade	1
+Conga Leggings	2059	Legs	2	7	74	-2	2	2	0	3	Both	Gunner	1
+Conga Leggings S	2545	Legs	4	19	77	-3	2	2	0	4	Both	Gunner	1
+Conga Leggings U	2787	Legs	5	20	77	2	1	1	-3	4	Both	Gunner	1
+Conga Leggings X	3839	Legs	8	40	86	-3	2	2	0	4	Both	Gunner	1
+Conga Leggings Z	3849	Legs	8	41	87	2	1	1	-3	4	Both	Gunner	3
+Conga Mail	2051	Body	2	14	116	-3	1	1	-1	2	Both	Blade	0
+Conga Mail S	2537	Body	4	38	117	-4	1	1	-1	3	Both	Blade	0
+Conga Mail U	2779	Body	5	40	117	1	0	0	-4	3	Both	Blade	0
+Conga Mail X	3831	Body	8	74	131	-4	1	1	-1	3	Both	Blade	0
+Conga Mail Z	3841	Body	8	76	133	1	0	0	-4	3	Both	Blade	1
+Conga Tassets	2053	Waist	2	14	116	-3	1	1	-1	2	Both	Blade	1
+Conga Tassets S	2539	Waist	4	38	117	-4	1	1	-1	3	Both	Blade	1
+Conga Tassets U	2781	Waist	5	40	117	1	0	0	-4	3	Both	Blade	1
+Conga Tassets X	3833	Waist	8	74	131	-4	1	1	-1	3	Both	Blade	1
+Conga Tassets Z	3843	Waist	8	76	133	1	0	0	-4	3	Both	Blade	2
+Conga Vambraces	2052	Arms	2	14	116	-3	1	1	-1	2	Both	Blade	1
+Conga Vambraces S	2538	Arms	4	38	117	-4	1	1	-1	3	Both	Blade	1
+Conga Vambraces U	2780	Arms	5	40	117	1	0	0	-4	3	Both	Blade	1
+Conga Vambraces X	3832	Arms	8	74	131	-4	1	1	-1	3	Both	Blade	1
+Conga Vambraces Z	3842	Arms	8	76	133	1	0	0	-4	3	Both	Blade	1
+Conga Vest	2056	Body	2	7	74	-2	2	2	0	3	Both	Gunner	0
+Conga Vest S	2542	Body	4	19	77	-3	2	2	0	4	Both	Gunner	0
+Conga Vest U	2784	Body	5	20	77	2	1	1	-3	4	Both	Gunner	0
+Conga Vest X	3836	Body	8	40	86	-3	2	2	0	4	Both	Gunner	0
+Conga Vest Z	3846	Body	8	41	87	2	1	1	-3	4	Both	Gunner	1
+Craftsman's Specs	4540	Head	9	64	97	3	3	3	3	3	Both	Both	0
+Crusher Belt	3304	Waist	7	41	83	3	2	5	-6	3	Both	Gunner	1
+Crusher Braces	3303	Arms	7	41	83	3	2	5	-6	3	Both	Gunner	0
+Crusher Garb	3302	Body	7	41	83	3	2	5	-6	3	Both	Gunner	2
+Crusher Mask	3301	Head	7	41	83	3	2	5	-6	3	Both	Gunner	2
+Cunning Specs	3596	Head	7	25	79	3	3	3	3	3	Both	Both	1
+Dayspring Archbraces	3333	Arms	7	32	80	4	3	-3	4	-3	Male	Gunner	2
+Dayspring Archgirdle	3334	Waist	7	32	80	4	3	-3	4	-3	Male	Gunner	1
+Dayspring Archkasa	3331	Head	7	32	80	4	3	-3	4	-3	Male	Gunner	2
+Dayspring Archplate	3332	Body	7	32	80	4	3	-3	4	-3	Male	Gunner	1
+Dayspring Archpleats	3335	Legs	7	32	80	4	3	-3	4	-3	Male	Gunner	0
+Dayspring Braces	2307	Arms	3	13	78	3	2	-2	3	-2	Male	Gunner	2
+Dayspring Girdle	2308	Waist	3	13	78	3	2	-2	3	-2	Male	Gunner	1
+Dayspring Kasa	2305	Head	3	13	78	3	2	-2	3	-2	Male	Gunner	2
+Dayspring Plate	2306	Body	3	13	78	3	2	-2	3	-2	Male	Gunner	1
+Dayspring Pleats	2309	Legs	3	13	78	3	2	-2	3	-2	Male	Gunner	0
+Derring Belt	1922	Waist	1	1	71	2	0	0	0	1	Both	Both	2
+Derring Cap S	2639	Head	4	9	75	4	1	1	1	3	Both	Gunner	2
+Derring Coat S	2642	Waist	4	9	75	4	1	1	1	3	Both	Gunner	0
+Derring Faulds S	2637	Waist	4	18	114	3	0	0	0	2	Both	Blade	0
+Derring Gloves	1921	Arms	1	1	71	2	0	0	0	1	Both	Both	0
+Derring Greaves S	2638	Legs	4	18	114	3	0	0	0	2	Both	Blade	0
+Derring Guards S	2641	Arms	4	9	75	4	1	1	1	3	Both	Gunner	1
+Derring Headgear	1919	Head	1	1	71	2	0	0	0	1	Both	Both	1
+Derring Helm S	2634	Head	4	18	114	3	0	0	0	2	Both	Blade	2
+Derring Jacket	1920	Body	1	1	71	2	0	0	0	1	Both	Both	0
+Derring Leggings S	2643	Legs	4	9	75	4	1	1	1	3	Both	Gunner	1
+Derring Mail S	2635	Body	4	18	114	3	0	0	0	2	Both	Blade	0
+Derring Trousers	1923	Legs	1	1	71	2	0	0	0	1	Both	Both	0
+Derring Vambraces S	2636	Arms	4	18	114	3	0	0	0	2	Both	Blade	1
+Derring Vest S	2640	Body	4	9	75	4	1	1	1	3	Both	Gunner	0
+Diablos Cap	2405	Head	3	12	78	3	1	1	-3	1	Both	Gunner	2
+Diablos Cap X	4313	Head	9	53	93	3	1	1	-3	1	Both	Gunner	2
+Diablos Cap Z	4323	Head	9	54	94	5	1	1	-5	1	Both	Gunner	1
+Diablos Coat	2408	Waist	3	12	78	3	1	1	-3	1	Both	Gunner	0
+Diablos Coat X	4316	Waist	9	53	93	3	1	1	-3	1	Both	Gunner	1
+Diablos Coat Z	4326	Waist	9	54	94	5	1	1	-5	1	Both	Gunner	2
+Diablos Coil	2403	Waist	3	23	125	2	0	0	-4	0	Both	Blade	0
+Diablos Coil X	4311	Waist	9	96	143	2	0	0	-4	0	Both	Blade	1
+Diablos Coil Z	4321	Waist	9	98	145	4	0	0	-6	0	Both	Blade	2
+Diablos Greaves	2404	Legs	3	23	125	2	0	0	-4	0	Both	Blade	3
+Diablos Greaves X	4312	Legs	9	96	143	2	0	0	-4	0	Both	Blade	3
+Diablos Greaves Z	4322	Legs	9	98	145	4	0	0	-6	0	Both	Blade	3
+Diablos Guards	2407	Arms	3	12	78	3	1	1	-3	1	Both	Gunner	0
+Diablos Guards X	4315	Arms	9	53	93	3	1	1	-3	1	Both	Gunner	1
+Diablos Guards Z	4325	Arms	9	54	94	5	1	1	-5	1	Both	Gunner	2
+Diablos Helm	2400	Head	3	23	125	2	0	0	-4	0	Both	Blade	2
+Diablos Helm X	4308	Head	9	96	143	2	0	0	-4	0	Both	Blade	2
+Diablos Helm Z	4318	Head	9	98	145	4	0	0	-6	0	Both	Blade	1
+Diablos Leggings	2409	Legs	3	12	78	3	1	1	-3	1	Both	Gunner	3
+Diablos Leggings X	4317	Legs	9	53	93	3	1	1	-3	1	Both	Gunner	3
+Diablos Leggings Z	4327	Legs	9	54	94	5	1	1	-5	1	Both	Gunner	3
+Diablos Mail	2401	Body	3	23	125	2	0	0	-4	0	Both	Blade	1
+Diablos Mail X	4309	Body	9	96	143	2	0	0	-4	0	Both	Blade	1
+Diablos Mail Z	4319	Body	9	98	145	4	0	0	-6	0	Both	Blade	2
+Diablos Vambraces	2402	Arms	3	23	125	2	0	0	-4	0	Both	Blade	0
+Diablos Vambraces X	4310	Arms	9	96	143	2	0	0	-4	0	Both	Blade	1
+Diablos Vambraces Z	4320	Arms	9	98	145	4	0	0	-6	0	Both	Blade	2
+Diablos Vest	2406	Body	3	12	78	3	1	1	-3	1	Both	Gunner	1
+Diablos Vest X	4314	Body	9	53	93	3	1	1	-3	1	Both	Gunner	1
+Diablos Vest Z	4324	Body	9	54	94	5	1	1	-5	1	Both	Gunner	2
+Divine Ire Hakama	3300	Legs	7	81	134	2	1	4	-7	2	Both	Blade	1
+Divine Ire Haori	3297	Body	7	81	134	2	1	4	-7	2	Both	Blade	2
+Divine Ire Headdress	3296	Head	7	81	134	2	1	4	-7	2	Both	Blade	2
+Divine Ire Kote	3298	Arms	7	81	134	2	1	4	-7	2	Both	Blade	0
+Divine Ire Obi	3299	Waist	7	81	134	2	1	4	-7	2	Both	Blade	1
+Dober Cap	3178	Head	6	24	78	-1	1	1	1	4	Both	Gunner	0
+Dober Coat	3181	Waist	6	24	78	-1	1	1	1	4	Both	Gunner	0
+Dober Coil	3176	Waist	6	47	120	-2	0	0	0	3	Both	Blade	0
+Dober Greaves	3177	Legs	6	47	120	-2	0	0	0	3	Both	Blade	3
+Dober Guards	3180	Arms	6	24	78	-1	1	1	1	4	Both	Gunner	2
+Dober Helm	3173	Head	6	47	120	-2	0	0	0	3	Both	Blade	0
+Dober Leggings	3182	Legs	6	24	78	-1	1	1	1	4	Both	Gunner	3
+Dober Mail	3174	Body	6	47	120	-2	0	0	0	3	Both	Blade	1
+Dober Vambraces	3175	Arms	6	47	120	-2	0	0	0	3	Both	Blade	2
+Dober Vest	3179	Body	6	24	78	-1	1	1	1	4	Both	Gunner	1
+Dragonbarbs	3409	Waist	7	81	136	-3	2	2	-1	-6	Both	Blade	3
+Dragonbarbs X	4944	Waist	10	118	154	-3	2	2	-1	-6	Both	Blade	2
+Dragonclaws	3408	Arms	7	81	136	-3	2	2	-1	-6	Both	Blade	1
+Dragonclaws X	4943	Arms	10	118	154	-3	2	2	-1	-6	Both	Blade	0
+Dragonface	3411	Head	7	42	83	-2	3	3	0	-5	Both	Gunner	3
+Dragonface X	4946	Head	10	71	100	-2	3	3	0	-5	Both	Gunner	2
+Dragonfeet	3410	Legs	7	81	136	-3	2	2	-1	-6	Both	Blade	1
+Dragonfeet X	4945	Legs	10	118	154	-3	2	2	-1	-6	Both	Blade	0
+Dragonfists	3413	Arms	7	42	83	-2	3	3	0	-5	Both	Gunner	1
+Dragonfists X	4948	Arms	10	71	100	-2	3	3	0	-5	Both	Gunner	0
+Dragonhead	3406	Head	7	81	136	-3	2	2	-1	-6	Both	Blade	3
+Dragonhead X	4941	Head	10	118	154	-3	2	2	-1	-6	Both	Blade	2
+Dragonhide	3407	Body	7	81	136	-3	2	2	-1	-6	Both	Blade	2
+Dragonhide X	4942	Body	10	118	154	-3	2	2	-1	-6	Both	Blade	1
+Dragonlegs	3415	Legs	7	42	83	-2	3	3	0	-5	Both	Gunner	1
+Dragonlegs X	4950	Legs	10	71	100	-2	3	3	0	-5	Both	Gunner	0
+Dragonlord's Gaze	2448	Head	3	11	77	2	2	2	2	2	Both	Both	2
+Dragonsheath	3414	Waist	7	42	83	-2	3	3	0	-5	Both	Gunner	3
+Dragonsheath X	4949	Waist	10	71	100	-2	3	3	0	-5	Both	Gunner	2
+Dragonskin	3412	Body	7	42	83	-2	3	3	0	-5	Both	Gunner	2
+Dragonskin X	4947	Body	10	71	100	-2	3	3	0	-5	Both	Gunner	1
+Duramboros Braces	2382	Arms	3	24	126	-4	2	1	-2	1	Both	Blade	1
+Duramboros Braces X	4430	Arms	9	96	143	-4	2	1	-2	1	Both	Blade	1
+Duramboros Cap	2385	Head	3	12	78	-3	3	2	-1	2	Both	Gunner	1
+Duramboros Cap X	4433	Head	9	52	92	-3	3	2	-1	2	Both	Gunner	1
+Duramboros Coat	2388	Waist	3	12	78	-3	3	2	-1	2	Both	Gunner	1
+Duramboros Coat X	4436	Waist	9	52	92	-3	3	2	-1	2	Both	Gunner	2
+Duramboros Faulds	2383	Waist	3	24	126	-4	2	1	-2	1	Both	Blade	1
+Duramboros Faulds X	4431	Waist	9	96	143	-4	2	1	-2	1	Both	Blade	2
+Duramboros Greaves	2384	Legs	3	24	126	-4	2	1	-2	1	Both	Blade	1
+Duramboros Greaves X	4432	Legs	9	96	143	-4	2	1	-2	1	Both	Blade	2
+Duramboros Guards	2387	Arms	3	12	78	-3	3	2	-1	2	Both	Gunner	1
+Duramboros Guards X	4435	Arms	9	52	92	-3	3	2	-1	2	Both	Gunner	2
+Duramboros Helm	2380	Head	3	24	126	-4	2	1	-2	1	Both	Blade	2
+Duramboros Helm X	4428	Head	9	96	143	-4	2	1	-2	1	Both	Blade	2
+Duramboros Leggings	2389	Legs	3	12	78	-3	3	2	-1	2	Both	Gunner	1
+Duramboros Leggings X	4437	Legs	9	52	92	-3	3	2	-1	2	Both	Gunner	2
+Duramboros Mail	2381	Body	3	24	126	-4	2	1	-2	1	Both	Blade	2
+Duramboros Mail X	4429	Body	9	96	143	-4	2	1	-2	1	Both	Blade	2
+Duramboros Vest	2386	Body	3	12	78	-3	3	2	-1	2	Both	Gunner	2
+Duramboros Vest X	4434	Body	9	52	92	-3	3	2	-1	2	Both	Gunner	2
+EX Artian Cap	3718	Head	7	26	79	1	-2	-2	3	4	Both	Gunner	2
+EX Artian Coat	3721	Waist	7	26	79	1	-2	-2	3	4	Both	Gunner	2
+EX Artian Coil	3716	Waist	7	52	123	0	-3	-3	2	3	Both	Blade	2
+EX Artian Greaves	3717	Legs	7	52	123	0	-3	-3	2	3	Both	Blade	1
+EX Artian Guards	3720	Arms	7	26	79	1	-2	-2	3	4	Both	Gunner	1
+EX Artian Helm	3713	Head	7	52	123	0	-3	-3	2	3	Both	Blade	2
+EX Artian Leggings	3722	Legs	7	26	79	1	-2	-2	3	4	Both	Gunner	1
+EX Artian Mail	3714	Body	7	52	123	0	-3	-3	2	3	Both	Blade	1
+EX Artian Vambraces	3715	Arms	7	52	123	0	-3	-3	2	3	Both	Blade	1
+EX Artian Vest	3719	Body	7	26	79	1	-2	-2	3	4	Both	Gunner	1
+EX Auroros Gauntlets	4805	Arms	10	116	152	-2	2	0	2	-4	Male	Blade	1
+EX Auroros Helm	4803	Head	10	116	152	-2	2	0	2	-4	Male	Blade	2
+EX Auroros Pants	4807	Legs	10	116	152	-2	2	0	2	-4	Male	Blade	3
+EX Auroros Tassets	4806	Waist	10	116	152	-2	2	0	2	-4	Male	Blade	3
+EX Auroros Torso	4804	Body	10	116	152	-2	2	0	2	-4	Male	Blade	1
+EX Borealis Chest	4814	Body	10	116	152	-2	2	0	2	-4	Female	Blade	1
+EX Borealis Crown	4813	Head	10	116	152	-2	2	0	2	-4	Female	Blade	2
+EX Borealis Gauntlets	4815	Arms	10	116	152	-2	2	0	2	-4	Female	Blade	1
+EX Borealis Hakama	4817	Legs	10	116	152	-2	2	0	2	-4	Female	Blade	3
+EX Borealis Tassets	4816	Waist	10	116	152	-2	2	0	2	-4	Female	Blade	3
+EX Escadora Arma	4850	Arms	10	65	98	-2	-1	4	4	-1	Both	Gunner	1
+EX Escadora Armguards	4845	Arms	10	112	152	-3	-2	3	3	-2	Both	Blade	1
+EX Escadora Force	4851	Waist	10	65	98	4	-1	-2	-2	-1	Both	Gunner	3
+EX Escadora Might	4846	Waist	10	112	152	3	-2	-3	-3	-2	Both	Blade	3
+EX Escadora Sagesse	4848	Head	10	65	98	1	-1	1	1	-1	Both	Gunner	1
+EX Escadora Scala	4852	Legs	10	65	98	4	-1	-2	-2	-1	Both	Gunner	1
+EX Escadora Seele	4849	Body	10	65	98	-2	-1	4	4	-1	Both	Gunner	2
+EX Escadora Sheath	4847	Legs	10	112	152	3	-2	-3	-3	-2	Both	Blade	1
+EX Escadora Soul	4844	Body	10	112	152	-3	-2	3	3	-2	Both	Blade	2
+EX Escadora Wisdom	4843	Head	10	112	152	0	-2	0	0	-2	Both	Blade	1
+EX Genesis Gauntlets	4810	Arms	10	69	98	-1	3	1	3	-3	Male	Gunner	2
+EX Genesis Headpiece	4808	Head	10	69	98	-1	3	1	3	-3	Male	Gunner	3
+EX Genesis Pants	4812	Legs	10	69	98	-1	3	1	3	-3	Male	Gunner	2
+EX Genesis Tassets	4811	Waist	10	69	98	-1	3	1	3	-3	Male	Gunner	3
+EX Genesis Torso	4809	Body	10	69	98	-1	3	1	3	-3	Male	Gunner	1
+EX Glyph Chest	4819	Body	10	69	98	-1	3	1	3	-3	Female	Gunner	1
+EX Glyph Crown	4818	Head	10	69	98	-1	3	1	3	-3	Female	Gunner	3
+EX Glyph Gauntlets	4820	Arms	10	69	98	-1	3	1	3	-3	Female	Gunner	2
+EX Glyph Hakama	4822	Legs	10	69	98	-1	3	1	3	-3	Female	Gunner	2
+EX Glyph Tassets	4821	Waist	10	69	98	-1	3	1	3	-3	Female	Gunner	3
+EX Gore Braces	3725	Arms	7	58	125	-5	3	-3	2	-2	Both	Blade	0
+EX Gore Cap	3728	Head	7	29	80	-4	4	-2	3	-1	Both	Gunner	2
+EX Gore Coat	3731	Waist	7	29	80	-4	4	-2	3	-1	Both	Gunner	2
+EX Gore Faulds	3726	Waist	7	58	125	-5	3	-3	2	-2	Both	Blade	2
+EX Gore Greaves	3727	Legs	7	58	125	-5	3	-3	2	-2	Both	Blade	2
+EX Gore Guards	3730	Arms	7	29	80	-4	4	-2	3	-1	Both	Gunner	0
+EX Gore Helm	3723	Head	7	58	125	-5	3	-3	2	-2	Both	Blade	1
+EX Gore Leggings	3732	Legs	7	29	80	-4	4	-2	3	-1	Both	Gunner	2
+EX Gore Mail	3724	Body	7	58	125	-5	3	-3	2	-2	Both	Blade	1
+EX Gore Vest	3729	Body	7	29	80	-4	4	-2	3	-1	Both	Gunner	1
+EX Ingot Cap	3708	Head	7	21	78	-1	-1	3	1	1	Both	Gunner	2
+EX Ingot Coat	3711	Waist	7	21	78	-1	-1	3	1	1	Both	Gunner	1
+EX Ingot Coil	3706	Waist	7	41	116	-2	-2	2	0	0	Both	Blade	1
+EX Ingot Greaves	3707	Legs	7	41	116	-2	-2	2	0	0	Both	Blade	1
+EX Ingot Guards	3710	Arms	7	21	78	-1	-1	3	1	1	Both	Gunner	1
+EX Ingot Helm	3703	Head	7	41	116	-2	-2	2	0	0	Both	Blade	2
+EX Ingot Leggings	3712	Legs	7	21	78	-1	-1	3	1	1	Both	Gunner	1
+EX Ingot Mail	3704	Body	7	41	116	-2	-2	2	0	0	Both	Blade	2
+EX Ingot Vambraces	3705	Arms	7	41	116	-2	-2	2	0	0	Both	Blade	1
+EX Ingot Vest	3709	Body	7	21	78	-1	-1	3	1	1	Both	Gunner	2
+EX Kaiser Coat	3554	Waist	7	41	83	6	-6	3	-1	-3	Both	Gunner	0
+EX Kaiser Crown	3546	Head	7	81	136	5	-7	2	-2	-4	Both	Blade	0
+EX Kaiser Greaves	3550	Legs	7	81	136	5	-7	2	-2	-4	Both	Blade	0
+EX Kaiser Guards	3553	Arms	7	41	83	6	-6	3	-1	-3	Both	Gunner	0
+EX Kaiser Leggings	3555	Legs	7	41	83	6	-6	3	-1	-3	Both	Gunner	0
+EX Kaiser Mail	3547	Body	7	81	136	5	-7	2	-2	-4	Both	Blade	0
+EX Kaiser Mask	3551	Head	7	41	83	6	-6	3	-1	-3	Both	Gunner	0
+EX Kaiser Tassets	3549	Waist	7	81	136	5	-7	2	-2	-4	Both	Blade	0
+EX Kaiser Vambraces	3548	Arms	7	81	136	5	-7	2	-2	-4	Both	Blade	0
+EX Kaiser Vest	3552	Body	7	41	83	6	-6	3	-1	-3	Both	Gunner	0
+EX Kirin Boots U	3702	Legs	7	1	72	1	1	2	7	4	Both	Gunner	1
+EX Kirin Cape U	3699	Body	7	1	72	1	1	2	7	4	Both	Gunner	2
+EX Kirin Crest U	3698	Head	7	1	72	1	1	2	7	4	Both	Gunner	2
+EX Kirin Gloves U	3700	Arms	7	1	72	1	1	2	7	4	Both	Gunner	2
+EX Kirin Hoop U	3696	Waist	7	1	134	0	0	1	6	3	Both	Blade	2
+EX Kirin Horn U	3693	Head	7	1	134	0	0	1	6	3	Both	Blade	2
+EX Kirin Jacket U	3694	Body	7	1	134	0	0	1	6	3	Both	Blade	2
+EX Kirin Leg Guards U	3697	Legs	7	1	134	0	0	1	6	3	Both	Blade	1
+EX Kirin Longarms U	3695	Arms	7	1	134	0	0	1	6	3	Both	Blade	2
+EX Kirin Shorts U	3701	Waist	7	1	72	1	1	2	7	4	Both	Gunner	2
+EX Kushala Cista	3537	Body	7	81	136	-3	3	-6	6	-7	Both	Blade	0
+EX Kushala Cocoon	3539	Waist	7	81	136	-3	3	-6	6	-7	Both	Blade	2
+EX Kushala Crus	3540	Legs	7	81	136	-3	3	-6	6	-7	Both	Blade	1
+EX Kushala Embrace	3543	Arms	7	41	83	-2	4	-5	7	-6	Both	Gunner	2
+EX Kushala Glare	3536	Head	7	81	136	-3	3	-6	6	-7	Both	Blade	1
+EX Kushala Grip	3538	Arms	7	81	136	-3	3	-6	6	-7	Both	Blade	2
+EX Kushala Shank	3545	Legs	7	41	83	-2	4	-5	7	-6	Both	Gunner	1
+EX Kushala Snarl	3541	Head	7	41	83	-2	4	-5	7	-6	Both	Gunner	1
+EX Kushala Vise	3542	Body	7	41	83	-2	4	-5	7	-6	Both	Gunner	0
+EX Kushala Wind Wrap	3544	Waist	7	41	83	-2	4	-5	7	-6	Both	Gunner	2
+EX Rathalos Braces	3528	Arms	7	57	126	3	0	-2	0	-4	Both	Blade	0
+EX Rathalos Cap	3531	Head	7	28	80	4	1	-1	1	-3	Both	Gunner	2
+EX Rathalos Coat	3534	Waist	7	28	80	4	1	-1	1	-3	Both	Gunner	3
+EX Rathalos Faulds	3529	Waist	7	57	126	3	0	-2	0	-4	Both	Blade	3
+EX Rathalos Greaves	3530	Legs	7	57	126	3	0	-2	0	-4	Both	Blade	1
+EX Rathalos Guards	3533	Arms	7	28	80	4	1	-1	1	-3	Both	Gunner	0
+EX Rathalos Helm	3526	Head	7	57	126	3	0	-2	0	-4	Both	Blade	2
+EX Rathalos Leggings	3535	Legs	7	28	80	4	1	-1	1	-3	Both	Gunner	1
+EX Rathalos Mail	3527	Body	7	57	126	3	0	-2	0	-4	Both	Blade	0
+EX Rathalos Vest	3532	Body	7	28	80	4	1	-1	1	-3	Both	Gunner	0
+EX Rathian Braces	3518	Arms	7	50	121	3	0	-2	0	-4	Both	Blade	1
+EX Rathian Cap	3521	Head	7	25	79	4	1	-1	1	-3	Both	Gunner	2
+EX Rathian Coat	3524	Waist	7	25	79	4	1	-1	1	-3	Both	Gunner	0
+EX Rathian Faulds	3519	Waist	7	50	121	3	0	-2	0	-4	Both	Blade	0
+EX Rathian Greaves	3520	Legs	7	50	121	3	0	-2	0	-4	Both	Blade	3
+EX Rathian Guards	3523	Arms	7	25	79	4	1	-1	1	-3	Both	Gunner	1
+EX Rathian Helm	3516	Head	7	50	121	3	0	-2	0	-4	Both	Blade	2
+EX Rathian Leggings	3525	Legs	7	25	79	4	1	-1	1	-3	Both	Gunner	3
+EX Rathian Mail	3517	Body	7	50	121	3	0	-2	0	-4	Both	Blade	1
+EX Rathian Vest	3522	Body	7	25	79	4	1	-1	1	-3	Both	Gunner	1
+EX Rebellion Braces	3735	Arms	7	81	134	3	3	-2	-2	-3	Both	Blade	0
+EX Rebellion Coil	3736	Waist	7	81	134	3	3	-2	-2	-3	Both	Blade	0
+EX Rebellion Greaves	3737	Legs	7	81	134	3	3	-2	-2	-3	Both	Blade	2
+EX Rebellion Helm	3733	Head	7	81	134	3	3	-2	-2	-3	Both	Blade	1
+EX Rebellion Mail	3734	Body	7	81	134	3	3	-2	-2	-3	Both	Blade	1
+EX Riot Cap	3738	Head	7	41	83	4	4	-1	-1	-2	Both	Gunner	1
+EX Riot Coat	3741	Waist	7	41	83	4	4	-1	-1	-2	Both	Gunner	0
+EX Riot Guards	3740	Arms	7	41	83	4	4	-1	-1	-2	Both	Gunner	0
+EX Riot Leggings	3742	Legs	7	41	83	4	4	-1	-1	-2	Both	Gunner	2
+EX Riot Vest	3739	Body	7	41	83	4	4	-1	-1	-2	Both	Gunner	1
+EX Tigrex Cap	3561	Head	7	41	83	4	0	-4	1	-2	Both	Gunner	1
+EX Tigrex Coat	3564	Waist	7	41	83	4	0	-4	1	-2	Both	Gunner	2
+EX Tigrex Greaves	3560	Legs	7	81	136	3	-1	-5	0	-3	Both	Blade	1
+EX Tigrex Guards	3563	Arms	7	41	83	4	0	-4	1	-2	Both	Gunner	2
+EX Tigrex Helm	3556	Head	7	81	136	3	-1	-5	0	-3	Both	Blade	1
+EX Tigrex Leggings	3565	Legs	7	41	83	4	0	-4	1	-2	Both	Gunner	1
+EX Tigrex Mail	3557	Body	7	81	136	3	-1	-5	0	-3	Both	Blade	1
+EX Tigrex Tassets	3559	Waist	7	81	136	3	-1	-5	0	-3	Both	Blade	2
+EX Tigrex Vambraces	3558	Arms	7	81	136	3	-1	-5	0	-3	Both	Blade	2
+EX Tigrex Vest	3562	Body	7	41	83	4	0	-4	1	-2	Both	Gunner	1
+Empress Coat	3474	Waist	7	34	81	5	-1	2	-5	-1	Both	Gunner	1
+Empress Coat X	4781	Waist	10	64	99	5	-1	2	-5	-1	Both	Gunner	2
+Empress Coil X	4776	Waist	10	110	152	4	-2	1	-6	-2	Both	Blade	2
+Empress Crown	3466	Head	7	68	131	4	-2	1	-6	-2	Both	Blade	3
+Empress Crown X	4773	Head	10	110	152	4	-2	1	-6	-2	Both	Blade	3
+Empress Greaves	3470	Legs	7	68	131	4	-2	1	-6	-2	Both	Blade	2
+Empress Greaves X	4777	Legs	10	110	152	4	-2	1	-6	-2	Both	Blade	3
+Empress Guards	3473	Arms	7	34	81	5	-1	2	-5	-1	Both	Gunner	2
+Empress Guards X	4780	Arms	10	64	99	5	-1	2	-5	-1	Both	Gunner	2
+Empress Leggings	3475	Legs	7	34	81	5	-1	2	-5	-1	Both	Gunner	2
+Empress Leggings X	4782	Legs	10	64	99	5	-1	2	-5	-1	Both	Gunner	3
+Empress Mail	3467	Body	7	68	131	4	-2	1	-6	-2	Both	Blade	0
+Empress Mail X	4774	Body	10	110	152	4	-2	1	-6	-2	Both	Blade	1
+Empress Mask	3471	Head	7	34	81	5	-1	2	-5	-1	Both	Gunner	3
+Empress Mask X	4778	Head	10	64	99	5	-1	2	-5	-1	Both	Gunner	3
+Empress Tassets	3469	Waist	7	68	131	4	-2	1	-6	-2	Both	Blade	1
+Empress Vambraces	3468	Arms	7	68	131	4	-2	1	-6	-2	Both	Blade	2
+Empress Vambraces X	4775	Arms	10	110	152	4	-2	1	-6	-2	Both	Blade	2
+Empress Vest	3472	Body	7	34	81	5	-1	2	-5	-1	Both	Gunner	0
+Empress Vest X	4779	Body	10	64	99	5	-1	2	-5	-1	Both	Gunner	1
+Epoch Archbraces	3343	Arms	7	32	80	4	3	-3	4	-3	Female	Gunner	2
+Epoch Archgirdle	3344	Waist	7	32	80	4	3	-3	4	-3	Female	Gunner	1
+Epoch Archhelm	3341	Head	7	32	80	4	3	-3	4	-3	Female	Gunner	2
+Epoch Archplate	3342	Body	7	32	80	4	3	-3	4	-3	Female	Gunner	1
+Epoch Archpleats	3345	Legs	7	32	80	4	3	-3	4	-3	Female	Gunner	0
+Epoch Braces	2317	Arms	3	13	78	3	2	-2	3	-2	Female	Gunner	2
+Epoch Girdle	2318	Waist	3	13	78	3	2	-2	3	-2	Female	Gunner	1
+Epoch Helm	2315	Head	3	13	78	3	2	-2	3	-2	Female	Gunner	2
+Epoch Plate	2316	Body	3	13	78	3	2	-2	3	-2	Female	Gunner	1
+Epoch Pleats	2319	Legs	3	13	78	3	2	-2	3	-2	Female	Gunner	0
+Escadora Arma	3513	Arms	7	41	84	-2	-1	4	4	-1	Both	Gunner	0
+Escadora Armguards	3508	Arms	7	81	138	-3	-2	3	3	-2	Both	Blade	0
+Escadora Force	3514	Waist	7	41	84	4	-1	-2	-2	-1	Both	Gunner	0
+Escadora Might	3509	Waist	7	81	138	3	-2	-3	-3	-2	Both	Blade	0
+Escadora Sagesse	3511	Head	7	41	84	1	-1	1	1	-1	Both	Gunner	0
+Escadora Scala	3515	Legs	7	41	84	4	-1	-2	-2	-1	Both	Gunner	0
+Escadora Seele	3512	Body	7	41	84	-2	-1	4	4	-1	Both	Gunner	0
+Escadora Sheath	3510	Legs	7	81	138	3	-2	-3	-3	-2	Both	Blade	0
+Escadora Soul	3507	Body	7	81	138	-3	-2	3	3	-2	Both	Blade	0
+Escadora Wisdom	3506	Head	7	81	138	0	-2	0	0	-2	Both	Blade	0
+Esurient Cap	3391	Head	7	32	80	0	0	-2	0	0	Both	Gunner	0
+Esurient Cap Z	4688	Head	10	62	98	0	0	-2	0	0	Both	Gunner	1
+Esurient Coat	3394	Waist	7	32	80	0	0	-2	0	0	Both	Gunner	0
+Esurient Coat Z	4691	Waist	10	62	98	0	0	-2	0	0	Both	Gunner	0
+Esurient Faulds	3389	Waist	7	64	127	-1	-1	-3	-1	-1	Both	Blade	0
+Esurient Faulds Z	4686	Waist	10	108	150	-1	-1	-3	-1	-1	Both	Blade	0
+Esurient Greaves	3390	Legs	7	64	127	-1	-1	-3	-1	-1	Both	Blade	3
+Esurient Greaves Z	4687	Legs	10	108	150	-1	-1	-3	-1	-1	Both	Blade	3
+Esurient Guards	3393	Arms	7	32	80	0	0	-2	0	0	Both	Gunner	0
+Esurient Guards Z	4690	Arms	10	62	98	0	0	-2	0	0	Both	Gunner	1
+Esurient Helm	3386	Head	7	64	127	-1	-1	-3	-1	-1	Both	Blade	0
+Esurient Helm Z	4683	Head	10	108	150	-1	-1	-3	-1	-1	Both	Blade	1
+Esurient Leggings	3395	Legs	7	32	80	0	0	-2	0	0	Both	Gunner	3
+Esurient Leggings Z	4692	Legs	10	62	98	0	0	-2	0	0	Both	Gunner	3
+Esurient Mail	3387	Body	7	64	127	-1	-1	-3	-1	-1	Both	Blade	0
+Esurient Mail Z	4684	Body	10	108	150	-1	-1	-3	-1	-1	Both	Blade	1
+Esurient Vambraces	3388	Arms	7	64	127	-1	-1	-3	-1	-1	Both	Blade	0
+Esurient Vambraces Z	4685	Arms	10	108	150	-1	-1	-3	-1	-1	Both	Blade	1
+Esurient Vest	3392	Body	7	32	80	0	0	-2	0	0	Both	Gunner	0
+Esurient Vest Z	4689	Body	10	62	98	0	0	-2	0	0	Both	Gunner	1
+Excello Cap	3401	Head	7	41	83	4	-4	3	-2	2	Both	Gunner	1
+Excello Cap Z	4698	Head	10	69	98	4	-4	3	-2	2	Both	Gunner	1
+Excello Coat	3404	Waist	7	41	83	4	-4	3	-2	2	Both	Gunner	2
+Excello Coat Z	4701	Waist	10	69	98	4	-4	3	-2	2	Both	Gunner	3
+Excello Coil	3399	Waist	7	81	134	3	-5	2	-3	1	Both	Blade	2
+Excello Coil Z	4696	Waist	10	116	152	3	-5	2	-3	1	Both	Blade	3
+Excello Greaves	3400	Legs	7	81	134	3	-5	2	-3	1	Both	Blade	2
+Excello Greaves Z	4697	Legs	10	116	152	3	-5	2	-3	1	Both	Blade	2
+Excello Guards	3403	Arms	7	41	83	4	-4	3	-2	2	Both	Gunner	1
+Excello Guards Z	4700	Arms	10	69	98	4	-4	3	-2	2	Both	Gunner	1
+Excello Helm	3396	Head	7	81	134	3	-5	2	-3	1	Both	Blade	1
+Excello Helm Z	4693	Head	10	116	152	3	-5	2	-3	1	Both	Blade	1
+Excello Leggings	3405	Legs	7	41	83	4	-4	3	-2	2	Both	Gunner	2
+Excello Leggings Z	4702	Legs	10	69	98	4	-4	3	-2	2	Both	Gunner	2
+Excello Mail	3397	Body	7	81	134	3	-5	2	-3	1	Both	Blade	1
+Excello Mail Z	4694	Body	10	116	152	3	-5	2	-3	1	Both	Blade	1
+Excello Vambraces	3398	Arms	7	81	134	3	-5	2	-3	1	Both	Blade	1
+Excello Vambraces Z	4695	Arms	10	116	152	3	-5	2	-3	1	Both	Blade	1
+Excello Vest	3402	Body	7	41	83	4	-4	3	-2	2	Both	Gunner	1
+Excello Vest Z	4699	Body	10	69	98	4	-4	3	-2	2	Both	Gunner	1
+Exclusive Frills X	4536	Waist	9	64	97	1	1	1	1	1	Female	Gunner	2
+Exclusive Glasses X	4533	Head	9	64	97	1	1	1	1	1	Female	Gunner	2
+Exclusive Sleeves X	4535	Arms	9	64	97	1	1	1	1	1	Female	Gunner	1
+Exclusive Tights X	4537	Legs	9	64	97	1	1	1	1	1	Female	Gunner	0
+Exclusive Vest X	4534	Body	9	64	97	1	1	1	1	1	Female	Gunner	2
+False Felyne	4908	Head	10	40	92	2	2	2	0	2	Both	Both	0
+Fan Club Goldsuit	4853	Body	10	70	147	0	0	0	0	0	Both	Blade	0
+Fan Club Jacket	3601	Body	7	15	115	3	3	3	3	3	Both	Blade	0
+Fan Club Silversuit	4854	Body	10	36	88	0	0	0	0	0	Both	Gunner	0
+Fan Club Tracksuit	3602	Body	7	8	71	4	4	4	4	4	Both	Gunner	0
+Fatalis Crimsonclaws	3418	Arms	7	81	138	2	-1	1	-3	-7	Both	Blade	1
+Fatalis Crimsonface	3421	Head	7	41	84	3	0	2	-2	-6	Both	Gunner	1
+Fatalis Crimsonfeet	3420	Legs	7	81	138	2	-1	1	-3	-7	Both	Blade	1
+Fatalis Crimsonfists	3423	Arms	7	41	84	3	0	2	-2	-6	Both	Gunner	1
+Fatalis Crimsonhead	3416	Head	7	81	138	2	-1	1	-3	-7	Both	Blade	1
+Fatalis Crimsonhide	3417	Body	7	81	138	2	-1	1	-3	-7	Both	Blade	0
+Fatalis Crimsonlegs	3425	Legs	7	41	84	3	0	2	-2	-6	Both	Gunner	1
+Fatalis Crimsonskin	3422	Body	7	41	84	3	0	2	-2	-6	Both	Gunner	0
+Fatalis Crimsontail	3424	Waist	7	41	84	3	0	2	-2	-6	Both	Gunner	0
+Fatalis Crimsonwings	3419	Waist	7	81	138	2	-1	1	-3	-7	Both	Blade	0
+Felyne Hairband	3597	Head	7	25	79	2	2	2	2	2	Both	Both	2
+Felyne Hairband X	4538	Head	9	64	97	2	2	2	2	2	Both	Both	0
+Friendship Feather	2449	Head	3	11	77	0	0	0	0	0	Both	Both	2
+G. Knight Boots X	4522	Legs	9	110	150	0	0	0	0	0	Male	Blade	0
+G. Knight Coat X	4521	Waist	9	110	150	0	0	0	0	0	Male	Blade	2
+G. Knight Feather X	4518	Head	9	110	150	0	0	0	0	0	Male	Blade	2
+G. Knight Gloves X	4520	Arms	9	110	150	0	0	0	0	0	Male	Blade	1
+G. Knight Kilt X	4526	Waist	9	64	97	1	1	1	1	1	Male	Gunner	2
+G. Knight Mask X	4523	Head	9	64	97	1	1	1	1	1	Male	Gunner	2
+G. Knight Sleeves X	4525	Arms	9	64	97	1	1	1	1	1	Male	Gunner	1
+G. Knight Suit X	4519	Body	9	110	150	0	0	0	0	0	Male	Blade	2
+G. Knight Tights X	4527	Legs	9	64	97	1	1	1	1	1	Male	Gunner	0
+G. Knight Vest X	4524	Body	9	64	97	1	1	1	1	1	Male	Gunner	2
+GX Esurient Armor	4972	Body	10	100		-5	-5	-5	-5	-5	Both	Blade	0
+GX Esurient Arms	4973	Arms	10	100		-5	-5	-5	-5	-5	Both	Blade	0
+GX Esurient Bands	4978	Arms	10	55		-4	-4	-4	-4	-4	Both	Gunner	0
+GX Esurient Base	4974	Waist	10	100		-5	-5	-5	-5	-5	Both	Blade	0
+GX Esurient Casque	4971	Head	10	100		-5	-5	-5	-5	-5	Both	Blade	0
+GX Esurient Coif	4976	Head	10	55		-4	-4	-4	-4	-4	Both	Gunner	0
+GX Esurient Cuisses	4975	Legs	10	100		-5	-5	-5	-5	-5	Both	Blade	0
+GX Esurient Jambs	4980	Legs	10	55		-4	-4	-4	-4	-4	Both	Gunner	0
+GX Esurient Pizane	4977	Body	10	55		-4	-4	-4	-4	-4	Both	Gunner	0
+GX Esurient Tuilles	4979	Waist	10	55		-4	-4	-4	-4	-4	Both	Gunner	0
+GX Fatalis Crimsonarmor	4992	Body	10	110		2	-1	1	-3	-7	Both	Blade	1
+GX Fatalis Crimsonarms	4993	Arms	10	110		2	-1	1	-3	-7	Both	Blade	1
+GX Fatalis Crimsonbands	4998	Arms	10	64		3	0	2	-2	-6	Both	Gunner	1
+GX Fatalis Crimsonbase	4994	Waist	10	110		2	-1	1	-3	-7	Both	Blade	1
+GX Fatalis Crimsonboots	4995	Legs	10	110		2	-1	1	-3	-7	Both	Blade	1
+GX Fatalis Crimsoncoif	4996	Head	10	64		3	0	2	-2	-6	Both	Gunner	1
+GX Fatalis Crimsonhelm	4991	Head	10	110		2	-1	1	-3	-7	Both	Blade	1
+GX Fatalis Crimsonjambs	5000	Legs	10	64		3	0	2	-2	-6	Both	Gunner	1
+GX Fatalis Crimsonpizane	4997	Body	10	64		3	0	2	-2	-6	Both	Gunner	1
+GX Fatalis Crimsontuilles	4999	Waist	10	64		3	0	2	-2	-6	Both	Gunner	1
+GX Hunter's Armor	4962	Body	10	120		0	1	-3	0	0	Both	Blade	3
+GX Hunter's Arms	4963	Arms	10	120		0	1	-3	0	0	Both	Blade	3
+GX Hunter's Bands	4968	Arms	10	72		1	2	-2	1	1	Both	Gunner	3
+GX Hunter's Base	4964	Waist	10	120		0	1	-3	0	0	Both	Blade	3
+GX Hunter's Casque	4961	Head	10	120		0	1	-3	0	0	Both	Blade	3
+GX Hunter's Coif	4966	Head	10	72		1	2	-2	1	1	Both	Gunner	3
+GX Hunter's Cuisses	4965	Legs	10	120		0	1	-3	0	0	Both	Blade	3
+GX Hunter's Jambs	4970	Legs	10	72		1	2	-2	1	1	Both	Gunner	3
+GX Hunter's Pizane	4967	Body	10	72		1	2	-2	1	1	Both	Gunner	3
+GX Hunter's Tuilles	4969	Waist	10	72		1	2	-2	1	1	Both	Gunner	3
+GX Tempest Diadem	4981	Head	10	88		-3	4	0	0	-5	Both	Blade	3
+GX Tempest Trails	4983	Arms	10	88		-3	4	0	0	-5	Both	Blade	0
+GX Tempest Truss	4984	Waist	10	88		-3	4	0	0	-5	Both	Blade	0
+GX Tempest Vesture	4982	Body	10	88		-3	4	0	0	-5	Both	Blade	1
+GX Tempest Wingpleats	4985	Legs	10	88		-3	4	0	0	-5	Both	Blade	3
+GX Welkin Diadem	4986	Head	10	47		-2	5	0	0	-4	Both	Gunner	3
+GX Welkin Trails	4988	Arms	10	47		-2	5	0	0	-4	Both	Gunner	0
+GX Welkin Truss	4989	Waist	10	47		-2	5	0	0	-4	Both	Gunner	0
+GX Welkin Vesture	4987	Body	10	47		-2	5	0	0	-4	Both	Gunner	1
+GX Welkin Wingpleats	4990	Legs	10	47		-2	5	0	0	-4	Both	Gunner	3
+Gargwa Mask	2446	Head	3	5	73	-4	-2	-1	2	1	Both	Both	0
+Garuga Cap	2345	Head	3	12	78	2	-2	2	-1	1	Both	Gunner	2
+Garuga Cap S	2933	Head	5	30	80	4	-3	4	-3	2	Both	Gunner	1
+Garuga Cap X	4373	Head	9	52	92	4	-3	4	-3	2	Both	Gunner	1
+Garuga Coat	2348	Waist	3	12	78	2	-2	2	-1	1	Both	Gunner	2
+Garuga Coat S	2936	Waist	5	30	80	4	-3	4	-3	2	Both	Gunner	1
+Garuga Coat X	4376	Waist	9	52	92	4	-3	4	-3	2	Both	Gunner	1
+Garuga Greaves	2344	Legs	3	24	126	1	-3	1	-2	0	Both	Blade	2
+Garuga Greaves S	2932	Legs	5	60	127	3	-4	3	-4	1	Both	Blade	2
+Garuga Greaves X	4372	Legs	9	95	142	3	-4	3	-4	1	Both	Blade	2
+Garuga Guards	2347	Arms	3	12	78	2	-2	2	-1	1	Both	Gunner	3
+Garuga Guards S	2935	Arms	5	30	80	4	-3	4	-3	2	Both	Gunner	2
+Garuga Guards X	4375	Arms	9	52	92	4	-3	4	-3	2	Both	Gunner	2
+Garuga Helm	2340	Head	3	24	126	1	-3	1	-2	0	Both	Blade	2
+Garuga Helm S	2928	Head	5	60	127	3	-4	3	-4	1	Both	Blade	1
+Garuga Helm X	4368	Head	9	95	142	3	-4	3	-4	1	Both	Blade	1
+Garuga Leggings	2349	Legs	3	12	78	2	-2	2	-1	1	Both	Gunner	2
+Garuga Leggings S	2937	Legs	5	30	80	4	-3	4	-3	2	Both	Gunner	2
+Garuga Leggings X	4377	Legs	9	52	92	4	-3	4	-3	2	Both	Gunner	2
+Garuga Mail	2341	Body	3	24	126	1	-3	1	-2	0	Both	Blade	1
+Garuga Mail S	2929	Body	5	60	127	3	-4	3	-4	1	Both	Blade	2
+Garuga Mail X	4369	Body	9	95	142	3	-4	3	-4	1	Both	Blade	2
+Garuga Mask	4907	Head	10	40	92	2	2	2	2	2	Both	Both	2
+Garuga Tassets	2343	Waist	3	24	126	1	-3	1	-2	0	Both	Blade	2
+Garuga Tassets S	2931	Waist	5	60	127	3	-4	3	-4	1	Both	Blade	1
+Garuga Tassets X	4371	Waist	9	95	142	3	-4	3	-4	1	Both	Blade	1
+Garuga Vambraces	2342	Arms	3	24	126	1	-3	1	-2	0	Both	Blade	3
+Garuga Vambraces S	2930	Arms	5	60	127	3	-4	3	-4	1	Both	Blade	2
+Garuga Vambraces X	4370	Arms	9	95	142	3	-4	3	-4	1	Both	Blade	2
+Garuga Vest	2346	Body	3	12	78	2	-2	2	-1	1	Both	Gunner	1
+Garuga Vest S	2934	Body	5	30	80	4	-3	4	-3	2	Both	Gunner	2
+Garuga Vest X	4374	Body	9	52	92	4	-3	4	-3	2	Both	Gunner	2
+Genesis Gauntlets	2417	Arms	3	13	78	-1	3	1	3	-3	Male	Gunner	1
+Genesis Headpiece	2415	Head	3	13	78	-1	3	1	3	-3	Male	Gunner	2
+Genesis Pants	2419	Legs	3	13	78	-1	3	1	3	-3	Male	Gunner	1
+Genesis Tassets	2418	Waist	3	13	78	-1	3	1	3	-3	Male	Gunner	2
+Genesis Torso	2416	Body	3	13	78	-1	3	1	3	-3	Male	Gunner	1
+Genprey Cap	2015	Head	2	6	73	2	2	-1	-2	3	Both	Gunner	1
+Genprey Cap S	2501	Head	4	18	77	2	2	-2	-4	4	Both	Gunner	2
+Genprey Coat	2018	Waist	2	6	73	2	2	-1	-2	3	Both	Gunner	1
+Genprey Coat S	2504	Waist	4	18	77	2	2	-2	-4	4	Both	Gunner	1
+Genprey Greaves	2014	Legs	2	12	116	1	1	-2	-3	2	Both	Blade	1
+Genprey Greaves S	2500	Legs	4	36	117	1	1	-3	-5	3	Both	Blade	2
+Genprey Guards	2017	Arms	2	6	73	2	2	-1	-2	3	Both	Gunner	1
+Genprey Guards S	2503	Arms	4	18	77	2	2	-2	-4	4	Both	Gunner	1
+Genprey Helm	2010	Head	2	12	116	1	1	-2	-3	2	Both	Blade	1
+Genprey Helm S	2496	Head	4	36	117	1	1	-3	-5	3	Both	Blade	1
+Genprey Leggings	2019	Legs	2	6	73	2	2	-1	-2	3	Both	Gunner	1
+Genprey Leggings S	2505	Legs	4	18	77	2	2	-2	-4	4	Both	Gunner	2
+Genprey Mail	2011	Body	2	12	116	1	1	-2	-3	2	Both	Blade	1
+Genprey Mail S	2497	Body	4	36	117	1	1	-3	-5	3	Both	Blade	2
+Genprey Mask	4904	Head	10	40	92	1	1	2	1	1	Both	Both	0
+Genprey Tassets	2013	Waist	2	12	116	1	1	-2	-3	2	Both	Blade	1
+Genprey Tassets S	2499	Waist	4	36	117	1	1	-3	-5	3	Both	Blade	1
+Genprey Vambraces	2012	Arms	2	12	116	1	1	-2	-3	2	Both	Blade	1
+Genprey Vambraces S	2498	Arms	4	36	117	1	1	-3	-5	3	Both	Blade	1
+Genprey Vest	2016	Body	2	6	73	2	2	-1	-2	3	Both	Gunner	1
+Genprey Vest S	2502	Body	4	18	77	2	2	-2	-4	4	Both	Gunner	2
+Giaprey Mask	4903	Head	10	40	92	0	2	2	3	-2	Both	Both	0
+Gloaming Archbraces	3328	Arms	7	64	127	3	2	-4	3	-4	Male	Blade	2
+Gloaming Archgirdle	3329	Waist	7	64	127	3	2	-4	3	-4	Male	Blade	1
+Gloaming Archgreaves	3330	Legs	7	64	127	3	2	-4	3	-4	Male	Blade	0
+Gloaming Archhelm	3326	Head	7	64	127	3	2	-4	3	-4	Male	Blade	2
+Gloaming Archplate	3327	Body	7	64	127	3	2	-4	3	-4	Male	Blade	0
+Gloaming Braces	2302	Arms	3	26	126	2	1	-3	2	-3	Male	Blade	0
+Gloaming Girdle	2303	Waist	3	26	126	2	1	-3	2	-3	Male	Blade	1
+Gloaming Greaves	2304	Legs	3	26	126	2	1	-3	2	-3	Male	Blade	0
+Gloaming Helm	2300	Head	3	26	126	2	1	-3	2	-3	Male	Blade	2
+Gloaming Plate	2301	Body	3	26	126	2	1	-3	2	-3	Male	Blade	1
+Glyph Chest	2426	Body	3	13	78	-1	3	1	3	-3	Female	Gunner	1
+Glyph Crown	2425	Head	3	13	78	-1	3	1	3	-3	Female	Gunner	2
+Glyph Gauntlets	2427	Arms	3	13	78	-1	3	1	3	-3	Female	Gunner	1
+Glyph Hakama	2429	Legs	3	13	78	-1	3	1	3	-3	Female	Gunner	1
+Glyph Tassets	2428	Waist	3	13	78	-1	3	1	3	-3	Female	Gunner	2
+Gobul Cap	2963	Head	5	26	79	-1	4	-3	1	2	Both	Gunner	2
+Gobul Cap X	4075	Head	8	45	88	-1	4	-3	1	2	Both	Gunner	2
+Gobul Coat	2966	Waist	5	26	79	-1	4	-3	1	2	Both	Gunner	2
+Gobul Coat X	4078	Waist	8	45	88	-1	4	-3	1	2	Both	Gunner	2
+Gobul Faulds	2961	Waist	5	52	123	-2	3	-4	0	1	Both	Blade	2
+Gobul Faulds X	4073	Waist	8	85	136	-2	3	-4	0	1	Both	Blade	2
+Gobul Greaves	2962	Legs	5	52	123	-2	3	-4	0	1	Both	Blade	3
+Gobul Greaves X	4074	Legs	8	85	136	-2	3	-4	0	1	Both	Blade	3
+Gobul Guards	2965	Arms	5	26	79	-1	4	-3	1	2	Both	Gunner	1
+Gobul Guards X	4077	Arms	8	45	88	-1	4	-3	1	2	Both	Gunner	1
+Gobul Helm	2958	Head	5	52	123	-2	3	-4	0	1	Both	Blade	2
+Gobul Helm X	4070	Head	8	85	136	-2	3	-4	0	1	Both	Blade	2
+Gobul Leggings	2967	Legs	5	26	79	-1	4	-3	1	2	Both	Gunner	3
+Gobul Leggings X	4079	Legs	8	45	88	-1	4	-3	1	2	Both	Gunner	3
+Gobul Mail	2959	Body	5	52	123	-2	3	-4	0	1	Both	Blade	1
+Gobul Mail X	4071	Body	8	85	136	-2	3	-4	0	1	Both	Blade	1
+Gobul Vambraces	2960	Arms	5	52	123	-2	3	-4	0	1	Both	Blade	1
+Gobul Vambraces X	4072	Arms	8	85	136	-2	3	-4	0	1	Both	Blade	1
+Gobul Vest	2964	Body	5	26	79	-1	4	-3	1	2	Both	Gunner	1
+Gobul Vest X	4076	Body	8	45	88	-1	4	-3	1	2	Both	Gunner	1
+Gogma Braces	4645	Arms	10	110	152	-4	3	0	3	-7	Both	Blade	2
+Gogma Cap	4648	Head	10	64	98	-3	4	1	4	-6	Both	Gunner	1
+Gogma Coat	4651	Waist	10	64	98	-3	4	1	4	-6	Both	Gunner	2
+Gogma Faulds	4646	Waist	10	110	152	-4	3	0	3	-7	Both	Blade	2
+Gogma Greaves	4647	Legs	10	110	152	-4	3	0	3	-7	Both	Blade	2
+Gogma Guards	4650	Arms	10	64	98	-3	4	1	4	-6	Both	Gunner	2
+Gogma Helm	4643	Head	10	110	152	-4	3	0	3	-7	Both	Blade	1
+Gogma Leggings	4652	Legs	10	64	98	-3	4	1	4	-6	Both	Gunner	2
+Gogma Mail	4644	Body	10	110	152	-4	3	0	3	-7	Both	Blade	1
+Gogma Vest	4649	Body	10	64	98	-3	4	1	4	-6	Both	Gunner	1
+Golden Hakama	3290	Legs	7	65	128	2	1	3	-6	2	Both	Blade	1
+Golden Haori	3287	Body	7	65	128	2	1	3	-6	2	Both	Blade	0
+Golden Headdress	3286	Head	7	65	128	2	1	3	-6	2	Both	Blade	2
+Golden Kote	3288	Arms	7	65	128	2	1	3	-6	2	Both	Blade	1
+Golden Lunebraces	3378	Arms	7	81	134	2	-4	-7	0	4	Both	Blade	1
+Golden Lunebraces Z	4913	Arms	10	108	150	2	-4	-7	0	4	Both	Blade	1
+Golden Lunecap	3381	Head	7	41	83	3	-3	-6	1	5	Both	Gunner	3
+Golden Lunecap Z	4916	Head	10	62	98	3	-3	-6	1	5	Both	Gunner	3
+Golden Lunecoat	3384	Waist	7	41	83	3	-3	-6	1	5	Both	Gunner	3
+Golden Lunecoat Z	4919	Waist	10	62	98	3	-3	-6	1	5	Both	Gunner	3
+Golden Lunecoil	3379	Waist	7	81	134	2	-4	-7	0	4	Both	Blade	3
+Golden Lunecoil Z	4914	Waist	10	108	150	2	-4	-7	0	4	Both	Blade	3
+Golden Lunegreaves	3380	Legs	7	81	134	2	-4	-7	0	4	Both	Blade	1
+Golden Lunegreaves Z	4915	Legs	10	108	150	2	-4	-7	0	4	Both	Blade	1
+Golden Luneguards	3383	Arms	7	41	83	3	-3	-6	1	5	Both	Gunner	1
+Golden Luneguards Z	4918	Arms	10	62	98	3	-3	-6	1	5	Both	Gunner	1
+Golden Lunehelm	3376	Head	7	81	134	2	-4	-7	0	4	Both	Blade	3
+Golden Lunehelm Z	4911	Head	10	108	150	2	-4	-7	0	4	Both	Blade	3
+Golden Luneleggings	3385	Legs	7	41	83	3	-3	-6	1	5	Both	Gunner	1
+Golden Luneleggings Z	4920	Legs	10	62	98	3	-3	-6	1	5	Both	Gunner	1
+Golden Lunemail	3377	Body	7	81	134	2	-4	-7	0	4	Both	Blade	2
+Golden Lunemail Z	4912	Body	10	108	150	2	-4	-7	0	4	Both	Blade	2
+Golden Lunevest	3382	Body	7	41	83	3	-3	-6	1	5	Both	Gunner	2
+Golden Lunevest Z	4917	Body	10	62	98	3	-3	-6	1	5	Both	Gunner	2
+Golden Obi	3289	Waist	7	65	128	2	1	3	-6	2	Both	Blade	1
+Gore Braces	2232	Arms	3	21	123	-4	2	-3	1	-2	Both	Blade	2
+Gore Braces S	3025	Arms	6	52	123	-5	3	-3	2	-2	Both	Blade	0
+Gore Braces X	4400	Arms	9	95	142	-5	3	-3	2	-2	Both	Blade	0
+Gore Cap	2235	Head	3	11	77	-3	3	-2	2	-1	Both	Gunner	2
+Gore Cap S	3028	Head	6	26	79	-4	4	-2	3	-1	Both	Gunner	0
+Gore Cap X	4403	Head	9	52	92	-4	4	-2	3	-1	Both	Gunner	0
+Gore Coat	2238	Waist	3	11	77	-3	3	-2	2	-1	Both	Gunner	1
+Gore Coat S	3031	Waist	6	26	79	-4	4	-2	3	-1	Both	Gunner	1
+Gore Coat X	4406	Waist	9	52	92	-4	4	-2	3	-1	Both	Gunner	2
+Gore Faulds	2233	Waist	3	21	123	-4	2	-3	1	-2	Both	Blade	1
+Gore Faulds S	3026	Waist	6	52	123	-5	3	-3	2	-2	Both	Blade	1
+Gore Faulds X	4401	Waist	9	95	142	-5	3	-3	2	-2	Both	Blade	2
+Gore Greaves	2234	Legs	3	21	123	-4	2	-3	1	-2	Both	Blade	2
+Gore Greaves S	3027	Legs	6	52	123	-5	3	-3	2	-2	Both	Blade	0
+Gore Greaves X	4402	Legs	9	95	142	-5	3	-3	2	-2	Both	Blade	1
+Gore Guards	2237	Arms	3	11	77	-3	3	-2	2	-1	Both	Gunner	2
+Gore Guards S	3030	Arms	6	26	79	-4	4	-2	3	-1	Both	Gunner	0
+Gore Guards X	4405	Arms	9	52	92	-4	4	-2	3	-1	Both	Gunner	0
+Gore Helm	2230	Head	3	21	123	-4	2	-3	1	-2	Both	Blade	1
+Gore Helm S	3023	Head	6	52	123	-5	3	-3	2	-2	Both	Blade	0
+Gore Helm X	4398	Head	9	95	142	-5	3	-3	2	-2	Both	Blade	0
+Gore Leggings	2239	Legs	3	11	77	-3	3	-2	2	-1	Both	Gunner	2
+Gore Leggings S	3032	Legs	6	26	79	-4	4	-2	3	-1	Both	Gunner	0
+Gore Leggings X	4407	Legs	9	52	92	-4	4	-2	3	-1	Both	Gunner	1
+Gore Mail	2231	Body	3	21	123	-4	2	-3	1	-2	Both	Blade	0
+Gore Mail S	3024	Body	6	52	123	-5	3	-3	2	-2	Both	Blade	1
+Gore Mail X	4399	Body	9	95	142	-5	3	-3	2	-2	Both	Blade	1
+Gore Vest	2236	Body	3	11	77	-3	3	-2	2	-1	Both	Gunner	0
+Gore Vest S	3029	Body	6	26	79	-4	4	-2	3	-1	Both	Gunner	1
+Gore Vest X	4404	Body	9	52	92	-4	4	-2	3	-1	Both	Gunner	1
+Grand Adamance Braces	4635	Arms	10	107	149	3	2	-4	3	-4	Female	Blade	3
+Grand Adamance Girdle	4636	Waist	10	107	149	3	2	-4	3	-4	Female	Blade	2
+Grand Adamance Helm	4633	Head	10	107	149	3	2	-4	3	-4	Female	Blade	2
+Grand Adamance Plate	4634	Body	10	107	149	3	2	-4	3	-4	Female	Blade	1
+Grand Adamance Pleats	4637	Legs	10	107	149	3	2	-4	3	-4	Female	Blade	0
+Grand Amagi Hakama	4772	Legs	10	62	98	4	2	1	-3	-3	Female	Gunner	0
+Grand Amagi Jingasa	4768	Head	10	62	98	4	2	1	-3	-3	Female	Gunner	2
+Grand Amagi Koshiate	4771	Waist	10	62	98	4	2	1	-3	-3	Female	Gunner	2
+Grand Amagi Kote	4770	Arms	10	62	98	4	2	1	-3	-3	Female	Gunner	3
+Grand Amagi Muneate	4769	Body	10	62	98	4	2	1	-3	-3	Female	Gunner	1
+Grand Carnage Boots	4752	Legs	10	64	99	3	4	2	-1	-1	Both	Gunner	3
+Grand Carnage Braces	4750	Arms	10	64	99	3	4	2	-1	-1	Both	Gunner	1
+Grand Carnage Helm	4748	Head	10	64	99	3	4	2	-1	-1	Both	Gunner	2
+Grand Carnage Raiment	4749	Body	10	64	99	3	4	2	-1	-1	Both	Gunner	2
+Grand Carnage Wrap	4751	Waist	10	64	99	3	4	2	-1	-1	Both	Gunner	1
+Grand Cham Camise	4619	Body	10	63	98	-3	4	1	5	0	Both	Gunner	1
+Grand Cham Coat	4621	Waist	10	63	98	-3	4	1	5	0	Both	Gunner	3
+Grand Cham Hat	4618	Head	10	63	98	-3	4	1	5	0	Both	Gunner	1
+Grand Cham Sleeves	4620	Arms	10	63	98	-3	4	1	5	0	Both	Gunner	2
+Grand Cham Trousers	4622	Legs	10	63	98	-3	4	1	5	0	Both	Gunner	2
+Grand Crusher Belt	4581	Waist	10	62	98	3	2	5	-6	3	Both	Gunner	2
+Grand Crusher Braces	4580	Arms	10	62	98	3	2	5	-6	3	Both	Gunner	0
+Grand Crusher Feet	4582	Legs	10	62	98	3	2	5	-6	3	Both	Gunner	2
+Grand Crusher Mask	4578	Head	10	62	98	3	2	5	-6	3	Both	Gunner	2
+Grand Crusher Robe	4579	Body	10	62	98	3	2	5	-6	3	Both	Gunner	3
+Grand Dayspring Braces	4630	Arms	10	61	97	4	3	-3	4	-3	Male	Gunner	3
+Grand Dayspring Girdle	4631	Waist	10	61	97	4	3	-3	4	-3	Male	Gunner	1
+Grand Dayspring Helm	4628	Head	10	61	97	4	3	-3	4	-3	Male	Gunner	2
+Grand Dayspring Plate	4629	Body	10	61	97	4	3	-3	4	-3	Male	Gunner	2
+Grand Dayspring Pleats	4632	Legs	10	61	97	4	3	-3	4	-3	Male	Gunner	0
+Grand Divine Ire Feet	4577	Legs	10	108	150	2	1	4	-7	2	Both	Blade	2
+Grand Divine Ire Kote	4575	Arms	10	108	150	2	1	4	-7	2	Both	Blade	0
+Grand Divine Ire Mask	4573	Head	10	108	150	2	1	4	-7	2	Both	Blade	2
+Grand Divine Ire Obi	4576	Waist	10	108	150	2	1	4	-7	2	Both	Blade	2
+Grand Divine Ire Robe	4574	Body	10	108	150	2	1	4	-7	2	Both	Blade	3
+Grand Epoch Girdle	4641	Waist	10	61	97	4	3	-3	4	-3	Female	Gunner	1
+Grand Epoch Greaves	4642	Legs	10	61	97	4	3	-3	4	-3	Female	Gunner	0
+Grand Epoch Helm	4638	Head	10	61	97	4	3	-3	4	-3	Female	Gunner	2
+Grand Epoch Plate	4639	Body	10	61	97	4	3	-3	4	-3	Female	Gunner	2
+Grand Epoch Sleeves	4640	Arms	10	61	97	4	3	-3	4	-3	Female	Gunner	3
+Grand Gloaming Braces	4625	Arms	10	107	149	3	2	-4	3	-4	Male	Blade	3
+Grand Gloaming Girdle	4626	Waist	10	107	149	3	2	-4	3	-4	Male	Blade	2
+Grand Gloaming Greaves	4627	Legs	10	107	149	3	2	-4	3	-4	Male	Blade	0
+Grand Gloaming Helm	4623	Head	10	107	149	3	2	-4	3	-4	Male	Blade	2
+Grand Gloaming Plate	4624	Body	10	107	149	3	2	-4	3	-4	Male	Blade	1
+Grand God's Peer Arms	4565	Arms	10	106	148	2	1	3	-6	2	Both	Blade	1
+Grand God's Peer Belt	4566	Waist	10	106	148	2	1	3	-6	2	Both	Blade	2
+Grand God's Peer Feet	4567	Legs	10	106	148	2	1	3	-6	2	Both	Blade	2
+Grand God's Peer Mask	4563	Head	10	106	148	2	1	3	-6	2	Both	Blade	3
+Grand God's Peer Robe	4564	Body	10	106	148	2	1	3	-6	2	Both	Blade	0
+Grand H. Hachigane	4763	Head	10	108	150	3	1	0	-4	-4	Female	Blade	2
+Grand Hermit Arms	4570	Arms	10	60	96	3	2	4	-5	3	Both	Gunner	1
+Grand Hermit Belt	4571	Waist	10	60	96	3	2	4	-5	3	Both	Gunner	2
+Grand Hermit Feet	4572	Legs	10	60	96	3	2	4	-5	3	Both	Gunner	2
+Grand Hermit Mask	4568	Head	10	60	96	3	2	4	-5	3	Both	Gunner	3
+Grand Hermit Robe	4569	Body	10	60	96	3	2	4	-5	3	Both	Gunner	0
+Grand Hyuga Hakama	4767	Legs	10	108	150	3	1	0	-4	-4	Female	Blade	0
+Grand Hyuga Koshiate	4766	Waist	10	108	150	3	1	0	-4	-4	Female	Blade	2
+Grand Hyuga Kote	4765	Arms	10	108	150	3	1	0	-4	-4	Female	Blade	3
+Grand Hyuga Muneate	4764	Body	10	108	150	3	1	0	-4	-4	Female	Blade	1
+Grand Mizuha Guards	4614	Body	10	109	151	-4	3	0	4	-1	Both	Blade	1
+Grand Mizuha Leg Wrap	4617	Legs	10	109	151	-4	3	0	4	-1	Both	Blade	2
+Grand Mizuha Mask	4613	Head	10	109	151	-4	3	0	4	-1	Both	Blade	1
+Grand Mizuha Sash	4616	Waist	10	109	151	-4	3	0	4	-1	Both	Blade	3
+Grand Mizuha Sleeves	4615	Arms	10	109	151	-4	3	0	4	-1	Both	Blade	2
+Grand Mutsu Doate	4759	Body	10	62	98	4	2	1	-3	-3	Male	Gunner	1
+Grand Mutsu Gusoku	4762	Legs	10	62	98	4	2	1	-3	-3	Male	Gunner	0
+Grand Mutsu Jingasa	4758	Head	10	62	98	4	2	1	-3	-3	Male	Gunner	2
+Grand Mutsu Koshiate	4761	Waist	10	62	98	4	2	1	-3	-3	Male	Gunner	2
+Grand Mutsu Kote	4760	Arms	10	62	98	4	2	1	-3	-3	Male	Gunner	3
+Grand Yaksha Boots	4747	Legs	10	110	152	2	2	0	-2	-2	Both	Blade	3
+Grand Yaksha Braces	4745	Arms	10	110	152	2	2	0	-2	-2	Both	Blade	1
+Grand Yaksha Coil	4746	Waist	10	110	152	2	2	0	-2	-2	Both	Blade	1
+Grand Yaksha Mask	4743	Head	10	110	152	2	2	0	-2	-2	Both	Blade	2
+Grand Yaksha Raiment	4744	Body	10	110	152	2	2	0	-2	-2	Both	Blade	2
+Grand Yamato Doate	4754	Body	10	108	150	3	1	0	-4	-4	Male	Blade	1
+Grand Yamato Gusoku	4757	Legs	10	108	150	3	1	0	-4	-4	Male	Blade	0
+Grand Yamato Kabuto	4753	Head	10	108	150	3	1	0	-4	-4	Male	Blade	2
+Grand Yamato Koshiate	4756	Waist	10	108	150	3	1	0	-4	-4	Male	Blade	2
+Grand Yamato Kote	4755	Arms	10	108	150	3	1	0	-4	-4	Male	Blade	3
+Gravios Cap	2285	Head	3	12	78	3	-2	1	2	-1	Both	Gunner	1
+Gravios Cap S	2903	Head	5	29	80	4	-3	1	3	-2	Both	Gunner	1
+Gravios Cap U	3108	Head	6	29	80	4	-4	2	2	2	Both	Gunner	2
+Gravios Cap X	4293	Head	9	52	92	4	-3	1	3	-2	Both	Gunner	1
+Gravios Cap Z	4303	Head	9	54	94	4	-4	2	2	2	Both	Gunner	2
+Gravios Coat	2288	Waist	3	12	78	3	-2	1	2	-1	Both	Gunner	0
+Gravios Coat S	2906	Waist	5	29	80	4	-3	1	3	-2	Both	Gunner	0
+Gravios Coat U	3111	Waist	6	29	80	4	-4	2	2	2	Both	Gunner	1
+Gravios Coat X	4296	Waist	9	52	92	4	-3	1	3	-2	Both	Gunner	0
+Gravios Coat Z	4306	Waist	9	54	94	4	-4	2	2	2	Both	Gunner	2
+Gravios Greaves	2284	Legs	3	23	125	2	-3	0	1	-2	Both	Blade	1
+Gravios Greaves S	2902	Legs	5	57	126	3	-4	0	2	-3	Both	Blade	2
+Gravios Greaves U	3107	Legs	6	58	125	3	-5	1	1	1	Both	Blade	2
+Gravios Greaves X	4292	Legs	9	96	143	3	-4	0	2	-3	Both	Blade	2
+Gravios Greaves Z	4302	Legs	9	97	144	3	-5	1	1	1	Both	Blade	2
+Gravios Guards	2287	Arms	3	12	78	3	-2	1	2	-1	Both	Gunner	2
+Gravios Guards S	2905	Arms	5	29	80	4	-3	1	3	-2	Both	Gunner	2
+Gravios Guards U	3110	Arms	6	29	80	4	-4	2	2	2	Both	Gunner	2
+Gravios Guards X	4295	Arms	9	52	92	4	-3	1	3	-2	Both	Gunner	2
+Gravios Guards Z	4305	Arms	9	54	94	4	-4	2	2	2	Both	Gunner	2
+Gravios Helm	2280	Head	3	23	125	2	-3	0	1	-2	Both	Blade	1
+Gravios Helm S	2898	Head	5	57	126	3	-4	0	2	-3	Both	Blade	1
+Gravios Helm U	3103	Head	6	58	125	3	-5	1	1	1	Both	Blade	2
+Gravios Helm X	4288	Head	9	96	143	3	-4	0	2	-3	Both	Blade	1
+Gravios Helm Z	4298	Head	9	97	144	3	-5	1	1	1	Both	Blade	2
+Gravios Leggings	2289	Legs	3	12	78	3	-2	1	2	-1	Both	Gunner	1
+Gravios Leggings S	2907	Legs	5	29	80	4	-3	1	3	-2	Both	Gunner	2
+Gravios Leggings U	3112	Legs	6	29	80	4	-4	2	2	2	Both	Gunner	2
+Gravios Leggings X	4297	Legs	9	52	92	4	-3	1	3	-2	Both	Gunner	2
+Gravios Leggings Z	4307	Legs	9	54	94	4	-4	2	2	2	Both	Gunner	2
+Gravios Mail	2281	Body	3	23	125	2	-3	0	1	-2	Both	Blade	2
+Gravios Mail S	2899	Body	5	57	126	3	-4	0	2	-3	Both	Blade	2
+Gravios Mail U	3104	Body	6	58	125	3	-5	1	1	1	Both	Blade	3
+Gravios Mail X	4289	Body	9	96	143	3	-4	0	2	-3	Both	Blade	2
+Gravios Mail Z	4299	Body	9	97	144	3	-5	1	1	1	Both	Blade	3
+Gravios Tassets	2283	Waist	3	23	125	2	-3	0	1	-2	Both	Blade	0
+Gravios Tassets S	2901	Waist	5	57	126	3	-4	0	2	-3	Both	Blade	0
+Gravios Tassets U	3106	Waist	6	58	125	3	-5	1	1	1	Both	Blade	1
+Gravios Tassets X	4291	Waist	9	96	143	3	-4	0	2	-3	Both	Blade	0
+Gravios Tassets Z	4301	Waist	9	97	144	3	-5	1	1	1	Both	Blade	2
+Gravios Vambraces	2282	Arms	3	23	125	2	-3	0	1	-2	Both	Blade	2
+Gravios Vambraces S	2900	Arms	5	57	126	3	-4	0	2	-3	Both	Blade	2
+Gravios Vambraces U	3105	Arms	6	58	125	3	-5	1	1	1	Both	Blade	2
+Gravios Vambraces X	4290	Arms	9	96	143	3	-4	0	2	-3	Both	Blade	2
+Gravios Vambraces Z	4300	Arms	9	97	144	3	-5	1	1	1	Both	Blade	2
+Gravios Vest	2286	Body	3	12	78	3	-2	1	2	-1	Both	Gunner	2
+Gravios Vest S	2904	Body	5	29	80	4	-3	1	3	-2	Both	Gunner	2
+Gravios Vest U	3109	Body	6	29	80	4	-4	2	2	2	Both	Gunner	3
+Gravios Vest X	4294	Body	9	52	92	4	-3	1	3	-2	Both	Gunner	2
+Gravios Vest Z	4304	Body	9	54	94	4	-4	2	2	2	Both	Gunner	3
+Greaves of Anat	3623	Legs	7	26	105	-3	-3	-3	-3	-3	Both	Blade	0
+Greaves of Rage	4869	Legs	10	100	151	-4	-4	-4	-4	-4	Both	Blade	3
+Guardian Boots	2732	Legs	4	18	120	0	0	0	0	0	Male	Blade	2
+Guardian Boots X	4172	Legs	8	80	135	0	0	0	0	0	Male	Blade	2
+Guardian Boots Z	4502	Legs	9	96	143	0	0	0	0	0	Male	Blade	1
+Guardian Coat	2736	Waist	4	9	75	1	1	1	1	1	Male	Gunner	1
+Guardian Coat X	4176	Waist	8	43	88	1	1	1	1	1	Male	Gunner	1
+Guardian Coat Z	4506	Waist	9	53	93	1	1	1	1	1	Male	Gunner	1
+Guardian Coil	2731	Waist	4	18	120	0	0	0	0	0	Male	Blade	1
+Guardian Coil X	4171	Waist	8	80	135	0	0	0	0	0	Male	Blade	1
+Guardian Coil Z	4501	Waist	9	96	143	0	0	0	0	0	Male	Blade	1
+Guardian Guards	2735	Arms	4	9	75	1	1	1	1	1	Male	Gunner	1
+Guardian Guards X	4175	Arms	8	43	88	1	1	1	1	1	Male	Gunner	1
+Guardian Guards Z	4505	Arms	9	53	93	1	1	1	1	1	Male	Gunner	1
+Guardian Helm	2728	Head	4	18	120	0	0	0	0	0	Male	Blade	2
+Guardian Helm X	4168	Head	8	80	135	0	0	0	0	0	Male	Blade	2
+Guardian Helm Z	4498	Head	9	96	143	0	0	0	0	0	Male	Blade	2
+Guardian Mask	2733	Head	4	9	75	1	1	1	1	1	Male	Gunner	2
+Guardian Mask X	4173	Head	8	43	88	1	1	1	1	1	Male	Gunner	2
+Guardian Mask Z	4503	Head	9	53	93	1	1	1	1	1	Male	Gunner	2
+Guardian Pants	2737	Legs	4	9	75	1	1	1	1	1	Male	Gunner	2
+Guardian Pants X	4177	Legs	8	43	88	1	1	1	1	1	Male	Gunner	2
+Guardian Pants Z	4507	Legs	9	53	93	1	1	1	1	1	Male	Gunner	1
+Guardian Suit	2729	Body	4	18	120	0	0	0	0	0	Male	Blade	1
+Guardian Suit X	4169	Body	8	80	135	0	0	0	0	0	Male	Blade	1
+Guardian Suit Z	4499	Body	9	96	143	0	0	0	0	0	Male	Blade	2
+Guardian Vambraces	2730	Arms	4	18	120	0	0	0	0	0	Male	Blade	1
+Guardian Vambraces X	4170	Arms	8	80	135	0	0	0	0	0	Male	Blade	1
+Guardian Vambraces Z	4500	Arms	9	96	143	0	0	0	0	0	Male	Blade	1
+Guardian Vest	2734	Body	4	9	75	1	1	1	1	1	Male	Gunner	1
+Guardian Vest X	4174	Body	8	43	88	1	1	1	1	1	Male	Gunner	1
+Guardian Vest Z	4504	Body	9	53	93	1	1	1	1	1	Male	Gunner	2
+Guards of Anat	3626	Arms	7	13	65	-2	-2	-2	-2	-2	Both	Gunner	0
+Guards of Rage	4872	Arms	10	55	97	-3	-3	-3	-3	-3	Both	Gunner	0
+Guild Bard Bolero	2749	Body	4	20	122	0	0	0	0	0	Male	Blade	1
+Guild Bard Boots	2752	Legs	4	20	122	0	0	0	0	0	Male	Blade	0
+Guild Bard Braces	2750	Arms	4	20	122	0	0	0	0	0	Male	Blade	1
+Guild Bard Coat	2756	Waist	4	10	76	1	1	1	1	1	Male	Gunner	2
+Guild Bard Coil	2751	Waist	4	20	122	0	0	0	0	0	Male	Blade	2
+Guild Bard Gaiters	2757	Legs	4	10	76	1	1	1	1	1	Male	Gunner	0
+Guild Bard Hat	2753	Head	4	10	76	1	1	1	1	1	Male	Gunner	1
+Guild Bard Lobos	2748	Head	4	20	122	0	0	0	0	0	Male	Blade	1
+Guild Bard Sleeves	2755	Arms	4	10	76	1	1	1	1	1	Male	Gunner	1
+Guild Bard Vest	2754	Body	4	10	76	1	1	1	1	1	Male	Gunner	1
+Guild Knight Boots	3207	Legs	6	52	123	0	0	0	0	0	Male	Blade	0
+Guild Knight Coat	3206	Waist	6	52	123	0	0	0	0	0	Male	Blade	2
+Guild Knight Feather	3203	Head	6	52	123	0	0	0	0	0	Male	Blade	1
+Guild Knight Gloves	3205	Arms	6	52	123	0	0	0	0	0	Male	Blade	1
+Guild Knight Kilt	3211	Waist	6	26	79	1	1	1	1	1	Male	Gunner	2
+Guild Knight Mask	3208	Head	6	26	79	1	1	1	1	1	Male	Gunner	1
+Guild Knight Sleeves	3210	Arms	6	26	79	1	1	1	1	1	Male	Gunner	1
+Guild Knight Suit	3204	Body	6	52	123	0	0	0	0	0	Male	Blade	2
+Guild Knight Tights	3212	Legs	6	26	79	1	1	1	1	1	Male	Gunner	0
+Guild Knight Vest	3209	Body	6	26	79	1	1	1	1	1	Male	Gunner	2
+Gypceros Cap	2065	Head	2	7	74	-3	2	3	-1	1	Both	Gunner	1
+Gypceros Cap S	2793	Head	5	23	78	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Cap U	3048	Head	6	24	78	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Cap X	3855	Head	8	40	86	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Cap Z	3865	Head	8	41	87	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Coat	2068	Waist	2	7	74	-3	2	3	-1	1	Both	Gunner	1
+Gypceros Coat S	2796	Waist	5	23	78	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Coat U	3051	Waist	6	24	78	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Coat X	3858	Waist	8	40	86	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Coat Z	3868	Waist	8	41	87	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Greaves	2064	Legs	2	14	116	-4	1	2	-2	0	Both	Blade	1
+Gypceros Greaves S	2792	Legs	5	47	120	-5	2	3	-2	0	Both	Blade	1
+Gypceros Greaves U	3047	Legs	6	48	121	-5	2	3	-2	0	Both	Blade	0
+Gypceros Greaves X	3854	Legs	8	75	132	-5	2	3	-2	0	Both	Blade	1
+Gypceros Greaves Z	3864	Legs	8	77	134	-5	2	3	-2	0	Both	Blade	0
+Gypceros Guards	2067	Arms	2	7	74	-3	2	3	-1	1	Both	Gunner	2
+Gypceros Guards S	2795	Arms	5	23	78	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Guards U	3050	Arms	6	24	78	-4	3	4	-1	1	Both	Gunner	0
+Gypceros Guards X	3857	Arms	8	40	86	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Guards Z	3867	Arms	8	41	87	-4	3	4	-1	1	Both	Gunner	0
+Gypceros Helm	2060	Head	2	14	116	-4	1	2	-2	0	Both	Blade	1
+Gypceros Helm S	2788	Head	5	47	120	-5	2	3	-2	0	Both	Blade	1
+Gypceros Helm U	3043	Head	6	48	121	-5	2	3	-2	0	Both	Blade	2
+Gypceros Helm X	3850	Head	8	75	132	-5	2	3	-2	0	Both	Blade	2
+Gypceros Helm Z	3860	Head	8	77	134	-5	2	3	-2	0	Both	Blade	2
+Gypceros Leggings	2069	Legs	2	7	74	-3	2	3	-1	1	Both	Gunner	1
+Gypceros Leggings S	2797	Legs	5	23	78	-4	3	4	-1	1	Both	Gunner	1
+Gypceros Leggings U	3052	Legs	6	24	78	-4	3	4	-1	1	Both	Gunner	0
+Gypceros Leggings X	3859	Legs	8	40	86	-4	3	4	-1	1	Both	Gunner	1
+Gypceros Leggings Z	3869	Legs	8	41	87	-4	3	4	-1	1	Both	Gunner	0
+Gypceros Mail	2061	Body	2	14	116	-4	1	2	-2	0	Both	Blade	1
+Gypceros Mail S	2789	Body	5	47	120	-5	2	3	-2	0	Both	Blade	1
+Gypceros Mail U	3044	Body	6	48	121	-5	2	3	-2	0	Both	Blade	2
+Gypceros Mail X	3851	Body	8	75	132	-5	2	3	-2	0	Both	Blade	1
+Gypceros Mail Z	3861	Body	8	77	134	-5	2	3	-2	0	Both	Blade	2
+Gypceros Tassets	2063	Waist	2	14	116	-4	1	2	-2	0	Both	Blade	1
+Gypceros Tassets S	2791	Waist	5	47	120	-5	2	3	-2	0	Both	Blade	2
+Gypceros Tassets U	3046	Waist	6	48	121	-5	2	3	-2	0	Both	Blade	2
+Gypceros Tassets X	3853	Waist	8	75	132	-5	2	3	-2	0	Both	Blade	2
+Gypceros Tassets Z	3863	Waist	8	77	134	-5	2	3	-2	0	Both	Blade	2
+Gypceros Vambraces	2062	Arms	2	14	116	-4	1	2	-2	0	Both	Blade	2
+Gypceros Vambraces S	2790	Arms	5	47	120	-5	2	3	-2	0	Both	Blade	2
+Gypceros Vambraces U	3045	Arms	6	48	121	-5	2	3	-2	0	Both	Blade	0
+Gypceros Vambraces X	3852	Arms	8	75	132	-5	2	3	-2	0	Both	Blade	2
+Gypceros Vambraces Z	3862	Arms	8	77	134	-5	2	3	-2	0	Both	Blade	0
+Gypceros Vest	2066	Body	2	7	74	-3	2	3	-1	1	Both	Gunner	1
+Gypceros Vest S	2794	Body	5	23	78	-4	3	4	-1	1	Both	Gunner	1
+Gypceros Vest U	3049	Body	6	24	78	-4	3	4	-1	1	Both	Gunner	2
+Gypceros Vest X	3856	Body	8	40	86	-4	3	4	-1	1	Both	Gunner	1
+Gypceros Vest Z	3866	Body	8	41	87	-4	3	4	-1	1	Both	Gunner	2
+Hawkboots	3187	Legs	6	45	120	2	-1	1	0	2	Male	Blade	1
+Hawkboots X	4462	Legs	9	106	148	2	-1	1	0	2	Male	Blade	1
+Hawkbraces	3185	Arms	6	45	120	2	-1	1	0	2	Male	Blade	2
+Hawkbraces X	4460	Arms	9	106	148	2	-1	1	0	2	Male	Blade	2
+Hawkcap	3188	Head	6	23	78	3	0	2	1	3	Male	Gunner	3
+Hawkcap X	4463	Head	9	60	96	3	0	2	1	3	Male	Gunner	2
+Hawkcoat	3191	Waist	6	23	78	3	0	2	1	3	Male	Gunner	2
+Hawkcoat X	4466	Waist	9	60	96	3	0	2	1	3	Male	Gunner	2
+Hawkcoil	3186	Waist	6	45	120	2	-1	1	0	2	Male	Blade	2
+Hawkcoil X	4461	Waist	9	106	148	2	-1	1	0	2	Male	Blade	2
+Hawkeye Earring	3753	Head	7	34	81	0	0	0	0	0			0
+Hawkfeet	3192	Legs	6	23	78	3	0	2	1	3	Male	Gunner	1
+Hawkfeet X	4467	Legs	9	60	96	3	0	2	1	3	Male	Gunner	1
+Hawkguards	3190	Arms	6	23	78	3	0	2	1	3	Male	Gunner	1
+Hawkguards X	4465	Arms	9	60	96	3	0	2	1	3	Male	Gunner	2
+Hawkhat	3183	Head	6	45	120	2	-1	1	0	2	Male	Blade	2
+Hawkhat X	4458	Head	9	106	148	2	-1	1	0	2	Male	Blade	2
+Hawkjacket	3189	Body	6	23	78	3	0	2	1	3	Male	Gunner	3
+Hawkjacket X	4464	Body	9	60	96	3	0	2	1	3	Male	Gunner	3
+Hawksuit	3184	Body	6	45	120	2	-1	1	0	2	Male	Blade	3
+Hawksuit X	4459	Body	9	106	148	2	-1	1	0	2	Male	Blade	3
+Healer Beret Z	4513	Head	9	53	93	1	1	1	1	1	Female	Gunner	2
+Healer Frills X	4186	Waist	8	43	88	1	1	1	1	1	Female	Gunner	1
+Healer Frills Z	4516	Waist	9	53	93	1	1	1	1	1	Female	Gunner	1
+Healer Glasses X	4183	Head	8	43	88	1	1	1	1	1	Female	Gunner	2
+Healer Sleeves X	4185	Arms	8	43	88	1	1	1	1	1	Female	Gunner	1
+Healer Sleeves Z	4515	Arms	9	53	93	1	1	1	1	1	Female	Gunner	1
+Healer Socks X	4187	Legs	8	43	88	1	1	1	1	1	Female	Gunner	2
+Healer Socks Z	4517	Legs	9	53	93	1	1	1	1	1	Female	Gunner	1
+Healer Vest X	4184	Body	8	43	88	1	1	1	1	1	Female	Gunner	1
+Healer Vest Z	4514	Body	9	53	93	1	1	1	1	1	Female	Gunner	2
+Helios Cap	3491	Head	7	42	83	1	4	-1	2	-4	Male	Gunner	2
+Helios Cap X	4788	Head	10	62	98	1	4	-1	2	-4	Male	Gunner	3
+Helios Coat	3494	Waist	7	42	83	1	4	-1	2	-4	Male	Gunner	1
+Helios Coat X	4791	Waist	10	62	98	1	4	-1	2	-4	Male	Gunner	1
+Helios Coil	3489	Waist	7	81	136	0	3	-2	1	-5	Male	Blade	1
+Helios Coil X	4786	Waist	10	108	150	0	3	-2	1	-5	Male	Blade	1
+Helios Greaves	3490	Legs	7	81	136	0	3	-2	1	-5	Male	Blade	2
+Helios Greaves X	4787	Legs	10	108	150	0	3	-2	1	-5	Male	Blade	2
+Helios Guards	3493	Arms	7	42	83	1	4	-1	2	-4	Male	Gunner	0
+Helios Guards X	4790	Arms	10	62	98	1	4	-1	2	-4	Male	Gunner	0
+Helios Helm	3486	Head	7	81	136	0	3	-2	1	-5	Male	Blade	2
+Helios Helm X	4783	Head	10	108	150	0	3	-2	1	-5	Male	Blade	3
+Helios Leggings	3495	Legs	7	42	83	1	4	-1	2	-4	Male	Gunner	2
+Helios Leggings X	4792	Legs	10	62	98	1	4	-1	2	-4	Male	Gunner	2
+Helios Mail	3487	Body	7	81	136	0	3	-2	1	-5	Male	Blade	1
+Helios Mail X	4784	Body	10	108	150	0	3	-2	1	-5	Male	Blade	2
+Helios Vambraces	3488	Arms	7	81	136	0	3	-2	1	-5	Male	Blade	0
+Helios Vambraces X	4785	Arms	10	108	150	0	3	-2	1	-5	Male	Blade	0
+Helios Vest	3492	Body	7	42	83	1	4	-1	2	-4	Male	Gunner	1
+Helios Vest X	4789	Body	10	62	98	1	4	-1	2	-4	Male	Gunner	2
+Helm of Anat	3619	Head	7	26	105	-3	-3	-3	-3	-3	Both	Blade	1
+Helm of Rage	4865	Head	10	100	151	-4	-4	-4	-4	-4	Both	Blade	0
+Helper Cap	2743	Head	4	9	75	1	1	1	1	1	Female	Gunner	2
+Helper Frills	2746	Waist	4	9	75	1	1	1	1	1	Female	Gunner	1
+Helper Gloves	2740	Arms	4	18	120	0	0	0	0	0	Female	Blade	1
+Helper Hood	2738	Head	4	18	120	0	0	0	0	0	Female	Blade	2
+Helper Hood X	4178	Head	8	80	135	0	0	0	0	0	Female	Blade	2
+Helper Hood Z	4508	Head	9	96	143	0	0	0	0	0	Female	Blade	2
+Helper Skirt	2741	Waist	4	18	120	0	0	0	0	0	Female	Blade	1
+Helper Skirt X	4181	Waist	8	80	135	0	0	0	0	0	Female	Blade	1
+Helper Skirt Z	4511	Waist	9	96	143	0	0	0	0	0	Female	Blade	1
+Helper Sleeves	2745	Arms	4	9	75	1	1	1	1	1	Female	Gunner	1
+Helper Sleeves X	4180	Arms	8	80	135	0	0	0	0	0	Female	Blade	1
+Helper Sleeves Z	4510	Arms	9	96	143	0	0	0	0	0	Female	Blade	1
+Helper Socks	2742	Legs	4	18	120	0	0	0	0	0	Female	Blade	2
+Helper Socks X	4182	Legs	8	80	135	0	0	0	0	0	Female	Blade	2
+Helper Socks Z	4512	Legs	9	96	143	0	0	0	0	0	Female	Blade	1
+Helper Suit	2739	Body	4	18	120	0	0	0	0	0	Female	Blade	1
+Helper Tights	2747	Legs	4	9	75	1	1	1	1	1	Female	Gunner	2
+Helper Vest	2744	Body	4	9	75	1	1	1	1	1	Female	Gunner	1
+Helper Vest X	4179	Body	8	80	135	0	0	0	0	0	Female	Blade	1
+Helper Vest Z	4509	Body	9	96	143	0	0	0	0	0	Female	Blade	2
+Hermitaur Braces	2598	Arms	4	40	117	-3	3	-4	0	1	Both	Blade	2
+Hermitaur Braces X	3872	Arms	8	75	132	-3	3	-4	0	1	Both	Blade	2
+Hermitaur Braces Z	3882	Arms	8	86	137	0	3	-2	-4	1	Both	Blade	2
+Hermitaur Cap	2601	Head	4	20	77	-2	4	-3	1	2	Both	Gunner	1
+Hermitaur Cap X	3875	Head	8	40	86	-2	4	-3	1	2	Both	Gunner	1
+Hermitaur Cap Z	3885	Head	8	46	89	1	6	-1	-2	2	Both	Gunner	1
+Hermitaur Coat	2604	Waist	4	20	77	-2	4	-3	1	2	Both	Gunner	2
+Hermitaur Coat X	3878	Waist	8	40	86	-2	4	-3	1	2	Both	Gunner	2
+Hermitaur Coat Z	3888	Waist	8	46	89	1	6	-1	-2	2	Both	Gunner	3
+Hermitaur Greaves	2600	Legs	4	40	117	-3	3	-4	0	1	Both	Blade	1
+Hermitaur Greaves X	3874	Legs	8	75	132	-3	3	-4	0	1	Both	Blade	1
+Hermitaur Greaves Z	3884	Legs	8	86	137	0	3	-2	-4	1	Both	Blade	1
+Hermitaur Guards	2603	Arms	4	20	77	-2	4	-3	1	2	Both	Gunner	2
+Hermitaur Guards X	3877	Arms	8	40	86	-2	4	-3	1	2	Both	Gunner	2
+Hermitaur Guards Z	3887	Arms	8	46	89	1	6	-1	-2	2	Both	Gunner	2
+Hermitaur Helm	2596	Head	4	40	117	-3	3	-4	0	1	Both	Blade	1
+Hermitaur Helm X	3870	Head	8	75	132	-3	3	-4	0	1	Both	Blade	1
+Hermitaur Helm Z	3880	Head	8	86	137	0	3	-2	-4	1	Both	Blade	1
+Hermitaur Leggings	2605	Legs	4	20	77	-2	4	-3	1	2	Both	Gunner	1
+Hermitaur Leggings X	3879	Legs	8	40	86	-2	4	-3	1	2	Both	Gunner	1
+Hermitaur Leggings Z	3889	Legs	8	46	89	1	6	-1	-2	2	Both	Gunner	1
+Hermitaur Mail	2597	Body	4	40	117	-3	3	-4	0	1	Both	Blade	2
+Hermitaur Mail X	3871	Body	8	75	132	-3	3	-4	0	1	Both	Blade	2
+Hermitaur Mail Z	3881	Body	8	86	137	0	3	-2	-4	1	Both	Blade	2
+Hermitaur Tassets	2599	Waist	4	40	117	-3	3	-4	0	1	Both	Blade	2
+Hermitaur Tassets X	3873	Waist	8	75	132	-3	3	-4	0	1	Both	Blade	2
+Hermitaur Tassets Z	3883	Waist	8	86	137	0	3	-2	-4	1	Both	Blade	3
+Hermitaur Vest	2602	Body	4	20	77	-2	4	-3	1	2	Both	Gunner	2
+Hermitaur Vest X	3876	Body	8	40	86	-2	4	-3	1	1	Both	Gunner	2
+Hermitaur Vest Z	3886	Body	8	46	89	1	6	-1	-2	2	Both	Gunner	2
+Hero's Band	3685	Waist	7	26	73	3	3	3	3	3	Both	Gunner	0
+Hero's Belt	3680	Waist	7	52	122	2	2	2	2	2	Both	Blade	0
+Hero's Boots	3681	Legs	7	52	122	2	2	2	2	2	Both	Blade	1
+Hero's Braces	3679	Arms	7	52	122	2	2	2	2	2	Both	Blade	1
+Hero's Cap	3682	Head	7	26	73	3	3	3	3	3	Both	Gunner	0
+Hero's Clothes	3678	Body	7	52	122	2	2	2	2	2	Both	Blade	1
+Hero's Gloves	3684	Arms	7	26	73	3	3	3	3	3	Both	Gunner	1
+Hero's Hat	3677	Head	7	52	122	2	2	2	2	2	Both	Blade	0
+Hero's Leggings	3686	Legs	7	26	73	3	3	3	3	3	Both	Gunner	1
+Hero's Tunic	3683	Body	7	26	73	3	3	3	3	3	Both	Gunner	1
+High Metal Cap	2215	Head	2	7	74	-1	-1	4	0	1	Both	Gunner	1
+High Metal Cap S	2773	Head	5	9	75	-1	-1	4	0	1	Both	Gunner	1
+High Metal Coat	2218	Waist	2	7	74	-1	-1	4	0	1	Both	Gunner	2
+High Metal Coat S	2776	Waist	5	9	75	-1	-1	4	0	1	Both	Gunner	1
+High Metal Greaves	2214	Legs	2	14	116	-2	-2	3	-1	0	Both	Blade	1
+High Metal Greaves S	2772	Legs	5	18	114	-2	-2	3	-1	0	Both	Blade	1
+High Metal Guards	2217	Arms	2	7	74	-1	-1	4	0	1	Both	Gunner	1
+High Metal Guards S	2775	Arms	5	9	75	-1	-1	4	0	1	Both	Gunner	1
+High Metal Helm	2210	Head	2	14	116	-2	-2	3	-1	0	Both	Blade	1
+High Metal Helm S	2768	Head	5	18	114	-2	-2	3	-1	0	Both	Blade	1
+High Metal Leggings	2219	Legs	2	7	74	-1	-1	4	0	1	Both	Gunner	1
+High Metal Leggings S	2777	Legs	5	9	75	-1	-1	4	0	1	Both	Gunner	1
+High Metal Mail	2211	Body	2	14	116	-2	-2	3	-1	0	Both	Blade	0
+High Metal Mail S	2769	Body	5	18	114	-2	-2	3	-1	0	Both	Blade	1
+High Metal Tassets	2213	Waist	2	14	116	-2	-2	3	-1	0	Both	Blade	2
+High Metal Tassets S	2771	Waist	5	18	114	-2	-2	3	-1	0	Both	Blade	1
+High Metal Vambraces	2212	Arms	2	14	116	-2	-2	3	-1	0	Both	Blade	1
+High Metal Vambraces S	2770	Arms	5	18	114	-2	-2	3	-1	0	Both	Blade	1
+High Metal Vest	2216	Body	2	7	74	-1	-1	4	0	1	Both	Gunner	0
+High Metal Vest S	2774	Body	5	9	75	-1	-1	4	0	1	Both	Gunner	1
+Hunter's Camo Jacket	3630	Body	7	13	72	3	3	3	3	3	Both	Gunner	0
+Hunter's Camo Suit	3629	Body	7	26	116	2	2	2	2	2	Both	Blade	0
+Hunter's Cap	1934	Head	1	3	72	1	2	-2	1	1	Both	Gunner	1
+Hunter's Cap S	2659	Head	4	13	75	1	3	-3	1	1	Both	Gunner	2
+Hunter's Coat	1937	Waist	1	3	72	1	2	-2	1	1	Both	Gunner	1
+Hunter's Coat S	2662	Waist	4	13	75	1	3	-3	1	1	Both	Gunner	2
+Hunter's Faulds	1932	Waist	1	6	112	0	1	-3	0	0	Both	Blade	1
+Hunter's Faulds S	2657	Waist	4	26	116	0	2	-4	0	0	Both	Blade	2
+Hunter's Greaves	1933	Legs	1	6	112	0	1	-3	0	0	Both	Blade	0
+Hunter's Greaves S	2658	Legs	4	26	116	0	2	-4	0	0	Both	Blade	1
+Hunter's Guards	1936	Arms	1	3	72	1	2	-2	1	1	Both	Gunner	1
+Hunter's Guards S	2661	Arms	4	13	75	1	3	-3	1	1	Both	Gunner	1
+Hunter's Helm	1929	Head	1	6	112	0	1	-3	0	0	Both	Blade	1
+Hunter's Helm S	2654	Head	4	26	116	0	2	-4	0	0	Both	Blade	1
+Hunter's Leggings	1938	Legs	1	3	72	1	2	-2	1	1	Both	Gunner	0
+Hunter's Leggings S	2663	Legs	4	13	75	1	3	-3	1	1	Both	Gunner	1
+Hunter's Mail	1930	Body	1	6	112	0	1	-3	0	0	Both	Blade	1
+Hunter's Mail S	2655	Body	4	26	116	0	2	-4	0	0	Both	Blade	1
+Hunter's Vambraces	1931	Arms	1	6	112	0	1	-3	0	0	Both	Blade	1
+Hunter's Vambraces S	2656	Arms	4	26	116	0	2	-4	0	0	Both	Blade	1
+Hunter's Vest	1935	Body	1	3	72	1	2	-2	1	1	Both	Gunner	1
+Hunter's Vest S	2660	Body	4	13	75	1	3	-3	1	1	Both	Gunner	1
+Hyuga Hachigane	3576	Head	7	67	130	3	1	0	-4	-4	Female	Blade	2
+Hyuga Hakama	3580	Legs	7	67	130	3	1	0	-4	-4	Female	Blade	0
+Hyuga Koshiate	3579	Waist	7	67	130	3	1	0	-4	-4	Female	Blade	1
+Hyuga Kote	3578	Arms	7	67	130	3	1	0	-4	-4	Female	Blade	2
+Hyuga Muneate	3577	Body	7	67	130	3	1	0	-4	-4	Female	Blade	1
+Indra Gloves	3448	Arms	7	81	136	-2	3	2	2	-2	Both	Blade	1
+Indra Helm	3446	Head	7	81	136	-2	3	2	2	-2	Both	Blade	1
+Indra Leggings	3450	Legs	7	81	136	-2	3	2	2	-2	Both	Blade	1
+Indra Vest	3447	Body	7	81	136	-2	3	2	2	-2	Both	Blade	1
+Indra Wrap	3449	Waist	7	81	136	-2	3	2	2	-2	Both	Blade	1
+Ingot Cap	2441	Head	3	8	74	-1	-1	3	1	1	Both	Gunner	1
+Ingot Coat	2444	Waist	3	8	74	-1	-1	3	1	1	Both	Gunner	0
+Ingot Coil	2439	Waist	3	18	120	-2	-2	2	0	0	Both	Blade	0
+Ingot Greaves	2440	Legs	3	18	120	-2	-2	2	0	0	Both	Blade	1
+Ingot Guards	2443	Arms	3	8	74	-1	-1	3	1	1	Both	Gunner	1
+Ingot Helm	2436	Head	3	18	120	-2	-2	2	0	0	Both	Blade	1
+Ingot Leggings	2445	Legs	3	8	74	-1	-1	3	1	1	Both	Gunner	1
+Ingot Mail	2437	Body	3	18	120	-2	-2	2	0	0	Both	Blade	1
+Ingot Vambraces	2438	Arms	3	18	120	-2	-2	2	0	0	Both	Blade	1
+Ingot Vest	2442	Body	3	8	74	-1	-1	3	1	1	Both	Gunner	1
+Ioprey Body	2981	Body	5	41	116	2	1	1	1	1	Both	Blade	1
+Ioprey Cap	2025	Head	2	8	74	1	-2	-2	3	3	Both	Gunner	2
+Ioprey Cap S	2511	Head	4	22	78	1	-3	-3	4	4	Both	Gunner	2
+Ioprey Cap X	3785	Head	8	43	88	1	-3	-3	4	4	Both	Gunner	2
+Ioprey Claws	2982	Arms	5	41	116	2	1	1	1	1	Both	Blade	2
+Ioprey Coat	2028	Waist	2	8	74	1	-2	-2	3	3	Both	Gunner	2
+Ioprey Coat S	2514	Waist	4	22	78	1	-3	-3	4	4	Both	Gunner	1
+Ioprey Coat X	3788	Waist	8	43	88	1	-3	-3	4	4	Both	Gunner	1
+Ioprey Face	2984	Head	5	21	78	3	2	2	2	2	Both	Gunner	2
+Ioprey Feet	2983	Legs	5	41	116	2	1	1	1	1	Both	Blade	2
+Ioprey Gloves	2986	Arms	5	21	78	3	2	2	2	2	Both	Gunner	2
+Ioprey Greaves	2024	Legs	2	15	117	0	-3	-3	2	2	Both	Blade	0
+Ioprey Greaves S	2510	Legs	4	44	119	0	-4	-4	3	3	Both	Blade	3
+Ioprey Greaves X	3784	Legs	8	80	135	0	-4	-4	3	3	Both	Blade	3
+Ioprey Guards	2027	Arms	2	8	74	1	-2	-2	3	3	Both	Gunner	1
+Ioprey Guards S	2513	Arms	4	22	78	1	-3	-3	4	4	Both	Gunner	1
+Ioprey Guards X	3787	Arms	8	43	88	1	-3	-3	4	4	Both	Gunner	2
+Ioprey Head	2980	Head	5	41	116	2	1	1	1	1	Both	Blade	2
+Ioprey Helm	2020	Head	2	15	117	0	-3	-3	2	2	Both	Blade	2
+Ioprey Helm S	2506	Head	4	44	119	0	-4	-4	3	3	Both	Blade	2
+Ioprey Helm X	3780	Head	8	80	135	0	-4	-4	3	3	Both	Blade	2
+Ioprey Leggings	2029	Legs	2	8	74	1	-2	-2	3	3	Both	Gunner	0
+Ioprey Leggings S	2515	Legs	4	22	78	1	-3	-3	4	4	Both	Gunner	3
+Ioprey Leggings X	3789	Legs	8	43	88	1	-3	-3	4	4	Both	Gunner	3
+Ioprey Mail	2021	Body	2	15	117	0	-3	-3	2	2	Both	Blade	2
+Ioprey Mail S	2507	Body	4	44	119	0	-4	-4	3	3	Both	Blade	2
+Ioprey Mail X	3781	Body	8	80	135	0	-4	-4	3	3	Both	Blade	2
+Ioprey Tassets	2023	Waist	2	15	117	0	-3	-3	2	2	Both	Blade	1
+Ioprey Tassets S	2509	Waist	4	44	119	0	-4	-4	3	3	Both	Blade	1
+Ioprey Tassets X	3783	Waist	8	80	135	0	-4	-4	3	3	Both	Blade	1
+Ioprey Tights	2987	Legs	5	21	78	3	2	2	2	2	Both	Gunner	2
+Ioprey Vambraces	2022	Arms	2	15	117	0	-3	-3	2	2	Both	Blade	1
+Ioprey Vambraces S	2508	Arms	4	44	119	0	-4	-4	3	3	Both	Blade	1
+Ioprey Vambraces X	3782	Arms	8	80	135	0	-4	-4	3	3	Both	Blade	2
+Ioprey Vest	2026	Body	2	8	74	1	-2	-2	3	3	Both	Gunner	2
+Ioprey Vest S	2512	Body	4	22	78	1	-3	-3	4	4	Both	Gunner	2
+Ioprey Vest X	3786	Body	8	43	88	1	-3	-3	4	4	Both	Gunner	2
+Ioprey Wear	2985	Body	5	21	78	3	2	2	2	2	Both	Gunner	1
+Iron Belt	1963	Waist	1	8	74	4	-4	-6	-2	0	Both	Both	1
+Jaggi Cap	2005	Head	2	5	73	-1	1	1	1	2	Both	Gunner	1
+Jaggi Cap S	2491	Head	4	18	77	-3	1	1	1	3	Both	Gunner	1
+Jaggi Coat	2008	Waist	2	5	73	-1	1	1	1	2	Both	Gunner	0
+Jaggi Coat S	2494	Waist	4	18	77	-3	1	1	1	3	Both	Gunner	0
+Jaggi Faulds	2003	Waist	2	10	116	-2	0	0	0	1	Both	Blade	0
+Jaggi Faulds S	2489	Waist	4	36	117	-4	0	0	0	2	Both	Blade	0
+Jaggi Greaves	2004	Legs	2	10	116	-2	0	0	0	1	Both	Blade	1
+Jaggi Greaves S	2490	Legs	4	36	117	-4	0	0	0	2	Both	Blade	1
+Jaggi Guards	2007	Arms	2	5	73	-1	1	1	1	2	Both	Gunner	1
+Jaggi Guards S	2493	Arms	4	18	77	-3	1	1	1	3	Both	Gunner	1
+Jaggi Helm	2000	Head	2	10	116	-2	0	0	0	1	Both	Blade	2
+Jaggi Helm S	2486	Head	4	36	117	-4	0	0	0	2	Both	Blade	2
+Jaggi Leggings	2009	Legs	2	5	73	-1	1	1	1	2	Both	Gunner	1
+Jaggi Leggings S	2495	Legs	4	18	77	-3	1	1	1	3	Both	Gunner	1
+Jaggi Mail	2001	Body	2	10	116	-2	0	0	0	1	Both	Blade	0
+Jaggi Mail S	2487	Body	4	36	117	-4	0	0	0	2	Both	Blade	1
+Jaggi Mask	2447	Head	3	6	73	0	0	0	0	0	Both	Both	0
+Jaggi Vambraces	2002	Arms	2	10	116	-2	0	0	0	1	Both	Blade	1
+Jaggi Vambraces S	2488	Arms	4	36	117	-4	0	0	0	2	Both	Blade	1
+Jaggi Vest	2006	Body	2	5	73	-1	1	1	1	2	Both	Gunner	0
+Jaggi Vest S	2492	Body	4	18	77	-3	1	1	1	3	Both	Gunner	1
+Kaiser Coat	3324	Waist	7	34	81	5	-5	2	-1	-1	Both	Gunner	1
+Kaiser Coat X	4611	Waist	10	63	98	5	-5	2	-1	-1	Both	Gunner	3
+Kaiser Crown	3316	Head	7	68	131	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Crown X	4603	Head	10	109	151	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Greaves	3320	Legs	7	68	131	4	-6	1	-2	-2	Both	Blade	0
+Kaiser Greaves X	4607	Legs	10	109	151	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Guards	3323	Arms	7	34	81	5	-5	2	-1	-1	Both	Gunner	2
+Kaiser Guards X	4610	Arms	10	63	98	5	-5	2	-1	-1	Both	Gunner	3
+Kaiser Leggings	3325	Legs	7	34	81	5	-5	2	-1	-1	Both	Gunner	0
+Kaiser Leggings X	4612	Legs	10	63	98	5	-5	2	-1	-1	Both	Gunner	1
+Kaiser Mail	3317	Body	7	68	131	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Mail X	4604	Body	10	109	151	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Mask	3321	Head	7	34	81	5	-5	2	-1	-1	Both	Gunner	1
+Kaiser Mask X	4608	Head	10	63	98	5	-5	2	-1	-1	Both	Gunner	2
+Kaiser Tassets	3319	Waist	7	68	131	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Tassets X	4606	Waist	10	109	151	4	-6	1	-2	-2	Both	Blade	3
+Kaiser Vambraces	3318	Arms	7	68	131	4	-6	1	-2	-2	Both	Blade	2
+Kaiser Vambraces X	4605	Arms	10	109	151	4	-6	1	-2	-2	Both	Blade	3
+Kaiser Vest	3322	Body	7	34	81	5	-5	2	-1	-1	Both	Gunner	2
+Kaiser Vest X	4609	Body	10	63	98	5	-5	2	-1	-1	Both	Gunner	2
+Kecha Braces S	2528	Arms	4	43	118	-5	3	-3	0	3	Both	Blade	1
+Kecha Braces X	3812	Arms	8	74	131	-5	3	-3	0	3	Both	Blade	1
+Kecha Braces Z	3822	Arms	8	76	133	3	-5	-2	-3	3	Both	Blade	0
+Kecha Cap	2045	Head	2	7	74	-2	3	-1	1	3	Both	Gunner	0
+Kecha Cap S	2531	Head	4	21	78	-4	4	-2	1	4	Both	Gunner	0
+Kecha Cap X	3815	Head	8	40	86	-4	4	-2	1	4	Both	Gunner	0
+Kecha Cap Z	3825	Head	8	41	87	4	-4	-1	-2	4	Both	Gunner	2
+Kecha Coat	2048	Waist	2	7	74	-2	3	-1	1	3	Both	Gunner	1
+Kecha Coat S	2534	Waist	4	21	78	-4	4	-2	1	4	Both	Gunner	1
+Kecha Coat X	3818	Waist	8	40	86	-4	4	-2	1	4	Both	Gunner	1
+Kecha Coat Z	3828	Waist	8	41	87	4	-4	-1	-2	4	Both	Gunner	1
+Kecha Faulds	2043	Waist	2	14	116	-3	2	-2	0	2	Both	Blade	1
+Kecha Faulds S	2529	Waist	4	43	118	-5	3	-3	0	3	Both	Blade	1
+Kecha Faulds X	3813	Waist	8	74	131	-5	3	-3	0	3	Both	Blade	1
+Kecha Faulds Z	3823	Waist	8	76	133	3	-5	-2	-3	3	Both	Blade	1
+Kecha Greaves	2044	Legs	2	14	116	-3	2	-2	0	2	Both	Blade	0
+Kecha Greaves S	2530	Legs	4	43	118	-5	3	-3	0	3	Both	Blade	1
+Kecha Greaves X	3814	Legs	8	74	131	-5	3	-3	0	3	Both	Blade	2
+Kecha Greaves Z	3824	Legs	8	76	133	3	-5	-2	-3	3	Both	Blade	1
+Kecha Guards	2047	Arms	2	7	74	-2	3	-1	1	3	Both	Gunner	1
+Kecha Guards S	2533	Arms	4	21	78	-4	4	-2	1	4	Both	Gunner	1
+Kecha Guards X	3817	Arms	8	40	86	-4	4	-2	1	4	Both	Gunner	1
+Kecha Guards Z	3827	Arms	8	41	87	4	-4	-1	-2	4	Both	Gunner	0
+Kecha Helm	2040	Head	2	14	116	-3	2	-2	0	2	Both	Blade	0
+Kecha Helm S	2526	Head	4	43	118	-5	3	-3	0	3	Both	Blade	0
+Kecha Helm X	3810	Head	8	74	131	-5	3	-3	0	3	Both	Blade	0
+Kecha Helm Z	3820	Head	8	76	133	3	-5	-2	-3	3	Both	Blade	2
+Kecha Leggings	2049	Legs	2	7	74	-2	3	-1	1	3	Both	Gunner	0
+Kecha Leggings S	2535	Legs	4	21	78	-4	4	-2	1	4	Both	Gunner	1
+Kecha Leggings X	3819	Legs	8	40	86	-4	4	-2	1	4	Both	Gunner	2
+Kecha Leggings Z	3829	Legs	8	41	87	4	-4	-1	-2	4	Both	Gunner	1
+Kecha Mail	2041	Body	2	14	116	-3	2	-2	0	2	Both	Blade	2
+Kecha Mail S	2527	Body	4	43	118	-5	3	-3	0	3	Both	Blade	2
+Kecha Mail X	3811	Body	8	74	131	-5	3	-3	0	3	Both	Blade	2
+Kecha Mail Z	3821	Body	8	76	133	3	-5	-2	-3	3	Both	Blade	2
+Kecha Vambraces	2042	Arms	2	14	116	-3	2	-2	0	2	Both	Blade	1
+Kecha Vest	2046	Body	2	7	74	-2	3	-1	1	3	Both	Gunner	2
+Kecha Vest S	2532	Body	4	21	78	-4	4	-2	1	4	Both	Gunner	2
+Kecha Vest X	3816	Body	8	40	86	-4	4	-2	1	4	Both	Gunner	2
+Kecha Vest Z	3826	Body	8	41	87	4	-4	-1	-2	4	Both	Gunner	2
+Khezu Cap	2115	Head	2	10	76	-3	2	2	3	2	Both	Gunner	2
+Khezu Cap S	2843	Head	5	25	79	-4	2	2	3	2	Both	Gunner	2
+Khezu Cap U	3058	Head	6	26	79	2	-4	2	3	2	Both	Gunner	2
+Khezu Cap X	3965	Head	8	45	88	-4	2	2	3	2	Both	Gunner	2
+Khezu Cap Z	3975	Head	8	46	89	2	-4	2	3	2	Both	Gunner	2
+Khezu Coat	2118	Waist	2	10	76	-3	2	2	3	2	Both	Gunner	2
+Khezu Coat S	2846	Waist	5	25	79	-4	2	2	3	2	Both	Gunner	2
+Khezu Coat U	3061	Waist	6	26	79	2	-4	2	3	2	Both	Gunner	1
+Khezu Coat X	3968	Waist	8	45	88	-4	2	2	3	2	Both	Gunner	2
+Khezu Coat Z	3978	Waist	8	46	89	2	-4	2	3	2	Both	Gunner	2
+Khezu Greaves	2114	Legs	2	19	121	-4	1	1	2	1	Both	Blade	1
+Khezu Greaves S	2842	Legs	5	50	121	-5	1	1	2	1	Both	Blade	1
+Khezu Greaves U	3057	Legs	6	51	122	1	-5	1	2	1	Both	Blade	2
+Khezu Greaves X	3964	Legs	8	84	135	-5	1	1	2	1	Both	Blade	2
+Khezu Greaves Z	3974	Legs	8	86	137	1	-5	1	2	1	Both	Blade	2
+Khezu Guards	2117	Arms	2	10	76	-3	2	2	3	2	Both	Gunner	1
+Khezu Guards S	2845	Arms	5	25	79	-4	2	2	3	2	Both	Gunner	1
+Khezu Guards U	3060	Arms	6	26	79	2	-4	2	3	2	Both	Gunner	2
+Khezu Guards X	3967	Arms	8	45	88	-4	2	2	3	2	Both	Gunner	1
+Khezu Guards Z	3977	Arms	8	46	89	2	-4	2	3	2	Both	Gunner	2
+Khezu Helm	2110	Head	2	19	121	-4	1	1	2	1	Both	Blade	1
+Khezu Helm S	2838	Head	5	50	121	-5	1	1	2	1	Both	Blade	1
+Khezu Helm U	3053	Head	6	51	122	1	-5	1	2	1	Both	Blade	1
+Khezu Helm X	3960	Head	8	84	135	-5	1	1	2	1	Both	Blade	1
+Khezu Helm Z	3970	Head	8	86	137	1	-5	1	2	1	Both	Blade	1
+Khezu Leggings	2119	Legs	2	10	76	-3	2	2	3	2	Both	Gunner	1
+Khezu Leggings S	2847	Legs	5	25	79	-4	2	2	3	2	Both	Gunner	1
+Khezu Leggings U	3062	Legs	6	26	79	2	-4	2	3	2	Both	Gunner	2
+Khezu Leggings X	3969	Legs	8	45	88	-4	2	2	3	2	Both	Gunner	2
+Khezu Leggings Z	3979	Legs	8	46	89	2	-4	2	3	2	Both	Gunner	2
+Khezu Mail	2111	Body	2	19	121	-4	1	1	2	1	Both	Blade	2
+Khezu Mail S	2839	Body	5	50	121	-5	1	1	2	1	Both	Blade	1
+Khezu Mail U	3054	Body	6	51	122	1	-5	1	2	1	Both	Blade	2
+Khezu Mail X	3961	Body	8	84	135	-5	1	1	2	1	Both	Blade	1
+Khezu Mail Z	3971	Body	8	86	137	1	-5	1	2	1	Both	Blade	2
+Khezu Tassets	2113	Waist	2	19	121	-4	1	1	2	1	Both	Blade	2
+Khezu Tassets S	2841	Waist	5	50	121	-5	1	1	2	1	Both	Blade	2
+Khezu Tassets U	3056	Waist	6	51	122	1	-5	1	2	1	Both	Blade	1
+Khezu Tassets X	3963	Waist	8	84	135	-5	1	1	2	1	Both	Blade	2
+Khezu Tassets Z	3973	Waist	8	86	137	1	-5	1	2	1	Both	Blade	2
+Khezu Vambraces	2112	Arms	2	19	121	-4	1	1	2	1	Both	Blade	1
+Khezu Vambraces S	2840	Arms	5	50	121	-5	1	1	2	1	Both	Blade	1
+Khezu Vambraces U	3055	Arms	6	51	122	1	-5	1	2	1	Both	Blade	2
+Khezu Vambraces X	3962	Arms	8	84	135	-5	1	1	2	1	Both	Blade	1
+Khezu Vambraces Z	3972	Arms	8	86	137	1	-5	1	2	1	Both	Blade	2
+Khezu Vest	2116	Body	2	10	76	-3	2	2	3	2	Both	Gunner	2
+Khezu Vest S	2844	Body	5	25	79	-4	2	2	3	2	Both	Gunner	1
+Khezu Vest U	3059	Body	6	26	79	2	-4	2	3	2	Both	Gunner	2
+Khezu Vest X	3966	Body	8	45	88	-4	2	2	3	2	Both	Gunner	1
+Khezu Vest Z	3976	Body	8	46	89	2	-4	2	3	2	Both	Gunner	2
+Kirin Boots	2359	Legs	3	13	78	-1	-1	5	1	3	Both	Gunner	2
+Kirin Boots S	3152	Legs	6	30	80	-2	-2	6	0	4	Both	Gunner	1
+Kirin Boots U	3435	Legs	7	33	81	-2	-2	0	7	4	Both	Gunner	1
+Kirin Boots X	4732	Legs	10	54	94	-2	-2	6	0	4	Both	Gunner	2
+Kirin Boots Z	4742	Legs	10	55	95	-2	-2	0	7	4	Both	Gunner	2
+Kirin Cape	2356	Body	3	13	78	-1	-1	5	1	3	Both	Gunner	1
+Kirin Cape S	3149	Body	6	30	80	-2	-2	6	0	4	Both	Gunner	1
+Kirin Cape U	3432	Body	7	33	81	-2	-2	0	7	4	Both	Gunner	2
+Kirin Cape X	4729	Body	10	54	94	-2	-2	6	0	4	Both	Gunner	1
+Kirin Cape Z	4739	Body	10	55	95	-2	-2	0	7	4	Both	Gunner	3
+Kirin Crest	2355	Head	3	13	78	-1	-1	5	1	3	Both	Gunner	2
+Kirin Crest S	3148	Head	6	30	80	-2	-2	6	0	4	Both	Gunner	1
+Kirin Crest U	3431	Head	7	33	81	-2	-2	0	7	4	Both	Gunner	1
+Kirin Crest X	4728	Head	10	54	94	-2	-2	6	0	4	Both	Gunner	2
+Kirin Crest Z	4738	Head	10	55	95	-2	-2	0	7	4	Both	Gunner	2
+Kirin Gloves	2357	Arms	3	13	78	-1	-1	5	1	3	Both	Gunner	1
+Kirin Gloves S	3150	Arms	6	30	80	-2	-2	6	0	4	Both	Gunner	2
+Kirin Gloves U	3433	Arms	7	33	81	-2	-2	0	7	4	Both	Gunner	1
+Kirin Gloves X	4730	Arms	10	54	94	-2	-2	6	0	4	Both	Gunner	3
+Kirin Gloves Z	4740	Arms	10	55	95	-2	-2	0	7	4	Both	Gunner	2
+Kirin Hoop	2353	Waist	3	26	126	-2	-2	4	0	2	Both	Blade	2
+Kirin Hoop S	3146	Waist	6	60	127	-3	-3	5	-1	3	Both	Blade	1
+Kirin Hoop U	3429	Waist	7	65	128	-3	-3	-1	6	3	Both	Blade	1
+Kirin Hoop X	4726	Waist	10	98	145	-3	-3	5	-1	3	Both	Blade	2
+Kirin Hoop Z	4736	Waist	10	99	146	-3	-3	-1	6	3	Both	Blade	1
+Kirin Horn	2350	Head	3	26	126	-2	-2	4	0	2	Both	Blade	2
+Kirin Horn S	3143	Head	6	60	127	-3	-3	5	-1	3	Both	Blade	1
+Kirin Horn U	3426	Head	7	65	128	-3	-3	-1	6	3	Both	Blade	1
+Kirin Horn X	4723	Head	10	98	145	-3	-3	5	-1	3	Both	Blade	2
+Kirin Horn Z	4733	Head	10	99	146	-3	-3	-1	6	3	Both	Blade	2
+Kirin Jacket	2351	Body	3	26	126	-2	-2	4	0	2	Both	Blade	1
+Kirin Jacket S	3144	Body	6	60	127	-3	-3	5	-1	3	Both	Blade	1
+Kirin Jacket U	3427	Body	7	65	128	-3	-3	-1	6	3	Both	Blade	2
+Kirin Jacket X	4724	Body	10	98	145	-3	-3	5	-1	3	Both	Blade	1
+Kirin Jacket Z	4734	Body	10	99	146	-3	-3	-1	6	3	Both	Blade	3
+Kirin Leg Guards	2354	Legs	3	26	126	-2	-2	4	0	2	Both	Blade	2
+Kirin Leg Guards S	3147	Legs	6	60	127	-3	-3	5	-1	3	Both	Blade	1
+Kirin Leg Guards U	3430	Legs	7	65	128	-3	-3	-1	6	3	Both	Blade	1
+Kirin Leg Guards X	4727	Legs	10	98	145	-3	-3	5	-1	3	Both	Blade	2
+Kirin Leg Guards Z	4737	Legs	10	99	146	-3	-3	-1	6	3	Both	Blade	2
+Kirin Longarms	2352	Arms	3	26	126	-2	-2	4	0	2	Both	Blade	1
+Kirin Longarms S	3145	Arms	6	60	127	-3	-3	5	-1	3	Both	Blade	2
+Kirin Longarms U	3428	Arms	7	65	128	-3	-3	-1	6	3	Both	Blade	1
+Kirin Longarms X	4725	Arms	10	98	145	-3	-3	5	-1	3	Both	Blade	3
+Kirin Longarms Z	4735	Arms	10	99	146	-3	-3	-1	6	3	Both	Blade	2
+Kirin Shorts	2358	Waist	3	13	78	-1	-1	5	1	3	Both	Gunner	2
+Kirin Shorts S	3151	Waist	6	30	80	-2	-2	6	0	4	Both	Gunner	1
+Kirin Shorts U	3434	Waist	7	33	81	-2	-2	0	7	4	Both	Gunner	1
+Kirin Shorts X	4731	Waist	10	54	94	-2	-2	6	0	4	Both	Gunner	2
+Kirin Shorts Z	4741	Waist	10	55	95	-2	-2	0	7	4	Both	Gunner	1
+Kita Star Hakama	4123	Legs	8	84	135	-2	4	-2	3	2	Both	Blade	2
+Kita Star Headdress	4120	Head	8	84	135	-2	4	-2	3	2	Both	Blade	2
+Kita Star Jacket	4121	Body	8	84	135	-2	4	-2	3	2	Both	Blade	2
+Kita Star Sleeves	4122	Arms	8	84	135	-2	4	-2	3	2	Both	Blade	2
+Konchu Guards	1965	Arms	2	6	73	3	3	3	3	3	Both	Gunner	1
+Konchu Guards S	2451	Arms	4	15	76	4	4	4	4	4	Both	Gunner	2
+Konchu Guards X	3755	Arms	8	38	84	4	4	4	4	4	Both	Gunner	2
+Konchu Vambraces	1964	Arms	2	12	116	2	2	2	2	2	Both	Blade	1
+Konchu Vambraces S	2450	Arms	4	31	117	3	3	3	3	3	Both	Blade	2
+Konchu Vambraces X	3754	Arms	8	72	129	3	3	3	3	3	Both	Blade	2
+Kujula Cista	4594	Body	10	116	152	3	-6	2	6	-5	Both	Blade	1
+Kujula Cocoon	4596	Waist	10	116	152	3	-6	2	6	-5	Both	Blade	3
+Kujula Crus	4597	Legs	10	116	152	3	-6	2	6	-5	Both	Blade	3
+Kujula Embrace	4600	Arms	10	69	98	4	-5	3	7	-4	Both	Gunner	1
+Kujula Glare	4593	Head	10	116	152	3	-6	2	6	-5	Both	Blade	1
+Kujula Grip	4595	Arms	10	116	152	3	-6	2	6	-5	Both	Blade	1
+Kujula Shank	4602	Legs	10	69	98	4	-5	3	7	-4	Both	Gunner	3
+Kujula Snarl	4598	Head	10	69	98	4	-5	3	7	-4	Both	Gunner	1
+Kujula Vise	4599	Body	10	69	98	4	-5	3	7	-4	Both	Gunner	1
+Kujula Wind Wrap	4601	Waist	10	69	98	4	-5	3	7	-4	Both	Gunner	3
+Kushala Cista	3307	Body	7	68	131	-2	2	-5	5	-6	Both	Blade	1
+Kushala Cista X	4584	Body	10	109	151	-2	2	-5	5	-6	Both	Blade	2
+Kushala Cocoon	3309	Waist	7	68	131	-2	2	-5	5	-6	Both	Blade	3
+Kushala Cocoon X	4586	Waist	10	109	151	-2	2	-5	5	-6	Both	Blade	3
+Kushala Crus	3310	Legs	7	68	131	-2	2	-5	5	-6	Both	Blade	2
+Kushala Crus X	4587	Legs	10	109	151	-2	2	-5	5	-6	Both	Blade	3
+Kushala Embrace	3313	Arms	7	34	81	-1	3	-4	6	-5	Both	Gunner	2
+Kushala Embrace X	4590	Arms	10	63	98	-1	3	-4	6	-5	Both	Gunner	2
+Kushala Glare	3306	Head	7	68	131	-2	2	-5	5	-6	Both	Blade	2
+Kushala Glare X	4583	Head	10	109	151	-2	2	-5	5	-6	Both	Blade	2
+Kushala Grip	3308	Arms	7	68	131	-2	2	-5	5	-6	Both	Blade	2
+Kushala Grip X	4585	Arms	10	109	151	-2	2	-5	5	-6	Both	Blade	2
+Kushala Shank	3315	Legs	7	34	81	-1	3	-4	6	-5	Both	Gunner	2
+Kushala Shank X	4592	Legs	10	63	98	-1	3	-4	6	-5	Both	Gunner	3
+Kushala Snarl	3311	Head	7	34	81	-1	3	-4	6	-5	Both	Gunner	2
+Kushala Snarl X	4588	Head	10	63	98	-1	3	-4	6	-5	Both	Gunner	2
+Kushala Vise	3312	Body	7	34	81	-1	3	-4	6	-5	Both	Gunner	1
+Kushala Vise X	4589	Body	10	63	98	-1	3	-4	6	-5	Both	Gunner	2
+Kushala Wind Wrap	3314	Waist	7	34	81	-1	3	-4	6	-5	Both	Gunner	3
+Kushala Wind Wrap X	4591	Waist	10	63	98	-1	3	-4	6	-5	Both	Gunner	3
+Kut-Ku Cap	2145	Head	2	8	74	3	0	-1	-2	3	Both	Gunner	2
+Kut-Ku Cap S	2561	Head	4	21	78	4	1	-1	-3	3	Both	Gunner	1
+Kut-Ku Cap U	2913	Head	5	23	78	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Cap X	4015	Head	8	40	86	4	1	-1	-3	3	Both	Gunner	1
+Kut-Ku Cap Z	4025	Head	8	41	87	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Coat	2148	Waist	2	8	74	3	0	-1	-2	3	Both	Gunner	2
+Kut-Ku Coat S	2564	Waist	4	21	78	4	1	-1	-3	3	Both	Gunner	1
+Kut-Ku Coat U	2916	Waist	5	23	78	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Coat X	4018	Waist	8	40	86	4	1	-1	-3	3	Both	Gunner	1
+Kut-Ku Coat Z	4028	Waist	8	41	87	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Greaves	2144	Legs	2	16	118	2	-1	-2	-3	2	Both	Blade	2
+Kut-Ku Greaves S	2560	Legs	4	43	118	3	0	-2	-4	2	Both	Blade	1
+Kut-Ku Greaves U	2912	Legs	5	47	120	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Greaves X	4014	Legs	8	74	131	3	0	-2	-4	2	Both	Blade	2
+Kut-Ku Greaves Z	4024	Legs	8	76	133	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Guards	2147	Arms	2	8	74	3	0	-1	-2	3	Both	Gunner	0
+Kut-Ku Guards S	2563	Arms	4	21	78	4	1	-1	-3	3	Both	Gunner	2
+Kut-Ku Guards U	2915	Arms	5	23	78	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Guards X	4017	Arms	8	40	86	4	1	-1	-3	3	Both	Gunner	2
+Kut-Ku Guards Z	4027	Arms	8	41	87	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Helm	2140	Head	2	16	118	2	-1	-2	-3	2	Both	Blade	1
+Kut-Ku Helm S	2556	Head	4	43	118	3	0	-2	-4	2	Both	Blade	1
+Kut-Ku Helm U	2908	Head	5	47	120	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Helm X	4010	Head	8	74	131	3	0	-2	-4	2	Both	Blade	1
+Kut-Ku Helm Z	4020	Head	8	76	133	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Leggings	2149	Legs	2	8	74	3	0	-1	-2	3	Both	Gunner	2
+Kut-Ku Leggings S	2565	Legs	4	21	78	4	1	-1	-3	3	Both	Gunner	1
+Kut-Ku Leggings U	2917	Legs	5	23	78	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Leggings X	4019	Legs	8	40	86	4	1	-1	-3	3	Both	Gunner	2
+Kut-Ku Leggings Z	4029	Legs	8	41	87	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Mail	2141	Body	2	16	118	2	-1	-2	-3	2	Both	Blade	1
+Kut-Ku Mail S	2557	Body	4	43	118	3	0	-2	-4	2	Both	Blade	2
+Kut-Ku Mail U	2909	Body	5	47	120	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Mail X	4011	Body	8	74	131	3	0	-2	-4	2	Both	Blade	2
+Kut-Ku Mail Z	4021	Body	8	76	133	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Tassets	2143	Waist	2	16	118	2	-1	-2	-3	2	Both	Blade	2
+Kut-Ku Tassets S	2559	Waist	4	43	118	3	0	-2	-4	2	Both	Blade	1
+Kut-Ku Tassets U	2911	Waist	5	47	120	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Tassets X	4013	Waist	8	74	131	3	0	-2	-4	2	Both	Blade	1
+Kut-Ku Tassets Z	4023	Waist	8	76	133	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Vambraces	2142	Arms	2	16	118	2	-1	-2	-3	2	Both	Blade	0
+Kut-Ku Vambraces S	2558	Arms	4	43	118	3	0	-2	-4	2	Both	Blade	2
+Kut-Ku Vambraces U	2910	Arms	5	47	120	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Vambraces X	4012	Arms	8	74	131	3	0	-2	-4	2	Both	Blade	2
+Kut-Ku Vambraces Z	4022	Arms	8	76	133	3	-4	-3	0	2	Both	Blade	2
+Kut-Ku Vest	2146	Body	2	8	74	3	0	-1	-2	3	Both	Gunner	1
+Kut-Ku Vest S	2562	Body	4	21	78	4	1	-1	-3	3	Both	Gunner	2
+Kut-Ku Vest U	2914	Body	5	23	78	4	-3	-2	1	3	Both	Gunner	2
+Kut-Ku Vest X	4016	Body	8	40	86	4	1	-1	-3	3	Both	Gunner	2
+Kut-Ku Vest Z	4026	Body	8	41	87	4	-3	-2	1	3	Both	Gunner	2
+Lagiacrus Braces	3155	Arms	6	60	127	-5	1	3	-1	-1	Both	Blade	1
+Lagiacrus Braces X	4420	Arms	9	93	142	-5	1	3	-1	-1	Both	Blade	1
+Lagiacrus Cap	3158	Head	6	30	80	-4	2	4	0	0	Both	Gunner	2
+Lagiacrus Cap X	4423	Head	9	51	92	-4	2	4	0	0	Both	Gunner	2
+Lagiacrus Coat	3161	Waist	6	30	80	-4	2	4	0	0	Both	Gunner	3
+Lagiacrus Coat X	4426	Waist	9	51	92	-4	2	4	0	0	Both	Gunner	3
+Lagiacrus Faulds	3156	Waist	6	60	127	-5	1	3	-1	-1	Both	Blade	3
+Lagiacrus Faulds X	4421	Waist	9	93	142	-5	1	3	-1	-1	Both	Blade	3
+Lagiacrus Greaves	3157	Legs	6	60	127	-5	1	3	-1	-1	Both	Blade	1
+Lagiacrus Greaves X	4422	Legs	9	93	142	-5	1	3	-1	-1	Both	Blade	2
+Lagiacrus Guards	3160	Arms	6	30	80	-4	2	4	0	0	Both	Gunner	1
+Lagiacrus Guards X	4425	Arms	9	51	92	-4	2	4	0	0	Both	Gunner	1
+Lagiacrus Helm	3153	Head	6	60	127	-5	1	3	-1	-1	Both	Blade	2
+Lagiacrus Helm X	4418	Head	9	93	142	-5	1	3	-1	-1	Both	Blade	2
+Lagiacrus Leggings	3162	Legs	6	30	80	-4	2	4	0	0	Both	Gunner	2
+Lagiacrus Leggings X	4427	Legs	9	51	92	-4	2	4	0	0	Both	Gunner	2
+Lagiacrus Mail	3154	Body	6	60	127	-5	1	3	-1	-1	Both	Blade	1
+Lagiacrus Mail X	4419	Body	9	93	142	-5	1	3	-1	-1	Both	Blade	1
+Lagiacrus Vest	3159	Body	6	30	80	-4	2	4	0	0	Both	Gunner	1
+Lagiacrus Vest X	4424	Body	9	51	92	-4	2	4	0	0	Both	Gunner	2
+Lagombi Cap	2035	Head	2	8	74	-1	3	0	3	3	Both	Gunner	3
+Lagombi Cap S	2521	Head	4	22	78	-2	3	0	3	3	Both	Gunner	2
+Lagombi Cap X	3805	Head	8	43	88	-2	3	0	3	3	Both	Gunner	2
+Lagombi Coat	2038	Waist	2	8	74	-1	3	0	3	3	Both	Gunner	1
+Lagombi Coat S	2524	Waist	4	22	78	-2	3	0	3	3	Both	Gunner	2
+Lagombi Coat X	3808	Waist	8	43	88	-2	3	0	3	3	Both	Gunner	2
+Lagombi Faulds	2033	Waist	2	15	117	-2	2	-1	2	2	Both	Blade	1
+Lagombi Faulds S	2519	Waist	4	45	120	-3	2	-1	2	2	Both	Blade	2
+Lagombi Faulds X	3803	Waist	8	80	135	-3	2	-1	2	2	Both	Blade	2
+Lagombi Greaves	2034	Legs	2	15	117	-2	2	-1	2	2	Both	Blade	2
+Lagombi Greaves S	2520	Legs	4	45	118	-3	2	-1	2	2	Both	Blade	1
+Lagombi Greaves X	3804	Legs	8	80	135	-3	2	-1	2	2	Both	Blade	2
+Lagombi Guards	2037	Arms	2	8	74	-1	3	0	3	3	Both	Gunner	1
+Lagombi Guards S	2523	Arms	4	22	78	-2	3	0	3	3	Both	Gunner	1
+Lagombi Guards X	3807	Arms	8	43	88	-2	3	0	3	3	Both	Gunner	1
+Lagombi Helm	2030	Head	2	15	117	-2	2	-1	2	2	Both	Blade	3
+Lagombi Helm S	2516	Head	4	45	120	-3	2	-1	2	2	Both	Blade	2
+Lagombi Helm X	3800	Head	8	80	135	-3	2	-1	2	2	Both	Blade	2
+Lagombi Leggings	2039	Legs	2	8	74	-1	3	0	3	3	Both	Gunner	2
+Lagombi Leggings S	2525	Legs	4	22	78	-2	3	0	3	3	Both	Gunner	1
+Lagombi Leggings X	3809	Legs	8	43	88	-2	3	0	3	3	Both	Gunner	2
+Lagombi Mail	2031	Body	2	15	117	-2	2	-1	2	2	Both	Blade	1
+Lagombi Mail S	2517	Body	4	45	120	-3	2	-1	2	2	Both	Blade	1
+Lagombi Mail X	3801	Body	8	80	135	-3	2	-1	2	2	Both	Blade	1
+Lagombi Vambraces	2032	Arms	2	15	117	-2	2	-1	2	2	Both	Blade	1
+Lagombi Vambraces S	2518	Arms	4	45	120	-3	2	-1	2	2	Both	Blade	1
+Lagombi Vambraces X	3802	Arms	8	80	135	-3	2	-1	2	2	Both	Blade	1
+Lagombi Vest	2036	Body	2	8	74	-1	3	0	3	3	Both	Gunner	1
+Lagombi Vest S	2522	Body	4	22	78	-2	3	0	3	3	Both	Gunner	1
+Lagombi Vest X	3806	Body	8	43	88	-2	3	0	3	3	Both	Gunner	1
+Lava Cap	2395	Head	3	12	78	3	-2	1	1	2	Both	Gunner	2
+Lava Cap X	4443	Head	9	54	94	3	-2	1	1	2	Both	Gunner	2
+Lava Coat	2398	Waist	3	12	78	3	-2	1	1	2	Both	Gunner	0
+Lava Coat X	4446	Waist	9	54	94	3	-2	1	1	2	Both	Gunner	0
+Lava Greaves	2394	Legs	3	23	125	2	-3	0	0	1	Both	Blade	2
+Lava Greaves X	4442	Legs	9	98	145	2	-3	0	0	1	Both	Blade	2
+Lava Guards	2397	Arms	3	12	78	3	-2	1	1	2	Both	Gunner	0
+Lava Guards X	4445	Arms	9	54	94	3	-2	1	1	2	Both	Gunner	0
+Lava Helm	2390	Head	3	23	125	2	-3	0	0	1	Both	Blade	2
+Lava Helm X	4438	Head	9	98	145	2	-3	0	0	1	Both	Blade	2
+Lava Leggings	2399	Legs	3	12	78	3	-2	1	1	2	Both	Gunner	2
+Lava Leggings X	4447	Legs	9	54	94	3	-2	1	1	2	Both	Gunner	2
+Lava Mail	2391	Body	3	23	125	2	-3	0	0	1	Both	Blade	2
+Lava Mail X	4439	Body	9	98	145	2	-3	0	0	1	Both	Blade	2
+Lava Tassets	2393	Waist	3	23	125	2	-3	0	0	1	Both	Blade	0
+Lava Tassets X	4441	Waist	9	98	145	2	-3	0	0	1	Both	Blade	0
+Lava Vambraces	2392	Arms	3	23	125	2	-3	0	0	1	Both	Blade	0
+Lava Vambraces X	4440	Arms	9	98	145	2	-3	0	0	1	Both	Blade	0
+Lava Vest	2396	Body	3	12	78	3	-2	1	1	2	Both	Gunner	2
+Lava Vest X	4444	Body	9	54	94	3	-2	1	1	2	Both	Gunner	2
+Leather Belt	1917	Waist	1	1	71	-1	0	0	0	1	Both	Both	0
+Leather Cap S	2629	Head	4	11	75	-1	1	1	1	3	Both	Gunner	0
+Leather Coat S	2632	Waist	4	11	75	-1	1	1	1	3	Both	Gunner	1
+Leather Faulds S	2627	Waist	4	22	114	-2	0	0	0	2	Both	Blade	1
+Leather Gloves	1916	Arms	1	1	71	-1	0	0	0	1	Both	Both	1
+Leather Greaves S	2628	Legs	4	22	114	-2	0	0	0	2	Both	Blade	1
+Leather Guards S	2631	Arms	4	11	75	-1	1	1	1	3	Both	Gunner	1
+Leather Headgear	1914	Head	1	1	71	-1	0	0	0	1	Both	Both	1
+Leather Helm S	2624	Head	4	22	114	-2	0	0	0	2	Both	Blade	0
+Leather Leggings S	2633	Legs	4	11	75	-1	1	1	1	3	Both	Gunner	1
+Leather Mail S	2625	Body	4	22	114	-2	0	0	0	2	Both	Blade	1
+Leather Trousers	1918	Legs	1	1	71	-1	0	0	0	1	Both	Both	0
+Leather Vambraces S	2626	Arms	4	22	114	-2	0	0	0	2	Both	Blade	1
+Leather Vest	1915	Body	1	1	71	-1	0	0	0	1	Both	Both	0
+Leather Vest S	2630	Body	4	11	75	-1	1	1	1	3	Both	Gunner	1
+Lecturer's Boots	3197	Legs	6	45	120	2	-1	1	0	2	Female	Blade	1
+Lecturer's Boots X	4472	Legs	9	106	148	2	-1	1	0	2	Female	Blade	1
+Lecturer's Braces	3195	Arms	6	45	120	2	-1	1	0	2	Female	Blade	2
+Lecturer's Braces X	4470	Arms	9	106	148	2	-1	1	0	2	Female	Blade	2
+Lecturer's Cap	3198	Head	6	23	78	3	0	2	1	3	Female	Gunner	3
+Lecturer's Cap X	4473	Head	9	60	96	3	0	2	1	3	Female	Gunner	2
+Lecturer's Footwear	3202	Legs	6	23	78	3	0	2	1	3	Female	Gunner	1
+Lecturer's Footwear X	4477	Legs	9	60	96	3	0	2	1	3	Female	Gunner	1
+Lecturer's Frills	3201	Waist	6	23	78	3	0	2	1	3	Female	Gunner	2
+Lecturer's Frills X	4476	Waist	9	60	96	3	0	2	1	3	Female	Gunner	2
+Lecturer's Guards	3200	Arms	6	23	78	3	0	2	1	3	Female	Gunner	1
+Lecturer's Guards X	4475	Arms	9	60	96	3	0	2	1	3	Female	Gunner	2
+Lecturer's Hood	3193	Head	6	45	120	2	-1	1	0	2	Female	Blade	2
+Lecturer's Hood X	4468	Head	9	106	148	2	-1	1	0	2	Female	Blade	2
+Lecturer's Jacket	3199	Body	6	23	78	3	0	2	1	3	Female	Gunner	3
+Lecturer's Jacket X	4474	Body	9	60	96	3	0	2	1	3	Female	Gunner	3
+Lecturer's Skirt	3196	Waist	6	45	120	2	-1	1	0	2	Female	Blade	2
+Lecturer's Skirt X	4471	Waist	9	106	148	2	-1	1	0	2	Female	Blade	2
+Lecturer's Suit	3194	Body	6	45	120	2	-1	1	0	2	Female	Blade	3
+Lecturer's Suit X	4469	Body	9	106	148	2	-1	1	0	2	Female	Blade	3
+Leggings of Anat	3628	Legs	7	13	65	-2	-2	-2	-2	-2	Both	Gunner	0
+Leggings of Rage	4874	Legs	10	55	97	-3	-3	-3	-3	-3	Both	Gunner	3
+Light Belt	1962	Waist	1	5	73	-2	2	2	2	-2	Both	Both	1
+Lobster Cap	2723	Head	4	8	74	-1	6	-4	3	-1	Both	Gunner	2
+Lobster Coat	2726	Waist	4	8	74	-1	6	-4	3	-1	Both	Gunner	0
+Lobster Coil	2721	Waist	4	16	118	-2	5	-5	2	-2	Both	Blade	0
+Lobster Greaves	2722	Legs	4	16	118	-2	5	-5	2	-2	Both	Blade	1
+Lobster Guards	2725	Arms	4	8	74	-1	6	-4	3	-1	Both	Gunner	1
+Lobster Helm	2718	Head	4	16	118	-2	5	-5	2	-2	Both	Blade	1
+Lobster Leggings	2727	Legs	4	8	74	-1	6	-4	3	-1	Both	Gunner	1
+Lobster Mail	2719	Body	4	16	118	-2	5	-5	2	-2	Both	Blade	2
+Lobster Vambraces	2720	Arms	4	16	118	-2	5	-5	2	-2	Both	Blade	1
+Lobster Vest	2724	Body	4	8	74	-1	6	-4	3	-1	Both	Gunner	2
+Loc Lac Boots	1961	Legs	1	5	73	2	-3	1	0	0	Both	Both	2
+Loc Lac Kilt	1960	Waist	1	5	73	2	-3	1	0	0	Both	Both	2
+Loc Lac Shawl	1959	Body	1	5	73	2	-3	1	0	0	Both	Both	1
+Ludroth Cap	2175	Head	2	7	74	-2	3	0	0	2	Both	Gunner	0
+Ludroth Coat	2178	Waist	2	7	74	-2	3	0	0	2	Both	Gunner	1
+Ludroth Faulds	2173	Waist	2	15	117	-3	2	-1	-1	1	Both	Blade	1
+Ludroth Greaves	2174	Legs	2	15	117	-3	2	-1	-1	1	Both	Blade	1
+Ludroth Guards	2177	Arms	2	7	74	-2	3	0	0	2	Both	Gunner	1
+Ludroth Helm	2170	Head	2	15	117	-3	2	-1	-1	1	Both	Blade	0
+Ludroth Leggings	2179	Legs	2	7	74	-2	3	0	0	2	Both	Gunner	1
+Ludroth Mail	2171	Body	2	15	117	-3	2	-1	-1	1	Both	Blade	1
+Ludroth Vambraces	2172	Arms	2	15	117	-3	2	-1	-1	1	Both	Blade	1
+Ludroth Vest	2176	Body	2	7	74	-2	3	0	0	2	Both	Gunner	1
+Maiden's Cap	3218	Head	6	26	79	1	1	1	1	1	Female	Gunner	1
+Maiden's Frills	3221	Waist	6	26	79	1	1	1	1	1	Female	Gunner	2
+Maiden's Gloves	3215	Arms	6	52	123	0	0	0	0	0	Female	Blade	1
+Maiden's Gloves X	4530	Arms	9	110	150	0	0	0	0	0	Female	Blade	1
+Maiden's Hat	3213	Head	6	52	123	0	0	0	0	0	Female	Blade	1
+Maiden's Hat X	4528	Head	9	110	150	0	0	0	0	0	Female	Blade	2
+Maiden's Skirt	3216	Waist	6	52	123	0	0	0	0	0	Female	Blade	2
+Maiden's Skirt X	4531	Waist	9	110	150	0	0	0	0	0	Female	Blade	2
+Maiden's Sleeves	3220	Arms	6	26	79	1	1	1	1	1	Female	Gunner	1
+Maiden's Socks	3217	Legs	6	52	123	0	0	0	0	0	Female	Blade	0
+Maiden's Socks X	4532	Legs	9	110	150	0	0	0	0	0	Female	Blade	0
+Maiden's Suit	3214	Body	6	52	123	0	0	0	0	0	Female	Blade	2
+Maiden's Suit X	4529	Body	9	110	150	0	0	0	0	0	Female	Blade	2
+Maiden's Tights	3222	Legs	6	26	79	1	1	1	1	1	Female	Gunner	0
+Maiden's Vest	3219	Body	6	26	79	1	1	1	1	1	Female	Gunner	2
+Mail of Anat	3620	Body	7	26	105	-3	-3	-3	-3	-3	Both	Blade	0
+Mail of Rage	4866	Body	10	100	151	-4	-4	-4	-4	-4	Both	Blade	0
+Mind Crusher Tabi	3305	Legs	7	41	83	3	2	5	-6	3	Both	Gunner	1
+Miralis Barbs	4836	Waist	10	116	152	4	0	-3	1	-7	Both	Blade	1
+Miralis Breastplate	4834	Body	10	116	152	4	0	-3	1	-7	Both	Blade	3
+Miralis Chestguard	4839	Body	10	69	98	5	1	-2	2	-6	Both	Gunner	3
+Miralis Clouts	4840	Arms	10	69	98	5	1	-2	2	-6	Both	Gunner	2
+Miralis Crown	4838	Head	10	69	98	5	1	-2	2	-6	Both	Gunner	3
+Miralis Diadem	4833	Head	10	116	152	4	0	-3	1	-7	Both	Blade	3
+Miralis Drogues	4837	Legs	10	116	152	4	0	-3	1	-7	Both	Blade	1
+Miralis Grievers	4835	Arms	10	116	152	4	0	-3	1	-7	Both	Blade	2
+Miralis Kedges	4842	Legs	10	69	98	5	1	-2	2	-6	Both	Gunner	1
+Miralis Sheath	4841	Waist	10	69	98	5	1	-2	2	-6	Both	Gunner	1
+Mizuha Cap	3476	Head	7	69	132	-4	3	0	4	-1	Both	Blade	1
+Mizuha Guards	3477	Body	7	69	132	-4	3	0	4	-1	Both	Blade	1
+Mizuha Leg Wrap	3480	Legs	7	69	132	-4	3	0	4	-1	Both	Blade	2
+Mizuha Sash	3479	Waist	7	69	132	-4	3	0	4	-1	Both	Blade	1
+Mizuha Sleeves	3478	Arms	7	69	132	-4	3	0	4	-1	Both	Blade	2
+Mono Cap S	2943	Head	5	29	80	1	3	-2	-3	3	Both	Gunner	2
+Mono Cap X	4383	Head	9	52	92	1	3	-2	-3	3	Both	Gunner	2
+Mono Coat S	2946	Waist	5	29	80	1	3	-2	-3	3	Both	Gunner	1
+Mono Coat X	4386	Waist	9	52	92	1	3	-2	-3	3	Both	Gunner	1
+Mono Coil S	2941	Waist	5	57	126	0	2	-3	-4	2	Both	Blade	2
+Mono Coil X	4381	Waist	9	96	143	0	2	-3	-4	2	Both	Blade	1
+Mono Greaves S	2942	Legs	5	57	126	0	2	-3	-4	2	Both	Blade	1
+Mono Greaves X	4382	Legs	9	96	143	0	2	-3	-4	2	Both	Blade	2
+Mono Guards S	2945	Arms	5	29	80	1	3	-2	-3	3	Both	Gunner	2
+Mono Guards X	4385	Arms	9	52	92	1	3	-2	-3	3	Both	Gunner	2
+Mono Helm S	2938	Head	5	57	126	0	2	-3	-4	2	Both	Blade	1
+Mono Helm X	4378	Head	9	96	143	0	2	-3	-4	2	Both	Blade	2
+Mono Leggings S	2947	Legs	5	29	80	1	3	-2	-3	3	Both	Gunner	1
+Mono Leggings X	4387	Legs	9	52	92	1	3	-2	-3	3	Both	Gunner	2
+Mono Mail S	2939	Body	5	57	126	0	2	-3	-4	2	Both	Blade	2
+Mono Mail X	4379	Body	9	96	143	0	2	-3	-4	2	Both	Blade	1
+Mono Vambraces S	2940	Arms	5	57	126	0	2	-3	-4	2	Both	Blade	2
+Mono Vambraces X	4380	Arms	9	96	143	0	2	-3	-4	2	Both	Blade	2
+Mono Vest S	2944	Body	5	29	80	1	3	-2	-3	3	Both	Gunner	2
+Mono Vest X	4384	Body	9	52	92	1	3	-2	-3	3	Both	Gunner	1
+Monodevil Cap	4393	Head	9	55	94	1	3	-2	-3	3	Both	Gunner	3
+Monodevil Coat	4396	Waist	9	55	94	1	3	-2	-3	3	Both	Gunner	1
+Monodevil Coil	4391	Waist	9	100	145	0	2	-3	-4	2	Both	Blade	1
+Monodevil Greaves	4392	Legs	9	100	145	0	2	-3	-4	2	Both	Blade	2
+Monodevil Guards	4395	Arms	9	55	94	1	3	-2	-3	3	Both	Gunner	1
+Monodevil Helm	4388	Head	9	100	145	0	2	-3	-4	2	Both	Blade	3
+Monodevil Leggings	4397	Legs	9	55	94	1	3	-2	-3	3	Both	Gunner	2
+Monodevil Mail	4389	Body	9	100	145	0	2	-3	-4	2	Both	Blade	1
+Monodevil Vambraces	4390	Arms	9	100	145	0	2	-3	-4	2	Both	Blade	1
+Monodevil Vest	4394	Body	9	55	94	1	3	-2	-3	3	Both	Gunner	1
+Mosgharl Brim	2693	Head	4	9	75	-3	2	1	3	1	Both	Gunner	0
+Mosgharl Creeper	2690	Arms	4	19	121	-4	1	0	2	0	Both	Blade	0
+Mosgharl Folia	2691	Waist	4	19	121	-4	1	0	2	0	Both	Blade	0
+Mosgharl Fronds	2696	Waist	4	9	75	-3	2	1	3	1	Both	Gunner	0
+Mosgharl Radicles	2697	Legs	4	9	75	-3	2	1	3	1	Both	Gunner	0
+Mosgharl Ribguard	2694	Body	4	9	75	-3	2	1	3	1	Both	Gunner	0
+Mosgharl Ribplate	2689	Body	4	19	121	-4	1	0	2	0	Both	Blade	0
+Mosgharl Roots	2692	Legs	4	19	121	-4	1	0	2	0	Both	Blade	0
+Mosgharl Tendril	2695	Arms	4	9	75	-3	2	1	3	1	Both	Gunner	0
+Mosgharl Vizor	2688	Head	4	19	121	-4	1	0	2	0	Both	Blade	0
+Mosswine Mask	4905	Head	10	40	92	0	0	0	0	0	Both	Both	0
+Mutsu Doate	3572	Body	7	34	81	4	2	1	-3	-3	Male	Gunner	1
+Mutsu Eboshi	3571	Head	7	34	81	4	2	1	-3	-3	Male	Gunner	2
+Mutsu Gusoku	3575	Legs	7	34	81	4	2	1	-3	-3	Male	Gunner	0
+Mutsu Koshiate	3574	Waist	7	34	81	4	2	1	-3	-3	Male	Gunner	1
+Mutsu Kote	3573	Arms	7	34	81	4	2	1	-3	-3	Male	Gunner	2
+Najarala Braces	2102	Arms	2	20	122	1	-2	0	-4	1	Both	Blade	0
+Najarala Braces S	2830	Arms	5	55	124	3	-3	0	-5	3	Both	Blade	0
+Najarala Braces X	3942	Arms	8	86	137	3	-3	0	-5	3	Both	Blade	0
+Najarala Braces Z	3952	Arms	8	88	139	-5	3	-3	4	3	Both	Blade	1
+Najarala Cap	2105	Head	2	10	76	2	-1	1	-3	2	Both	Gunner	2
+Najarala Cap S	2833	Head	5	28	80	4	-2	1	-4	4	Both	Gunner	2
+Najarala Cap X	3945	Head	8	46	89	4	-2	1	-4	4	Both	Gunner	2
+Najarala Cap Z	3955	Head	8	47	90	-4	4	-2	5	4	Both	Gunner	0
+Najarala Coat	2108	Waist	2	10	76	2	-1	1	-3	2	Both	Gunner	1
+Najarala Coat S	2836	Waist	5	28	80	4	-2	1	-4	4	Both	Gunner	2
+Najarala Coat X	3948	Waist	8	46	89	4	-2	1	-4	4	Both	Gunner	2
+Najarala Coat Z	3958	Waist	8	47	90	-4	4	-2	5	4	Both	Gunner	1
+Najarala Faulds	2103	Waist	2	20	122	1	-2	0	-4	1	Both	Blade	1
+Najarala Faulds S	2831	Waist	5	55	124	3	-3	0	-5	3	Both	Blade	2
+Najarala Faulds X	3943	Waist	8	86	137	3	-3	0	-5	3	Both	Blade	2
+Najarala Faulds Z	3953	Waist	8	88	139	-5	3	-3	4	3	Both	Blade	1
+Najarala Greaves	2104	Legs	2	20	122	1	-2	0	-4	1	Both	Blade	1
+Najarala Greaves S	2832	Legs	5	55	124	3	-3	0	-5	3	Both	Blade	0
+Najarala Greaves X	3944	Legs	8	86	137	3	-3	0	-5	3	Both	Blade	0
+Najarala Greaves Z	3954	Legs	8	88	139	-5	3	-3	4	3	Both	Blade	3
+Najarala Guards	2107	Arms	2	10	76	2	-1	1	-3	2	Both	Gunner	0
+Najarala Guards S	2835	Arms	5	28	80	4	-2	1	-4	4	Both	Gunner	0
+Najarala Guards X	3947	Arms	8	46	89	4	-2	1	-4	4	Both	Gunner	0
+Najarala Guards Z	3957	Arms	8	47	90	-4	4	-2	5	4	Both	Gunner	1
+Najarala Helm	2100	Head	2	20	122	1	-2	0	-4	1	Both	Blade	2
+Najarala Helm S	2828	Head	5	55	124	3	-3	0	-5	3	Both	Blade	2
+Najarala Helm X	3940	Head	8	86	137	3	-3	0	-5	3	Both	Blade	2
+Najarala Helm Z	3950	Head	8	88	139	-5	3	-3	4	3	Both	Blade	0
+Najarala Leggings	2109	Legs	2	10	76	2	-1	1	-3	2	Both	Gunner	1
+Najarala Leggings S	2837	Legs	5	28	80	4	-2	1	-4	4	Both	Gunner	0
+Najarala Leggings X	3949	Legs	8	46	89	4	-2	1	-4	4	Both	Gunner	0
+Najarala Leggings Z	3959	Legs	8	47	90	-4	4	-2	5	4	Both	Gunner	3
+Najarala Mail	2101	Body	2	20	122	1	-2	0	-4	1	Both	Blade	1
+Najarala Mail S	2829	Body	5	55	124	3	-3	0	-5	3	Both	Blade	1
+Najarala Mail X	3941	Body	8	86	137	3	-3	0	-5	3	Both	Blade	1
+Najarala Mail Z	3951	Body	8	88	139	-5	3	-3	4	3	Both	Blade	1
+Najarala Vest	2106	Body	2	10	76	2	-1	1	-3	2	Both	Gunner	1
+Najarala Vest S	2834	Body	5	28	80	4	-2	1	-4	4	Both	Gunner	1
+Najarala Vest X	3946	Body	8	46	89	4	-2	1	-4	4	Both	Gunner	1
+Najarala Vest Z	3956	Body	8	47	90	-4	4	-2	5	4	Both	Gunner	1
+Nargacuga Braces	2362	Arms	3	22	124	-2	1	-4	1	1	Both	Blade	2
+Nargacuga Braces X	4410	Arms	9	91	140	-2	1	-4	1	1	Both	Blade	2
+Nargacuga Cap	2365	Head	3	11	77	-1	2	-3	2	2	Both	Gunner	1
+Nargacuga Cap X	4413	Head	9	50	91	-1	2	-3	2	2	Both	Gunner	1
+Nargacuga Coat	2368	Waist	3	11	77	-1	2	-3	2	2	Both	Gunner	3
+Nargacuga Coat X	4416	Waist	9	50	91	-1	2	-3	2	2	Both	Gunner	3
+Nargacuga Faulds	2363	Waist	3	22	124	-2	1	-4	1	1	Both	Blade	3
+Nargacuga Faulds X	4411	Waist	9	91	140	-2	1	-4	1	1	Both	Blade	3
+Nargacuga Greaves	2364	Legs	3	22	124	-2	1	-4	1	1	Both	Blade	0
+Nargacuga Greaves X	4412	Legs	9	91	140	-2	1	-4	1	1	Both	Blade	0
+Nargacuga Guards	2367	Arms	3	11	77	-1	2	-3	2	2	Both	Gunner	2
+Nargacuga Guards X	4415	Arms	9	50	91	-1	2	-3	2	2	Both	Gunner	2
+Nargacuga Helm	2360	Head	3	22	124	-2	1	-4	1	1	Both	Blade	1
+Nargacuga Helm X	4408	Head	9	91	140	-2	1	-4	1	1	Both	Blade	1
+Nargacuga Leggings	2369	Legs	3	11	77	-1	2	-3	2	2	Both	Gunner	0
+Nargacuga Leggings X	4417	Legs	9	50	91	-1	2	-3	2	2	Both	Gunner	0
+Nargacuga Mail	2361	Body	3	22	124	-2	1	-4	1	1	Both	Blade	1
+Nargacuga Mail X	4409	Body	9	91	140	-2	1	-4	1	1	Both	Blade	1
+Nargacuga Vest	2366	Body	3	11	77	-1	2	-3	2	2	Both	Gunner	1
+Nargacuga Vest X	4414	Body	9	50	91	-1	2	-3	2	2	Both	Gunner	1
+Nephilim Cap	4363	Head	9	60	96	-4	5	-2	3	-5	Female	Gunner	1
+Nephilim Coat	4366	Waist	9	60	96	-4	5	-2	3	-2	Female	Gunner	1
+Nephilim Greaves	4362	Legs	9	106	148	-5	4	-3	2	-3	Female	Blade	3
+Nephilim Guards	4365	Arms	9	60	96	-4	5	-2	3	-4	Female	Gunner	3
+Nephilim Helm	4358	Head	9	106	148	-5	4	-3	2	-6	Female	Blade	1
+Nephilim Leggings	4367	Legs	9	60	96	-4	5	-2	3	-2	Female	Gunner	3
+Nephilim Mail	4359	Body	9	106	148	-5	4	-3	2	-3	Female	Blade	2
+Nephilim Tassets	4361	Waist	9	106	148	-5	4	-3	2	-3	Female	Blade	1
+Nephilim Vambraces	4360	Arms	9	106	148	-5	4	-3	2	-5	Female	Blade	3
+Nephilim Vest	4364	Body	9	60	96	-4	5	-2	3	-2	Female	Gunner	2
+Nerscylla Braces S	2810	Arms	5	48	121	-3	3	-3	2	3	Both	Blade	0
+Nerscylla Braces X	3912	Arms	8	82	135	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Braces Z	4200	Arms	9	92	141	-1	3	0	-3	3	Both	Blade	0
+Nerscylla Cap	2085	Head	2	9	75	-1	3	-1	2	3	Both	Gunner	1
+Nerscylla Cap S	2813	Head	5	24	78	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Cap X	3915	Head	8	44	88	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Cap Z	4203	Head	9	50	91	0	4	1	-2	4	Both	Gunner	2
+Nerscylla Coat	2088	Waist	2	9	75	-1	3	-1	2	3	Both	Gunner	1
+Nerscylla Coat S	2816	Waist	5	24	78	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Coat X	3918	Waist	8	44	88	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Coat Z	4206	Waist	9	50	91	0	4	1	-2	4	Both	Gunner	2
+Nerscylla Faulds	2083	Waist	2	19	121	-2	2	-2	1	2	Both	Blade	1
+Nerscylla Faulds S	2811	Waist	5	48	121	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Faulds X	3913	Waist	8	82	135	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Faulds Z	4201	Waist	9	92	141	-1	3	0	-3	3	Both	Blade	2
+Nerscylla Greaves	2084	Legs	2	19	121	-2	2	-2	1	2	Both	Blade	2
+Nerscylla Greaves S	2812	Legs	5	48	121	-3	3	-3	2	3	Both	Blade	2
+Nerscylla Greaves X	3914	Legs	8	82	135	-3	3	-3	2	3	Both	Blade	2
+Nerscylla Greaves Z	4202	Legs	9	92	141	-1	3	0	-3	3	Both	Blade	2
+Nerscylla Guards	2087	Arms	2	9	75	-1	3	-1	2	3	Both	Gunner	0
+Nerscylla Guards S	2815	Arms	5	24	78	-2	4	-2	3	4	Both	Gunner	0
+Nerscylla Guards X	3917	Arms	8	44	88	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Guards Z	4205	Arms	9	50	91	0	4	1	-2	4	Both	Gunner	0
+Nerscylla Helm	2080	Head	2	19	121	-2	2	-2	1	2	Both	Blade	1
+Nerscylla Helm S	2808	Head	5	48	121	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Helm X	3910	Head	8	82	135	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Helm Z	4198	Head	9	92	141	-1	3	0	-3	3	Both	Blade	2
+Nerscylla Leggings	2089	Legs	2	9	75	-1	3	-1	2	3	Both	Gunner	2
+Nerscylla Leggings S	2817	Legs	5	24	78	-2	4	-2	3	4	Both	Gunner	2
+Nerscylla Leggings X	3919	Legs	8	44	88	-2	4	-2	3	4	Both	Gunner	2
+Nerscylla Leggings Z	4207	Legs	9	50	91	0	4	1	-2	4	Both	Gunner	2
+Nerscylla Mail	2081	Body	2	19	121	-2	2	-2	1	2	Both	Blade	1
+Nerscylla Mail S	2809	Body	5	48	121	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Mail X	3911	Body	8	82	135	-3	3	-3	2	3	Both	Blade	1
+Nerscylla Mail Z	4199	Body	9	92	141	-1	3	0	-3	3	Both	Blade	2
+Nerscylla Vambraces	2082	Arms	2	19	121	-2	2	-2	1	2	Both	Blade	0
+Nerscylla Vest	2086	Body	2	9	75	-1	3	-1	2	3	Both	Gunner	1
+Nerscylla Vest S	2814	Body	5	24	78	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Vest X	3916	Body	8	44	88	-2	4	-2	3	4	Both	Gunner	1
+Nerscylla Vest Z	4204	Body	9	50	91	0	4	1	-2	4	Both	Gunner	2
+Nibelsnarf Braces	2192	Arms	2	21	123	2	0	-2	-4	1	Both	Blade	1
+Nibelsnarf Braces X	4082	Arms	8	85	136	2	0	-2	-4	1	Both	Blade	1
+Nibelsnarf Cap	2195	Head	2	10	76	3	1	-1	-3	2	Both	Gunner	1
+Nibelsnarf Cap X	4085	Head	8	45	88	3	1	-1	-3	2	Both	Gunner	1
+Nibelsnarf Coat	2198	Waist	2	10	76	3	1	-1	-3	2	Both	Gunner	2
+Nibelsnarf Coat X	4088	Waist	8	45	88	3	1	-1	-3	2	Both	Gunner	2
+Nibelsnarf Faulds	2193	Waist	2	21	123	2	0	-2	-4	1	Both	Blade	2
+Nibelsnarf Faulds X	4083	Waist	8	85	136	2	0	-2	-4	1	Both	Blade	2
+Nibelsnarf Greaves	2194	Legs	2	21	123	2	0	-2	-4	1	Both	Blade	0
+Nibelsnarf Greaves X	4084	Legs	8	85	136	2	0	-2	-4	1	Both	Blade	0
+Nibelsnarf Guards	2197	Arms	2	10	76	3	1	-1	-3	2	Both	Gunner	1
+Nibelsnarf Guards X	4087	Arms	8	45	88	3	1	-1	-3	2	Both	Gunner	1
+Nibelsnarf Helm	2190	Head	2	21	123	2	0	-2	-4	1	Both	Blade	1
+Nibelsnarf Helm X	4080	Head	8	85	136	2	0	-2	-4	1	Both	Blade	1
+Nibelsnarf Leggings	2199	Legs	2	10	76	3	1	-1	-3	2	Both	Gunner	0
+Nibelsnarf Leggings X	4089	Legs	8	45	88	3	1	-1	-3	2	Both	Gunner	0
+Nibelsnarf Mail	2191	Body	2	21	123	2	0	-2	-4	1	Both	Blade	1
+Nibelsnarf Mail X	4081	Body	8	85	136	2	0	-2	-4	1	Both	Blade	2
+Nibelsnarf Vest	2196	Body	2	10	76	3	1	-1	-3	2	Both	Gunner	1
+Nibelsnarf Vest X	4086	Body	8	45	88	3	1	-1	-3	2	Both	Gunner	2
+Obituary Alae	2996	Waist	5	21	78	4	-4	5	-3	2	Male	Gunner	2
+Obituary Alae X	4136	Waist	8	38	84	4	-4	5	-3	2	Male	Gunner	2
+Obituary Brachia	2990	Arms	5	43	118	3	-5	3	-4	2	Male	Blade	2
+Obituary Brachia X	4130	Arms	8	72	129	3	-5	3	-4	2	Male	Blade	2
+Obituary Clypeus	2993	Head	5	21	78	4	-4	5	-3	2	Male	Gunner	1
+Obituary Clypeus X	4133	Head	8	38	84	4	-4	5	-3	2	Male	Gunner	1
+Obituary Crura	2992	Legs	5	43	118	3	-5	3	-4	2	Male	Blade	1
+Obituary Crura X	4132	Legs	8	72	129	3	-5	3	-4	2	Male	Blade	1
+Obituary Elytra	2991	Waist	5	43	118	3	-5	3	-4	2	Male	Blade	2
+Obituary Elytra X	4131	Waist	8	72	129	3	-5	3	-4	2	Male	Blade	2
+Obituary Manus	2995	Arms	5	21	78	4	-4	5	-3	2	Male	Gunner	2
+Obituary Manus X	4135	Arms	8	38	84	4	-4	5	-3	2	Male	Gunner	2
+Obituary Pleuron	2994	Body	5	21	78	4	-4	5	-3	2	Male	Gunner	1
+Obituary Pleuron X	4134	Body	8	38	84	4	-4	5	-3	2	Male	Gunner	1
+Obituary Tarsi	2997	Legs	5	21	78	4	-4	5	-3	2	Male	Gunner	1
+Obituary Tarsi X	4137	Legs	8	38	84	4	-4	5	-3	2	Male	Gunner	1
+Obituary Thorax	2989	Body	5	43	118	3	-5	3	-4	2	Male	Blade	1
+Obituary Thorax X	4129	Body	8	72	129	3	-5	3	-4	2	Male	Blade	1
+Obituary Vertex	2988	Head	5	43	118	3	-5	3	-4	2	Male	Blade	1
+Obituary Vertex X	4128	Head	8	72	129	3	-5	3	-4	2	Male	Blade	1
+Overlord Feather	3598	Head	7	25	79	0	0	0	0	0	Both	Both	3
+Palico Bro	4910	Head	10	40	92	2	2	2	2	2	Both	Both	0
+Patissier's Apron	3751	Waist	7	29	80	5	3	3	3	-4	Both	Gunner	2
+Patissier's Boots	3747	Legs	7	58	125	4	2	2	2	-5	Both	Blade	2
+Patissier's Cap	3748	Head	7	29	80	5	3	3	3	-4	Both	Gunner	2
+Patissier's Footwear	3752	Legs	7	29	80	5	3	3	3	-4	Both	Gunner	2
+Patissier's Gloves	3745	Arms	7	58	125	4	2	2	2	-5	Both	Blade	2
+Patissier's Mitts	3750	Arms	7	29	80	5	3	3	3	-4	Both	Gunner	2
+Patissier's Sarong	3746	Waist	7	58	125	4	2	2	2	-5	Both	Blade	2
+Patissier's Suit	3744	Body	7	58	125	4	2	2	2	-5	Both	Blade	2
+Patissier's Toque	3743	Head	7	58	125	4	2	2	2	-5	Both	Blade	2
+Patissier's Vest	3749	Body	7	29	80	5	3	3	3	-4	Both	Gunner	2
+Plesioth Cap	2620	Head	4	10	76	-3	4	-4	3	3	Both	Gunner	1
+Plesioth Cap Z	4115	Head	8	43	88	-2	6	-2	3	1	Both	Gunner	1
+Plesioth Coat Z	4118	Waist	8	43	88	-2	6	-2	3	1	Both	Gunner	2
+Plesioth Greaves	2619	Legs	4	20	122	-4	3	-5	2	2	Both	Blade	2
+Plesioth Greaves Z	4114	Legs	8	80	135	-4	4	-4	2	0	Both	Blade	2
+Plesioth Guards	2622	Arms	4	10	76	-3	4	-4	3	3	Both	Gunner	1
+Plesioth Guards Z	4117	Arms	8	43	88	-2	6	-2	3	1	Both	Gunner	1
+Plesioth Helm	2616	Head	4	20	122	-4	3	-5	2	2	Both	Blade	1
+Plesioth Helm Z	4110	Head	8	80	135	-4	4	-4	2	0	Both	Blade	1
+Plesioth Leggings	2623	Legs	4	10	76	-3	4	-4	3	3	Both	Gunner	1
+Plesioth Leggings Z	4119	Legs	8	43	88	-2	6	-2	3	1	Both	Gunner	2
+Plesioth Mail	2617	Body	4	20	122	-4	3	-5	2	2	Both	Blade	0
+Plesioth Mail Z	4111	Body	8	80	135	-4	4	-4	2	0	Both	Blade	0
+Plesioth Tassets Z	4113	Waist	8	80	135	-4	4	-4	2	0	Both	Blade	2
+Plesioth Vambraces	2618	Arms	4	20	122	-4	3	-5	2	2	Both	Blade	1
+Plesioth Vambraces Z	4112	Arms	8	80	135	-4	4	-4	2	0	Both	Blade	1
+Plesioth Vest	2621	Body	4	10	76	-3	4	-4	3	3	Both	Gunner	0
+Plesioth Vest Z	4116	Body	8	43	88	-2	6	-2	3	1	Both	Gunner	0
+Puppeteer Gloves	3293	Arms	7	33	81	3	2	4	-5	3	Both	Gunner	1
+Puppeteer Mask	3291	Head	7	33	81	3	2	4	-5	3	Both	Gunner	2
+Puppeteer Obi	3294	Waist	7	33	81	3	2	4	-5	3	Both	Gunner	1
+Puppeteer Suit	3292	Body	7	33	81	3	2	4	-5	3	Both	Gunner	0
+Puppeteer Tabi	3295	Legs	7	33	81	3	2	4	-5	3	Both	Gunner	1
+Qurupeco Cap	2611	Head	4	18	77	3	0	1	-2	1	Both	Gunner	2
+Qurupeco Cap X	4055	Head	8	40	86	3	0	1	-2	1	Both	Gunner	2
+Qurupeco Coat	2614	Waist	4	18	77	3	0	1	-2	1	Both	Gunner	1
+Qurupeco Coat X	4058	Waist	8	40	86	3	0	1	-2	1	Both	Gunner	1
+Qurupeco Coil	2609	Waist	4	36	117	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Coil X	4053	Waist	8	75	132	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Greaves	2610	Legs	4	36	117	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Greaves X	4054	Legs	8	75	132	2	-1	0	-3	0	Both	Blade	2
+Qurupeco Guards	2613	Arms	4	18	77	3	0	1	-2	1	Both	Gunner	1
+Qurupeco Guards X	4057	Arms	8	40	86	3	0	1	-2	1	Both	Gunner	1
+Qurupeco Helm	2606	Head	4	36	117	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Helm X	4050	Head	8	75	132	2	-1	0	-3	0	Both	Blade	2
+Qurupeco Leggings	2615	Legs	4	18	77	3	0	1	-2	1	Both	Gunner	1
+Qurupeco Leggings X	4059	Legs	8	40	86	3	0	1	-2	1	Both	Gunner	2
+Qurupeco Mail	2607	Body	4	36	117	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Mail X	4051	Body	8	75	132	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Vambraces	2608	Arms	4	36	117	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Vambraces X	4052	Arms	8	75	132	2	-1	0	-3	0	Both	Blade	1
+Qurupeco Vest	2612	Body	4	18	77	3	0	1	-2	1	Both	Gunner	1
+Qurupeco Vest X	4056	Body	8	40	86	3	0	1	-2	1	Both	Gunner	1
+Ranger's Espadrilles	3237	Legs	6	53	124	0	0	0	0	0	Both	Blade	1
+Ranger's Gauntlets	3235	Arms	6	53	124	0	0	0	0	0	Both	Blade	0
+Ranger's Girdle	3234	Body	6	53	124	0	0	0	0	0	Both	Blade	0
+Ranger's Headgear	3233	Head	6	53	124	0	0	0	0	0	Both	Blade	2
+Ranger's Sash	3236	Waist	6	53	124	0	0	0	0	0	Both	Blade	2
+Rath Heart Braces	3065	Arms	6	51	122	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Braces Z	3992	Arms	8	86	137	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Cap	3068	Head	6	26	79	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Cap Z	3995	Head	8	46	89	4	1	-1	1	-3	Both	Gunner	2
+Rath Heart Coat	3071	Waist	6	26	79	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Coat Z	3998	Waist	8	46	89	4	1	-1	1	-3	Both	Gunner	2
+Rath Heart Coil	3066	Waist	6	51	122	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Coil Z	3993	Waist	8	86	137	3	0	-2	0	-4	Both	Blade	2
+Rath Heart Greaves	3067	Legs	6	51	122	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Greaves Z	3994	Legs	8	86	137	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Guards	3070	Arms	6	26	79	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Guards Z	3997	Arms	8	46	89	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Helm	3063	Head	6	51	122	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Helm Z	3990	Head	8	86	137	3	0	-2	0	-4	Both	Blade	2
+Rath Heart Leggings	3072	Legs	6	26	79	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Leggings Z	3999	Legs	8	46	89	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Mail	3064	Body	6	51	122	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Mail Z	3991	Body	8	86	137	3	0	-2	0	-4	Both	Blade	1
+Rath Heart Vest	3069	Body	6	26	79	4	1	-1	1	-3	Both	Gunner	1
+Rath Heart Vest Z	3996	Body	8	46	89	4	1	-1	1	-3	Both	Gunner	1
+Rath Soul Braces	3075	Arms	6	58	125	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Braces Z	4220	Arms	9	94	143	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Cap	3078	Head	6	29	80	4	1	1	-1	-3	Both	Gunner	3
+Rath Soul Cap Z	4223	Head	9	51	92	4	1	1	-1	-3	Both	Gunner	3
+Rath Soul Coat	3081	Waist	6	29	80	4	1	1	-1	-3	Both	Gunner	1
+Rath Soul Coat Z	4226	Waist	9	51	92	4	1	1	-1	-3	Both	Gunner	2
+Rath Soul Coil	3076	Waist	6	58	125	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Coil Z	4221	Waist	9	94	143	3	0	0	-2	-4	Both	Blade	2
+Rath Soul Greaves	3077	Legs	6	58	125	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Greaves Z	4222	Legs	9	94	143	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Guards	3080	Arms	6	29	80	4	1	1	-1	-3	Both	Gunner	1
+Rath Soul Guards Z	4225	Arms	9	51	92	4	1	1	-1	-3	Both	Gunner	1
+Rath Soul Helm	3073	Head	6	58	125	3	0	0	-2	-4	Both	Blade	3
+Rath Soul Helm Z	4218	Head	9	94	143	3	0	0	-2	-4	Both	Blade	3
+Rath Soul Leggings	3082	Legs	6	29	80	4	1	1	-1	-3	Both	Gunner	0
+Rath Soul Leggings Z	4227	Legs	9	51	92	4	1	1	-1	-3	Both	Gunner	1
+Rath Soul Mail	3074	Body	6	58	125	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Mail Z	4219	Body	9	94	143	3	0	0	-2	-4	Both	Blade	1
+Rath Soul Vest	3079	Body	6	29	80	4	1	1	-1	-3	Both	Gunner	1
+Rath Soul Vest Z	4224	Body	9	51	92	4	1	1	-1	-3	Both	Gunner	1
+Rathalos Cap	2245	Head	3	12	78	3	1	-1	1	-2	Both	Gunner	0
+Rathalos Cap S	2863	Head	5	28	80	4	1	-1	1	-3	Both	Gunner	3
+Rathalos Cap X	4213	Head	9	50	91	4	1	-1	1	-3	Both	Gunner	3
+Rathalos Coat	2248	Waist	3	12	78	3	1	-1	1	-2	Both	Gunner	1
+Rathalos Coat S	2866	Waist	5	28	80	4	1	-1	1	-3	Both	Gunner	2
+Rathalos Coat X	4216	Waist	9	50	91	4	1	-1	1	-3	Both	Gunner	2
+Rathalos Faulds	2243	Waist	3	23	125	2	0	-2	0	-3	Both	Blade	1
+Rathalos Faulds S	2861	Waist	5	57	126	3	0	-2	0	-4	Both	Blade	2
+Rathalos Faulds X	4211	Waist	9	92	141	3	0	-2	0	-4	Both	Blade	2
+Rathalos Greaves	2244	Legs	3	23	125	2	0	-2	0	-3	Both	Blade	1
+Rathalos Greaves S	2862	Legs	5	57	126	3	0	-2	0	-4	Both	Blade	1
+Rathalos Greaves X	4212	Legs	9	92	141	3	0	-2	0	-4	Both	Blade	1
+Rathalos Guards	2247	Arms	3	12	78	3	1	-1	1	-2	Both	Gunner	1
+Rathalos Guards S	2865	Arms	5	28	80	4	1	-1	1	-3	Both	Gunner	1
+Rathalos Guards X	4215	Arms	9	50	91	4	1	-1	1	-3	Both	Gunner	2
+Rathalos Helm	2240	Head	3	23	125	2	0	-2	0	-3	Both	Blade	0
+Rathalos Helm S	2858	Head	5	57	126	3	0	-2	0	-4	Both	Blade	3
+Rathalos Helm X	4208	Head	9	92	141	3	0	-2	0	-4	Both	Blade	3
+Rathalos Leggings	2249	Legs	3	12	78	3	1	-1	1	-2	Both	Gunner	1
+Rathalos Leggings S	2867	Legs	5	28	80	4	1	-1	1	-3	Both	Gunner	1
+Rathalos Leggings X	4217	Legs	9	50	91	4	1	-1	1	-3	Both	Gunner	1
+Rathalos Mail	2241	Body	3	23	125	2	0	-2	0	-3	Both	Blade	0
+Rathalos Mail S	2859	Body	5	57	126	3	0	-2	0	-4	Both	Blade	1
+Rathalos Mail X	4209	Body	9	92	141	3	0	-2	0	-4	Both	Blade	1
+Rathalos Vambraces	2242	Arms	3	23	125	2	0	-2	0	-3	Both	Blade	1
+Rathalos Vambraces S	2860	Arms	5	57	126	3	0	-2	0	-4	Both	Blade	1
+Rathalos Vambraces X	4210	Arms	9	92	141	3	0	-2	0	-4	Both	Blade	2
+Rathalos Vest	2246	Body	3	12	78	3	1	-1	1	-2	Both	Gunner	0
+Rathalos Vest S	2864	Body	5	28	80	4	1	-1	1	-3	Both	Gunner	1
+Rathalos Vest X	4214	Body	9	50	91	4	1	-1	1	-3	Both	Gunner	1
+Rathian Cap	2125	Head	2	10	76	3	1	-1	1	-2	Both	Gunner	1
+Rathian Cap S	2853	Head	5	25	79	4	1	-1	1	-3	Both	Gunner	3
+Rathian Cap X	3985	Head	8	45	88	4	1	-1	1	-3	Both	Gunner	3
+Rathian Coat	2128	Waist	2	10	76	3	1	-1	1	-2	Both	Gunner	2
+Rathian Coat S	2856	Waist	5	25	79	4	1	-1	1	-3	Both	Gunner	1
+Rathian Coat X	3988	Waist	8	45	88	4	1	-1	1	-3	Both	Gunner	1
+Rathian Faulds	2123	Waist	2	19	121	2	0	-2	0	-3	Both	Blade	2
+Rathian Faulds S	2851	Waist	5	50	121	3	0	-2	0	-4	Both	Blade	1
+Rathian Faulds X	3983	Waist	8	84	135	3	0	-2	0	-4	Both	Blade	1
+Rathian Greaves	2124	Legs	2	19	121	2	0	-2	0	-3	Both	Blade	2
+Rathian Greaves S	2852	Legs	5	50	121	3	0	-2	0	-4	Both	Blade	1
+Rathian Greaves X	3984	Legs	8	84	135	3	0	-2	0	-4	Both	Blade	2
+Rathian Guards	2127	Arms	2	10	76	3	1	-1	1	-2	Both	Gunner	1
+Rathian Guards S	2855	Arms	5	25	79	4	1	-1	1	-3	Both	Gunner	1
+Rathian Guards X	3987	Arms	8	45	88	4	1	-1	1	-3	Both	Gunner	1
+Rathian Helm	2120	Head	2	19	121	2	0	-2	0	-3	Both	Blade	1
+Rathian Helm S	2848	Head	5	50	121	3	0	-2	0	-4	Both	Blade	3
+Rathian Helm X	3980	Head	8	84	135	3	0	-2	0	-4	Both	Blade	3
+Rathian Leggings	2129	Legs	2	10	76	3	1	-1	1	-2	Both	Gunner	2
+Rathian Leggings S	2857	Legs	5	25	79	4	1	-1	1	-3	Both	Gunner	1
+Rathian Leggings X	3989	Legs	8	45	88	4	1	-1	1	-3	Both	Gunner	2
+Rathian Mail	2121	Body	2	19	121	2	0	-2	0	-3	Both	Blade	0
+Rathian Mail S	2849	Body	5	50	121	3	0	-2	0	-4	Both	Blade	1
+Rathian Mail X	3981	Body	8	84	135	3	0	-2	0	-4	Both	Blade	1
+Rathian Vambraces	2122	Arms	2	19	121	2	0	-2	0	-3	Both	Blade	1
+Rathian Vambraces S	2850	Arms	5	50	121	3	0	-2	0	-4	Both	Blade	1
+Rathian Vambraces X	3982	Arms	8	84	135	3	0	-2	0	-4	Both	Blade	1
+Rathian Vest	2126	Body	2	10	76	3	1	-1	1	-2	Both	Gunner	0
+Rathian Vest S	2854	Body	5	25	79	4	1	-1	1	-3	Both	Gunner	1
+Rathian Vest X	3986	Body	8	45	88	4	1	-1	1	-3	Both	Gunner	1
+Rebellion Coil	3349	Waist	7	69	132	3	3	-2	-2	-3	Both	Blade	0
+Rebellion Coil X	4934	Waist	10	110	152	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Coil Z	4656	Waist	10	112	152	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Greaves	3350	Legs	7	69	132	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Greaves X	4935	Legs	10	110	152	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Greaves Z	4657	Legs	10	112	152	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Helm	3346	Head	7	69	132	3	3	-2	-2	-3	Both	Blade	0
+Rebellion Helm X	4931	Head	10	110	152	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Helm Z	4653	Head	10	112	152	3	3	-2	-2	-3	Both	Blade	0
+Rebellion Mail	3347	Body	7	69	132	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Mail X	4932	Body	10	110	152	3	3	-2	-2	-3	Both	Blade	1
+Rebellion Mail Z	4654	Body	10	112	152	3	3	-2	-2	-3	Both	Blade	2
+Rebellion Vambraces	3348	Arms	7	69	132	3	3	-2	-2	-3	Both	Blade	0
+Rebellion Vambraces X	4933	Arms	10	110	152	3	3	-2	-2	-3	Both	Blade	0
+Rebellion Vambraces Z	4655	Arms	10	112	152	3	3	-2	-2	-3	Both	Blade	1
+Regios Cap S	3038	Head	6	29	80	4	1	-2	-1	1	Both	Gunner	1
+Regios Cap X	4193	Head	9	50	94	4	1	-2	-1	1	Both	Gunner	3
+Regios Coat S	3041	Waist	6	29	80	4	1	-2	-1	1	Both	Gunner	3
+Regios Coat X	4196	Waist	9	50	94	4	1	-2	-1	1	Both	Gunner	3
+Regios Greaves S	3037	Legs	6	58	125	3	0	-3	-2	0	Both	Blade	1
+Regios Greaves X	4192	Legs	9	92	145	3	0	-3	-2	0	Both	Blade	2
+Regios Guards S	3040	Arms	6	29	80	4	1	-2	-1	1	Both	Gunner	1
+Regios Guards X	4195	Arms	9	50	94	4	1	-2	-1	1	Both	Gunner	0
+Regios Helm S	3033	Head	6	58	125	3	0	-3	-2	0	Both	Blade	1
+Regios Helm X	4188	Head	9	92	145	3	0	-3	-2	0	Both	Blade	3
+Regios Leggings S	3042	Legs	6	29	80	4	1	-2	-1	1	Both	Gunner	1
+Regios Leggings X	4197	Legs	9	50	94	4	1	-2	-1	1	Both	Gunner	2
+Regios Mail S	3034	Body	6	58	125	3	0	-3	-2	0	Both	Blade	0
+Regios Mail X	4189	Body	9	92	145	3	0	-3	-2	0	Both	Blade	1
+Regios Tassets S	3036	Waist	6	58	125	3	0	-3	-2	0	Both	Blade	3
+Regios Tassets X	4191	Waist	9	92	145	3	0	-3	-2	0	Both	Blade	3
+Regios Vambraces S	3035	Arms	6	58	125	3	0	-3	-2	0	Both	Blade	1
+Regios Vambraces X	4190	Arms	9	92	145	3	0	-3	-2	0	Both	Blade	1
+Regios Vest S	3039	Body	6	29	80	4	1	-2	-1	1	Both	Gunner	0
+Regios Vest X	4194	Body	9	50	94	4	1	-2	-1	1	Both	Gunner	2
+Remobra Band	1998	Waist	2	8	74	2	-1	3	2	-2	Both	Gunner	0
+Remobra Band S	2484	Waist	4	20	77	3	-2	4	3	-3	Both	Gunner	0
+Remobra Belt	1993	Waist	2	15	117	1	-2	2	1	-3	Both	Blade	0
+Remobra Belt S	2479	Waist	4	40	117	2	-3	3	2	-4	Both	Blade	0
+Remobra Feet	1994	Legs	2	15	117	1	-2	2	1	-3	Both	Blade	3
+Remobra Feet S	2480	Legs	4	40	117	2	-3	3	2	-4	Both	Blade	3
+Remobra Gloves	1992	Arms	2	15	117	1	-2	2	1	-3	Both	Blade	2
+Remobra Gloves S	2478	Arms	4	40	117	2	-3	3	2	-4	Both	Blade	2
+Remobra Hands	1997	Arms	2	8	74	2	-1	3	2	-2	Both	Gunner	2
+Remobra Hands S	2483	Arms	4	20	77	3	-2	4	3	-3	Both	Gunner	2
+Remobra Headgear	1990	Head	2	15	117	1	-2	2	1	-3	Both	Blade	1
+Remobra Headgear S	2476	Head	4	40	117	2	-3	3	2	-4	Both	Blade	2
+Remobra Mask	1995	Head	2	8	74	2	-1	3	2	-2	Both	Gunner	1
+Remobra Mask S	2481	Head	4	20	77	3	-2	4	3	-3	Both	Gunner	2
+Remobra Suit	1991	Body	2	15	117	1	-2	2	1	-3	Both	Blade	1
+Remobra Suit S	2477	Body	4	40	117	2	-3	3	2	-4	Both	Blade	2
+Remobra Tights	1999	Legs	2	8	74	2	-1	3	2	-2	Both	Gunner	3
+Remobra Tights S	2485	Legs	4	20	77	3	-2	4	3	-3	Both	Gunner	3
+Remobra Wear	1996	Body	2	8	74	2	-1	3	2	-2	Both	Gunner	1
+Remobra Wear S	2482	Body	4	20	77	3	-2	4	3	-3	Both	Gunner	2
+Rhenoplos Braces S	2468	Arms	4	31	117	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Braces X	3772	Arms	8	70	127	2	-1	-1	-1	1	Both	Blade	2
+Rhenoplos Cap	1985	Head	2	4	73	2	0	0	0	2	Both	Gunner	1
+Rhenoplos Cap S	2471	Head	4	15	76	3	0	0	0	2	Both	Gunner	1
+Rhenoplos Cap X	3775	Head	8	36	82	3	0	0	0	2	Both	Gunner	1
+Rhenoplos Coat	1988	Waist	2	4	73	2	0	0	0	2	Both	Gunner	1
+Rhenoplos Coat S	2474	Waist	4	15	76	3	0	0	0	2	Both	Gunner	1
+Rhenoplos Coat X	3778	Waist	8	36	82	3	0	0	0	2	Both	Gunner	1
+Rhenoplos Coil	1983	Waist	2	8	114	1	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Coil S	2469	Waist	4	31	117	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Coil X	3773	Waist	8	70	127	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Greaves	1984	Legs	2	8	114	1	-1	-1	-1	1	Both	Blade	0
+Rhenoplos Greaves S	2470	Legs	4	31	117	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Greaves X	3774	Legs	8	70	127	2	-1	-1	-1	1	Both	Blade	2
+Rhenoplos Guards	1987	Arms	2	4	73	2	0	0	0	2	Both	Gunner	1
+Rhenoplos Guards S	2473	Arms	4	15	76	3	0	0	0	2	Both	Gunner	2
+Rhenoplos Guards X	3777	Arms	8	36	82	3	0	0	0	2	Both	Gunner	2
+Rhenoplos Helm	1980	Head	2	8	114	1	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Helm S	2466	Head	4	31	117	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Helm X	3770	Head	8	70	127	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Leggings	1989	Legs	2	4	73	2	0	0	0	2	Both	Gunner	0
+Rhenoplos Leggings S	2475	Legs	4	15	76	3	0	0	0	2	Both	Gunner	1
+Rhenoplos Leggings X	3779	Legs	8	36	82	3	0	0	0	2	Both	Gunner	2
+Rhenoplos Mail	1981	Body	2	8	114	1	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Mail S	2467	Body	4	31	117	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Mail X	3771	Body	8	70	127	2	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Vambraces	1982	Arms	2	8	114	1	-1	-1	-1	1	Both	Blade	1
+Rhenoplos Vest	1986	Body	2	4	73	2	0	0	0	2	Both	Gunner	1
+Rhenoplos Vest S	2472	Body	4	15	76	3	0	0	0	2	Both	Gunner	1
+Rhenoplos Vest X	3776	Body	8	36	82	3	0	0	0	2	Both	Gunner	1
+Rhopessa Alae	2716	Waist	4	9	75	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Alae X	4166	Waist	8	50	91	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Brachia	2710	Arms	4	18	120	-4	0	3	-1	1	Female	Blade	1
+Rhopessa Brachia X	4160	Arms	8	92	141	-4	0	3	-1	1	Female	Blade	1
+Rhopessa Clypeus	2713	Head	4	9	75	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Clypeus X	4163	Head	8	50	91	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Crura	2712	Legs	4	18	120	-4	0	3	-1	1	Female	Blade	2
+Rhopessa Crura X	4162	Legs	8	92	141	-4	0	3	-1	1	Female	Blade	2
+Rhopessa Elytra	2711	Waist	4	18	120	-4	0	3	-1	1	Female	Blade	1
+Rhopessa Elytra X	4161	Waist	8	92	141	-4	0	3	-1	1	Female	Blade	1
+Rhopessa Manus	2715	Arms	4	9	75	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Manus X	4165	Arms	8	50	91	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Pleuron	2714	Body	4	9	75	-3	1	4	0	2	Female	Gunner	1
+Rhopessa Pleuron X	4164	Body	8	50	91	-3	1	4	0	2	Female	Gunner	0
+Rhopessa Tarsi	2717	Legs	4	9	75	-3	1	4	0	2	Female	Gunner	2
+Rhopessa Tarsi X	4167	Legs	8	50	91	-3	1	4	0	2	Female	Gunner	2
+Rhopessa Thorax	2709	Body	4	18	120	-4	0	3	-1	1	Female	Blade	1
+Rhopessa Thorax X	4159	Body	8	92	141	-4	0	3	-1	1	Female	Blade	0
+Rhopessa Vertex	2708	Head	4	18	120	-4	0	3	-1	1	Female	Blade	1
+Rhopessa Vertex X	4158	Head	8	92	141	-4	0	3	-1	1	Female	Blade	1
+Rider Jacket	3603	Body	7	15	115	2	2	2	2	2	Both	Blade	0
+Rider Leather	3604	Body	7	8	71	3	3	3	3	3	Both	Gunner	0
+Riot Cap	3351	Head	7	35	81	4	4	-1	-1	-2	Both	Gunner	0
+Riot Cap X	4936	Head	10	64	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Cap Z	4658	Head	10	65	98	4	4	-1	-1	-2	Both	Gunner	0
+Riot Coat	3354	Waist	7	35	81	4	4	-1	-1	-2	Both	Gunner	0
+Riot Coat X	4939	Waist	10	64	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Coat Z	4661	Waist	10	65	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Guards	3353	Arms	7	35	81	4	4	-1	-1	-2	Both	Gunner	0
+Riot Guards X	4938	Arms	10	64	98	4	4	-1	-1	-2	Both	Gunner	0
+Riot Guards Z	4660	Arms	10	65	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Leggings	3355	Legs	7	35	81	4	4	-1	-1	-2	Both	Gunner	1
+Riot Leggings X	4940	Legs	10	64	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Leggings Z	4662	Legs	10	65	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Vest	3352	Body	7	35	81	4	4	-1	-1	-2	Both	Gunner	1
+Riot Vest X	4937	Body	10	64	98	4	4	-1	-1	-2	Both	Gunner	1
+Riot Vest Z	4659	Body	10	65	98	4	4	-1	-1	-2	Both	Gunner	2
+Sailor Cap	3258	Head	6	30	80	1	3	1	-1	1	Female	Gunner	2
+Sailor Gloves	3255	Arms	6	60	127	0	2	0	-2	0	Female	Blade	2
+Sailor Hat	3253	Head	6	60	127	0	2	0	-2	0	Female	Blade	2
+Sailor Mini	3261	Waist	6	30	80	1	3	1	-1	1	Female	Gunner	2
+Sailor Sandals	3262	Legs	6	30	80	1	3	1	-1	1	Female	Gunner	0
+Sailor Skirt	3256	Waist	6	60	127	0	2	0	-2	0	Female	Blade	2
+Sailor Sleeves	3260	Arms	6	30	80	1	3	1	-1	1	Female	Gunner	2
+Sailor Socks	3257	Legs	6	60	127	0	2	0	-2	0	Female	Blade	0
+Sailor Suit	3254	Body	6	60	127	0	2	0	-2	0	Female	Blade	2
+Sailor Vest	3259	Body	6	30	80	1	3	1	-1	1	Female	Gunner	2
+Scholar's Beret	2758	Head	4	20	122	0	0	0	0	0	Female	Blade	1
+Scholar's Blouse	2759	Body	4	20	122	0	0	0	0	0	Female	Blade	1
+Scholar's Cap	2763	Head	4	10	76	1	1	1	1	1	Female	Gunner	1
+Scholar's Gloves	2760	Arms	4	20	122	0	0	0	0	0	Female	Blade	1
+Scholar's Mini	2766	Waist	4	10	76	1	1	1	1	1	Female	Gunner	2
+Scholar's Sandals	2767	Legs	4	10	76	1	1	1	1	1	Female	Gunner	0
+Scholar's Skirt	2761	Waist	4	20	122	0	0	0	0	0	Female	Blade	2
+Scholar's Sleeves	2765	Arms	4	10	76	1	1	1	1	1	Female	Gunner	1
+Scholar's Socks	2762	Legs	4	20	122	0	0	0	0	0	Female	Blade	0
+Scholar's Vest	2764	Body	4	10	76	1	1	1	1	1	Female	Gunner	1
+Selene Cap	3501	Head	7	42	83	1	4	-1	2	-4	Female	Gunner	2
+Selene Cap X	4798	Head	10	62	98	1	4	-1	2	-4	Female	Gunner	3
+Selene Coat	3504	Waist	7	42	83	1	4	-1	2	-4	Female	Gunner	1
+Selene Coat X	4801	Waist	10	62	98	1	4	-1	2	-4	Female	Gunner	1
+Selene Coil	3499	Waist	7	81	136	0	3	-2	1	-5	Female	Blade	1
+Selene Coil X	4796	Waist	10	108	150	0	3	-2	1	-5	Female	Blade	1
+Selene Greaves	3500	Legs	7	81	136	0	3	-2	1	-5	Female	Blade	2
+Selene Greaves X	4797	Legs	10	108	150	0	3	-2	1	-5	Female	Blade	2
+Selene Guards	3503	Arms	7	42	83	1	4	-1	2	-4	Female	Gunner	0
+Selene Guards X	4800	Arms	10	62	98	1	4	-1	2	-4	Female	Gunner	0
+Selene Helm	3496	Head	7	81	136	0	3	-2	1	-5	Female	Blade	2
+Selene Helm X	4793	Head	10	108	150	0	3	-2	1	-5	Female	Blade	3
+Selene Leggings	3505	Legs	7	42	83	1	4	-1	2	-4	Female	Gunner	2
+Selene Leggings X	4802	Legs	10	62	98	1	4	-1	2	-4	Female	Gunner	2
+Selene Mail	3497	Body	7	81	136	0	3	-2	1	-5	Female	Blade	1
+Selene Mail X	4794	Body	10	108	150	0	3	-2	1	-5	Female	Blade	2
+Selene Vambraces	3498	Arms	7	81	136	0	3	-2	1	-5	Female	Blade	0
+Selene Vambraces X	4795	Arms	10	108	150	0	3	-2	1	-5	Female	Blade	0
+Selene Vest	3502	Body	7	42	83	1	4	-1	2	-4	Female	Gunner	1
+Selene Vest X	4799	Body	10	62	98	1	4	-1	2	-4	Female	Gunner	2
+Seltas Cap	2275	Head	3	10	76	-2	3	0	-1	3	Both	Gunner	2
+Seltas Cap S	2893	Head	5	27	79	-3	4	0	-2	4	Both	Gunner	3
+Seltas Cap X	4273	Head	9	52	92	-3	4	0	-2	4	Both	Gunner	3
+Seltas Cap Z	4283	Head	9	54	94	4	0	-2	-3	4	Both	Gunner	1
+Seltas Coat	2278	Waist	3	10	76	-1	2	-2	2	3	Both	Gunner	1
+Seltas Coat S	2896	Waist	5	27	79	-2	3	-3	3	4	Both	Gunner	1
+Seltas Coat X	4276	Waist	9	52	92	-2	3	-3	3	4	Both	Gunner	1
+Seltas Coat Z	4286	Waist	9	54	94	1	1	-2	-3	4	Both	Gunner	3
+Seltas Faulds	2273	Waist	3	21	123	-2	1	-3	1	2	Both	Blade	2
+Seltas Faulds S	2891	Waist	5	53	124	-3	2	-4	2	3	Both	Blade	2
+Seltas Faulds X	4271	Waist	9	96	143	-3	2	-4	2	3	Both	Blade	2
+Seltas Faulds Z	4281	Waist	9	97	144	0	0	-3	-4	3	Both	Blade	3
+Seltas Greaves	2274	Legs	3	21	123	-3	2	-1	-2	2	Both	Blade	1
+Seltas Greaves S	2892	Legs	5	53	124	-4	3	-1	-3	3	Both	Blade	1
+Seltas Greaves X	4272	Legs	9	96	143	-4	3	-1	-3	3	Both	Blade	1
+Seltas Greaves Z	4282	Legs	9	97	144	3	-1	-3	-4	3	Both	Blade	2
+Seltas Guards	2277	Arms	3	10	76	-2	3	0	-1	3	Both	Gunner	2
+Seltas Guards S	2895	Arms	5	27	79	-3	4	0	-2	-4	Both	Gunner	2
+Seltas Guards X	4275	Arms	9	52	92	-3	4	0	-2	4	Both	Gunner	2
+Seltas Guards Z	4285	Arms	9	54	94	4	0	-2	-3	4	Both	Gunner	2
+Seltas Helm	2270	Head	3	21	123	-3	2	-1	-2	2	Both	Blade	1
+Seltas Helm S	2888	Head	5	53	124	-4	3	-1	-3	3	Both	Blade	2
+Seltas Helm X	4268	Head	9	96	143	-4	3	-1	-3	3	Both	Blade	2
+Seltas Helm Z	4278	Head	9	97	144	3	-1	-2	-4	3	Both	Blade	1
+Seltas Leggings	2279	Legs	3	10	76	-2	3	0	-1	3	Both	Gunner	1
+Seltas Leggings S	2897	Legs	5	27	79	-3	4	0	-2	4	Both	Gunner	1
+Seltas Leggings X	4277	Legs	9	52	92	-3	4	0	-2	4	Both	Gunner	1
+Seltas Leggings Z	4287	Legs	9	54	94	4	0	-2	-3	4	Both	Gunner	2
+Seltas Mail	2271	Body	3	21	123	-3	2	-1	-2	2	Both	Blade	1
+Seltas Mail S	2889	Body	5	53	124	-4	3	-1	-3	3	Both	Blade	1
+Seltas Mail X	4269	Body	9	96	143	-4	3	-1	-3	3	Both	Blade	1
+Seltas Mail Z	4279	Body	9	97	144	3	-1	-3	-4	3	Both	Blade	1
+Seltas Vambraces	2272	Arms	3	21	123	-3	3	-1	-2	2	Both	Blade	2
+Seltas Vambraces S	2890	Arms	5	53	124	-4	3	-1	-3	3	Both	Blade	2
+Seltas Vambraces X	4270	Arms	9	96	143	-4	3	-1	-3	3	Both	Blade	2
+Seltas Vambraces Z	4280	Arms	9	97	144	3	-1	-3	-4	3	Both	Blade	2
+Seltas Vest	2276	Body	3	10	76	-2	3	0	-1	3	Both	Gunner	1
+Seltas Vest S	2894	Body	5	27	79	-3	4	0	-2	4	Both	Gunner	1
+Seltas Vest X	4274	Body	9	52	92	-3	4	0	-2	4	Both	Gunner	1
+Seltas Vest Z	4284	Body	9	54	94	4	0	-2	-3	4	Both	Gunner	1
+Shadow Shades	3599	Head	7	13	79	2	2	2	2	2	Both	Both	3
+Shinobi Land Belt	3594	Waist	7	41	83	3	-5	5	-2	3	Both	Gunner	2
+Shinobi Land Boots	3595	Legs	7	41	83	3	-5	5	-2	3	Both	Gunner	2
+Shinobi Land Kote	3593	Arms	7	41	83	3	-5	5	-2	3	Both	Gunner	2
+Shinobi Land Mask	3591	Head	7	41	83	3	-5	5	-2	3	Both	Gunner	2
+Shinobi Land Suit	3592	Body	7	41	83	3	-5	5	-2	3	Both	Gunner	2
+Shinobi Sky Belt	3589	Waist	7	81	134	2	-6	4	-3	2	Both	Blade	2
+Shinobi Sky Boots	3590	Legs	7	81	134	2	-6	4	-3	2	Both	Blade	2
+Shinobi Sky Kote	3588	Arms	7	81	134	2	-6	4	-3	2	Both	Blade	2
+Shinobi Sky Mask	3586	Head	7	81	134	2	-6	4	-3	2	Both	Blade	2
+Shinobi Sky Suit	3587	Body	7	81	134	2	-6	4	-3	2	Both	Blade	2
+Silver Solbraces	3368	Arms	7	81	134	2	-7	-4	0	4	Both	Blade	2
+Silver Solbraces Z	4923	Arms	10	108	150	2	-7	-4	0	4	Both	Blade	2
+Silver Solcap	3371	Head	7	41	83	3	-6	-3	1	5	Both	Gunner	1
+Silver Solcap Z	4926	Head	10	62	98	3	-6	-3	1	5	Both	Gunner	1
+Silver Solcoat	3374	Waist	7	41	83	3	-6	-3	1	5	Both	Gunner	2
+Silver Solcoat Z	4929	Waist	10	62	98	3	-6	-3	1	5	Both	Gunner	2
+Silver Solcoil	3369	Waist	7	81	134	2	-7	-4	0	4	Both	Blade	2
+Silver Solcoil Z	4924	Waist	10	108	150	2	-7	-4	0	4	Both	Blade	2
+Silver Solgreaves	3370	Legs	7	81	134	2	-7	-4	0	4	Both	Blade	0
+Silver Solgreaves Z	4925	Legs	10	108	150	2	-7	-4	0	4	Both	Blade	0
+Silver Solguards	3373	Arms	7	41	83	3	-6	-3	1	5	Both	Gunner	2
+Silver Solguards Z	4928	Arms	10	62	98	3	-6	-3	1	5	Both	Gunner	2
+Silver Solhelm	3366	Head	7	81	134	2	-7	-4	0	4	Both	Blade	1
+Silver Solhelm Z	4921	Head	10	108	150	2	-7	-4	0	4	Both	Blade	1
+Silver Solleggings	3375	Legs	7	41	83	3	-6	-3	1	5	Both	Gunner	0
+Silver Solleggings Z	4930	Legs	10	62	98	3	-6	-3	1	5	Both	Gunner	0
+Silver Solmail	3367	Body	7	81	134	2	-7	-4	0	4	Both	Blade	3
+Silver Solmail Z	4922	Body	10	108	150	2	-7	-4	0	4	Both	Blade	3
+Silver Solvest	3372	Body	7	41	83	3	-6	-3	1	5	Both	Gunner	3
+Silver Solvest Z	4927	Body	10	62	98	3	-6	-3	1	5	Both	Gunner	3
+Skull Mask	2979	Head	5	29	80	4	0	0	0	3	Both	Gunner	0
+Skull Visage	2978	Head	5	58	125	3	-1	-1	-1	2	Both	Blade	0
+Slagtoth Cloak	1977	Body	2	10	116	-2	2	0	-1	1	Both	Blade	0
+Slagtoth Cloak S	2463	Body	4	36	117	-4	3	0	-2	2	Both	Blade	0
+Slagtoth Cloak X	3767	Body	8	70	127	-4	3	0	-2	2	Both	Blade	0
+Slagtoth Cowl	1978	Head	2	5	73	-1	3	1	0	2	Both	Gunner	3
+Slagtoth Cowl S	2464	Head	4	18	77	-3	4	1	-1	3	Both	Gunner	2
+Slagtoth Cowl X	3768	Head	8	36	82	-3	4	1	-1	3	Both	Gunner	2
+Slagtoth Hood	1976	Head	2	10	116	-2	2	0	-1	1	Both	Blade	2
+Slagtoth Hood S	2462	Head	4	36	117	-4	3	0	-2	2	Both	Blade	2
+Slagtoth Hood X	3766	Head	8	70	127	-4	3	0	-2	2	Both	Blade	2
+Slagtoth Wrap	1979	Body	2	5	73	-1	3	1	0	2	Both	Gunner	0
+Slagtoth Wrap S	2465	Body	4	18	77	-3	4	1	-1	3	Both	Gunner	0
+Slagtoth Wrap X	3769	Body	8	36	82	-3	4	1	-1	3	Both	Gunner	0
+Sororal Coat	4496	Waist	9	50	91	4	1	1	1	3	Female	Gunner	1
+Sororal Faulds	4491	Waist	9	92	141	3	0	0	0	2	Female	Blade	1
+Sororal Greaves	4492	Legs	9	92	141	3	0	0	0	2	Female	Blade	3
+Sororal Guards	4495	Arms	9	50	91	4	1	1	1	3	Female	Gunner	3
+Sororal Headgear	4488	Head	9	92	141	3	0	0	0	2	Female	Blade	1
+Sororal Leggings	4497	Legs	9	50	91	4	1	1	1	3	Female	Gunner	3
+Sororal Mail	4489	Body	9	92	141	3	0	0	0	2	Female	Blade	2
+Sororal Mask	4493	Head	9	50	91	4	1	1	1	3	Female	Gunner	1
+Sororal Vambraces	4490	Arms	9	92	141	3	0	0	0	2	Female	Blade	3
+Sororal Vest	4494	Body	9	50	91	4	1	1	1	3	Female	Gunner	2
+Star Knight Cap	4860	Head	10	55	97	2	2	2	2	2	Both	Gunner	3
+Star Knight Coat	4863	Waist	10	55	97	2	2	2	2	2	Both	Gunner	1
+Star Knight Coil	4858	Waist	10	100	151	1	1	1	1	1	Both	Blade	1
+Star Knight Greaves	4859	Legs	10	100	151	1	1	1	1	1	Both	Blade	3
+Star Knight Guards	4862	Arms	10	55	97	2	2	2	2	2	Both	Gunner	3
+Star Knight Helm	4855	Head	10	100	151	1	1	1	1	1	Both	Blade	3
+Star Knight Leggings	4864	Legs	10	55	97	2	2	2	2	2	Both	Gunner	3
+Star Knight Mail	4856	Body	10	100	151	1	1	1	1	1	Both	Blade	1
+Star Knight Vambraces	4857	Arms	10	100	151	1	1	1	1	1	Both	Blade	3
+Star Knight Vest	4861	Body	10	55	97	2	2	2	2	2	Both	Gunner	0
+Star Rook Cap	3662	Head	7	26	73	1	1	1	1	1	Both	Gunner	2
+Star Rook Coat	3665	Waist	7	26	73	1	1	1	1	1	Both	Gunner	2
+Star Rook Coil	3660	Waist	7	52	120	0	0	0	0	0	Both	Blade	2
+Star Rook Greaves	3661	Legs	7	52	120	0	0	0	0	0	Both	Blade	2
+Star Rook Guards	3664	Arms	7	26	73	1	1	1	1	1	Both	Gunner	3
+Star Rook Helm	3657	Head	7	52	120	0	0	0	0	0	Both	Blade	2
+Star Rook Leggings	3666	Legs	7	26	73	1	1	1	1	1	Both	Gunner	2
+Star Rook Mail	3658	Body	7	52	120	0	0	0	0	0	Both	Blade	3
+Star Rook Vambraces	3659	Arms	7	52	120	0	0	0	0	0	Both	Blade	3
+Star Rook Vest	3663	Body	7	26	73	1	1	1	1	1	Both	Gunner	3
+Steadfast Boots	3455	Legs	7	41	83	0	5	3	3	-1	Both	Gunner	1
+Steadfast Coat	3454	Waist	7	41	83	0	5	3	3	-1	Both	Gunner	1
+Steadfast Guards	3453	Arms	7	41	83	0	5	3	3	-1	Both	Gunner	1
+Steadfast Helm	3451	Head	7	41	83	0	5	3	3	-1	Both	Gunner	1
+Steadfast Vest	3452	Body	7	41	83	0	5	3	3	-1	Both	Gunner	1
+Storge Cap	2335	Head	3	12	78	-2	4	1	2	-4	Female	Gunner	2
+Storge Cap S	3281	Head	7	33	81	-3	5	1	4	-5	Female	Gunner	2
+Storge Cap X	4558	Head	10	63	98	-3	5	1	4	-5	Female	Gunner	2
+Storge Coat	2338	Waist	3	12	78	-2	4	1	2	-4	Female	Gunner	1
+Storge Coat S	3284	Waist	7	33	81	-3	5	1	4	-5	Female	Gunner	1
+Storge Coat X	4561	Waist	10	63	98	-3	5	1	4	-5	Female	Gunner	2
+Storge Faulds	2333	Waist	3	24	126	-3	3	0	1	-5	Female	Blade	1
+Storge Faulds S	3279	Waist	7	65	128	-4	4	0	3	-6	Female	Blade	1
+Storge Faulds X	4556	Waist	10	109	151	-4	4	0	3	-6	Female	Blade	2
+Storge Greaves	2334	Legs	3	24	126	-3	3	0	1	-5	Female	Blade	2
+Storge Greaves S	3280	Legs	7	65	128	-4	4	0	3	-6	Female	Blade	2
+Storge Greaves X	4557	Legs	10	109	151	-4	4	0	3	-6	Female	Blade	3
+Storge Guards	2337	Arms	3	12	78	-2	4	1	2	-4	Female	Gunner	1
+Storge Guards S	3283	Arms	7	33	81	-3	5	1	4	-5	Female	Gunner	0
+Storge Guards X	4560	Arms	10	63	98	-3	5	1	4	-5	Female	Gunner	1
+Storge Helm	2330	Head	3	24	126	-3	3	0	1	-5	Female	Blade	1
+Storge Helm S	3276	Head	7	65	128	-4	4	0	3	-6	Female	Blade	1
+Storge Helm X	4553	Head	10	109	151	-4	4	0	3	-6	Female	Blade	1
+Storge Leggings	2339	Legs	3	12	78	-2	4	1	2	-4	Female	Gunner	2
+Storge Leggings S	3285	Legs	7	33	81	-3	5	1	4	-5	Female	Gunner	2
+Storge Leggings X	4562	Legs	10	63	98	-3	5	1	4	-5	Female	Gunner	3
+Storge Mail	2331	Body	3	24	126	-3	3	0	1	-5	Female	Blade	1
+Storge Mail S	3277	Body	7	65	128	-4	4	0	3	-6	Female	Blade	1
+Storge Mail X	4554	Body	10	109	151	-4	4	0	3	-6	Female	Blade	2
+Storge Vambraces	2332	Arms	3	24	126	-3	3	0	1	-5	Female	Blade	1
+Storge Vambraces S	3278	Arms	7	65	128	-4	4	0	3	-6	Female	Blade	0
+Storge Vambraces X	4555	Arms	10	109	151	-4	4	0	3	-6	Female	Blade	1
+Storge Vest	2336	Body	3	12	78	-2	4	1	2	-4	Female	Gunner	1
+Storge Vest S	3282	Body	7	33	81	-3	5	1	4	-5	Female	Gunner	1
+Storge Vest X	4559	Body	10	63	98	-3	5	1	4	-5	Female	Gunner	1
+Sword Saint Earring	4541	Head	9	64	97	0	0	0	0	0	Both	Both	0
+Tempest Crown	4823	Head	10	112	152	-3	4	0	0	-5	Both	Blade	3
+Tempest Hakama	4827	Legs	10	112	152	-3	4	0	0	-5	Both	Blade	2
+Tempest Obi	4826	Waist	10	112	152	-3	4	0	0	-5	Both	Blade	3
+Tempest Robe	4824	Body	10	112	152	-3	4	0	0	-5	Both	Blade	0
+Tempest Sleeves	4825	Arms	10	112	152	-3	4	0	0	-5	Both	Blade	0
+Tetsucabra Braces S	2800	Arms	5	48	121	3	-5	-4	0	2	Both	Blade	1
+Tetsucabra Braces X	3892	Arms	8	78	135	3	-5	-4	0	2	Both	Blade	2
+Tetsucabra Braces Z	3902	Arms	8	80	137	3	0	-4	-5	2	Both	Blade	1
+Tetsucabra Cap	2075	Head	2	8	74	3	-2	-1	1	2	Both	Gunner	2
+Tetsucabra Cap S	2803	Head	5	24	78	4	-4	-3	1	3	Both	Gunner	2
+Tetsucabra Cap X	3895	Head	8	42	88	4	-4	-3	1	3	Both	Gunner	2
+Tetsucabra Cap Z	3905	Head	8	43	89	4	1	-3	-4	3	Both	Gunner	3
+Tetsucabra Coat	2078	Waist	2	8	74	3	-2	-1	1	2	Both	Gunner	0
+Tetsucabra Coat S	2806	Waist	5	24	78	4	-4	-3	1	3	Both	Gunner	0
+Tetsucabra Coat X	3898	Waist	8	42	88	4	-4	-3	1	3	Both	Gunner	0
+Tetsucabra Coat Z	3908	Waist	8	43	89	4	1	-3	-4	3	Both	Gunner	1
+Tetsucabra Faulds	2073	Waist	2	16	118	2	-3	-2	0	1	Both	Blade	0
+Tetsucabra Faulds S	2801	Waist	5	48	121	3	-5	-4	0	2	Both	Blade	0
+Tetsucabra Faulds X	3893	Waist	8	78	135	3	-5	-4	0	2	Both	Blade	0
+Tetsucabra Faulds Z	3903	Waist	8	80	137	3	0	-4	-5	2	Both	Blade	1
+Tetsucabra Greaves	2074	Legs	2	16	118	2	-3	-2	0	1	Both	Blade	0
+Tetsucabra Greaves S	2802	Legs	5	48	121	3	-5	-4	0	2	Both	Blade	0
+Tetsucabra Greaves X	3894	Legs	8	78	135	3	-5	-4	0	2	Both	Blade	0
+Tetsucabra Greaves Z	3904	Legs	8	80	137	3	0	-4	-5	2	Both	Blade	1
+Tetsucabra Guards	2077	Arms	2	8	74	3	-2	-1	1	2	Both	Gunner	1
+Tetsucabra Guards S	2805	Arms	5	24	78	4	-4	-3	1	3	Both	Gunner	1
+Tetsucabra Guards X	3897	Arms	8	42	88	4	-4	-3	1	3	Both	Gunner	2
+Tetsucabra Guards Z	3907	Arms	8	43	89	4	1	-3	-4	3	Both	Gunner	1
+Tetsucabra Helm	2070	Head	2	16	118	2	-3	-2	0	1	Both	Blade	1
+Tetsucabra Helm S	2798	Head	5	48	121	3	-5	-4	0	2	Both	Blade	1
+Tetsucabra Helm X	3890	Head	8	78	135	3	-5	-4	0	2	Both	Blade	1
+Tetsucabra Helm Z	3900	Head	8	80	137	3	0	-4	-5	2	Both	Blade	3
+Tetsucabra Leggings	2079	Legs	2	8	74	3	-2	-1	1	2	Both	Gunner	0
+Tetsucabra Leggings S	2807	Legs	5	24	78	4	-4	-3	1	3	Both	Gunner	0
+Tetsucabra Leggings X	3899	Legs	8	42	88	4	-4	-3	1	3	Both	Gunner	0
+Tetsucabra Leggings Z	3909	Legs	8	43	89	4	1	-3	-4	3	Both	Gunner	1
+Tetsucabra Mail	2071	Body	2	16	118	2	-3	-2	0	1	Both	Blade	0
+Tetsucabra Mail S	2799	Body	5	48	121	3	-5	-4	0	2	Both	Blade	1
+Tetsucabra Mail X	3891	Body	8	78	135	3	-5	-4	0	2	Both	Blade	1
+Tetsucabra Mail Z	3901	Body	8	80	137	3	0	-4	-5	2	Both	Blade	2
+Tetsucabra Vambraces	2072	Arms	2	16	118	2	-3	-2	0	1	Both	Blade	1
+Tetsucabra Vest	2076	Body	2	8	74	3	-2	-1	1	2	Both	Gunner	0
+Tetsucabra Vest S	2804	Body	5	24	78	4	-4	-3	1	3	Both	Gunner	1
+Tetsucabra Vest X	3896	Body	8	42	88	4	-4	-3	1	3	Both	Gunner	1
+Tetsucabra Vest Z	3906	Body	8	43	89	4	1	-3	-4	3	Both	Gunner	2
+Tigrex Cap	2255	Head	3	11	77	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Cap S	2873	Head	5	28	80	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Cap U	3088	Head	6	29	80	3	-3	-1	1	0	Both	Gunner	0
+Tigrex Cap X	4233	Head	9	52	92	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Cap Z	4243	Head	9	54	94	3	-3	-1	1	0	Both	Gunner	0
+Tigrex Coat	2258	Waist	3	11	77	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Coat S	2876	Waist	5	28	80	3	0	-3	1	-1	Both	Gunner	2
+Tigrex Coat U	3091	Waist	6	29	80	3	-3	-1	1	0	Both	Gunner	2
+Tigrex Coat X	4236	Waist	9	52	92	3	0	-3	1	-1	Both	Gunner	3
+Tigrex Coat Z	4246	Waist	9	54	94	3	-3	-1	1	0	Both	Gunner	2
+Tigrex Greaves	2254	Legs	3	22	124	2	-1	-4	0	-2	Both	Blade	2
+Tigrex Greaves S	2872	Legs	5	55	124	2	-1	-4	0	-2	Both	Blade	0
+Tigrex Greaves U	3087	Legs	6	59	126	2	-4	-2	0	-1	Both	Blade	2
+Tigrex Greaves X	4232	Legs	9	96	143	2	-1	-4	0	-2	Both	Blade	0
+Tigrex Greaves Z	4242	Legs	9	97	144	2	-4	-2	0	-1	Both	Blade	2
+Tigrex Guards	2257	Arms	3	11	77	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Guards S	2875	Arms	5	28	80	3	0	-3	1	-1	Both	Gunner	2
+Tigrex Guards U	3090	Arms	6	29	80	3	-3	-1	1	0	Both	Gunner	1
+Tigrex Guards X	4235	Arms	9	52	92	3	0	-3	1	-1	Both	Gunner	2
+Tigrex Guards Z	4245	Arms	9	54	94	3	-3	-1	1	0	Both	Gunner	1
+Tigrex Helm	2250	Head	3	22	124	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Helm S	2868	Head	5	55	124	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Helm U	3083	Head	6	59	126	2	-4	-2	0	-1	Both	Blade	0
+Tigrex Helm X	4228	Head	9	96	143	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Helm Z	4238	Head	9	97	144	2	-4	-2	0	-1	Both	Blade	0
+Tigrex Leggings	2259	Legs	3	11	77	3	0	-3	1	-1	Both	Gunner	2
+Tigrex Leggings S	2877	Legs	5	28	80	3	0	-3	1	-1	Both	Gunner	0
+Tigrex Leggings U	3092	Legs	6	29	80	3	-3	-1	1	0	Both	Gunner	2
+Tigrex Leggings X	4237	Legs	9	52	92	3	0	-3	1	-1	Both	Gunner	0
+Tigrex Leggings Z	4247	Legs	9	54	94	3	-3	-1	1	0	Both	Gunner	2
+Tigrex Mail	2251	Body	3	22	124	2	-1	-4	0	-2	Both	Blade	2
+Tigrex Mail S	2869	Body	5	55	124	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Mail U	3084	Body	6	59	126	2	-4	-2	0	-1	Both	Blade	1
+Tigrex Mail X	4229	Body	9	96	143	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Mail Z	4239	Body	9	97	144	2	-4	-2	0	-1	Both	Blade	2
+Tigrex Tassets	2253	Waist	3	22	124	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Tassets S	2871	Waist	5	55	124	2	-1	-4	0	-2	Both	Blade	2
+Tigrex Tassets U	3086	Waist	6	59	126	2	-4	-2	0	-1	Both	Blade	2
+Tigrex Tassets X	4231	Waist	9	96	143	2	-1	-4	0	-2	Both	Blade	3
+Tigrex Tassets Z	4241	Waist	9	97	144	2	-4	-2	0	-1	Both	Blade	2
+Tigrex Vambraces	2252	Arms	3	22	124	2	-1	-4	0	-2	Both	Blade	1
+Tigrex Vambraces S	2870	Arms	5	55	124	2	-1	-4	0	-2	Both	Blade	2
+Tigrex Vambraces U	3085	Arms	6	59	126	2	-4	-2	0	-1	Both	Blade	1
+Tigrex Vambraces X	4230	Arms	9	96	143	2	-1	-4	0	-2	Both	Blade	2
+Tigrex Vambraces Z	4240	Arms	9	97	144	2	-4	-2	0	-1	Both	Blade	1
+Tigrex Vest	2256	Body	3	11	77	3	0	-3	1	-1	Both	Gunner	2
+Tigrex Vest S	2874	Body	5	28	80	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Vest U	3089	Body	6	29	80	3	-3	-1	1	0	Both	Gunner	1
+Tigrex Vest X	4234	Body	9	52	92	3	0	-3	1	-1	Both	Gunner	1
+Tigrex Vest Z	4244	Body	9	54	94	3	-3	-1	1	0	Both	Gunner	2
+Ukanlos Aegis	3437	Body	7	67	130	-5	0	-3	4	-2	Both	Blade	1
+Ukanlos Aegis X	4674	Body	10	106	148	-5	0	-3	4	-2	Both	Blade	2
+Ukanlos Boots	3445	Legs	7	34	81	-4	1	-2	5	-1	Both	Gunner	1
+Ukanlos Boots X	4682	Legs	10	60	96	-4	1	-2	5	-1	Both	Gunner	2
+Ukanlos Cincture	3439	Waist	7	67	130	-5	0	-3	4	-2	Both	Blade	0
+Ukanlos Cincture X	4676	Waist	10	106	148	-5	0	-3	4	-2	Both	Blade	2
+Ukanlos Claws	3438	Arms	7	67	130	-5	0	-3	4	-2	Both	Blade	0
+Ukanlos Claws X	4675	Arms	10	106	148	-5	0	-3	4	-2	Both	Blade	2
+Ukanlos Fangs	3441	Head	7	34	81	-4	1	-2	5	-1	Both	Gunner	1
+Ukanlos Fangs X	4678	Head	10	60	96	-4	1	-2	5	-1	Both	Gunner	2
+Ukanlos Gauntlets	3443	Arms	7	34	81	-4	1	-2	5	-1	Both	Gunner	0
+Ukanlos Gauntlets X	4680	Arms	10	60	96	-4	1	-2	5	-1	Both	Gunner	2
+Ukanlos Hessian	3440	Legs	7	67	130	-5	0	-3	4	-2	Both	Blade	1
+Ukanlos Hessian X	4677	Legs	10	106	148	-5	0	-3	4	-2	Both	Blade	2
+Ukanlos Mask	3436	Head	7	67	130	-5	0	-3	4	-2	Both	Blade	1
+Ukanlos Mask X	4673	Head	10	106	148	-5	0	-3	4	-2	Both	Blade	2
+Ukanlos Plate	3442	Body	7	34	81	-4	1	-2	5	-1	Both	Gunner	1
+Ukanlos Plate X	4679	Body	10	60	96	-4	1	-2	5	-1	Both	Gunner	2
+Ukanlos Sash	3444	Waist	7	34	81	-4	1	-2	5	-1	Both	Gunner	0
+Ukanlos Sash X	4681	Waist	10	60	96	-4	1	-2	5	-1	Both	Gunner	2
+Umi Ocean Hakama	4127	Legs	8	45	88	-1	5	-1	4	3	Both	Gunner	2
+Umi Ocean Headdress	4124	Head	8	45	88	-1	5	-1	4	3	Both	Gunner	2
+Umi Ocean Jacket	4125	Body	8	45	88	-1	5	-1	4	3	Both	Gunner	2
+Umi Ocean Sleeves	4126	Arms	8	45	88	-1	5	-1	4	3	Both	Gunner	2
+Uniqlo Bomber	3648	Body	7	44	118	-3	1	0	4	0	Both	Blade	1
+Uniqlo Cap	3652	Head	7	22	73	-2	2	1	5	1	Both	Gunner	2
+Uniqlo Hood	3647	Head	7	44	118	-3	1	0	4	0	Both	Blade	2
+Uniqlo Hoodie	3653	Body	7	22	73	-2	2	1	5	1	Both	Gunner	1
+Uniqlo Pochette	3655	Waist	7	22	73	-2	2	1	5	1	Both	Gunner	2
+Uniqlo Pouch	3650	Waist	7	44	118	-3	1	0	4	0	Both	Blade	2
+Uniqlo Slacks	3651	Legs	7	44	118	-3	1	0	4	0	Both	Blade	2
+Uniqlo Tights	3656	Legs	7	22	73	-2	2	1	5	1	Both	Gunner	2
+Uniqlo Timepiece	3654	Arms	7	22	73	-2	2	1	5	1	Both	Gunner	2
+Uniqlo Watch	3649	Arms	7	44	118	-3	1	0	4	0	Both	Blade	2
+Uragaan Cap	2375	Head	3	12	78	3	-3	2	0	-1	Both	Gunner	1
+Uragaan Coat	2378	Waist	3	12	78	3	-3	2	0	-1	Both	Gunner	2
+Uragaan Faulds	2373	Waist	3	24	126	2	-4	1	-1	-2	Both	Blade	2
+Uragaan Greaves	2374	Legs	3	24	126	2	-4	1	-1	-2	Both	Blade	0
+Uragaan Guards	2377	Arms	3	12	78	3	-3	2	0	-1	Both	Gunner	1
+Uragaan Helm	2370	Head	3	24	126	2	-4	1	-1	-2	Both	Blade	1
+Uragaan Leggings	2379	Legs	3	12	78	3	-3	2	0	-1	Both	Gunner	0
+Uragaan Mail	2371	Body	3	24	126	2	-4	1	-1	-2	Both	Blade	1
+Uragaan Vambraces	2372	Arms	3	24	126	2	-4	1	-1	-2	Both	Blade	1
+Uragaan Vest	2376	Body	3	12	78	3	-3	2	0	-1	Both	Gunner	1
+Vangis Cap	3128	Head	6	31	80	1	1	-3	2	-3	Both	Gunner	0
+Vangis Cap X	4343	Head	9	60	96	1	1	-3	2	-3	Both	Gunner	1
+Vangis Coat	3131	Waist	6	31	80	1	1	-3	2	-3	Both	Gunner	0
+Vangis Coat X	4346	Waist	9	60	96	1	1	-3	2	-3	Both	Gunner	0
+Vangis Coil	3126	Waist	6	62	127	0	0	-4	1	-4	Both	Blade	0
+Vangis Coil X	4341	Waist	9	106	148	0	0	-4	1	-4	Both	Blade	0
+Vangis Greaves	3127	Legs	6	62	127	0	0	-4	1	-4	Both	Blade	3
+Vangis Greaves X	4342	Legs	9	106	148	0	0	-4	1	-4	Both	Blade	3
+Vangis Guards	3130	Arms	6	31	80	1	1	-3	2	-3	Both	Gunner	0
+Vangis Guards X	4345	Arms	9	60	96	1	1	-3	2	-3	Both	Gunner	1
+Vangis Helm	3123	Head	6	62	127	0	0	-4	1	-4	Both	Blade	0
+Vangis Helm X	4338	Head	9	106	148	0	0	-4	1	-4	Both	Blade	1
+Vangis Leggings	3132	Legs	6	31	80	1	1	-3	2	-3	Both	Gunner	3
+Vangis Leggings X	4347	Legs	9	60	96	1	1	-3	2	-3	Both	Gunner	3
+Vangis Mail	3124	Body	6	62	127	0	0	-4	1	-4	Both	Blade	0
+Vangis Mail X	4339	Body	9	106	148	0	0	-4	1	-4	Both	Blade	1
+Vangis Vambraces	3125	Arms	6	62	127	0	0	-4	1	-4	Both	Blade	0
+Vangis Vambraces X	4340	Arms	9	106	148	0	0	-4	1	-4	Both	Blade	1
+Vangis Vest	3129	Body	6	31	80	1	1	-3	2	-3	Both	Gunner	0
+Vangis Vest X	4344	Body	9	60	96	1	1	-3	2	-3	Both	Gunner	1
+Varia Suit Armor	4886	Body	10	116	152	3	3	3	3	-4	Male	Blade	3
+Varia Suit Barrier	4890	Body	10	69	100	4	4	4	4	-3	Male	Gunner	3
+Varia Suit Guards	4887	Arms	10	116	152	3	3	3	3	-4	Male	Blade	0
+Varia Suit Leg Guards	4888	Legs	10	116	152	3	3	3	3	-4	Male	Blade	2
+Varia Suit Legs	4892	Legs	10	69	100	4	4	4	4	-3	Male	Gunner	2
+Varia Suit Scope	4889	Head	10	69	100	4	4	4	4	-3	Male	Gunner	2
+Varia Suit Shield	4891	Arms	10	69	100	4	4	4	4	-3	Male	Gunner	0
+Varia Suit Visor	4885	Head	10	116	152	3	3	3	3	-4	Male	Blade	2
+Velociprey Braces	2132	Arms	2	13	117	0	0	0	-4	2	Both	Blade	0
+Velociprey Braces S	2548	Arms	4	38	117	0	0	0	-5	3	Both	Blade	2
+Velociprey Braces X	4002	Arms	8	74	131	0	0	0	-5	3	Both	Blade	2
+Velociprey Cap	2135	Head	2	7	74	1	1	1	-3	3	Both	Gunner	2
+Velociprey Cap S	2551	Head	4	19	77	1	1	1	-4	4	Both	Gunner	1
+Velociprey Cap X	4005	Head	8	40	86	1	1	1	-4	4	Both	Gunner	1
+Velociprey Coat	2138	Waist	2	7	74	1	1	1	-3	3	Both	Gunner	2
+Velociprey Coat S	2554	Waist	4	19	77	1	1	1	-4	4	Both	Gunner	1
+Velociprey Coat X	4008	Waist	8	40	86	1	1	1	-4	4	Both	Gunner	2
+Velociprey Greaves	2134	Legs	2	13	117	0	0	0	-4	2	Both	Blade	1
+Velociprey Greaves S	2550	Legs	4	38	117	0	0	0	-5	3	Both	Blade	0
+Velociprey Greaves X	4004	Legs	8	74	131	0	0	0	-5	3	Both	Blade	0
+Velociprey Guards	2137	Arms	2	7	74	1	1	1	-3	3	Both	Gunner	0
+Velociprey Guards S	2553	Arms	4	19	77	1	1	1	-4	4	Both	Gunner	2
+Velociprey Guards X	4007	Arms	8	40	86	1	1	1	-4	4	Both	Gunner	2
+Velociprey Helm	2130	Head	2	13	117	0	0	0	-4	2	Both	Blade	1
+Velociprey Helm S	2546	Head	4	38	117	0	0	0	-5	3	Both	Blade	1
+Velociprey Helm X	4000	Head	8	74	131	0	0	0	-5	3	Both	Blade	1
+Velociprey Leggings	2139	Legs	2	7	74	1	1	1	-3	3	Both	Gunner	1
+Velociprey Leggings S	2555	Legs	4	19	77	1	1	1	-4	4	Both	Gunner	0
+Velociprey Leggings X	4009	Legs	8	40	86	1	1	1	-4	4	Both	Gunner	0
+Velociprey Mail	2131	Body	2	13	117	0	0	0	-4	2	Both	Blade	0
+Velociprey Mail S	2547	Body	4	38	117	0	0	0	-5	3	Both	Blade	1
+Velociprey Mail X	4001	Body	8	74	131	0	0	0	-5	3	Both	Blade	1
+Velociprey Mask	4902	Head	10	40	92	1	1	1	1	1	Both	Both	0
+Velociprey Tassets	2133	Waist	2	13	117	0	0	0	-4	2	Both	Blade	2
+Velociprey Tassets S	2549	Waist	4	38	117	0	0	0	-5	3	Both	Blade	1
+Velociprey Tassets X	4003	Waist	8	74	131	0	0	0	-5	3	Both	Blade	2
+Velociprey Vest	2136	Body	2	7	74	1	1	1	-3	3	Both	Gunner	0
+Velociprey Vest S	2552	Body	4	19	77	1	1	1	-4	4	Both	Gunner	1
+Velociprey Vest X	4006	Body	8	40	86	1	1	1	-4	4	Both	Gunner	1
+Vespoid Cap	2571	Head	4	18	77	-4	-4	3	-3	3	Both	Gunner	1
+Vespoid Coat	2574	Waist	4	18	77	-4	-4	3	-3	3	Both	Gunner	2
+Vespoid Greaves	2570	Legs	4	36	117	-5	-5	2	-4	2	Both	Blade	0
+Vespoid Guards	2573	Arms	4	18	77	-4	-4	3	-3	3	Both	Gunner	0
+Vespoid Helm	2566	Head	4	36	117	-5	-5	2	-4	2	Both	Blade	1
+Vespoid Leggings	2575	Legs	4	18	77	-4	-4	3	-3	3	Both	Gunner	0
+Vespoid Mail	2567	Body	4	36	117	-5	-5	2	-4	2	Both	Blade	1
+Vespoid Tassets	2569	Waist	4	36	117	-5	-5	2	-4	2	Both	Blade	2
+Vespoid Vambraces	2568	Arms	4	36	117	-5	-5	2	-4	2	Both	Blade	0
+Vespoid Vest	2572	Body	4	18	77	-4	-4	3	-3	3	Both	Gunner	1
+Vest of Anat	3625	Body	7	13	65	-2	-2	-2	-2	-2	Both	Gunner	0
+Vest of Rage	4871	Body	10	55	97	-3	-3	-3	-3	-3	Both	Gunner	0
+Victory Feather	3263	Head	6	25	79	0	0	0	0	0	Both	Both	3
+Volvidon Cap	2591	Head	4	24	79	2	-2	1	0	2	Both	Gunner	1
+Volvidon Coat	2594	Waist	4	24	79	2	-2	1	0	2	Both	Gunner	1
+Volvidon Faulds	2589	Waist	4	47	120	1	-3	0	-1	1	Both	Blade	1
+Volvidon Greaves	2590	Legs	4	47	120	1	-3	0	-1	1	Both	Blade	0
+Volvidon Guards	2593	Arms	4	24	79	2	-2	1	0	2	Both	Gunner	2
+Volvidon Helm	2586	Head	4	47	120	1	-3	0	-1	1	Both	Blade	1
+Volvidon Leggings	2595	Legs	4	24	79	2	-2	1	0	2	Both	Gunner	0
+Volvidon Mail	2587	Body	4	47	120	1	-3	0	-1	1	Both	Blade	1
+Volvidon Vambraces	2588	Arms	4	47	120	1	-3	0	-1	1	Both	Blade	1
+Volvidon Vest	2592	Body	4	24	79	2	-2	1	0	2	Both	Gunner	1
+Welkin Crown	4828	Head	10	65	98	-2	5	0	0	-4	Both	Gunner	3
+Welkin Hakama	4832	Legs	10	65	98	-2	5	0	0	-4	Both	Gunner	2
+Welkin Obi	4831	Waist	10	65	98	-2	5	0	0	-4	Both	Gunner	3
+Welkin Robe	4829	Body	10	65	98	-2	5	0	0	-4	Both	Gunner	0
+Welkin Sleeves	4830	Arms	10	65	98	-2	5	0	0	-4	Both	Gunner	0
+White Fatalis Claw	4953	Arms	10	120	156	-2	2	2	-1	-7	Both	Blade	0
+White Fatalis Face	4956	Head	10	72	101	-1	3	3	0	-6	Both	Gunner	0
+White Fatalis Feet	4955	Legs	10	120	156	-2	2	2	-1	-7	Both	Blade	0
+White Fatalis Fist	4958	Arms	10	72	101	-1	3	3	0	-6	Both	Gunner	0
+White Fatalis Head	4951	Head	10	120	156	-2	2	2	-1	-7	Both	Blade	0
+White Fatalis Hide	4952	Body	10	120	156	-2	2	2	-1	-7	Both	Blade	1
+White Fatalis Legs	4960	Legs	10	72	101	-1	3	3	0	-6	Both	Gunner	0
+White Fatalis Scale	4959	Waist	10	72	101	-1	3	3	0	-6	Both	Gunner	1
+White Fatalis Skin	4957	Body	10	72	101	-1	3	3	0	-6	Both	Gunner	1
+White Fatalis Spine	4954	Waist	10	120	156	-2	2	2	-1	-7	Both	Blade	1
+Wroth Scales	4721	Waist	10	72	101	3	0	2	-2	-5	Both	Gunner	0
+Wroth Spines	4716	Waist	10	120	156	2	-1	1	-3	-4	Both	Blade	0
+Wrothclaws	4715	Arms	10	120	156	2	-1	1	-3	-4	Both	Blade	1
+Wrothface	4718	Head	10	72	101	3	0	2	-2	-5	Both	Gunner	2
+Wrothfeet	4717	Legs	10	120	156	2	-1	1	-3	-4	Both	Blade	1
+Wrothfists	4720	Arms	10	72	101	3	0	2	-2	-5	Both	Gunner	1
+Wrothhead	4713	Head	10	120	156	2	-1	1	-3	-4	Both	Blade	2
+Wrothhide	4714	Body	10	120	156	2	-1	1	-3	-4	Both	Blade	0
+Wrothlegs	4722	Legs	10	72	101	3	0	2	-2	-5	Both	Gunner	1
+Wrothskin	4719	Body	10	72	101	3	0	2	-2	-5	Both	Gunner	0
+Yaksha Boots	3460	Legs	7	68	131	2	2	0	-2	-2	Both	Blade	2
+Yaksha Braces	3458	Arms	7	68	131	2	2	0	-2	-2	Both	Blade	1
+Yaksha Coil	3459	Waist	7	68	131	2	2	0	-2	-2	Both	Blade	1
+Yaksha Mask	3456	Head	7	68	131	2	2	0	-2	-2	Both	Blade	2
+Yaksha Raiment	3457	Body	7	68	131	2	2	0	-2	-2	Both	Blade	1
+Yamato Doate	3567	Body	7	67	130	3	1	0	-4	-4	Male	Blade	1
+Yamato Gusoku	3570	Legs	7	67	130	3	1	0	-4	-4	Male	Blade	0
+Yamato Kabuto	3566	Head	7	67	130	3	1	0	-4	-4	Male	Blade	2
+Yamato Koshiate	3569	Waist	7	67	130	3	1	0	-4	-4	Male	Blade	1
+Yamato Kote	3568	Arms	7	67	130	3	1	0	-4	-4	Male	Blade	2
+Yukumo Land Dogi	3229	Body	6	30	80	0	1	3	1	1	Both	Gunner	2
+Yukumo Land Hakama	3232	Legs	6	30	80	0	1	3	1	1	Both	Gunner	2
+Yukumo Land Kasa	3228	Head	6	30	80	0	1	3	1	1	Both	Gunner	2
+Yukumo Land Kote	3230	Arms	6	30	80	0	1	3	1	1	Both	Gunner	2
+Yukumo Land Obi	3231	Waist	6	30	80	0	1	3	1	1	Both	Gunner	2
+Yukumo Sky Dogi	3224	Body	6	60	127	-1	0	2	0	0	Both	Blade	2
+Yukumo Sky Hakama	3227	Legs	6	60	127	-1	0	2	0	0	Both	Blade	2
+Yukumo Sky Kasa	3223	Head	6	60	127	-1	0	2	0	0	Both	Blade	2
+Yukumo Sky Kote	3225	Arms	6	60	127	-1	0	2	0	0	Both	Blade	2
+Yukumo Sky Obi	3226	Waist	6	60	127	-1	0	2	0	0	Both	Blade	2
+Zamtrios Braces	2092	Arms	2	20	122	-2	2	-3	2	0	Both	Blade	1
+Zamtrios Braces S	2820	Arms	5	53	124	-4	3	-5	3	0	Both	Blade	2
+Zamtrios Braces X	3922	Arms	8	84	135	-4	3	-5	3	0	Both	Blade	2
+Zamtrios Braces Z	3932	Arms	8	86	137	2	3	-4	-5	0	Both	Blade	2
+Zamtrios Cap	2095	Head	2	10	76	-1	3	-2	3	1	Both	Gunner	2
+Zamtrios Cap S	2823	Head	5	27	79	-3	4	-4	4	1	Both	Gunner	2
+Zamtrios Cap X	3925	Head	8	45	88	-3	4	-4	4	1	Both	Gunner	2
+Zamtrios Cap Z	3935	Head	8	46	89	3	4	-3	-4	1	Both	Gunner	0
+Zamtrios Coat	2098	Waist	2	10	76	-1	3	-2	3	1	Both	Gunner	2
+Zamtrios Coat S	2826	Waist	5	27	79	-3	4	-4	4	1	Both	Gunner	2
+Zamtrios Coat X	3928	Waist	8	45	88	-3	4	-4	4	1	Both	Gunner	2
+Zamtrios Coat Z	3938	Waist	8	46	89	3	4	-3	-4	1	Both	Gunner	3
+Zamtrios Faulds	2093	Waist	2	20	122	-2	2	-3	2	0	Both	Blade	2
+Zamtrios Faulds S	2821	Waist	5	53	124	-4	3	-5	3	0	Both	Blade	2
+Zamtrios Faulds X	3923	Waist	8	84	135	-4	3	-5	3	0	Both	Blade	2
+Zamtrios Faulds Z	3933	Waist	8	86	137	2	3	-4	-5	0	Both	Blade	3
+Zamtrios Greaves	2094	Legs	2	20	122	-2	2	-3	2	0	Both	Blade	1
+Zamtrios Greaves S	2822	Legs	5	53	124	-4	3	-5	3	0	Both	Blade	1
+Zamtrios Greaves X	3924	Legs	8	84	135	-4	3	-5	3	0	Both	Blade	1
+Zamtrios Greaves Z	3934	Legs	8	86	137	2	3	-4	-5	0	Both	Blade	2
+Zamtrios Guards	2097	Arms	2	10	76	-1	3	-2	3	1	Both	Gunner	1
+Zamtrios Guards S	2825	Arms	5	27	79	-3	4	-4	4	1	Both	Gunner	2
+Zamtrios Guards X	3927	Arms	8	45	88	-3	4	-4	4	1	Both	Gunner	2
+Zamtrios Guards Z	3937	Arms	8	46	89	3	4	-3	-4	1	Both	Gunner	2
+Zamtrios Helm	2090	Head	2	20	122	-2	2	-3	2	0	Both	Blade	1
+Zamtrios Helm S	2818	Head	5	53	124	-4	3	-5	3	0	Both	Blade	1
+Zamtrios Helm X	3920	Head	8	84	135	-4	3	-5	3	0	Both	Blade	1
+Zamtrios Helm Z	3930	Head	8	86	137	2	3	-4	-5	0	Both	Blade	0
+Zamtrios Leggings	2099	Legs	2	10	76	-1	3	-2	3	1	Both	Gunner	1
+Zamtrios Leggings S	2827	Legs	5	27	79	-3	4	-4	4	1	Both	Gunner	1
+Zamtrios Leggings X	3929	Legs	8	45	88	-3	4	-4	4	1	Both	Gunner	1
+Zamtrios Leggings Z	3939	Legs	8	46	89	3	4	-3	-4	1	Both	Gunner	2
+Zamtrios Mail	2091	Body	2	20	122	-2	2	-3	2	0	Both	Blade	1
+Zamtrios Mail S	2819	Body	5	53	124	-4	3	-5	3	0	Both	Blade	1
+Zamtrios Mail X	3921	Body	8	84	135	-4	3	-5	3	0	Both	Blade	1
+Zamtrios Mail Z	3931	Body	8	86	137	2	3	-4	-5	0	Both	Blade	0
+Zamtrios Vest	2096	Body	2	10	76	-1	3	-2	3	1	Both	Gunner	1
+Zamtrios Vest S	2824	Body	5	27	79	-3	4	-4	4	1	Both	Gunner	1
+Zamtrios Vest X	3926	Body	8	45	88	-3	4	-4	4	1	Both	Gunner	1
+Zamtrios Vest Z	3936	Body	8	46	89	3	4	-3	-4	1	Both	Gunner	0
+Zero Suit Body	4894	Body	10	88	142	3	3	3	3	-4	Female	Blade	3
+Zero Suit Boots	4896	Legs	10	88	142	3	3	3	3	-4	Female	Blade	2
+Zero Suit Gloves	4895	Arms	10	88	142	3	3	3	3	-4	Female	Blade	0
+Zero Suit Hairpiece	4897	Head	10	47	92	4	4	4	4	-3	Female	Gunner	2
+Zero Suit Hands	4899	Arms	10	47	92	4	4	4	4	-3	Female	Gunner	0
+Zero Suit Ponytail	4893	Head	10	88	142	3	3	3	3	-4	Female	Blade	2
+Zero Suit Tights	4900	Legs	10	47	92	4	4	4	4	-3	Female	Gunner	2
+Zero Suit Wear	4898	Body	10	47	92	4	4	4	4	-3	Female	Gunner	3
+Zinogre Cap	2265	Head	3	10	76	1	-1	3	-3	2	Both	Gunner	2
+Zinogre Cap S	2883	Head	5	26	79	1	-1	4	-3	2	Both	Gunner	2
+Zinogre Cap U	3098	Head	6	27	79	1	-3	-4	1	5	Both	Gunner	2
+Zinogre Cap X	4253	Head	9	49	90	1	-1	4	-3	2	Both	Gunner	2
+Zinogre Cap Z	4263	Head	9	51	92	1	-3	-4	1	5	Both	Gunner	2
+Zinogre Coat	2268	Waist	3	10	76	1	-1	3	-3	2	Both	Gunner	1
+Zinogre Coat S	2886	Waist	5	26	79	1	-1	4	-3	2	Both	Gunner	3
+Zinogre Coat U	3101	Waist	6	27	79	1	-3	-4	1	5	Both	Gunner	0
+Zinogre Coat X	4256	Waist	9	49	90	1	-1	4	-3	2	Both	Gunner	3
+Zinogre Coat Z	4266	Waist	9	51	92	1	-3	-4	1	5	Both	Gunner	0
+Zinogre Faulds	2263	Waist	3	21	123	0	-2	2	-4	1	Both	Blade	1
+Zinogre Faulds S	2881	Waist	5	52	123	0	-2	3	-4	1	Both	Blade	3
+Zinogre Faulds U	3096	Waist	6	53	124	0	-4	-5	0	4	Both	Blade	0
+Zinogre Faulds X	4251	Waist	9	90	139	0	-2	3	-4	1	Both	Blade	3
+Zinogre Faulds Z	4261	Waist	9	94	143	0	-4	-5	0	4	Both	Blade	0
+Zinogre Greaves	2264	Legs	3	21	123	0	-2	2	-4	1	Both	Blade	2
+Zinogre Greaves S	2882	Legs	5	52	123	0	-2	3	-4	1	Both	Blade	0
+Zinogre Greaves U	3097	Legs	6	53	124	0	-4	-5	0	4	Both	Blade	1
+Zinogre Greaves X	4252	Legs	9	90	139	0	-2	3	-4	1	Both	Blade	1
+Zinogre Greaves Z	4262	Legs	9	94	143	0	-4	-5	0	4	Both	Blade	2
+Zinogre Guards	2267	Arms	3	10	76	1	-1	3	-3	2	Both	Gunner	1
+Zinogre Guards S	2885	Arms	5	26	79	1	-1	4	-3	2	Both	Gunner	0
+Zinogre Guards U	3100	Arms	6	27	79	1	-3	-4	1	5	Both	Gunner	1
+Zinogre Guards X	4255	Arms	9	49	90	1	-1	4	-3	2	Both	Gunner	0
+Zinogre Guards Z	4265	Arms	9	51	92	1	-3	-4	1	5	Both	Gunner	1
+Zinogre Helm	2260	Head	3	21	123	0	-2	2	-4	1	Both	Blade	2
+Zinogre Helm S	2878	Head	5	52	123	0	-2	3	-4	1	Both	Blade	2
+Zinogre Helm U	3093	Head	6	53	124	0	-4	-5	0	4	Both	Blade	2
+Zinogre Helm X	4248	Head	9	90	139	0	-2	3	-4	1	Both	Blade	2
+Zinogre Helm Z	4258	Head	9	94	143	0	-4	-5	0	4	Both	Blade	2
+Zinogre Leggings	2269	Legs	3	10	76	1	-1	3	-3	2	Both	Gunner	0
+Zinogre Leggings S	2887	Legs	5	26	79	1	-1	4	-3	2	Both	Gunner	0
+Zinogre Leggings U	3102	Legs	6	27	79	1	-3	-4	1	5	Both	Gunner	1
+Zinogre Leggings X	4257	Legs	9	49	90	1	-1	4	-3	2	Both	Gunner	1
+Zinogre Leggings Z	4267	Legs	9	51	92	1	-3	-4	1	5	Both	Gunner	2
+Zinogre Mail	2261	Body	3	21	123	0	-2	2	-4	1	Both	Blade	0
+Zinogre Mail S	2879	Body	5	52	123	0	-2	3	-4	1	Both	Blade	3
+Zinogre Mail U	3094	Body	6	53	124	0	-4	-5	0	4	Both	Blade	1
+Zinogre Mail X	4249	Body	9	90	139	0	-2	3	-4	1	Both	Blade	3
+Zinogre Mail Z	4259	Body	9	94	143	0	-4	-5	0	4	Both	Blade	1
+Zinogre Vambraces	2262	Arms	3	21	123	0	-2	2	-4	1	Both	Blade	1
+Zinogre Vambraces S	2880	Arms	5	52	123	0	-2	3	-4	1	Both	Blade	0
+Zinogre Vambraces U	3095	Arms	6	53	124	0	-4	-5	0	4	Both	Blade	1
+Zinogre Vambraces X	4250	Arms	9	90	139	0	-2	3	-4	1	Both	Blade	0
+Zinogre Vambraces Z	4260	Arms	9	94	143	0	-4	-5	0	4	Both	Blade	1
+Zinogre Vest	2266	Body	3	10	76	1	-1	3	-3	2	Both	Gunner	0
+Zinogre Vest S	2884	Body	5	26	79	1	-1	4	-3	2	Both	Gunner	3
+Zinogre Vest U	3099	Body	6	27	79	1	-3	-4	1	5	Both	Gunner	1
+Zinogre Vest X	4254	Body	9	49	90	1	-1	4	-3	2	Both	Gunner	3
+Zinogre Vest Z	4264	Body	9	51	92	1	-3	-4	1	5	Both	Gunner	1
+キャプテンＪコイル	3622	Waist	7	26	105	-3	-3	-3	-3	-3	Both	Blade	0
+キャプテンＪスカート	3627	Waist	7	13	65	-2	-2	-2	-2	-2	Both	Gunner	0
+ケロロフェイク	3600	Head	7	10	71	0	7	-5	2	-2	Both	Both	0
+ゾディアスアーム	3669	Arms	7	52	122	1	1	1	1	1	Both	Blade	0
+ゾディアスガード	3674	Arms	7	26	73	2	2	2	2	2	Both	Gunner	0
+ゾディアスキャップ	3672	Head	7	26	73	2	2	2	2	2	Both	Gunner	3
+ゾディアスグリーヴ	3671	Legs	7	52	122	1	1	1	1	1	Both	Blade	3
+ゾディアスコイル	3670	Waist	7	52	122	1	1	1	1	1	Both	Blade	0
+ゾディアスコート	3675	Waist	7	26	73	2	2	2	2	2	Both	Gunner	0
+ゾディアスヘルム	3667	Head	7	52	122	1	1	1	1	1	Both	Blade	2
+ゾディアスメイル	3668	Body	7	52	122	1	1	1	1	1	Both	Blade	1
+ゾディアスレギンス	3676	Legs	7	26	73	2	2	2	2	2	Both	Gunner	2
+ゾディアスレジスト	3673	Body	7	26	73	2	2	2	2	2	Both	Gunner	1
+伝説Ｊカフス	3638	Arms	7	22	65	-3	-3	-3	-3	-3	Both	Gunner	0
+伝説Ｊグラブ	3633	Arms	7	44	105	-4	-4	-4	-4	-4	Both	Blade	0
+伝説Ｊコイル	3634	Waist	7	44	105	-4	-4	-4	-4	-4	Both	Blade	2
+伝説Ｊスカート	3639	Waist	7	22	65	-3	-3	-3	-3	-3	Both	Gunner	2
+伝説Ｊスーツ	3632	Body	7	44	105	-4	-4	-4	-4	-4	Both	Blade	0
+伝説Ｊハット	3631	Head	7	44	105	-4	-4	-4	-4	-4	Both	Blade	0
+伝説Ｊパンツ	3640	Legs	7	22	65	-3	-3	-3	-3	-3	Both	Gunner	1
+伝説Ｊブーツ	3635	Legs	7	44	105	-4	-4	-4	-4	-4	Both	Blade	1
+伝説Ｊベスト	3637	Body	7	22	65	-3	-3	-3	-3	-3	Both	Gunner	0
+伝説Ｊロジャー	3636	Head	7	22	65	-3	-3	-3	-3	-3	Both	Gunner	0
+反逆王Ｊコイル	4868	Waist	10	100	151	-4	-4	-4	-4	-4	Both	Blade	3
+反逆王Ｊスカート	4873	Waist	10	55	97	-3	-3	-3	-3	-3	Both	Gunner	3
+地上最強の下衣	3692	Legs	7	26	65	7	7	7	7	7	Both	Gunner	0
+地上最強の胴着	3688	Body	7	52	105	6	6	6	6	6	Both	Blade	0
+地上最強の胴衣	3691	Body	7	26	65	7	7	7	7	7	Both	Gunner	0
+地上最強の袴	3689	Legs	7	52	105	6	6	6	6	6	Both	Blade	0
+坊屋ジャケット	3641	Body	7	44	116	1	1	1	1	1	Both	Blade	0
+坊屋ジャンパー	3644	Body	7	22	72	2	2	2	2	2	Both	Gunner	0
+坊屋ジーンズ	3643	Legs	7	44	116	1	1	1	1	1	Both	Blade	0
+坊屋デニム	3646	Legs	7	22	72	2	2	2	2	2	Both	Gunner	0
+坊屋バックル	3645	Waist	7	22	72	2	2	2	2	2	Both	Gunner	0
+坊屋ベルト	3642	Waist	7	44	116	1	1	1	1	1	Both	Blade	0
+威圧の逆髪	3690	Head	7	26	65	7	7	7	7	7	Both	Gunner	0
+強者のバンテージ	4882	Arms	10	47	100	-1	-1	-1	-1	5	Both	Gunner	0
+強者のヘッドギア	4880	Head	10	47	100	-1	-1	-1	-1	5	Both	Gunner	3
+強者のベルト	4883	Waist	10	47	100	-1	-1	-1	-1	5	Both	Gunner	3
+強者のボディ	4881	Body	10	47	100	-1	-1	-1	-1	5	Both	Gunner	0
+強者のレッグロック	4884	Legs	10	47	100	-1	-1	-1	-1	5	Both	Gunner	0
+武装戦線ジャケット	3605	Body	7	23	115	2	2	2	2	2	Both	Blade	0
+武装戦線ライダース	3606	Body	7	12	71	3	3	3	3	3	Both	Gunner	0
+王者のバンテージ	4877	Arms	10	88	152	-2	-2	-2	-2	4	Both	Blade	0
+王者のヘッドギア	4875	Head	10	88	152	-2	-2	-2	-2	4	Both	Blade	3
+王者のベルト	4878	Waist	10	88	152	-2	-2	-2	-2	4	Both	Blade	3
+王者のボディ	4876	Body	10	88	152	-2	-2	-2	-2	4	Both	Blade	0
+王者のレッグロック	4879	Legs	10	88	152	-2	-2	-2	-2	4	Both	Blade	0
+逆巻く怒髪	3687	Head	7	52	105	6	6	6	6	6	Both	Blade	0

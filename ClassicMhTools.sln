@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MH4UModern", "src\MH4UModern\MH4UModern.csproj", "{B7B573C3-7C9D-4A1A-A662-2BBE4C6B235A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicMhTools.Core", "src\ClassicMhTools.Core\ClassicMhTools.Core.csproj", "{1984A938-89F0-4DB2-BA06-0F9F2182F352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicMhTools.Core.Tests", "tests\ClassicMhTools.Core.Tests\ClassicMhTools.Core.Tests.csproj", "{2FFBAA5B-7B73-4344-8901-90CB09820761}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {B7B573C3-7C9D-4A1A-A662-2BBE4C6B235A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {B7B573C3-7C9D-4A1A-A662-2BBE4C6B235A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {B7B573C3-7C9D-4A1A-A662-2BBE4C6B235A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {B7B573C3-7C9D-4A1A-A662-2BBE4C6B235A}.Release|Any CPU.Build.0 = Release|Any CPU
+    {1984A938-89F0-4DB2-BA06-0F9F2182F352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {1984A938-89F0-4DB2-BA06-0F9F2182F352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {1984A938-89F0-4DB2-BA06-0F9F2182F352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {1984A938-89F0-4DB2-BA06-0F9F2182F352}.Release|Any CPU.Build.0 = Release|Any CPU
+    {2FFBAA5B-7B73-4344-8901-90CB09820761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {2FFBAA5B-7B73-4344-8901-90CB09820761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {2FFBAA5B-7B73-4344-8901-90CB09820761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {2FFBAA5B-7B73-4344-8901-90CB09820761}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+EndGlobal

@@ -1,0 +1,106 @@
+<UserControl x:Class="MH4UModern.Views.QuestCreationEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:MH4UModern.ViewModels"
+             xmlns:views="clr-namespace:MH4UModern.Views">
+    <UserControl.Resources>
+        <Style TargetType="TabControl"><Setter Property="Template"><Setter.Value><ControlTemplate TargetType="TabControl">
+            <Grid><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition/></Grid.RowDefinitions>
+                <TabPanel IsItemsHost="True" Margin="0,0,0,10"/><ContentPresenter Grid.Row="1" x:Name="PART_SelectedContentHost" ContentSource="SelectedContent"/>
+            </Grid>
+        </ControlTemplate></Setter.Value></Setter></Style>
+        <Style TargetType="TabItem"><Setter Property="Padding" Value="12,8"/><Setter Property="Foreground" Value="{DynamicResource TextBrush}"/><Setter Property="Template"><Setter.Value><ControlTemplate TargetType="TabItem">
+            <Border x:Name="Tab" Padding="{TemplateBinding Padding}" BorderThickness="0,0,0,2" BorderBrush="Transparent" Background="Transparent"><ContentPresenter ContentSource="Header"/></Border>
+            <ControlTemplate.Triggers><Trigger Property="IsSelected" Value="True"><Setter TargetName="Tab" Property="BorderBrush" Value="{DynamicResource AccentBrush}"/></Trigger><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Tab" Property="Background" Value="{DynamicResource HoverBrush}"/></Trigger></ControlTemplate.Triggers>
+        </ControlTemplate></Setter.Value></Setter></Style>
+        <DataTemplate x:Key="NumberTemplate"><StackPanel Margin="0,0,10,8">
+            <TextBlock Text="{Binding Name}" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,4"/><views:CreationFieldInput ChoiceOpened="Spawn_Opened" ChoiceClosed="Spawn_Closed"/>
+        </StackPanel></DataTemplate>
+        <Style x:Key="ChoiceStyle" TargetType="ComboBox" BasedOn="{StaticResource {x:Type ComboBox}}"><Setter Property="DisplayMemberPath" Value="Name"/><Setter Property="IsTextSearchEnabled" Value="True"/><Setter Property="TextSearch.TextPath" Value="Name"/></Style>
+        <Style x:Key="StructuralTool" TargetType="Button" BasedOn="{StaticResource IconButtonStyle}"><Style.Triggers><DataTrigger Binding="{Binding IsLayoutLocked}" Value="True"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger></Style.Triggers></Style>
+    </UserControl.Resources>
+    <Grid><TabControl x:Name="Tabs">
+        <TabItem Header="General">
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="20"/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <ScrollViewer x:Name="GeneralScroll" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <StackPanel Margin="0,0,8,0">
+                        <Grid Margin="0,0,0,12"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="12"/><ColumnDefinition/></Grid.ColumnDefinitions>
+                            <StackPanel><TextBlock Text="Stage" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,4"/>
+                                <Button x:Name="MapButton" Click="Map_Click" ToolTip="Choose stage" HorizontalContentAlignment="Stretch"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="38"/><ColumnDefinition/><ColumnDefinition Width="20"/></Grid.ColumnDefinitions><Image Source="{Binding Map.Icon}" Width="30" Height="24" Margin="0,0,8,0"/><TextBlock Grid.Column="1" Text="{Binding Map.Name}" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap"/><TextBlock Grid.Column="2" FontFamily="Segoe MDL2 Assets" Text="&#xE70D;" HorizontalAlignment="Right" VerticalAlignment="Center"/></Grid></Button>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2"><TextBlock Text="Quest type" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,4"/><ComboBox Style="{StaticResource ChoiceStyle}" ItemsSource="{Binding TypeChoices}" SelectedItem="{Binding Type}"/></StackPanel>
+                        </Grid>
+                        <TextBlock Text="Quest artwork" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,4"/>
+                        <ItemsControl x:Name="ArtworkRows" ItemsSource="{Binding Artwork}" Margin="0,0,0,12"><ItemsControl.ItemsPanel><ItemsPanelTemplate><StackPanel Orientation="Horizontal"/></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate><DataTemplate><Button Click="Artwork_Click" ToolTip="{Binding SelectedChoice.Name}" Width="44" Height="44" Padding="4" Margin="0,0,6,0"><Image Source="{Binding SelectedChoice.Icon}" Width="28" Height="28"/></Button></DataTemplate></ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <Grid x:Name="HelperSettings" Visibility="{Binding HelperVisibility}" Margin="0,0,0,12">
+                            <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="40"/></Grid.ColumnDefinitions>
+                            <StackPanel>
+                                <CheckBox x:Name="HelperCheckBox" IsChecked="{Binding ExperimentalStoryHelpers}" IsEnabled="{Binding CanChooseStoryHelpers}" ToolTip="Battlequarters only. Authoring intent, not an installed mod toggle. Removing a previously exported patch requires closing the game and removing code.bps."><TextBlock Text="Ace Hunters patch (experimental)" TextWrapping="Wrap"/></CheckBox>
+                                <TextBlock Text="USA code patch required / in-game unverified" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" TextWrapping="Wrap" Margin="0,4,8,0"/>
+                            </StackPanel>
+                            <Button x:Name="HelperExportButton" Grid.Column="1" FontFamily="Segoe MDL2 Assets" Content="&#xE896;" Style="{StaticResource IconButtonStyle}" Click="HelperExport_Click" IsEnabled="{Binding ExperimentalStoryHelpers}" ToolTip="Export experimental quest and code patch bundle" VerticalAlignment="Top"/>
+                        </Grid>
+                        <ItemsControl x:Name="GeneralFields" ItemsSource="{Binding MainFields}" ItemTemplate="{StaticResource NumberTemplate}" Height="320"><ItemsControl.ItemsPanel><ItemsPanelTemplate><UniformGrid Columns="3" Rows="5"/></ItemsPanelTemplate></ItemsControl.ItemsPanel></ItemsControl>
+                        <ItemsControl x:Name="FenceFields" ItemsSource="{Binding FenceFields}" Visibility="{Binding FenceVisibility}" ItemTemplate="{StaticResource NumberTemplate}" Height="130"><ItemsControl.ItemsPanel><ItemsPanelTemplate><UniformGrid Columns="2" Rows="2"/></ItemsPanelTemplate></ItemsControl.ItemsPanel></ItemsControl>
+                    </StackPanel>
+                </ScrollViewer>
+                <Grid Grid.Column="2"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition/></Grid.RowDefinitions>
+                    <Grid Margin="0,0,0,10"><Grid.ColumnDefinitions><ColumnDefinition Width="150"/><ColumnDefinition/></Grid.ColumnDefinitions>
+                        <ComboBox x:Name="LanguagePicker" ItemsSource="{Binding Languages}" DisplayMemberPath="Name" SelectedIndex="0"/>
+                        <Button Grid.Column="1" FontFamily="Segoe MDL2 Assets" Content="&#xE8C8;" Style="{StaticResource IconButtonStyle}" Click="CopyEnglish_Click" ToolTip="Copy English text to all languages" HorizontalAlignment="Right"/>
+                    </Grid>
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                        <ItemsControl ItemsSource="{Binding SelectedItem.EditableFields, ElementName=LanguagePicker}"><ItemsControl.ItemTemplate><DataTemplate>
+                            <StackPanel Margin="0,0,10,8"><TextBlock Text="{Binding Name}" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,4"/>
+                                <TextBox Text="{Binding Value, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" AcceptsReturn="True" MinHeight="36" MaxLength="{Binding MaxLength}"/>
+                            </StackPanel>
+                        </DataTemplate></ItemsControl.ItemTemplate></ItemsControl>
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Objectives">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <StackPanel>
+                    <ItemsControl x:Name="ObjectiveFields" ItemsSource="{Binding Objectives}" Margin="0,0,0,20"><ItemsControl.ItemsPanel><ItemsPanelTemplate><UniformGrid Columns="3" Rows="1"/></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate><DataTemplate><StackPanel Margin="0,0,14,0">
+                            <TextBlock Text="{Binding Name}" FontWeight="SemiBold" Margin="0,0,0,10"/>
+                            <Grid Margin="0,0,0,8"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions>
+                                <ComboBox Style="{StaticResource ChoiceStyle}" ItemsSource="{Binding Types}" SelectedItem="{Binding Type}" Margin="0,0,8,0"/>
+                                <views:CreationFieldInput Grid.Column="1" DataContext="{Binding Quantity}" ToolTip="Quantity"/>
+                            </Grid>
+                            <Button Click="ObjectiveTarget_Click" ToolTip="{Binding Target.Name}" HorizontalContentAlignment="Stretch">
+                                <Button.Style><Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}"><Style.Triggers><DataTrigger Binding="{Binding Type.Id}" Value="0"><Setter Property="IsEnabled" Value="False"/></DataTrigger></Style.Triggers></Style></Button.Style>
+                                <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="36"/><ColumnDefinition/></Grid.ColumnDefinitions><Image Source="{Binding Target.Icon}" Width="28" Height="28" Margin="0,0,8,0"/><TextBlock Grid.Column="1" Text="{Binding Target.Name, TargetNullValue=None, FallbackValue=None}" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" VerticalAlignment="Center"/></Grid>
+                            </Button>
+                        </StackPanel></DataTemplate></ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <Grid Margin="0,0,0,10"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <TextBlock Text="Monsters" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                        <Button Grid.Column="1" FontFamily="Segoe MDL2 Assets" Content="&#xE710;" Style="{StaticResource StructuralTool}" Click="AddMonster_Click" ToolTip="Add monster" IsEnabled="{Binding CanAddMonster}"/>
+                    </Grid>
+                    <ListBox x:Name="MonsterRows" ItemsSource="{Binding Monsters}" ItemContainerStyle="{StaticResource SlotListBoxItemStyle}" MouseLeftButtonUp="Monster_Click" KeyDown="Monster_KeyDown" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                        <ListBox.ItemsPanel><ItemsPanelTemplate><WrapPanel/></ItemsPanelTemplate></ListBox.ItemsPanel>
+                        <ListBox.ItemTemplate><DataTemplate><Grid Width="132" Height="132" ToolTip="{Binding Monster.Name}"><Grid.RowDefinitions><RowDefinition Height="68"/><RowDefinition/></Grid.RowDefinitions>
+                            <Border x:Name="MonsterBackground" CornerRadius="6" Margin="6,4" BorderThickness="1" BorderBrush="Transparent"><Image Source="{Binding Monster.Icon}" Width="54" Height="54" Stretch="Uniform"/></Border>
+                            <StackPanel Grid.Row="1" Margin="6,0,6,6"><TextBlock Text="{Binding Monster.Name}" TextWrapping="Wrap" TextAlignment="Center" FontSize="12" MaxHeight="32"/><TextBlock x:Name="WaveTitle" Text="{Binding WaveLabel}" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" TextAlignment="Center" Margin="0,3,0,0"/><TextBlock x:Name="SmallLabel" Text="Small" Visibility="Collapsed" FontSize="10" Foreground="{DynamicResource MutedTextBrush}" TextAlignment="Center"/></StackPanel>
+                        </Grid><DataTemplate.Triggers><DataTrigger Binding="{Binding Kind.Id}" Value="1"><Setter TargetName="MonsterBackground" Property="Background" Value="{DynamicResource WarningSurfaceBrush}"/><Setter TargetName="MonsterBackground" Property="BorderBrush" Value="{DynamicResource WarningBorderBrush}"/><Setter TargetName="WaveTitle" Property="Foreground" Value="{DynamicResource WarningBrush}"/></DataTrigger><DataTrigger Binding="{Binding Kind.Id}" Value="2"><Setter TargetName="SmallLabel" Property="Visibility" Value="Visible"/></DataTrigger></DataTemplate.Triggers></DataTemplate></ListBox.ItemTemplate>
+                    </ListBox>
+                    <ItemsControl x:Name="WaveConditions" ItemsSource="{Binding WaveConditions}"><ItemsControl.ItemTemplate><DataTemplate><ItemsControl ItemsSource="{Binding Fields}" ItemTemplate="{StaticResource NumberTemplate}" Height="70" Margin="0,12,0,0"><ItemsControl.ItemsPanel><ItemsPanelTemplate><UniformGrid Columns="3"/></ItemsPanelTemplate></ItemsControl.ItemsPanel></ItemsControl></DataTemplate></ItemsControl.ItemTemplate></ItemsControl>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
+        <TabItem Header="Supply / Rewards">
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="20"/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Grid><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition/></Grid.RowDefinitions><Grid Height="24" Margin="0,0,0,8"><TextBlock Text="Supplies" FontWeight="SemiBold" VerticalAlignment="Center"/><Button FontFamily="Segoe MDL2 Assets" Content="&#xE72C;" Style="{StaticResource StructuralTool}" Width="28" Height="24" MinHeight="24" HorizontalAlignment="Right" Click="Presets_Click" ToolTip="Apply rank / monster presets"/></Grid>
+                    <views:QuestItemBoxEditor x:Name="SupplyBox" Grid.Row="1" Items="{Binding Supplies}" IsLayoutLocked="{Binding IsLayoutLocked}" PickerRequested="ItemPicker_Requested"/>
+                </Grid>
+                <Grid Grid.Column="2"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition/></Grid.RowDefinitions><TextBlock Text="Rewards" FontWeight="SemiBold" Margin="0,0,0,8" Height="24" VerticalAlignment="Center" ToolTip="{Binding PresetStatus}"/>
+                    <views:QuestItemBoxEditor x:Name="RewardBox" Grid.Row="1" Items="{Binding Rewards}" IsReward="True" IsLayoutLocked="{Binding IsLayoutLocked}" PickerRequested="ItemPicker_Requested"/>
+                </Grid>
+            </Grid>
+        </TabItem>
+    </TabControl><views:QuestMapPreview x:Name="MapPreview"/></Grid>
+</UserControl>

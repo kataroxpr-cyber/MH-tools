@@ -1,0 +1,1072 @@
+<Window x:Class="MH4UModern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:MH4UModern.ViewModels"
+        xmlns:views="clr-namespace:MH4UModern.Views"
+        mc:Ignorable="d"
+        Title="MH4U Modern"
+        Width="1320" Height="820" MinWidth="1080" MinHeight="700"
+        WindowStartupLocation="CenterScreen"
+        AllowDrop="True"
+        DragOver="Window_DragOver"
+        Drop="Window_Drop"
+        PreviewKeyDown="Window_PreviewKeyDown">
+    <Grid Background="{DynamicResource WindowBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="34"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top command bar -->
+        <Border Grid.Row="0" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1">
+            <Grid Margin="18,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Border Width="36" Height="36" CornerRadius="9" Background="#20352F" Margin="0,0,12,0">
+                        <TextBlock Text="MH" Foreground="{DynamicResource AccentBrush}" FontWeight="Bold" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock Text="MH4U Modern" FontWeight="SemiBold" FontSize="16"/>
+                        <TextBlock Text="Save Editor · v0.18.0" Style="{StaticResource MutedTextStyle}" FontSize="11"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <Grid Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="24,0,20,0">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                    <TextBlock x:Name="ActiveHunterName" Text="{Binding HunterIdentity.DisplayName, TargetNullValue='No character selected', FallbackValue='No character selected'}"
+                               FontWeight="SemiBold" FontSize="16" MaxWidth="220" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" VerticalAlignment="Center" ToolTip="{Binding HunterIdentity.DisplayName}"/>
+                    <TextBlock Grid.Column="1" Text="{Binding HunterIdentity.GenderSymbol}" ToolTip="{Binding HunterIdentity.GenderLabel}"
+                               FontFamily="Segoe UI Symbol" FontSize="21" Width="28" TextAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource InfoBrush}"/>
+                    <TextBlock Grid.Column="2" Text="{Binding HunterIdentity.RankLabel}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                </Grid>
+
+                <StackPanel x:Name="CharacterCommandBar" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button x:Name="UndoButton" Content="Undo" Click="Undo_Click" Margin="0,0,8,0" IsEnabled="False"/>
+                    <Button x:Name="RedoButton" Content="Redo" Click="Redo_Click" Margin="0,0,16,0" IsEnabled="False"/>
+                    <Button Content="Open Save" Click="Open_Click" Margin="0,0,8,0"/>
+                    <Button x:Name="SaveButton" Content="Save Changes" Style="{StaticResource AccentButtonStyle}" Click="Save_Click" IsEnabled="False"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Main layout -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="202"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Sidebar -->
+            <Border Grid.Column="0" Background="{DynamicResource SidebarBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,1,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="8,18,8,8">
+                        <TextBlock Text="SAVE" Style="{StaticResource MutedTextStyle}" FontSize="10" FontWeight="Bold" Margin="14,0,0,6"/>
+                        <RadioButton x:Name="NavOverview" GroupName="Navigation" Tag="Overview" Style="{StaticResource NavButtonStyle}" IsChecked="True" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/overview.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Overview" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <RadioButton x:Name="NavCharacter" GroupName="Navigation" Tag="Character" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/overview.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Character Settings" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <RadioButton GroupName="Navigation" Tag="Items" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/items.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Item Box" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <RadioButton GroupName="Navigation" Tag="Equipment" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/equipment.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Equipment" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <RadioButton GroupName="Navigation" Tag="Quests" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/quests.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Guild Quests" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <RadioButton GroupName="Navigation" Tag="Palicos" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/palico.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Palicos" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <Separator/>
+                        <TextBlock Text="TOOLS" Style="{StaticResource MutedTextStyle}" FontSize="10" FontWeight="Bold" Margin="14,0,0,6"/>
+                        <RadioButton x:Name="NavCustomQuests" GroupName="Navigation" Tag="CustomQuests" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"><StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/quests.png" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="Custom Quests" VerticalAlignment="Center"/></StackPanel></RadioButton>
+                        <RadioButton GroupName="Navigation" Tag="Advanced" Content="⚙  Backups &amp; Advanced" Style="{StaticResource NavButtonStyle}" Checked="Nav_Checked"/>
+                    </StackPanel>
+                    <Border Grid.Row="1" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0" Padding="14">
+                        <StackPanel>
+                            <TextBlock Text="Drop a user1 / user2 / user3 file anywhere" Style="{StaticResource MutedTextStyle}" FontSize="11"/>
+                            <TextBlock Text="Auto backup on save" Foreground="{DynamicResource AccentBrush}" FontSize="11" Margin="0,6,0,8"/>
+                            <Button Content="☼  Toggle light / dark" Click="ToggleTheme_Click" Padding="10,6"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </Border>
+
+            <!-- Content pages -->
+            <Grid Grid.Column="1" Margin="20">
+                <views:CustomQuestsView x:Name="CustomQuestsPage" Visibility="Collapsed"/>
+
+                <!-- OVERVIEW -->
+                <Grid x:Name="OverviewPage">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="Overview" Style="{StaticResource PageTitleStyle}" Margin="0,0,0,18"/>
+                    <ScrollViewer x:Name="OverviewScroll" Grid.Row="1">
+                        <Grid x:Name="OverviewSections">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="1.4*"/><ColumnDefinition Width="24"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                            <Border x:Name="OverviewCharacterSection" Grid.Row="0" Grid.Column="0" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1" Padding="0,0,0,18">
+                                <StackPanel>
+                                    <TextBlock Text="Character" Style="{StaticResource SectionTitleStyle}"/>
+                                    <Grid IsEnabled="{Binding HasCharacter}">
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="16"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                                        <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Margin="0,0,0,12">
+                                            <TextBlock Text="Name" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <TextBox Text="{Binding Character.Name, UpdateSourceTrigger=PropertyChanged}" MaxLength="12"/>
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,0,12">
+                                            <TextBlock Text="Hunter Rank" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <TextBox Text="{Binding Character.HunterRank, UpdateSourceTrigger=LostFocus}"/>
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,0,0,12">
+                                            <TextBlock Text="HR Points" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <TextBox Text="{Binding Character.HunterRankPoints, UpdateSourceTrigger=LostFocus}"/>
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="2" Grid.ColumnSpan="3">
+                                            <TextBlock Text="Funds" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <TextBox Text="{Binding Character.Funds, UpdateSourceTrigger=LostFocus}"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+                            <Border x:Name="OverviewSafetySection" Grid.Row="0" Grid.Column="2" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1" Padding="0,0,0,18">
+                                <StackPanel>
+                                    <TextBlock Text="Save health" Style="{StaticResource SectionTitleStyle}"/>
+                                    <TextBlock Text="{Binding ValidationStatus}" Foreground="{DynamicResource TextBrush}" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                                    <TextBlock Text="{Binding CurrentFilePath}" Style="{StaticResource MutedTextStyle}" FontSize="12" TextWrapping="Wrap" Margin="0,0,0,12"/>
+                                    <TextBlock Text="{Binding BackupSummary}" Margin="0,0,0,12"/>
+                                    <Border BorderBrush="{DynamicResource WarningBorderBrush}" BorderThickness="3,0,0,0" Padding="8,0,0,0" Margin="0,0,0,12">
+                                        <TextBlock Text="Relic and Guild Quest combinations may be invalid in-game." FontSize="12"/>
+                                    </Border>
+                                    <Button HorizontalAlignment="Left" Click="GoBackups_Click" IsEnabled="{Binding HasCharacter}">
+                                        <StackPanel Orientation="Horizontal"><Image Source="assets/ui/nav/overview.png" Width="16" Height="16" Margin="0,0,8,0"/><TextBlock Text="Review backups"/></StackPanel>
+                                    </Button>
+                                </StackPanel>
+                            </Border>
+                            <Border x:Name="OverviewEmulatorSection" Grid.Row="1" Grid.Column="0" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1" Padding="0,16">
+                                <StackPanel>
+                                    <Grid Height="34" Margin="0,0,0,8">
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                        <TextBlock x:Name="EmulatorHeading" Text="Emulator saves" Style="{StaticResource SectionTitleStyle}" Margin="0" VerticalAlignment="Center"/>
+                                        <StackPanel Grid.Column="1" Orientation="Horizontal" IsEnabled="{Binding EmulatorControlsEnabled}">
+                                            <Button Click="RefreshEmulator_Click" Style="{StaticResource IconButtonStyle}" IsEnabled="{Binding CanRefreshEmulator}" ToolTip="Refresh emulator saves" AutomationProperties.Name="Refresh emulator saves" Margin="0,0,8,0"><TextBlock Text="&#xE72C;" FontFamily="Segoe MDL2 Assets"/></Button>
+                                            <Button Click="ClearEmulatorPath_Click" Style="{StaticResource IconButtonStyle}" IsEnabled="{Binding CanRefreshEmulator}" ToolTip="Clear emulator path" AutomationProperties.Name="Clear emulator path"><TextBlock Text="&#xE894;" FontFamily="Segoe MDL2 Assets"/></Button>
+                                        </StackPanel>
+                                    </Grid>
+                                    <WrapPanel IsEnabled="{Binding EmulatorControlsEnabled}" Margin="0,0,0,10">
+                                            <Button Click="DetectEmulator_Click" Style="{StaticResource CompactButtonStyle}" Margin="0,0,8,0" ToolTip="Detect Azahar storage in standard locations">
+                                                <StackPanel Orientation="Horizontal"><TextBlock Text="&#xE721;" FontFamily="Segoe MDL2 Assets" VerticalAlignment="Center" Margin="0,0,8,0"/><TextBlock Text="Detect Azahar"/></StackPanel>
+                                            </Button>
+                                            <Button Click="SetEmulatorPath_Click" Style="{StaticResource AccentButtonStyle}" Padding="10,5" MinHeight="30" FontSize="12">
+                                                <StackPanel Orientation="Horizontal"><TextBlock Text="&#xE8B7;" FontFamily="Segoe MDL2 Assets" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" VerticalAlignment="Center" Margin="0,0,8,0"/><TextBlock Text="Set emulator path" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}"/></StackPanel>
+                                            </Button>
+                                    </WrapPanel>
+                                    <ComboBox x:Name="EmulatorLocationPicker" ItemsSource="{Binding EmulatorLocations}" Visibility="Collapsed" SelectionChanged="EmulatorLocation_SelectionChanged" IsEnabled="{Binding EmulatorControlsEnabled}" Margin="0,0,0,8" ToolTip="Detected SDMC storage paths"/>
+                                    <TextBlock Text="Active SDMC path" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                    <TextBox Text="{Binding EmulatorPathDisplay, Mode=OneWay}" IsReadOnly="True" TextWrapping="NoWrap" ToolTip="{Binding EmulatorPathDisplay}" FontSize="11" Padding="8,5" MinHeight="30" Margin="0,0,0,6"/>
+                                    <TextBlock Text="{Binding EmulatorStatus}" Style="{StaticResource MutedTextStyle}" FontSize="12" Margin="0,0,0,8"/>
+                                    <ListBox x:Name="EmulatorSaveRows" ItemsSource="{Binding EmulatorSaves}" SelectionMode="Single" SelectionChanged="EmulatorSaveRows_SelectionChanged"
+                                             IsEnabled="{Binding EmulatorControlsEnabled}" MaxHeight="210" BorderThickness="0" Padding="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="False">
+                                        <ListBox.ItemContainerStyle>
+                                            <Style TargetType="ListBoxItem" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                                                <Setter Property="IsEnabled" Value="{Binding IsReadable}"/>
+                                                <Setter Property="AutomationProperties.Name" Value="{Binding Name}"/>
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                                <Setter Property="Padding" Value="0"/>
+                                                <Setter Property="Margin" Value="0,0,0,4"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="ListBoxItem">
+                                                            <Border x:Name="RowHighlight" Background="Transparent" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="4">
+                                                                <Grid>
+                                                                    <Grid.ColumnDefinitions><ColumnDefinition Width="3"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                                                                    <Border x:Name="SelectionRail" Background="Transparent"/>
+                                                                    <ContentPresenter Grid.Column="1" Margin="8,7" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+                                                                </Grid>
+                                                            </Border>
+                                                            <ControlTemplate.Triggers>
+                                                                <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="RowHighlight" Property="Background" Value="{DynamicResource HoverBrush}"/></Trigger>
+                                                                <Trigger Property="IsSelected" Value="True">
+                                                                    <Setter TargetName="RowHighlight" Property="Background" Value="{DynamicResource SelectionBrush}"/>
+                                                                    <Setter TargetName="RowHighlight" Property="BorderBrush" Value="{DynamicResource AccentBrush}"/>
+                                                                    <Setter TargetName="SelectionRail" Property="Background" Value="{DynamicResource AccentBrush}"/>
+                                                                </Trigger>
+                                                                <Trigger Property="IsEnabled" Value="False"><Setter TargetName="RowHighlight" Property="Opacity" Value="0.55"/><Setter Property="Cursor" Value="Arrow"/></Trigger>
+                                                            </ControlTemplate.Triggers>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </ListBox.ItemContainerStyle>
+                                        <ListBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <Border ToolTip="{Binding ToolTip}">
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                                        <StackPanel Margin="0,0,12,0">
+                                                            <Grid>
+                                                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                                                <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="13" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis"/>
+                                                                <TextBlock Grid.Column="1" Text="{Binding GenderSymbol}" FontFamily="Segoe UI Symbol" Foreground="{DynamicResource InfoBrush}" ToolTip="{Binding GenderLabel}" Margin="8,0"/>
+                                                                <TextBlock Grid.Column="2" Text="{Binding RankLabel}">
+                                                                    <TextBlock.Style>
+                                                                        <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                                                            <Style.Triggers><DataTrigger Binding="{Binding IsReadable}" Value="False"><Setter Property="Foreground" Value="{DynamicResource MutedTextBrush}"/></DataTrigger></Style.Triggers>
+                                                                        </Style>
+                                                                    </TextBlock.Style>
+                                                                </TextBlock>
+                                                            </Grid>
+                                                            <TextBlock Text="{Binding Details}" Style="{StaticResource MutedTextStyle}" FontSize="11" Margin="0,3,0,0"/>
+                                                        </StackPanel>
+                                                        <TextBlock Grid.Column="1" Text="&#xE76C;" FontFamily="Segoe MDL2 Assets" Foreground="{DynamicResource MutedTextBrush}" VerticalAlignment="Center"/>
+                                                    </Grid>
+                                                </Border>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                </StackPanel>
+                            </Border>
+                            <StackPanel x:Name="OverviewRecentSection" Grid.Row="2" Grid.Column="0" Margin="0,18,0,0">
+                                <TextBlock Text="Recent saves" Style="{StaticResource SectionTitleStyle}"/>
+                                <TextBlock Text="No recent saves" Margin="0,0,0,8">
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock" BasedOn="{StaticResource MutedTextStyle}">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                            <Style.Triggers><DataTrigger Binding="{Binding RecentFiles.Count}" Value="0"><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                                <ListBox x:Name="RecentFilesList" ItemsSource="{Binding RecentFiles}" MouseDoubleClick="RecentFilesList_MouseDoubleClick" MinHeight="110" MaxHeight="220" ToolTip="Recent character saves">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="0,2">
+                                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                                <StackPanel>
+                                                    <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="14"/>
+                                                    <TextBlock Text="{Binding Stats}" Foreground="{DynamicResource AccentBrush}" FontSize="11"/>
+                                                    <TextBlock Text="{Binding PathSnippet}" Style="{StaticResource MutedTextStyle}" FontSize="10" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis"/>
+                                                </StackPanel>
+                                                <TextBlock Grid.Column="1" Text="&#xE8E5;" FontFamily="Segoe MDL2 Assets" Foreground="{DynamicResource AccentBrush}" Margin="12,0,0,0" VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                                </ListBox>
+                            </StackPanel>
+                            <StackPanel x:Name="OverviewActionsSection" Grid.Row="1" Grid.Column="2" Margin="0,16,0,0" IsEnabled="{Binding HasCharacter}">
+                                <Grid Height="34" Margin="0,0,0,8"><TextBlock x:Name="QuickActionsHeading" Text="Quick actions" Style="{StaticResource SectionTitleStyle}" VerticalAlignment="Center" Margin="0"/></Grid>
+                                <Button Content="Set every occupied item to 99" Click="SetAllItems99_Click" Margin="0,0,0,8"/>
+                                <Button Content="Remove duplicate items &amp; compact" Click="RemoveDupes_Click" Margin="0,0,0,8"/>
+                                <Button Content="Reset all unsaved changes" Style="{StaticResource DangerButtonStyle}" Click="ReloadCurrent_Click"/>
+                            </StackPanel>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+
+                <!-- CHARACTER SETTINGS -->
+                <Grid x:Name="CharacterPage" Visibility="Collapsed">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="0,0,0,16">
+                        <TextBlock Text="Character Settings" Style="{StaticResource PageTitleStyle}"/>
+                        <TextBlock Text="Edit identity and appearance bytes that are normally chosen during character creation." Style="{StaticResource MutedTextStyle}"/>
+                    </StackPanel>
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <Border Style="{StaticResource CardStyle}" Margin="0,0,0,14">
+                                <StackPanel>
+                                    <TextBlock Text="Identity" Style="{StaticResource SectionTitleStyle}"/>
+                                    <UniformGrid Columns="4">
+                                        <StackPanel Margin="0,0,8,8"><TextBlock Text="Name" Style="{StaticResource CompactFieldLabelStyle}"/><TextBox Text="{Binding Character.Name, UpdateSourceTrigger=PropertyChanged}" MaxLength="12"/></StackPanel>
+                                        <StackPanel Margin="4,0,4,8"><TextBlock Text="Gender" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox ItemsSource="{Binding Character.GenderOptions}" SelectedItem="{Binding Character.Gender, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/></StackPanel>
+                                        <StackPanel Margin="4,0,4,8"><TextBlock Text="Hunter Rank" Style="{StaticResource CompactFieldLabelStyle}"/><TextBox Text="{Binding Character.HunterRank, UpdateSourceTrigger=LostFocus}"/></StackPanel>
+                                        <StackPanel Margin="8,0,0,8"><TextBlock Text="Funds" Style="{StaticResource CompactFieldLabelStyle}"/><TextBox Text="{Binding Character.Funds, UpdateSourceTrigger=LostFocus}"/></StackPanel>
+                                    </UniformGrid>
+                                    <TextBlock Text="Gender writes the same save byte represented by the common codes: Male = 0, Female = 1." Style="{StaticResource MutedTextStyle}" FontSize="10" Margin="0,2,0,0"/>
+                                </StackPanel>
+                            </Border>
+
+                            <Border Style="{StaticResource CardStyle}" Margin="0,0,0,14">
+                                <StackPanel>
+                                    <TextBlock Text="Appearance" Style="{StaticResource SectionTitleStyle}"/>
+                                    <TextBlock Text="Character-creation choices are shown as friendly 1-based options while the editor writes the correct zero-based save byte underneath." Style="{StaticResource MutedTextStyle}" FontSize="11" TextWrapping="Wrap" Margin="0,0,0,12"/>
+                                    <UniformGrid Columns="3">
+                                        <StackPanel Margin="0,0,8,8">
+                                            <TextBlock Text="Face" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <ComboBox ItemsSource="{Binding Character.FaceOptions}" DisplayMemberPath="Label" SelectedValuePath="Value" SelectedValue="{Binding Character.Face, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="4,0,4,8">
+                                            <TextBlock Text="Hair Style" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <ComboBox ItemsSource="{Binding Character.HairStyleOptions}" DisplayMemberPath="Label" SelectedValuePath="Value" SelectedValue="{Binding Character.HairStyle, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="8,0,0,8">
+                                            <TextBlock Text="Voice" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <ComboBox ItemsSource="{Binding Character.VoiceOptions}" DisplayMemberPath="Label" SelectedValuePath="Value" SelectedValue="{Binding Character.Voice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="0,0,8,8">
+                                            <TextBlock Text="Clothing Type" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <ComboBox ItemsSource="{Binding Character.ClothingTypeOptions}" DisplayMemberPath="Label" SelectedValuePath="Value" SelectedValue="{Binding Character.ClothingType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="4,0,4,8">
+                                            <TextBlock Text="Eye Color" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <ComboBox ItemsSource="{Binding Character.EyeColorOptions}" DisplayMemberPath="Label" SelectedValuePath="Value" SelectedValue="{Binding Character.EyeColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="8,0,0,8">
+                                            <TextBlock Text="Features / Makeup" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                            <ComboBox ItemsSource="{Binding Character.FeaturesTypeOptions}" DisplayMemberPath="Label" SelectedValuePath="Value" SelectedValue="{Binding Character.FeaturesType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                    </UniformGrid>
+                                    <TextBlock Text="Verified creation-screen counts: 16 faces · 28 hairstyles · 20 voices · 6 clothing types · 10 eye colors · 12 feature styles." Style="{StaticResource MutedTextStyle}" FontSize="10" Margin="0,2,0,0"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Style="{StaticResource CardStyle}">
+                                <StackPanel>
+                                    <TextBlock Text="Appearance Colors" Style="{StaticResource SectionTitleStyle}"/>
+                                    <TextBlock Text="Click a color square to open the visual picker. The editor converts your choice to the RGB bytes stored by MH4U."
+                                               Style="{StaticResource MutedTextStyle}" FontSize="11" Margin="0,0,0,12"/>
+
+                                    <UniformGrid Columns="4">
+                                        <StackPanel Margin="0,0,8,0" HorizontalAlignment="Center">
+                                            <TextBlock Text="Features" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,7"/>
+                                            <Button Tag="Feature" Click="CharacterColor_Click" Width="66" Height="66" Padding="6"
+                                                    ToolTip="{Binding Character.FeatureColorHex}">
+                                                <Border Width="46" Height="46" CornerRadius="7" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                                                        Background="{Binding Character.FeatureColorBrush}"/>
+                                            </Button>
+                                        </StackPanel>
+                                        <StackPanel Margin="4,0" HorizontalAlignment="Center">
+                                            <TextBlock Text="Hair" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,7"/>
+                                            <Button Tag="Hair" Click="CharacterColor_Click" Width="66" Height="66" Padding="6"
+                                                    ToolTip="{Binding Character.HairColorHex}">
+                                                <Border Width="46" Height="46" CornerRadius="7" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                                                        Background="{Binding Character.HairColorBrush}"/>
+                                            </Button>
+                                        </StackPanel>
+                                        <StackPanel Margin="4,0" HorizontalAlignment="Center">
+                                            <TextBlock Text="Clothing" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,7"/>
+                                            <Button Tag="Clothing" Click="CharacterColor_Click" Width="66" Height="66" Padding="6"
+                                                    ToolTip="{Binding Character.ClothingColorHex}">
+                                                <Border Width="46" Height="46" CornerRadius="7" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                                                        Background="{Binding Character.ClothingColorBrush}"/>
+                                            </Button>
+                                        </StackPanel>
+                                        <StackPanel Margin="8,0,0,0" HorizontalAlignment="Center">
+                                            <TextBlock Text="Skin" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,7"/>
+                                            <Button Tag="Skin" Click="CharacterColor_Click" Width="66" Height="66" Padding="6"
+                                                    ToolTip="{Binding Character.SkinColorHex}">
+                                                <Border Width="46" Height="46" CornerRadius="7" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                                                        Background="{Binding Character.SkinColorBrush}"/>
+                                            </Button>
+                                        </StackPanel>
+                                    </UniformGrid>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+
+                <!-- ITEMS -->
+                <Grid x:Name="ItemsPage" Visibility="Collapsed">
+                    <Grid.Resources>
+                        <DataTemplate x:Key="ItemSlotTemplate">
+                            <Grid Background="Transparent" ToolTipService.InitialShowDelay="220">
+                                <Grid.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel MinWidth="190">
+                                            <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="13"/>
+                                            <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                                                <TextBlock Text="{Binding Category}" Foreground="{DynamicResource AccentBrush}" FontSize="10"/>
+                                                <TextBlock Text="   ·   " Foreground="{DynamicResource MutedTextBrush}" FontSize="10"/>
+                                                <TextBlock Text="{Binding RarityText}" Foreground="{DynamicResource WarningBrush}" FontSize="10"/>
+                                            </StackPanel>
+                                            <TextBlock FontSize="10" Foreground="{DynamicResource MutedTextBrush}" Margin="0,3,0,0">
+                                                <Run Text="Slot "/><Run Text="{Binding Slot, Mode=OneWay}"/><Run Text="   ·   Qty "/><Run Text="{Binding Count, Mode=OneWay}"/>
+                                            </TextBlock>
+                                            <TextBlock Text="{Binding EconomyText}" FontSize="9.5" Foreground="{DynamicResource MutedTextBrush}" Margin="0,3,0,0"/>
+                                            <TextBlock Text="{Binding Description}" FontSize="10" TextWrapping="Wrap" MaxWidth="300" Margin="0,7,0,0"/>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Grid.ToolTip>
+                                <Image Source="{Binding IconImage}" Width="24" Height="24" MaxWidth="24" MaxHeight="24" Margin="11" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Uniform" StretchDirection="DownOnly" SnapsToDevicePixels="True" RenderOptions.BitmapScalingMode="NearestNeighbor">
+                                    <Image.Style>
+                                        <Style TargetType="Image">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding HasIcon}" Value="False"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger>
+                                                <DataTrigger Binding="{Binding IsOccupied}" Value="False"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Image.Style>
+                                </Image>
+                                <TextBlock Text="{Binding IconGlyph}" FontSize="22" Foreground="{Binding IconBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0.96">
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding HasIcon}" Value="True"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger>
+                                                <DataTrigger Binding="{Binding IsOccupied}" Value="False"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                                <Border HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,3,3" Background="#D80B1118" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="7" Padding="4,1">
+                                    <Border.Style><Style TargetType="Border"><Setter Property="Visibility" Value="Visible"/><Style.Triggers><DataTrigger Binding="{Binding IsOccupied}" Value="False"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger></Style.Triggers></Style></Border.Style>
+                                    <TextBlock Text="{Binding Count}" FontSize="9" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}"/>
+                                </Border>
+                                <Border HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,3,0" Width="16" Height="16" CornerRadius="8" Background="{DynamicResource AccentBrush}">
+                                    <Border.Style><Style TargetType="Border"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=ListBoxItem}, Path=IsSelected}" Value="True"><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></Border.Style>
+                                    <TextBlock Text="✓" Foreground="#07110E" FontWeight="Bold" FontSize="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <TextBlock Text="{Binding Slot}" FontSize="7.5" Foreground="{DynamicResource MutedTextBrush}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,2,0,0"/>
+                            </Grid>
+                        </DataTemplate>
+                    </Grid.Resources>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="24"/><ColumnDefinition Width="*"/><ColumnDefinition Width="12"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Item Box" Style="{StaticResource PageTitleStyle}"/>
+                            <TextBlock Text="100 physical slots per box · search jumps to the real slot" Style="{StaticResource MutedTextStyle}" FontSize="11"/>
+                        </StackPanel>
+                        <Grid Grid.Column="2" VerticalAlignment="Center">
+                            <TextBox x:Name="ItemSearchBox" Style="{StaticResource SearchBoxStyle}" TextChanged="ItemSearchBox_TextChanged" PreviewKeyDown="ItemSearchBox_PreviewKeyDown" ToolTip="Search the items currently stored in this save"/>
+                            <TextBlock Text="Search this item box…" FontSize="12" Margin="13,0,0,0" VerticalAlignment="Center" IsHitTestVisible="False">
+                                <TextBlock.Style><Style TargetType="TextBlock" BasedOn="{StaticResource MutedTextStyle}"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding Text, ElementName=ItemSearchBox}" Value=""><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></TextBlock.Style>
+                            </TextBlock>
+                            <Popup x:Name="ItemSearchPopup" PlacementTarget="{Binding ElementName=ItemSearchBox}" Placement="Bottom" StaysOpen="False" AllowsTransparency="True">
+                                <Border Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource AccentBrush}" BorderThickness="1" CornerRadius="10" Padding="6" Width="560" MaxHeight="260">
+                                    <ListBox x:Name="ItemSearchSuggestionsList" ItemsSource="{Binding ItemSearchSuggestions}" SelectionChanged="ItemSearchSuggestionsList_SelectionChanged">
+                                        <ListBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid Margin="3">
+                                                    <Grid.ColumnDefinitions><ColumnDefinition Width="34"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                                    <Image Source="{Binding IconImage}" Width="24" Height="24" Stretch="Uniform" StretchDirection="DownOnly" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
+                                                    <StackPanel Grid.Column="1" Margin="8,0,0,0"><TextBlock Text="{Binding Name}" FontWeight="SemiBold"/><TextBlock Text="{Binding Category}" Style="{StaticResource MutedTextStyle}" FontSize="10"/></StackPanel>
+                                                    <Border Grid.Column="2" Style="{StaticResource ChipStyle}" VerticalAlignment="Center" Margin="10,0,2,0"><TextBlock Text="{Binding Slot, StringFormat=Slot {0}}" FontSize="10"/></Border>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                </Border>
+                            </Popup>
+                        </Grid>
+                        <ToggleButton Grid.Column="4" x:Name="ItemArrangeButton" Content="⇄  Arrange" Style="{StaticResource CompactToggleButtonStyle}" Checked="ItemArrange_Changed" Unchecked="ItemArrange_Changed" VerticalAlignment="Center"/>
+                    </Grid>
+
+                    <Grid Grid.Row="1" Margin="0,0,0,8">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <WrapPanel Grid.Column="0">
+                            <ToggleButton x:Name="ItemMultiSelectButton" Content="☑  Multi Select" Style="{StaticResource CompactToggleButtonStyle}" Checked="ItemMultiSelect_Changed" Unchecked="ItemMultiSelect_Changed" Margin="0,0,6,0" Visibility="Collapsed"/>
+                            <Button Content="Selected → 99" Style="{StaticResource CompactButtonStyle}" Click="SetSelectedItems99_Click" Margin="0,0,6,0"/>
+                            <TextBox x:Name="BulkItemAmountBox" Width="56" MinHeight="30" Height="30" Padding="7,3" Margin="0,0,5,0" ToolTip="0–99"/>
+                            <Button Content="Apply" Style="{StaticResource CompactButtonStyle}" Click="ApplySelectedItemAmount_Click" Margin="0,0,6,0"/>
+                            <Button Content="Clear" Style="{StaticResource CompactButtonStyle}" Click="ClearSelectedItems_Click" Margin="0,0,6,0"/>
+                            <Button Content="Sort A–Z" Style="{StaticResource CompactButtonStyle}" Click="SortItems_Click" Margin="0,0,6,0"/>
+                            <Button Content="Remove dupes" Style="{StaticResource CompactButtonStyle}" Click="RemoveDupes_Click"/>
+                        </WrapPanel>
+                        <Border Grid.Column="1" Style="{StaticResource ChipStyle}" VerticalAlignment="Center"><TextBlock Text="HD Remix UI" FontSize="10" Foreground="{DynamicResource AccentBrush}"/></Border>
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition x:Name="ItemGapColumn" Width="0"/>
+                            <ColumnDefinition x:Name="ItemRightColumn" Width="0"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Style="{StaticResource CardStyle}" Padding="7">
+                            <Grid>
+                                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                                <Grid Margin="3,0,3,7">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                        <TextBlock Text="BOX" Style="{StaticResource MutedTextStyle}" FontSize="9" FontWeight="Bold" Margin="0,0,7,0"/>
+                                        <TextBlock x:Name="ItemLeftBoxKind" Text="Items" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                        <Button Content="‹" Style="{StaticResource IconButtonStyle}" Click="ItemPagePrevious_Click" Tag="Left" Margin="0,0,5,0"/>
+                                        <Button x:Name="ItemPagePickerButton" Click="ItemPagePicker_Click" Tag="Left" Style="{StaticResource CompactButtonStyle}" MinWidth="82"><TextBlock x:Name="ItemPageLabel" Text="1 / 14" FontWeight="SemiBold"/></Button>
+                                        <Button Content="›" Style="{StaticResource IconButtonStyle}" Click="ItemPageNext_Click" Tag="Left" Margin="5,0,0,0"/>
+                                    </StackPanel>
+                                </Grid>
+                                <ListBox x:Name="ItemsGrid" Grid.Row="1" ItemsSource="{Binding ItemPageSlots}" SelectionMode="Single" Style="{StaticResource InventoryGridListBoxStyle}" ItemContainerStyle="{StaticResource SlotListBoxItemStyle}" ItemTemplate="{StaticResource ItemSlotTemplate}" SelectionChanged="ItemsGrid_SelectionChanged" PreviewMouseLeftButtonDown="ItemsGrid_PreviewMouseLeftButtonDown" PreviewMouseMove="ItemsGrid_PreviewMouseMove" AllowDrop="True" DragOver="ItemsGrid_DragOver" Drop="ItemsGrid_Drop">
+                                    <ListBox.ItemsPanel><ItemsPanelTemplate><UniformGrid Rows="10" Columns="10"/></ItemsPanelTemplate></ListBox.ItemsPanel>
+                                </ListBox>
+                            </Grid>
+                        </Border>
+
+                        <Border x:Name="ItemRightCard" Grid.Column="2" Style="{StaticResource CardStyle}" Padding="7" Visibility="Collapsed">
+                            <Grid>
+                                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                                <Grid Margin="3,0,3,7">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                        <TextBlock Text="TARGET" Foreground="{DynamicResource AccentBrush}" FontSize="9" FontWeight="Bold" Margin="0,0,7,0"/>
+                                        <TextBlock x:Name="ItemRightBoxKind" Text="Items" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                        <Button Content="‹" Style="{StaticResource IconButtonStyle}" Click="ItemRightPagePrevious_Click" Margin="0,0,5,0"/>
+                                        <Button x:Name="ItemRightPagePickerButton" Click="ItemPagePicker_Click" Tag="Right" Style="{StaticResource CompactButtonStyle}" MinWidth="82"><TextBlock x:Name="ItemRightPageLabel" Text="2 / 14" FontWeight="SemiBold"/></Button>
+                                        <Button Content="›" Style="{StaticResource IconButtonStyle}" Click="ItemRightPageNext_Click" Margin="5,0,0,0"/>
+                                    </StackPanel>
+                                </Grid>
+                                <ListBox x:Name="ItemsGridRight" Grid.Row="1" ItemsSource="{Binding ItemRightPageSlots}" SelectionMode="Extended" Style="{StaticResource InventoryGridListBoxStyle}" ItemContainerStyle="{StaticResource SlotListBoxItemStyle}" ItemTemplate="{StaticResource ItemSlotTemplate}" SelectionChanged="ItemsGrid_SelectionChanged" PreviewMouseLeftButtonDown="ItemsGrid_PreviewMouseLeftButtonDown" PreviewMouseMove="ItemsGrid_PreviewMouseMove" AllowDrop="True" DragOver="ItemsGrid_DragOver" Drop="ItemsGrid_Drop">
+                                    <ListBox.ItemsPanel><ItemsPanelTemplate><UniformGrid Rows="10" Columns="10"/></ItemsPanelTemplate></ListBox.ItemsPanel>
+                                </ListBox>
+                            </Grid>
+                        </Border>
+
+                        <Popup x:Name="ItemPagePickerPopup" Placement="Bottom" StaysOpen="False" AllowsTransparency="True">
+                            <Border Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="12" Padding="10" Width="430"><UniformGrid x:Name="ItemPagePickerGrid" Columns="4"/></Border>
+                        </Popup>
+                    </Grid>
+                </Grid>
+
+                <!-- EQUIPMENT -->
+                <Grid x:Name="EquipmentPage" Visibility="Collapsed">
+                    <Grid.Resources>
+                        <DataTemplate x:Key="EquipmentSlotTemplate">
+                            <Grid Background="Transparent" ToolTipService.InitialShowDelay="220">
+                                <Grid.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel MinWidth="190">
+                                            <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="13"/>
+                                            <TextBlock Text="{Binding Type}" Foreground="{DynamicResource AccentBrush}" FontSize="10" Margin="0,2,0,0"/>
+                                            <TextBlock FontSize="10" Foreground="{DynamicResource MutedTextBrush}" Margin="0,3,0,0"><Run Text="Slot "/><Run Text="{Binding Slot, Mode=OneWay}"/><Run Text="   ·   "/><Run Text="{Binding RarityText, Mode=OneWay}"/></TextBlock>
+                                            <TextBlock Text="{Binding CatalogStats}" FontSize="9.5" Foreground="{DynamicResource MutedTextBrush}" TextWrapping="Wrap" MaxWidth="330" Margin="0,5,0,0"/>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Grid.ToolTip>
+                                <Image Source="{Binding Image}" Margin="3" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                                <Border HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3,0,0,3" Background="#D80B1118" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="6" Padding="3,1">
+                                    <Border.Style><Style TargetType="Border"><Setter Property="Visibility" Value="Visible"/><Style.Triggers><DataTrigger Binding="{Binding IsOccupied}" Value="False"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger><DataTrigger Binding="{Binding StoredRarity}" Value="0"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger></Style.Triggers></Style></Border.Style>
+                                    <TextBlock Text="{Binding StoredRarity, StringFormat=R{0}}" FontSize="8" FontWeight="Bold" Foreground="{DynamicResource WarningBrush}"/>
+                                </Border>
+                                <Border HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,3,0" Width="16" Height="16" CornerRadius="8" Background="{DynamicResource AccentBrush}">
+                                    <Border.Style><Style TargetType="Border"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=ListBoxItem}, Path=IsSelected}" Value="True"><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></Border.Style>
+                                    <TextBlock Text="✓" Foreground="#07110E" FontWeight="Bold" FontSize="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <TextBlock Text="{Binding Slot}" FontSize="7.5" Foreground="{DynamicResource MutedTextBrush}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,2,0,0"/>
+                            </Grid>
+                        </DataTemplate>
+                    </Grid.Resources>
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="24"/><ColumnDefinition Width="*"/><ColumnDefinition Width="12"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Equipment" Style="{StaticResource PageTitleStyle}"/>
+                            <TextBlock Text="Inventory position is preserved exactly like the in-game equipment box" Style="{StaticResource MutedTextStyle}" FontSize="11"/>
+                        </StackPanel>
+                        <Grid Grid.Column="2" VerticalAlignment="Center">
+                            <TextBox x:Name="EquipmentSearchBox" Style="{StaticResource SearchBoxStyle}" TextChanged="EquipmentSearchBox_TextChanged" PreviewKeyDown="EquipmentSearchBox_PreviewKeyDown" ToolTip="Search equipment stored in this save"/>
+                            <TextBlock Text="Search weapons, armor or talismans…" FontSize="12" Margin="13,0,0,0" VerticalAlignment="Center" IsHitTestVisible="False">
+                                <TextBlock.Style><Style TargetType="TextBlock" BasedOn="{StaticResource MutedTextStyle}"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding Text, ElementName=EquipmentSearchBox}" Value=""><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></TextBlock.Style>
+                            </TextBlock>
+                            <Popup x:Name="EquipmentSearchPopup" PlacementTarget="{Binding ElementName=EquipmentSearchBox}" Placement="Bottom" StaysOpen="False" AllowsTransparency="True">
+                                <Border Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource AccentBrush}" BorderThickness="1" CornerRadius="10" Padding="6" Width="580" MaxHeight="260">
+                                    <ListBox x:Name="EquipmentSearchSuggestionsList" ItemsSource="{Binding EquipmentSearchSuggestions}" SelectionChanged="EquipmentSearchSuggestionsList_SelectionChanged">
+                                        <ListBox.ItemTemplate><DataTemplate><Grid Margin="3"><Grid.ColumnDefinitions><ColumnDefinition Width="34"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><Image Source="{Binding Image}" Width="28" Height="28" Stretch="Uniform"/><StackPanel Grid.Column="1" Margin="8,0,0,0"><TextBlock Text="{Binding Name}" FontWeight="SemiBold"/><TextBlock Text="{Binding Type}" Style="{StaticResource MutedTextStyle}" FontSize="10"/></StackPanel><Border Grid.Column="2" Style="{StaticResource ChipStyle}" VerticalAlignment="Center" Margin="10,0,2,0"><TextBlock Text="{Binding Slot, StringFormat=Slot {0}}" FontSize="10"/></Border></Grid></DataTemplate></ListBox.ItemTemplate>
+                                    </ListBox>
+                                </Border>
+                            </Popup>
+                        </Grid>
+                        <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button x:Name="EquipmentSortButton" Content="Sort  ▾" Style="{StaticResource CompactButtonStyle}" Click="EquipmentSortButton_Click" Margin="0,0,7,0" ToolTip="Rearrange the physical equipment box using a saved layout"/>
+                            <ToggleButton x:Name="EquipmentArrangeButton" Content="⇄  Arrange" Style="{StaticResource CompactToggleButtonStyle}" Checked="EquipmentArrange_Changed" Unchecked="EquipmentArrange_Changed"/>
+                        </StackPanel>
+                        <Popup x:Name="EquipmentSortPopup" PlacementTarget="{Binding ElementName=EquipmentSortButton}" Placement="Bottom" StaysOpen="False" AllowsTransparency="True">
+                            <Border Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="10" Padding="7" Width="310">
+                                <StackPanel>
+                                    <Button Style="{StaticResource CompactButtonStyle}" Click="SortEquipmentMonsterSets_Click" HorizontalContentAlignment="Left" Padding="10,8">
+                                        <StackPanel>
+                                            <TextBlock Text="Monster Sets" FontWeight="SemiBold"/>
+                                            <TextBlock Text="Vertical 5-piece sets by rarity/catalog order; weapons then talismans." Style="{StaticResource MutedTextStyle}" FontSize="9.5" TextWrapping="Wrap" Margin="0,2,0,0"/>
+                                        </StackPanel>
+                                    </Button>
+                                    <TextBlock Text="More sort layouts can be added here later." Style="{StaticResource MutedTextStyle}" FontSize="9" Margin="5,7,5,2"/>
+                                </StackPanel>
+                            </Border>
+                        </Popup>
+                    </Grid>
+
+                    <Grid Grid.Row="1" Margin="0,0,0,8">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <WrapPanel Grid.Column="0">
+                            <ToggleButton x:Name="EquipmentMultiSelectButton" Content="☑  Multi Select" Style="{StaticResource CompactToggleButtonStyle}" Checked="EquipmentMultiSelect_Changed" Unchecked="EquipmentMultiSelect_Changed" Visibility="Collapsed" Margin="0,0,6,0"/>
+                            <Button x:Name="EquipmentSellSelectedButton" Content="Sell selected" Style="{StaticResource DangerButtonStyle}" Click="SellSelectedEquipment_Click" Visibility="Collapsed" Padding="10,5" ToolTip="Remove selected equipment. The current catalog does not expose reliable equipment resale zenny, so Funds are not changed."/>
+                        </WrapPanel>
+                        <Border Grid.Column="1" Style="{StaticResource ChipStyle}" VerticalAlignment="Center"><TextBlock Text="MH4U DB rarity + icons" FontSize="10" Foreground="{DynamicResource WarningBrush}"/></Border>
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition x:Name="EquipmentGapColumn" Width="0"/><ColumnDefinition x:Name="EquipmentRightColumn" Width="0"/></Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Style="{StaticResource CardStyle}" Padding="7">
+                            <Grid>
+                                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                                <Grid Margin="3,0,3,7">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><TextBlock Text="BOX" Style="{StaticResource MutedTextStyle}" FontSize="9" FontWeight="Bold" Margin="0,0,7,0"/><TextBlock x:Name="EquipmentLeftBoxKind" Text="Equipment" FontWeight="SemiBold" VerticalAlignment="Center"/></StackPanel>
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal"><Button Content="‹" Style="{StaticResource IconButtonStyle}" Click="EquipmentPagePrevious_Click" Tag="Left" Margin="0,0,5,0"/><Button x:Name="EquipmentPagePickerButton" Click="EquipmentPagePicker_Click" Tag="Left" Style="{StaticResource CompactButtonStyle}" MinWidth="82"><TextBlock x:Name="EquipmentPageLabel" Text="1 / 15" FontWeight="SemiBold"/></Button><Button Content="›" Style="{StaticResource IconButtonStyle}" Click="EquipmentPageNext_Click" Tag="Left" Margin="5,0,0,0"/></StackPanel>
+                                </Grid>
+                                <ListBox x:Name="EquipmentGrid" Grid.Row="1" ItemsSource="{Binding EquipmentPageSlots}" SelectionMode="Single" Style="{StaticResource InventoryGridListBoxStyle}" ItemContainerStyle="{StaticResource SlotListBoxItemStyle}" ItemTemplate="{StaticResource EquipmentSlotTemplate}" SelectionChanged="EquipmentGrid_SelectionChanged" PreviewMouseLeftButtonDown="EquipmentGrid_PreviewMouseLeftButtonDown" PreviewMouseMove="EquipmentGrid_PreviewMouseMove" AllowDrop="True" DragOver="EquipmentGrid_DragOver" Drop="EquipmentGrid_Drop"><ListBox.ItemsPanel><ItemsPanelTemplate><UniformGrid Rows="10" Columns="10"/></ItemsPanelTemplate></ListBox.ItemsPanel></ListBox>
+                            </Grid>
+                        </Border>
+                        <Border x:Name="EquipmentRightCard" Grid.Column="2" Style="{StaticResource CardStyle}" Padding="7" Visibility="Collapsed">
+                            <Grid>
+                                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                                <Grid Margin="3,0,3,7">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><TextBlock Text="TARGET" Foreground="{DynamicResource AccentBrush}" FontSize="9" FontWeight="Bold" Margin="0,0,7,0"/><TextBlock x:Name="EquipmentRightBoxKind" Text="Equipment" FontWeight="SemiBold" VerticalAlignment="Center"/></StackPanel>
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal"><Button Content="‹" Style="{StaticResource IconButtonStyle}" Click="EquipmentRightPagePrevious_Click" Margin="0,0,5,0"/><Button x:Name="EquipmentRightPagePickerButton" Click="EquipmentPagePicker_Click" Tag="Right" Style="{StaticResource CompactButtonStyle}" MinWidth="82"><TextBlock x:Name="EquipmentRightPageLabel" Text="2 / 15" FontWeight="SemiBold"/></Button><Button Content="›" Style="{StaticResource IconButtonStyle}" Click="EquipmentRightPageNext_Click" Margin="5,0,0,0"/></StackPanel>
+                                </Grid>
+                                <ListBox x:Name="EquipmentGridRight" Grid.Row="1" ItemsSource="{Binding EquipmentRightPageSlots}" SelectionMode="Extended" Style="{StaticResource InventoryGridListBoxStyle}" ItemContainerStyle="{StaticResource SlotListBoxItemStyle}" ItemTemplate="{StaticResource EquipmentSlotTemplate}" SelectionChanged="EquipmentGrid_SelectionChanged" PreviewMouseLeftButtonDown="EquipmentGrid_PreviewMouseLeftButtonDown" PreviewMouseMove="EquipmentGrid_PreviewMouseMove" AllowDrop="True" DragOver="EquipmentGrid_DragOver" Drop="EquipmentGrid_Drop"><ListBox.ItemsPanel><ItemsPanelTemplate><UniformGrid Rows="10" Columns="10"/></ItemsPanelTemplate></ListBox.ItemsPanel></ListBox>
+                            </Grid>
+                        </Border>
+                        <Popup x:Name="EquipmentPagePickerPopup" Placement="Bottom" StaysOpen="False" AllowsTransparency="True"><Border Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="12" Padding="10" Width="430"><UniformGrid x:Name="EquipmentPagePickerGrid" Columns="4"/></Border></Popup>
+                    </Grid>
+                </Grid>
+
+                <!-- QUESTS -->
+                <Grid x:Name="QuestsPage" Visibility="Collapsed">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="0,0,0,16">
+                        <TextBlock Text="Guild Quests" Style="{StaticResource PageTitleStyle}"/>
+                        <TextBlock Text="Select a quest to open its editor. Guild Quest editing is still experimental, so automatic backups remain strongly recommended." Style="{StaticResource MutedTextStyle}"/>
+                    </StackPanel>
+                    <Border Grid.Row="1" Style="{StaticResource CardStyle}" Padding="8">
+                        <ListBox x:Name="QuestList" ItemsSource="{Binding Quests}" SelectionChanged="QuestList_SelectionChanged" HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="6,5">
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="58"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                        <Border Width="44" Height="44" CornerRadius="10" Background="{DynamicResource Surface2Brush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1">
+                                            <TextBlock Text="{Binding Slot}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}"/>
+                                        </Border>
+                                        <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Summary}" FontWeight="SemiBold" FontSize="13"/>
+                                            <TextBlock Text="{Binding Owner}" Style="{StaticResource MutedTextStyle}" FontSize="11" Margin="0,3,0,0"/>
+                                        </StackPanel>
+                                        <Border Grid.Column="2" Style="{StaticResource AccentChipStyle}" VerticalAlignment="Center" Margin="12,0,4,0">
+                                            <TextBlock Text="Edit ›" Foreground="{DynamicResource AccentBrush}" FontSize="10"/>
+                                        </Border>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Border>
+                </Grid>
+
+                <!-- PALICOS -->
+                <Grid x:Name="PalicosPage" Visibility="Collapsed">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="0,0,0,16">
+                        <TextBlock Text="Palicos" Style="{StaticResource PageTitleStyle}"/>
+                        <TextBlock Text="Main, stringer, and reserve Palicos in one searchable-friendly list." Style="{StaticResource MutedTextStyle}"/>
+                    </StackPanel>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="1.1*"/><ColumnDefinition Width="16"/><ColumnDefinition Width="0.9*"/></Grid.ColumnDefinitions>
+                        <ListBox x:Name="PalicoList" Grid.Column="0" ItemsSource="{Binding Palicos}" SelectionChanged="PalicoList_SelectionChanged" ScrollViewer.CanContentScroll="True" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="4">
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="54"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                        <Border Width="42" Height="42" CornerRadius="21" Background="{DynamicResource Surface2Brush}"><TextBlock Text="{Binding Slot}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}"/></Border>
+                                        <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Name}" FontWeight="SemiBold"/>
+                                            <TextBlock Style="{StaticResource MutedTextStyle}" FontSize="11"><Run Text="EXP  "/><Run Text="{Binding ExpText, Mode=OneWay}"/></TextBlock>
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="2" Text="Edit ›" Foreground="{DynamicResource AccentBrush}" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        <Border Grid.Column="2" Style="{StaticResource CardStyle}" Padding="16">
+                            <ScrollViewer><StackPanel>
+                                <TextBlock x:Name="PalicoInspectorTitle" Text="Select a Palico" Style="{StaticResource SectionTitleStyle}"/>
+                                <ItemsControl ItemsSource="{Binding PalicoFields}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate DataType="{x:Type vm:EditablePropertyViewModel}">
+                                            <StackPanel Margin="0,0,0,10">
+                                                <TextBlock Text="{Binding Label}" Style="{StaticResource MutedTextStyle}" FontSize="11" Margin="0,0,0,4"/>
+                                                <TextBox Text="{Binding ValueText, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+                                                <TextBlock Text="{Binding Error}" Foreground="{DynamicResource DangerBrush}" FontSize="10"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel></ScrollViewer>
+                        </Border>
+                    </Grid>
+                </Grid>
+
+                <!-- ADVANCED / BACKUPS -->
+                <Grid x:Name="AdvancedPage" Visibility="Collapsed">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="0,0,0,16">
+                        <TextBlock Text="Backups &amp; Advanced" Style="{StaticResource PageTitleStyle}"/>
+                        <TextBlock Text="Recovery tools and the guardrails around dangerous edits." Style="{StaticResource MutedTextStyle}"/>
+                    </StackPanel>
+                    <ScrollViewer Grid.Row="1">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                                <Border Grid.Column="0" Style="{StaticResource CardStyle}" Margin="0,0,12,0">
+                                    <StackPanel>
+                                        <TextBlock Text="Save behavior" Style="{StaticResource SectionTitleStyle}"/>
+                                        <CheckBox x:Name="AutoBackupCheck" Content="Create timestamped backup before every save" IsChecked="True"/>
+                                        <CheckBox x:Name="PreviewCheck" Content="Show change preview before saving" IsChecked="True" Margin="0,10,0,0"/>
+                                        <CheckBox x:Name="ValidationCheck" Content="Warn about suspicious values" IsChecked="True" Margin="0,10,0,0"/>
+                                    </StackPanel>
+                                </Border>
+                                <Border Grid.Column="1" Style="{StaticResource CardStyle}" Margin="12,0,0,0">
+                                    <StackPanel>
+                                        <TextBlock Text="Recovery" Style="{StaticResource SectionTitleStyle}"/>
+                                        <Button Content="Reset all unsaved changes" Style="{StaticResource DangerButtonStyle}" Click="ReloadCurrent_Click" Margin="0,0,0,8"/>
+                                        <Button Content="Open backup folder" Click="OpenBackupFolder_Click"/>
+                                    </StackPanel>
+                                </Border>
+                            </Grid>
+                            <Border Style="{StaticResource CardStyle}" Margin="0,24,0,0">
+                                <StackPanel>
+                                    <Grid Margin="0,0,0,12">
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                        <TextBlock Text="Backups for this save" Style="{StaticResource SectionTitleStyle}" Margin="0"/>
+                                        <Button Grid.Column="1" Content="Refresh" Click="RefreshBackups_Click"/>
+                                    </Grid>
+                                    <DataGrid x:Name="BackupsGrid" ItemsSource="{Binding Backups}" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" MinHeight="220">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Backup" Binding="{Binding Name}" Width="*"/>
+                                            <DataGridTextColumn Header="Created" Binding="{Binding Date}" Width="210"/>
+                                            <DataGridTextColumn Header="Size" Binding="{Binding Size}" Width="100"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button Content="Restore selected backup" Style="{StaticResource DangerButtonStyle}" HorizontalAlignment="Right" Margin="0,12,0,0" Click="RestoreBackup_Click"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Style="{StaticResource CardStyle}" Margin="0,24,0,0">
+                                <StackPanel>
+                                    <TextBlock Text="Known upstream limitations" Style="{StaticResource SectionTitleStyle}"/>
+                                    <TextBlock Text="• Guild Quest editing is experimental in the upstream editor." Margin="0,0,0,6"/>
+                                    <TextBlock Text="• Relic-only fields can create invalid equipment if used on normal gear." Margin="0,0,0,6"/>
+                                    <TextBlock Text="• Upstream documents a waist armor ID mismatch at some point in the list."/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!-- Centered single-click editors. Hidden while arranging. -->
+        <Grid x:Name="EditorOverlay" Grid.Row="0" Grid.RowSpan="3" Visibility="Collapsed" Panel.ZIndex="100" Background="#B50A0D12">
+            <Border VerticalAlignment="Center" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="16" Padding="0">
+                <Border.Style><Style TargetType="Border"><Setter Property="Width" Value="930"/><Setter Property="MaxWidth" Value="930"/><Setter Property="MaxHeight" Value="690"/><Setter Property="HorizontalAlignment" Value="Center"/><Setter Property="Margin" Value="0"/><Style.Triggers><DataTrigger Binding="{Binding Visibility, ElementName=CustomQuestOverlayHost}" Value="Visible"><Setter Property="Width" Value="Auto"/><Setter Property="HorizontalAlignment" Value="Stretch"/><Setter Property="MaxWidth" Value="1200"/><Setter Property="MaxHeight" Value="820"/><Setter Property="Margin" Value="20"/></DataTrigger></Style.Triggers></Style></Border.Style>
+                <Border.Effect><DropShadowEffect Color="#000000" BlurRadius="30" ShadowDepth="8" Opacity="0.45"/></Border.Effect>
+                <Grid>
+                    <!-- Item editor -->
+                    <Grid x:Name="ItemEditorOverlayPanel" Visibility="Collapsed">
+                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                        <Border Grid.Row="0" Background="{DynamicResource Surface2Brush}" CornerRadius="16,16,0,0" Padding="20,16" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1">
+                            <Grid>
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="72"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                <Border Width="58" Height="58" Background="{DynamicResource IconSurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="11">
+                                    <Grid><Image x:Name="SelectedItemImage" Margin="5" Stretch="Uniform"/><TextBlock x:Name="SelectedItemIconGlyph" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Center"/></Grid>
+                                </Border>
+                                <StackPanel Grid.Column="1" Margin="12,1,0,0" VerticalAlignment="Center">
+                                    <TextBlock x:Name="SelectedItemTitle" Text="Item" FontSize="21" FontWeight="SemiBold"/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                        <Border Style="{StaticResource AccentChipStyle}" Margin="0,0,6,0"><TextBlock x:Name="SelectedItemCategoryChip" Text="Item" FontSize="10" Foreground="{DynamicResource AccentBrush}"/></Border>
+                                        <Border Style="{StaticResource ChipStyle}"><TextBlock x:Name="SelectedItemSlotChip" Text="Slot" FontSize="10"/></Border>
+                                    </StackPanel>
+                                </StackPanel>
+                                <Button Grid.Column="2" Content="✕" Style="{StaticResource IconButtonStyle}" Width="38" Height="38" Click="CloseEditorOverlay_Click" ToolTip="Close"/>
+                            </Grid>
+                        </Border>
+                        <Grid Grid.Row="1" Margin="20">
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                            <Border Grid.Row="0" Style="{StaticResource CardStyle}" Padding="14">
+                                <Grid>
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="2.1*"/><ColumnDefinition Width="14"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Column="0"><TextBlock Text="Item" Style="{StaticResource MutedTextStyle}" FontSize="10" FontWeight="SemiBold" Margin="0,0,0,5"/><ComboBox x:Name="SelectedItemIdCombo" ItemsSource="{Binding ItemNames}" SelectionChanged="SelectedItemIdCombo_SelectionChanged" IsTextSearchEnabled="True"/></StackPanel>
+                                    <StackPanel Grid.Column="2"><TextBlock Text="Quantity" Style="{StaticResource MutedTextStyle}" FontSize="10" FontWeight="SemiBold" Margin="0,0,0,5"/><TextBox x:Name="SelectedItemCountBox" LostFocus="SelectedItemCountBox_LostFocus"/></StackPanel>
+                                </Grid>
+                            </Border>
+                            <StackPanel Grid.Row="1" Margin="4,12,4,0">
+                                <TextBlock x:Name="SelectedItemSubtitle" Style="{StaticResource MutedTextStyle}" FontSize="11"/>
+                                <Border x:Name="SelectedItemCatalogCard" Background="{DynamicResource Surface2Brush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="9" Padding="10" Margin="0,9,0,0">
+                                    <StackPanel>
+                                        <TextBlock x:Name="SelectedItemCatalogLine" FontSize="10" FontWeight="SemiBold" Foreground="{DynamicResource AccentBrush}"/>
+                                        <TextBlock x:Name="SelectedItemCatalogDescription" FontSize="10" TextWrapping="Wrap" Margin="0,4,0,0"/>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Grid>
+                        <Border Grid.Row="2" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0" Padding="20,14">
+                            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock Text="Edits stay unsaved until you press Save Changes." Style="{StaticResource MutedTextStyle}" FontSize="10" VerticalAlignment="Center"/><StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right"><Button Content="Set 99" Style="{StaticResource CompactButtonStyle}" Click="SetSelectedItems99_Click" Margin="0,0,7,0"/><Button Content="Clear slot" Style="{StaticResource DangerButtonStyle}" Click="ClearSelectedItems_Click" Margin="0,0,7,0"/><Button Content="Done" Style="{StaticResource AccentButtonStyle}" Click="CloseEditorOverlay_Click"/></StackPanel></Grid>
+                        </Border>
+                    </Grid>
+
+                    <!-- Equipment editor -->
+                    <Grid x:Name="EquipmentEditorOverlayPanel" Visibility="Collapsed">
+                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                        <Border Grid.Row="0" Background="{DynamicResource Surface2Brush}" CornerRadius="16,16,0,0" Padding="20,14" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1">
+                            <Grid>
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="72"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                <Border Width="58" Height="58" Background="{DynamicResource IconSurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="11"><Image x:Name="SelectedEquipmentImage" Stretch="Uniform" Margin="5"/></Border>
+                                <StackPanel Grid.Column="1" Margin="12,1,0,0" VerticalAlignment="Center">
+                                    <TextBlock x:Name="SelectedEquipmentTitle" Text="Equipment" FontSize="21" FontWeight="SemiBold"/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                        <Border Style="{StaticResource AccentChipStyle}" Margin="0,0,6,0"><TextBlock x:Name="SelectedEquipmentTypeChip" Text="Equipment" FontSize="10" Foreground="{DynamicResource AccentBrush}"/></Border>
+                                        <Border Style="{StaticResource ChipStyle}" Margin="0,0,6,0"><TextBlock x:Name="SelectedEquipmentSlotChip" Text="Slot" FontSize="10"/></Border>
+                                        <Border Style="{StaticResource ChipStyle}"><TextBlock x:Name="SelectedEquipmentRarityChip" Text="Rarity" FontSize="10" Foreground="{DynamicResource WarningBrush}"/></Border>
+                                    </StackPanel>
+                                </StackPanel>
+                                <Button Grid.Column="2" Content="✕" Style="{StaticResource IconButtonStyle}" Width="38" Height="38" Click="CloseEditorOverlay_Click" ToolTip="Close"/>
+                            </Grid>
+                        </Border>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="20,14,20,12">
+                            <StackPanel>
+                                <!-- Icon-first equipment type picker. No long text dropdown. -->
+                                <Border x:Name="EquipmentTypePickerCard" Style="{StaticResource CardStyle}" Padding="10" Margin="0,0,0,10" Visibility="Collapsed">
+                                    <StackPanel>
+                                        <Grid Margin="2,0,2,7"><TextBlock Text="TYPE" Style="{StaticResource MutedTextStyle}" FontSize="9" FontWeight="Bold"/><TextBlock HorizontalAlignment="Right" Text="Pick a category" Style="{StaticResource MutedTextStyle}" FontSize="9"/></Grid>
+                                        <UniformGrid x:Name="EquipmentTypeIconGrid" Columns="10">
+                                            <ToggleButton Tag="1" ToolTip="Chest" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Chest.png"/><TextBlock Text="Chest"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="2" ToolTip="Arms" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Arms.png"/><TextBlock Text="Arms"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="3" ToolTip="Waist" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Waist.png"/><TextBlock Text="Waist"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="4" ToolTip="Legs" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Legs.png"/><TextBlock Text="Legs"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="5" ToolTip="Head" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Head.png"/><TextBlock Text="Head"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="6" ToolTip="Talisman" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Talisman.png"/><TextBlock Text="Talisman"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="7" ToolTip="Great Sword" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Greatsword.png"/><TextBlock Text="GS"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="8" ToolTip="Sword and Shield" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_SwordAndShield.png"/><TextBlock Text="SnS"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="9" ToolTip="Hammer" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Hammer.png"/><TextBlock Text="Hammer"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="10" ToolTip="Lance" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Lance.png"/><TextBlock Text="Lance"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="11" ToolTip="Light Bowgun" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_LightBowgun.png"/><TextBlock Text="LBG"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="12" ToolTip="Heavy Bowgun" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_HeavyBowgun.png"/><TextBlock Text="HBG"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="13" ToolTip="Longsword" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Longsword.png"/><TextBlock Text="LS"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="14" ToolTip="Switch Axe" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Switchaxe.png"/><TextBlock Text="SA"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="15" ToolTip="Gunlance" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Gunlance.png"/><TextBlock Text="GL"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="16" ToolTip="Bow" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Bow.png"/><TextBlock Text="Bow"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="17" ToolTip="Dual Blades" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_Dualblades.png"/><TextBlock Text="DB"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="18" ToolTip="Hunting Horn" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_HuntingHorn.png"/><TextBlock Text="HH"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="19" ToolTip="Insect Glaive" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_InsectGlaive.png"/><TextBlock Text="IG"/></StackPanel></ToggleButton>
+                                            <ToggleButton Tag="20" ToolTip="Charge Blade" Style="{StaticResource EquipmentTypeTileStyle}" Click="EquipmentTypeIcon_Click"><StackPanel><Image Source="images/Equip_ChargeBlade.png"/><TextBlock Text="CB"/></StackPanel></ToggleButton>
+                                        </UniformGrid>
+                                    </StackPanel>
+                                </Border>
+
+                                <Border Style="{StaticResource CardStyle}" Padding="11" Margin="0,0,0,10">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                        <StackPanel>
+                                            <Grid Margin="0,0,0,6">
+                                                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                                                <TextBlock Text="EQUIPMENT" Style="{StaticResource MutedTextStyle}" FontSize="9" FontWeight="Bold" VerticalAlignment="Center"/>
+                                                <Button x:Name="EquipmentTypePickerButton" Grid.Column="1" HorizontalAlignment="Right" Content="Type: Equipment  ▾" Style="{StaticResource CompactButtonStyle}" Padding="9,4" Click="EquipmentTypePickerButton_Click"/>
+                                            </Grid>
+                                            <ComboBox x:Name="EquipmentIdCombo" DisplayMemberPath="IDString" SelectedValuePath="ID" SelectionChanged="EquipmentIdCombo_SelectionChanged" IsTextSearchEnabled="True"/>
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Bottom" Margin="12,0,0,0">
+                                            <Button Content="Copy" Style="{StaticResource CompactButtonStyle}" Click="CopyEquipment_Click" Margin="0,0,5,0"/>
+                                            <Button Content="Paste" Style="{StaticResource CompactButtonStyle}" Click="PasteEquipment_Click" Margin="0,0,5,0"/>
+                                            <Button Content="Duplicate" Style="{StaticResource CompactButtonStyle}" Click="DuplicateEquipment_Click" Margin="0,0,5,0"/>
+                                            <Button Content="Clear" Style="{StaticResource DangerButtonStyle}" Click="ClearEquipment_Click" Padding="10,5" MinHeight="30"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+
+                                <!-- Weapon editor -->
+                                <StackPanel x:Name="WeaponEditorPanel" Visibility="Collapsed">
+                                    <Border Style="{StaticResource EditorSectionStyle}" Margin="0,0,0,10">
+                                        <StackPanel>
+                                            <TextBlock Text="DECORATIONS" Style="{StaticResource EditorSectionHeaderStyle}"/>
+                                            <UniformGrid Columns="3">
+                                                <StackPanel Margin="0,0,8,0"><TextBlock Text="Slot 1" Style="{StaticResource CompactFieldLabelStyle}"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><ComboBox x:Name="WeaponSlot1Combo" Tag="Slot1" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/><CheckBox x:Name="WeaponSlot1FixedCheck" Tag="Slot1Fixed" Grid.Column="1" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed" ToolTip="Fixed decoration" Margin="7,0,0,0"/></Grid></StackPanel>
+                                                <StackPanel Margin="4,0"><TextBlock Text="Slot 2" Style="{StaticResource CompactFieldLabelStyle}"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><ComboBox x:Name="WeaponSlot2Combo" Tag="Slot2" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/><CheckBox x:Name="WeaponSlot2FixedCheck" Tag="Slot2Fixed" Grid.Column="1" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed" ToolTip="Fixed decoration" Margin="7,0,0,0"/></Grid></StackPanel>
+                                                <StackPanel Margin="8,0,0,0"><TextBlock Text="Slot 3" Style="{StaticResource CompactFieldLabelStyle}"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><ComboBox x:Name="WeaponSlot3Combo" Tag="Slot3" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/><CheckBox x:Name="WeaponSlot3FixedCheck" Tag="Slot3Fixed" Grid.Column="1" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed" ToolTip="Fixed decoration" Margin="7,0,0,0"/></Grid></StackPanel>
+                                            </UniformGrid>
+                                        </StackPanel>
+                                    </Border>
+
+                                    <Border x:Name="NormalWeaponHoningSection" Style="{StaticResource EditorSectionStyle}" Margin="0,0,0,10" Visibility="Collapsed">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="280"/></Grid.ColumnDefinitions>
+                                            <StackPanel VerticalAlignment="Center">
+                                                <TextBlock Text="NORMAL WEAPON" Style="{StaticResource EditorSectionHeaderStyle}"/>
+                                                <TextBlock Text="Crafted weapons expose only decoration slots and the normal honing value. Relic-only bytes stay hidden." Style="{StaticResource MutedTextStyle}" FontSize="10" Margin="0,3,16,0" TextWrapping="Wrap"/>
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="1">
+                                                <TextBlock Text="Honing" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                                <ComboBox x:Name="NormalWeaponHoningCombo" Tag="Honing" SelectionChanged="EquipmentValueCombo_SelectionChanged"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+
+                                    <Border x:Name="WeaponStatsSection" Style="{StaticResource EditorSectionStyle}" Margin="0,0,0,10">
+                                        <StackPanel>
+                                            <TextBlock x:Name="WeaponStatsHeader" Text="STATS" Style="{StaticResource EditorSectionHeaderStyle}"/>
+                                            <UniformGrid x:Name="WeaponStatsGrid" Columns="5">
+                                                <StackPanel x:Name="WeaponElementTypeField" Margin="0,0,7,0"><TextBlock Text="Element" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponElementTypeCombo" Tag="ElementType" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel x:Name="WeaponElementValueField" Margin="2,0,5,0"><TextBlock Text="Element Attack" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponElementValueCombo" Tag="ElementValue" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel x:Name="WeaponSharpnessField" Margin="4,0"><TextBlock x:Name="WeaponSharpnessLabel" Text="Sharpness" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponSharpnessCombo" Tag="Sharpness" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel x:Name="WeaponHoningField" Margin="5,0,2,0"><TextBlock Text="Honing" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponHoningCombo" Tag="Honing" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel x:Name="WeaponModifierField" Margin="7,0,0,0"><TextBlock Text="Modifier" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponModifierCombo" Tag="Modifier" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            </UniformGrid>
+                                            <StackPanel x:Name="LegacyWeaponTools" Orientation="Horizontal" Margin="0,8,0,0" Visibility="Collapsed"><Button x:Name="LegacyPatternButton" Content="Visual pattern…" Style="{StaticResource CompactButtonStyle}" Click="LegacyPattern_Click" Margin="0,0,6,0"/><Button x:Name="LegacySpecialButton" Content="Special pattern…" Style="{StaticResource CompactButtonStyle}" Click="LegacySpecial_Click"/></StackPanel>
+                                        </StackPanel>
+                                    </Border>
+
+                                    <Border x:Name="WeaponMiscSection" Style="{StaticResource EditorSectionStyle}">
+                                        <StackPanel>
+                                            <Grid Margin="0,0,0,7"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock Text="MISCELLANEOUS" Style="{StaticResource EditorSectionHeaderStyle}" Margin="0"/><TextBlock x:Name="WeaponRarityHint" Grid.Column="1" HorizontalAlignment="Right" Style="{StaticResource MutedTextStyle}" FontSize="9"/></Grid>
+                                            <UniformGrid Columns="4">
+                                                <StackPanel Margin="0,0,7,6"><TextBlock Text="Upgrade" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponUpgradeCombo" Tag="Upgrade" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel Margin="3,0,4,6"><TextBlock x:Name="WeaponSpecialLabel" Text="Special" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponSpecialCombo" Tag="Special" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel x:Name="WeaponKinsectField" Margin="4,0,3,6"><TextBlock Text="Kinsect Level" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponKinsectLevelCombo" Tag="KinsectLevel" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel Margin="7,0,0,6"><TextBlock Text="Relic Slots" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponNumSlotsCombo" Tag="NumSlots" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel Margin="0,0,7,0"><TextBlock Text="Rarity" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponRarityCombo" Tag="Rarity" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel Margin="3,0,4,0"><TextBlock Text="Polish Requirement" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="WeaponPolishReqCombo" Tag="PolishReq" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                                <StackPanel Margin="4,0,3,0"><TextBlock Text="Relic State" Style="{StaticResource CompactFieldLabelStyle}"/><StackPanel Orientation="Horizontal" Margin="0,7,0,0"><CheckBox x:Name="WeaponPolishedCheck" Tag="Polished" Content="Polished" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed"/><CheckBox x:Name="WeaponGlowCheck" Tag="Glow" Content="Glow" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed"/></StackPanel></StackPanel>
+                                            </UniformGrid>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+
+                                <!-- Armor editor -->
+                                <StackPanel x:Name="ArmorEditorPanel" Visibility="Collapsed">
+                                    <Border Style="{StaticResource EditorSectionStyle}" Margin="0,0,0,10">
+                                        <StackPanel><TextBlock Text="DECORATIONS" Style="{StaticResource EditorSectionHeaderStyle}"/><UniformGrid Columns="3">
+                                            <StackPanel Margin="0,0,8,0"><TextBlock Text="Slot 1" Style="{StaticResource CompactFieldLabelStyle}"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><ComboBox x:Name="ArmorSlot1Combo" Tag="Slot1" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/><CheckBox x:Name="ArmorSlot1FixedCheck" Tag="Slot1Fixed" Grid.Column="1" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed" Margin="7,0,0,0" ToolTip="Fixed decoration"/></Grid></StackPanel>
+                                            <StackPanel Margin="4,0"><TextBlock Text="Slot 2" Style="{StaticResource CompactFieldLabelStyle}"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><ComboBox x:Name="ArmorSlot2Combo" Tag="Slot2" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/><CheckBox x:Name="ArmorSlot2FixedCheck" Tag="Slot2Fixed" Grid.Column="1" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed" Margin="7,0,0,0" ToolTip="Fixed decoration"/></Grid></StackPanel>
+                                            <StackPanel Margin="8,0,0,0"><TextBlock Text="Slot 3" Style="{StaticResource CompactFieldLabelStyle}"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><ComboBox x:Name="ArmorSlot3Combo" Tag="Slot3" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/><CheckBox x:Name="ArmorSlot3FixedCheck" Tag="Slot3Fixed" Grid.Column="1" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed" Margin="7,0,0,0" ToolTip="Fixed decoration"/></Grid></StackPanel>
+                                        </UniformGrid></StackPanel>
+                                    </Border>
+                                    <Border Style="{StaticResource EditorSectionStyle}">
+                                        <StackPanel><TextBlock Text="ARMOR VALUES" Style="{StaticResource EditorSectionHeaderStyle}"/><UniformGrid Columns="4">
+                                            <StackPanel Margin="0,0,7,6"><TextBlock Text="Upgrade" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="ArmorUpgradeCombo" Tag="Upgrade" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="3,0,4,6"><TextBlock Text="Resistances" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="ArmorResistancesCombo" Tag="Resistances" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="4,0,3,6"><TextBlock Text="Defense" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="ArmorDefenseCombo" Tag="Defense" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="7,0,0,6"><TextBlock Text="Relic Slots" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="ArmorNumSlotsCombo" Tag="NumSlots" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="0,0,7,0"><TextBlock Text="Rarity" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="ArmorRarityCombo" Tag="Rarity" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="3,0,4,0"><TextBlock Text="Polish Requirement" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="ArmorPolishReqCombo" Tag="PolishReq" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="4,0,3,0"><TextBlock Text="Relic State" Style="{StaticResource CompactFieldLabelStyle}"/><StackPanel Orientation="Horizontal" Margin="0,7,0,0"><CheckBox x:Name="ArmorPolishedCheck" Tag="Polished" Content="Polished" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed"/><CheckBox x:Name="ArmorGlowCheck" Tag="Glow" Content="Glow" Checked="EquipmentValueCheck_Changed" Unchecked="EquipmentValueCheck_Changed"/></StackPanel></StackPanel>
+                                        </UniformGrid><TextBlock x:Name="ArmorRarityHint" Style="{StaticResource MutedTextStyle}" FontSize="9" Margin="0,8,0,0"/></StackPanel>
+                                    </Border>
+                                </StackPanel>
+
+                                <!-- Talisman editor -->
+                                <StackPanel x:Name="TalismanEditorPanel" Visibility="Collapsed">
+                                    <Border Style="{StaticResource EditorSectionStyle}" Margin="0,0,0,10">
+                                        <StackPanel><TextBlock Text="DECORATIONS" Style="{StaticResource EditorSectionHeaderStyle}"/><UniformGrid Columns="3">
+                                            <StackPanel Margin="0,0,8,0"><TextBlock Text="Slot 1" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSlot1Combo" Tag="Slot0" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/></StackPanel>
+                                            <StackPanel Margin="4,0"><TextBlock Text="Slot 2" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSlot2Combo" Tag="Slot1" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/></StackPanel>
+                                            <StackPanel Margin="8,0,0,0"><TextBlock Text="Slot 3" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSlot3Combo" Tag="Slot2" SelectionChanged="EquipmentValueCombo_SelectionChanged" DropDownOpened="DecorationCombo_DropDownOpened"/></StackPanel>
+                                        </UniformGrid></StackPanel>
+                                    </Border>
+                                    <Border Style="{StaticResource EditorSectionStyle}">
+                                        <StackPanel><TextBlock Text="TALISMAN VALUES" Style="{StaticResource EditorSectionHeaderStyle}"/><UniformGrid Columns="5">
+                                            <StackPanel Margin="0,0,7,0"><TextBlock Text="Slots" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanNumSlotsCombo" Tag="NumSlots" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="2,0,5,0"><TextBlock Text="Skill 1" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSkill1Combo" Tag="Skill1ID" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="4,0"><TextBlock Text="Amount" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSkill1AmountCombo" Tag="Skill1Amount" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="5,0,2,0"><TextBlock Text="Skill 2" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSkill2Combo" Tag="Skill2ID" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                            <StackPanel Margin="7,0,0,0"><TextBlock Text="Amount" Style="{StaticResource CompactFieldLabelStyle}"/><ComboBox x:Name="TalismanSkill2AmountCombo" Tag="Skill2Amount" SelectionChanged="EquipmentValueCombo_SelectionChanged"/></StackPanel>
+                                        </UniformGrid></StackPanel>
+                                    </Border>
+                                </StackPanel>
+
+                                <Border x:Name="EmptyEquipmentEditorPanel" Style="{StaticResource EditorSectionStyle}" Visibility="Collapsed">
+                                    <StackPanel HorizontalAlignment="Center" Margin="0,14"><TextBlock Text="Choose an equipment type above" FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center"/><TextBlock Text="Then choose the equipment ID. All compatible dropdown values will load automatically." Style="{StaticResource MutedTextStyle}" Margin="0,4,0,0"/></StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </ScrollViewer>
+
+                        <Border Grid.Row="2" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0" Padding="20,12">
+                            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock x:Name="SelectedEquipmentSubtitle" Style="{StaticResource MutedTextStyle}" FontSize="10" VerticalAlignment="Center"/><Button Grid.Column="1" Content="Done" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right" Click="CloseEditorOverlay_Click"/></Grid>
+                        </Border>
+                    </Grid>
+
+                    <!-- Guild Quest editor -->
+                    <Grid x:Name="QuestEditorOverlayPanel" Visibility="Collapsed">
+                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                        <Border Grid.Row="0" Background="{DynamicResource Surface2Brush}" CornerRadius="16,16,0,0" Padding="20,14" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1">
+                            <Grid>
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="72"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                <Border Width="58" Height="58" Background="{DynamicResource IconSurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" CornerRadius="11">
+                                    <Image Source="assets/ui/nav/quests.png" Width="34" Height="34" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <StackPanel Grid.Column="1" Margin="12,1,0,0" VerticalAlignment="Center">
+                                    <TextBlock x:Name="QuestInspectorTitle" Text="Guild Quest" FontSize="21" FontWeight="SemiBold"/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                        <Border Style="{StaticResource AccentChipStyle}" Margin="0,0,6,0"><TextBlock x:Name="QuestSlotChip" Text="Quest" FontSize="10" Foreground="{DynamicResource AccentBrush}"/></Border>
+                                        <Border Style="{StaticResource ChipStyle}" Margin="0,0,6,0"><TextBlock x:Name="QuestLevelChip" Text="Level" FontSize="10"/></Border>
+                                        <Border Style="{StaticResource ChipStyle}"><TextBlock x:Name="QuestOwnerChip" Text="Owner" FontSize="10"/></Border>
+                                    </StackPanel>
+                                </StackPanel>
+                                <Button Grid.Column="2" Content="✕" Style="{StaticResource IconButtonStyle}" Width="38" Height="38" Click="CloseEditorOverlay_Click" ToolTip="Close"/>
+                            </Grid>
+                        </Border>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="20,14,20,12">
+                            <StackPanel>
+                                <Border Background="{DynamicResource WarningSurfaceBrush}" BorderBrush="{DynamicResource WarningBorderBrush}" BorderThickness="1" CornerRadius="9" Padding="11" Margin="0,0,0,12">
+                                    <TextBlock Text="Edit existing active quests only. Keep Monster 2 empty unless that quest already had a second monster; invalid combinations may be rejected by MH4U." Foreground="{DynamicResource WarningBrush}" FontSize="10.5" TextWrapping="Wrap"/>
+                                </Border>
+                                <Border Style="{StaticResource EditorSectionStyle}">
+                                    <StackPanel>
+                                        <TextBlock Text="QUEST DATA" Style="{StaticResource EditorSectionHeaderStyle}"/>
+                                        <ItemsControl ItemsSource="{Binding QuestFields}">
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate><UniformGrid Columns="2"/></ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate DataType="{x:Type vm:EditablePropertyViewModel}">
+                                                    <StackPanel Margin="0,0,12,10">
+                                                        <TextBlock Text="{Binding Label}" Style="{StaticResource CompactFieldLabelStyle}"/>
+                                                        <TextBox Text="{Binding ValueText, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" Margin="0,4,0,0"/>
+                                                        <TextBlock Text="{Binding Help}" Style="{StaticResource MutedTextStyle}" FontSize="9" TextWrapping="Wrap" Margin="0,3,0,0"/>
+                                                        <TextBlock Text="{Binding Error}" Foreground="{DynamicResource DangerBrush}" FontSize="9" TextWrapping="Wrap"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </ScrollViewer>
+
+                        <Border Grid.Row="2" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0" Padding="20,12">
+                            <Grid>
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                <TextBlock Text="Quest edits stay unsaved until you press Save Changes." Style="{StaticResource MutedTextStyle}" FontSize="10" VerticalAlignment="Center"/>
+                                <Button Grid.Column="1" Content="Done" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right" Click="CloseEditorOverlay_Click"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <ContentControl x:Name="CustomQuestOverlayHost" Visibility="Collapsed"/>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Status bar -->
+        <Border Grid.Row="2" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,1,0,0">
+            <Grid Margin="18,0">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <Ellipse x:Name="StatusDot" Width="7" Height="7" Fill="{DynamicResource MutedTextBrush}" Margin="0,0,7,0"/>
+                    <TextBlock x:Name="StatusText" Text="Open or drop an MH4U user save to begin." Style="{StaticResource MutedTextStyle}" FontSize="11"/>
+                </StackPanel>
+                <TextBlock Grid.Column="1" Text="Core: mh4edit 1.0.2 · UI: Modern 0.18.0" Style="{StaticResource MutedTextStyle}" FontSize="11" VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

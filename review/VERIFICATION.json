@@ -1,0 +1,27 @@
+﻿{
+    "reviewDate":  "2026-10-24",
+    "target":  "Windows 0.18.0 source snapshot",
+    "sourceDocumentsVerified":  76,
+    "sourceDocumentMismatches":  0,
+    "build":  {
+                  "succeeded":  true,
+                  "warnings":  0,
+                  "errors":  0,
+                  "sdk":  "10.0.400",
+                  "configuration":  "Release",
+                  "artworkExcluded":  true,
+                  "neutralAppIcon":  true
+              },
+    "tests":  {
+                  "total":  110,
+                  "passed":  108,
+                  "failed":  0,
+                  "skipped":  2,
+                  "privateFixturesSupplied":  false,
+                  "laterWaveRegressionStoredOutsideHistoricalSuite":  true
+              },
+    "originalArchiveUnchanged":  true,
+    "uploaded":  false,
+    "remoteAccess":  "Both git and the currently connected GitHub account could not access the requested repository",
+    "limits":  "No byte-for-byte rebuild claim, full visual-runtime/artwork verification, in-game acceptance or security approval."
+}

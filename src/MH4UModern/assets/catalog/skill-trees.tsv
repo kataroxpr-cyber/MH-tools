@@ -1,0 +1,145 @@
+database_id	name	name_de	name_fr	name_es	name_it	name_jp
+1	Torso Up	RumpfVerst	Torse +	Torso+	Torso+	胴系統倍加
+2	Edgemaster	Schneidmst	Shogun	Punzante	Finelama	刀匠
+3	SteadyHand	Sichere Hd	Fermeté	Pulso firme	Manoferma	射手
+4	Status Res	Statusabw.	Pureté	Bienestar	Benessere	状態耐性
+5	Fury	Zorn	Furie	Furia	Furia	怒
+6	Biology	Biologie	Biologie	Biólogo	Biologia	細菌学
+7	Nimbleness	Gewandtht	Agilité	Destreza	Elusivo	回避術
+8	Readiness	Ummantelung	Iaido	Iai-do	Rivestimento	居合
+9	Resilience	Widerstand	Prétorien	Resistencia	Coriaceità	頑強
+10	Brutality	Rohheit	Brutalité	Brutalidad	Percossa	剛撃
+11	Ferocity	Heftigkeit	Férocité	Fiereza	Devozione	一心
+12	Stalwart	Tapferkeit	Égide	Lealtad	Scudo	盾持
+13	Prudence	Vernunft	Prudence	Prudencia	Prudenza	潔癖
+14	Amplify	Verstärken	Druide	Amplificar	Estensione	増幅
+15	Hoarding	Horten	Trésor	Acaparar	Millemalie	護石収集
+16	Avarice	Habgier	Cupidité	Codicia	Avidità	強欲
+17	FreeElemnt	FreiElemnt	Catalyste	Despertar	Risveglio	属性解放
+18	Fencing	Fechten	Escrime	Esgrima	Scherma	剣術
+19	Handicraft	Handwerk	Artisanat	Artesano	Artigiano	匠
+20	Crit Draw	KritHieb	Dégainage	Desenfunde	Rapi-danno	抜刀会心
+21	PunishDraw	StrafHieb	Punition	Pena inmed.	Punizione	抜刀減気
+22	Reload Spd	NachlGesch	Fusilier	Vel. recarg.	Ricarica	装填速度
+23	Recoil	Rückstoß	Tirailleur	Cadencia	Rinculo	反動
+24	Rapid Fire	Schnellfeu	Mitrailleur	Disp. bonus	Fuoco rap.	速射
+25	Gloves Off	Brachial	Puissance	Poder	Rinforzo	本気
+26	Spirit	Elan	Courage	Espíritu	Spirito	闘魂
+27	Unshakable	Unerschütt	Constance	Invencible	Tenacia	不動
+28	Charmer	AmulFinder	Charme	Amuleto	Idolatra	護石王
+29	Tenderizer	Klopfer	Supplice	Maza	Cecchino	痛撃
+30	Blight Res	Brandabw.	Fléau	Res. plaga	Res elem.	属性耐性
+31	Attack	Angriff	Attaque	Ataque	Attacco	攻撃
+32	Defense	Verteidig.	Défense	Defensa	Difesa	防御
+33	Gathering	Sammeln	Collecte	Recogida	Raccolta	採取
+34	Carving	Zerlegen	Dépeçage	Cortador	Ricavo	剥ぎ取り
+35	Fate	Schicksal	Destin	Suerte	Fato	運気
+36	Tranquilzr	Beruhigung	Capture	Capturas	Premi	捕獲
+37	Expert	Experte	Expert	Curtido	Affinità	達人
+38	Artillery	Artillerie	Artillerie	Artillería	Artigliere	砲術
+39	Evasion	Ausweichen	Évasion	Evasión	Schivata	回避性能
+40	Health	Gesundheit	Vie	Salud	Vita	体力
+41	Hearing	Gehör	Ouïe	Prot. oído	Udito	聴覚保護
+42	Sharpness	Schärfe	Dextérité	Cuchilla	Acutezza	斬れ味
+43	Guard	Block	Garde	Guardia	Guardia	ガード性能
+44	Guard Up	Blockstrkng	Paladin	Escudo	Blocco	ガード強化
+45	Sharpener	Schärfer	Aiguiseur	Afilador	Rasoio	研ぎ師
+46	Potential	Potenzial	Potentiel	Potencial	Potenziale	底力
+47	Bomb Boost	BombStärk.	Bombe	Bombardero	Bombarolo	爆弾強化
+48	Status	Status	Affliction	Est. anor.	Att. status	特殊攻撃
+49	Stamina	Ausdauer	Stamina	Resistencia	Resistenza	スタミナ
+50	Destroyer	Zerstörer	Destruction	Destructor	Spaccone	重撃
+51	Evade Dist	Asweichdst	Esquive	Dis. evasión	Schivatore	回避距離
+52	Sheathing	Wegstecken	Rengainage	Vaina veloz	Rinfodero	納刀
+53	FastCharge	Schn. lad.	Charge	Carga veloz	Carica	溜め短縮
+54	Stam Drain	Ausd.Entz.	Fatigue	Robarresis.	Sfinitore	減気攻撃
+55	Unscathed	Unversehrt	Invincible	Ileso	Illeso	無傷
+56	Guts	Mut	Bravoure	Tripas	Coraggio	根性
+57	Loading	Kapazität	Armurier	Carga+	Cartucciera	装填数
+58	Normal Up	NormlShoch	Normal G	Disparo+	Normale	通常弾強化
+59	Pierce Up	PerfrShoch	Perçant G	Perforar+	Perforan.	貫通弾強化
+60	Pellet Up	SchrtShoch	Plomb G	Perdigón+	Ventaglio	散弾強化
+61	KO	Knock-out	KO	Boxeador	KO	KO
+62	Def Lock	AbwSperre	Assurance	Piel dura	Difesa OK	対防御DOWN
+63	LastingPwr	EwigeKraft	Objets	Duración	Oggetti	効果持続
+64	Normal S+	Normal S+	Normal	Mun. normal	P normali	通常弾追加
+65	Pierce S+	Perfor S+	Perçant	Mun. perfor.	P perforanti	貫通弾追加
+66	Pellet S+	Schrot S+	Grenaille	Mun. perdig.	P ventaglio	散弾追加
+67	Crag S+	Explos S+	Antiblindage	Mun. explos.	P esplosivi	榴弾追加
+68	Clust S+	Streu S+	Frag	Mun. fragm.	P grappolo	拡散弾追加
+69	Slicing S+	Schnitt S+	Tranchant	Mun. cortad.	P laceranti	斬裂弾追加
+70	Blast S+	Spreng S+	Explosion	Mun. nitro	P scoppio	爆破弾追加
+71	Poison C+	Gift B+	F Poison	Rv. veneno	B veleno	毒瓶追加
+72	Para C+	Lähm B+	F Paralys	Rv. paraliz.	B paralisi	麻痺瓶追加
+73	Sleep C+	Schlaf B+	F Sommeil	Rv. sueño	B sonno	睡眠瓶追加
+74	Power C+	Kraft B+	F Énergie	Rv. energía	B potenza	強撃瓶追加
+75	C.Range C+	Nahkmpf B+	F Combat	Rv. alcance	B cortor.	接撃瓶追加
+76	Exhaust C+	Ermüd. B+	F Faiblesse	Rev. fatiga	B fatica	減気瓶追加
+77	Blast C+	Spreng B+	F Explosion	Rev. nitro	B scoppio	爆破瓶追加
+78	Precision	Präzision	Sniper	Precisión	Precisione	精密射撃
+79	Fire Atk	Feuerangr.	Feu	Atq. fuego	Att. fuoco	火属性攻撃
+80	Water Atk	Wasserang.	Eau	Atq. agua	Att. acqua	水属性攻撃
+81	ThunderAtk	Donnerang.	Foudre	Atq. rayo	Att. tuono	雷属性攻撃
+82	Ice Atk	Eisangriff	Glace	Atq. hielo	Att. ghiacc.	氷属性攻撃
+83	Dragon Atk	Drachenan.	Dragon	Atq. draco	Att. drago	龍属性攻撃
+84	Elemental	Element	Élément	Atq. elem.	Att. elem.	属性攻撃
+85	Fire Res	Feuerabw.	Ignifuge	Res. fuego	Ignifugo	火耐性
+86	Water Res	Wasserabw.	Étanche	Res. agua	Acquatico	水耐性
+87	ThunderRes	Donnerabw.	Isolant	Res. rayo	Isolante	雷耐性
+88	Ice Res	Eisabwehr	Antigel	Res. hielo	Antigelo	氷耐性
+89	Dragon Res	Drachenabw	Draconien	Res. draco	Antidrago	龍耐性
+90	Spd Gather	SchnllSamm	Chapardeur	Vel. recog.	Contadino	高速収集
+91	Psychic	Vision	Lucidité	Psíquica	Sibilla	千里眼
+92	Perception	Wahrnehmen	Perception	Percepción	Cattura	観察眼
+93	Rec Level	ErholStufe	Restaurer	Curación	Medicina	回復量
+94	Wide-Range	Großraum	Soutien	Efecto área	Ampia area	広域
+95	Maestro	Maestro	Musique	Músico	Maestro	笛
+96	Survivor	Überleben	Survie	Superviv.	Superstite	逆境
+97	Carnivore	Fleischfr.	Carnivore	Carnívoro	Predatore	肉食
+98	Gluttony	Schlemmen	Gastronome	Glotonería	Ingordigia	食いしん坊
+99	Constitutn	Konstitutn	Athlète	Constitución	Atleta	体術
+100	Stam Recov	AusdErholg	Vigueur	Estad. forma	Resistente	気力回復
+101	Wind Res	Windabwehr	Vent	Res. viento	Vento	風圧
+102	Eating	Essen	Repas	Consumir	Cucina	食事
+103	Combo Rate	Kombi-Rate	Inventeur	Combinación	Combinatore	調合成功率
+104	Combo Plus	KombiBonus	Alchimiste	Combinac.+	Alchimista	調合数
+105	Ranger	Ranger	Chasse	Soldado	Ranger	狩人
+106	Heat Res	Hitzeabw.	Chaleur	Res. calor	Calore	耐暑
+107	Cold Res	Kälteabw.	Froid	Res. frío	Freddo	耐寒
+108	Commander	Kommandant	Commandant	Comandante	Comandante	指揮
+109	TeamPlayer	Teamspiel.	Moral	En equipo	Gregario	采配
+110	TeamLeader	Teamanfüh.	Leader	Liderazgo	Capitano	号令
+111	Rec Speed	ErholGschw	Récupérer	Recuperac.	Recupero	回復速度
+112	Whim	Laune	Lubie	Capricho	Fatalità	気まぐれ
+113	Protection	Schutz	Protection	Protección	Protezione	加護
+114	Hunger	Hunger	Appétit	Hambre	Fame	腹減り
+115	Transportr	Rucksack	Convoyeur	Mochilero	Portatore	運搬
+116	SpeedSetup	SchnllAufb	Piège	Trampero	Trappola	高速設置
+117	Honey	Honig	Miel	Miel	Miele	ハチミツ
+118	Poison	Gift	Poison	Veneno	Veleno	毒
+119	Paralysis	Lähmung	Paralysie	Parálisis	Paralisi	麻痺
+120	Sleep	Schlaf	Sommeil	Sueño	Sonno	睡眠
+121	Stun	Betäuben	Volonté	Aturdir	Stordim.	気絶
+122	Mud/Snow	Schl/Schn.	Alpiniste	Barro/nieve	Fango/neve	耐泥耐雪
+123	Tremor Res	Bebensicher	Anti-séisme	Res. temblor	Antisismico	耐震
+124	Anti-Theft	Anti-Dieb	Antivol	Antirrobo	Anti-ladro	盗み無効
+125	Sense	Spürsinn	Ninja	Sentido	Presenza	気配
+126	Flame Aura	Flammenaura	Aura de feu	Aura llama	Aura luce	燃鱗
+127	Auto-Guard	Autoblock	Garde auto	Autoguardia	Autoguardia	自動防御
+128	Frenzy Res	Rasereiabw	Anti-furie	Res. cólera	Antifrenesia	狂撃耐性
+129	Mounting	Aufsteigen	Chevauchée	Monta	Cavaliere	乗り
+130	CritElemnt	KritElement	Chamanisme	Crít. elm.	Crit. elem.	属性会心
+131	CritStatus	KritStatus	Châtiment	Crít. est.	Crit. stat.	特殊会心
+132	Dead Eye	Mstrschütze	Kyudo	Puntería	Mirino	射法
+133	Mycology	Mykologe	Mycologie	Micología	Micologia	茸食
+134	LightEater	Genügsamkt	Frugal	Comeluces	Dieta	節食
+135	Bleeding	Blutung	Hémorragie	Sangrado	Emorragia	裂傷
+136	Sticky Res	Klebrigabw.	Anti-collant	Res. pegaj.	Anticatrame	耐粘
+137	Edge Lore	Schnittknde	Inflexible	Saber filo	Affilama	斬術
+138	PowerEater	GroßAppetit	Ogre	Comepoder	Abbuffata	食欲
+139	D. Fencing	S. Fechten	Sournois	Esgrima s.	Schermidore	北辰納豆流
+140	Arcana	Arkana	Arcane	Arcano	Arcanismo	秘伝
+141	Mechanic	Mechaniker	Ingénieur	Mecánico	Meccanico	職工
+142	Brawn	Muskelkraft	Mastodonte	Músculos	Possanza	剛腕
+143	Prayer	Gebet	Prière	Oración	Preghiera	祈願
+144	Covert	Tarnung	Furtif	Encubierto	Infiltrato	裏稼業

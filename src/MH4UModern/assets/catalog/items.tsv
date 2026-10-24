@@ -1,0 +1,1888 @@
+editor_id	database_id	name	type	sub_type	rarity	carry_capacity	buy	sell	icon_name	description
+1	1	Book of Combos 1	Tool		4	1		100	Book-Grey.png	An introductory text for first-time combiners. Improves your success rate.
+2	2	Book of Combos 2	Tool		4	1		200	Book-Grey.png	A basic text. Owning Book 1 and this improves your combining success rate.
+3	3	Book of Combos 3	Tool		4	1		500	Book-White.png	An intermediate text. Owning Books 1, 2 and this improves your combining success rate.
+4	4	Book of Combos 4	Tool		5	1		1000	Book-White.png	An advanced text. Owning Books 1-3 and this improves your combining success rate.
+5	5	Book of Combos 5	Tool		5	1		1500	Book-Yellow.png	A pro-level text. Owning Books 1-4 and this improves your combining success rate.
+6	6	Organizer Guide	Book		4	1			Book-Blue.png	An issue of Hunting Life magazine which explains how to maximize Item Box space.
+7	7	Pack Rat Guide	Book		5	1			Book-Red.png	An issue of Hunting Life magazine containing advanced item-cramming techniques.
+8	8	Potion	Consumable		1	10		7	Liquid-Green.png	Restores a small amount of Health. Try to combine these into something Mega-better!
+9	9	Mega Potion	Consumable		2	10		16	Liquid-Green.png	Restores a moderate amount of Health. This potion is a hunter's best friend.
+10	10	Nutrients	Consumable		2	5		25	Liquid-Cyan.png	Very slightly increases your maximum Health level.
+11	11	Mega Nutrients	Consumable		3	5		92	Liquid-Cyan.png	Slightly increases your maximum Health level.
+12	12	Antidote	Consumable		1	10		6	Liquid-Blue.png	Removes all traces of poison from your system.
+13	13	Immunizer	Consumable		3	10		92	Liquid-Yellow.png	Boosts your natural ability to heal.
+14	14	Dash Juice	Consumable		2	5		29	Liquid-Yellow.png	Lets you run without tiring for a short period of time.
+15	15	Mega Dash Juice	Consumable		3	5		205	Liquid-Yellow.png	Lets you run without tiring for longer than with regular Dash Juice.
+16	16	Demondrug	Consumable		4	5		67	Liquid-Red.png	Boosts your Attack by filling you with -- guess what? -- demonic strength.
+17	17	Mega Demondrug	Consumable		5	5		283	Liquid-Red.png	Boosts your Attack even more than a regular Demondrug.
+18	18	Might Pill	Consumable		1	5		280	Sac-Red.png	Temporarily endows you with the strength of a mighty god. Potent!
+19	19	Armorskin	Consumable		4	5		58	Liquid-Orange.png	Boosts your Defense by turning your skin as hard as rock.
+20	20	Mega Armorskin	Consumable		5	5		269	Liquid-Orange.png	Boosts your Defense even more than a regular Armorskin.
+21	21	Adamant Pill	Consumable		1	5		260	Sac-Orange.png	Temporarily makes your skin as hard as adamant. Potent!
+22	22	Cool Drink	Consumable		1	5		30	Liquid-White.png	Provides temporary relief from extreme heat.
+23	23	Hot Drink	Consumable		1	5		25	Liquid-Red.png	Provides temporary relief from extreme cold.
+24	24	Cleanser	Consumable		2	10		14	Liquid-Cyan.png	Immediately removes any ice or mud on your body. Clean as a whistle!
+25	25	Deodorant	Consumable		2	10		8	Smoke-Blue.png	An item that cures Stench. Releases a puff of deoderizing smoke when thrown down.
+26	26	Psychoserum	Consumable		3	10		30	Liquid-Orange.png	Temporarily sharpens your sixth sense and attunes you to the ways of monsters.
+27	27	Herbal Medicine	Consumable		2	10		25	Sac-White.png	Removes all traces of poison and restores a slight amount of Health.
+28	28	Max Potion	Consumable		3	2		210	Sac-Yellow.png	Fully restores Health and increases your maximum Health level all the way.
+29	29	Ancient Potion	Consumable		5	1		345	Sac-Red.png	Fully restores Health and Stamina, and raises the max levels of both all the way,
+30	30	Catalyst	Tool		2	5		48	Sac-Grey.png	Works with other materials to enhance their effects. Cannot be used by itself.
+31	31	Energy Drink	Consumable		2	10		6	Liquid-Yellow.png	This bottle is all you'll need to wake up! Shakes off sleep and restores Stamina.
+32	32	Gunpowder	Tool		2	20		45	Sac-Red.png	A dangerous substance that explodes when struck or heated.
+33	33	Lifecrystals	Tool		3	3		59	Sac-White.png	Mysterious crystals long worshipped as a source of life.
+34	34	Lifepowder	Consumable		4	3		315	Sac-White.png	A Lifecrystal combination used as medicine. Heals with a single touch.
+35	37	Tranquilizer	Tool		4	10		15	Liquid-Red.png	Medicine that works as an anesthetic when Combined.
+36	38	Mystery Charm	Ore		4	10			Charm-Stone-Grey.png	A modest good-luck charm. What does it do? Finish the Quest and you'll find out.
+37	39	Shining Charm	Ore		5	10			Charm-Stone-Yellow.png	A curious good-luck charm. What does it do? Finish the Quest and you'll find out.
+38	40	Timeworn Charm	Ore		6	10			Charm-Stone-Red.png	A powerful good-luck charm. What does it do? Finish the Quest and you'll find out.
+39	42	Distorted Charm	Ore		6	10			Charm-Stone-Orange.png	
+40	44	Powercharm	Tool		5	1		3600	Sac-Red.png	An amulet that raises Attack. Just carrying this gives you demonic strength.
+41	45	Powertalon	Tool		5	1		6840	Fang-Red.png	A powerful amulet that raises Attack. Made with a Deviljho Talon.
+42	46	Armorcharm	Tool		5	1		2400	Sac-Orange.png	An amulet that raises Defense. Just carrying this hardens your skin like rock.
+43	47	Armortalon	Tool		5	1		5040	Fang-Orange.png	A powerful amulet that raises Defense. Made with a Deviljho Talon.
+44	48	Raw Meat	Meat		1	10		5	Meat-Red.png	Meat carved from a monster. Can be cooked, combined, or use to set a trap.
+45	49	Poisoned Meat	Meat		1	10		19	Meat-Purple.png	Raw Meat that poisons whatever eats it. Makes great bait for traps.
+46	50	Tinged Meat	Meat		2	10		30	Meat-Yellow.png	Raw Meat that paralyzes whatever eats it. Makes great bait for traps.
+47	51	Drugged Meat	Meat		1	10		32	Meat-Blue.png	Raw Meat that puts whatever eats it to sleep. Makes great bait for traps.
+48	52	Rare Steak	Meat		1	10		3	Meat-Orange.png	Provides a small boost to your Stamina. This one's still red in the middle
+49	53	Well-done Steak	Meat		2	10		48	Meat-Orange.png	Provides a moderate boost to your Stamina. Meat done right!
+50	54	Burnt Meat	Meat		1	10		1	Meat-Grey.png	Meat that has been burnt to a crisp. It might boost your Stamina, or it might drain it ..
+51	55	Chilled Meat	Meat		1	10		30	Meat-Blue.png	Meat that cools the body, wards off heat, and boosts a moderate amount of Stamina.
+52	56	Hot Meat	Meat		1	10		25	Meat-Red.png	Meat that warms the body, wards off the cold, and boosts a moderate amount of Stamina.
+53	57	Mosswine Jerky	Meat		2	5		10	Meat-Pink.png	
+54	58	Boomerang	Tool		4	5		15	Boomerang-White.png	An usually-shaped weapon from abroad that returns to its user when thrown.
+55	59	Throwing Knife	Tool		1	5			Knife-White.png	A standard throwing knife. Flies straight and true.
+56	60	Poison Knife	Tool		1	5			Knife-Purple.png	A throwing knife with a venom-coated blade. Poisons targets.
+57	61	Sleep Knife	Tool		1	5			Knife-Cyan.png	A throwing knife whose blade has been dusted with sleeping agents.
+58	62	Paralysis Knife	Tool		1	5			Knife-Yellow.png	A throwing knife coated with toxins that paralyze a target.
+59	63	Tranq Knife	Tool		4	5			Knife-Red.png	A throwing knife used for capturing monsters ensnared in traps.
+60	64	Bomb Casing	Tool		1	30		15	Bomb-White.png	A base material for making hand-thrown bombs.
+61	65	Paintball	Tool		1	99		10	Bomb-Pink.png	Toss this scented paint at a monster to mark it, allowing you to track its position.
+62	66	Flash Bomb	Tool		2	5		57	Bomb-Yellow.png	Flashes brightly on impact. Toss this right under a monster's nose to blind it.
+63	67	Sonic Bomb	Tool		2	10		45	Bomb-Grey.png	A grenade-like item that emits a high frequency blast of sound on detonation.
+64	68	Dung	Tool		1	10		1	Dung.png	That's right: monster poop. The odor reveals too much about the monster's diet.
+65	69	Dung Bomb	Tool		2	10		80	Dung.png	Releases an odor monsters find repulsive. It may even drive them away... or not.
+66	70	Smoke Bomb	Tool		2	10		44	Smoke-White.png	Creates a large cloud of smoke wherever it lands.
+67	71	Poison Smoke Bomb	Tool		2	10		60	Smoke-Purple.png	
+68	72	Farcaster	Tool		3	1		30	Smoke-Green.png	Instantly transports you back to base camp.
+69	74	Tranq Bomb	Tool		4	8		35	Bomb-Red.png	A hand grenade used to capture monsters ensnared in traps.
+70	75	Spider Web	Tool		1	10		6	Spider-Web.png	A very sticky web.
+71	76	Net	Tool		2	10		54	Spider-Web.png	A sturdy net able to support a certain amount of weight without breaking.
+72	77	Trap Tool	Tool		3	2		20	Traptool-Green.png	A tool you'll need to put a Pitfall Trap or other traps together with.
+73	78	Pitfall Trap	Tool		3	1		46	Trap-Green.png	Activates when something heavy walks across. Use this to capture monsters.
+74	79	Shock Trap	Tool		3	1		160	Trap-Purple.png	Immobilizes a target. You can use this to capture monsters.
+75	80	Small Barrel	Tool		1	10		8	Barrel-Yellow.png	How many whiffs does it take to find out what was in this empty barrel? Just one!
+76	81	Large Barrel	Tool		2	10		21	Barrel-Red.png	How many licks does it take to find out what was in this empty barrel? Just one!
+77	82	Barrel Bomb S	Tool		2	10		16	Barrel-Bomb-Yellow.png	A small time bomb. You can use it underwater.
+78	83	Barrel Bomb S+	Tool		4			52	Barrel-Bomb-Yellow.png	A powered-up Barrel Bomb S. Small, but it packs a punch. You can use it underwater.
+79	84	Barrel Bomb L	Tool		3	3		52	Barrel-Bomb-Red.png	A potent bomb that detonates on impact. Waterproofed, so it still works underwater.
+80	85	Barrel Bomb L+	Tool		4			80	Barrel-Bomb-Red.png	A powered-up Barrel Bomb L. Deadly. Waterproofed, so it still works underwater.
+81	86	Bounce Bomb	Tool		2	10		18	Barrel-Bomb-Blue.png	Buy from Store Clerk
+82	87	Bounce Bomb+	Tool		4			68	Barrel-Bomb-Blue.png	An improved version of the Bounce Bomb. Requires some skill to use.
+83	88	Felvine Bomb	Tool		4	10		12	Barrel-Bomb-Pink.png	Emits a scent Felynes love. Try hitting monsters with it.
+85	90	Huskberry	Plant		1	99		1	Husk-Grey.png	A berry that is hollow on the inside.
+86	91	Bone Husk	Bone		2	99		3	Husk-White.png	
+87	92	Normal S Lv1	Ammo		1	99			Ammo-White.png	
+88	93	Normal S Lv2	Ammo		1	99		1	Ammo-White.png	Non-specialized ammo. More powerful than Lv1.
+89	94	Normal S Lv3	Ammo		2	99		2	Ammo-White.png	Non-specialized ammo that ricochets, resulting in high damage.
+90	95	Pierce S Lv1	Ammo		2	60		1	Ammo-White.png	Armor-piercing ammo that deals multiple hits to some monsters.
+91	96	Pierce S Lv2	Ammo		2	60		2	Ammo-White.png	Armor-piercing ammo. Higher-level ammo deals additional hits.
+92	97	Pierce S Lv3	Ammo		3	60		3	Ammo-White.png	Armor-piercing ammo. This highest level deals the most hits.
+93	98	Pellet S Lv1	Ammo		2	80		1	Ammo-White.png	Ammo that hits a wide area. Deals multiple hits at close range.
+94	99	Pellet S Lv2	Ammo		2	70		2	Ammo-White.png	Ammo that hits a wide area. Higher-level ammo deals additional hits.
+95	100	Pellet S Lv3	Ammo		3	60		2	Ammo-White.png	Ammo that hits a wide area. This highest level deals the most hits
+96	101	Crag S Lv1	Ammo		3	9		4	Ammo-White.png	Powerful ammo that lodges in a target, then explodes.
+97	102	Crag S Lv2	Ammo		3	9		7	Ammo-White.png	Very powerful ammo that lodges in a target, then explodes.
+98	103	Crag S Lv3	Ammo		3	9		7	Ammo-White.png	Extremely powerful ammo that lodges in a target, then explodes.
+99	104	Clust S Lv1	Ammo		2	3		4	Ammo-White.png	Fragments into three shells upon impact. Beware of friendly fire!
+100	105	Clust S Lv2	Ammo		3	5		6	Ammo-White.png	Fragments into four shells upon impact. Beware of friendly fire!
+101	106	Clust S Lv3	Ammo		3	5		10	Ammo-White.png	Fragments into five shells upon impact. Beware of friendly fire!
+102	107	Flaming S	Ammo		3	60		2	Ammo-Red.png	Ammo that packs extra punch against monsters susceptible to Fire.
+103	108	Water S	Ammo		3	60		2	Ammo-Cyan.png	Ammo that packs extra punch against monsters susceptible to Water.
+104	109	Thunder S	Ammo		3	60		2	Ammo-Yellow.png	Ammo that packs extra punch against monsters susceptible to Thunder.
+105	110	Freeze S	Ammo		3	60		2	Ammo-Blue.png	Ammo that packs extra punch against monsters susceptible to Ice.
+106	111	Dragon S	Ammo		5	20		10	Ammo-Red.png	Mysterious ammo that won't work in regular Bowguns.
+107	112	Poison S Lv1	Ammo		2	12		2	Ammo-Purple.png	Ammo dipped in poison. Some targets require multiple shots.
+108	113	Poison S Lv2	Ammo		3	8		2	Ammo-Purple.png	Ammo dipped in deadly poison. Some targets require multiple shots.
+109	114	Para S Lv1	Ammo		3	12		3	Ammo-Yellow.png	Ammo that causes paralysis. Some targets require multiple shots.
+110	115	Para S Lv2	Ammo		4	8		5	Ammo-Yellow.png	Ammo that paralyzes quickly. Some targets require multiple shots.
+111	116	Sleep S Lv1	Ammo		3	12		2	Ammo-Cyan.png	Ammo containing a sleeping agent. Some targets require multiple shots.
+112	117	Sleep S Lv2	Ammo		4	8		3	Ammo-Cyan.png	Ammo packed with sleeping agents. Some targets require multiple shots.
+113	118	Exhaust S Lv1	Ammo		2	12		3	Ammo-Blue.png	Special ammo that drains monsters' stamina.
+114	119	Exhaust S Lv2	Ammo		3	8		5	Ammo-Blue.png	Enhanced special ammo that drains monsters' stamina.
+115	120	Slicing S	Ammo		3	30		3	Ammo-White.png	Special ammo that ejects sharp blades on impact. Can it sever tails?
+116	121	WyvernFire	Ammo		4	10		6	Ammo-Red.png	Ammo patterned after Wyvern's Fire. Not as potent, but can be rapid-fired.
+117	122	Blast S	Ammo		4	12		6	Ammo-Orange.png	
+118	123	Recover S Lv1	Ammo		1	12		2	Ammo-Green.png	Ammo that restores a small amount of Health to the target.
+119	124	Recover S Lv2	Ammo		2	12		2	Ammo-Green.png	Ammo that restores a moderate amount of Health to the target.
+120	125	Demon S	Ammo		3	5		9	Ammo-Red.png	Ammo that fills the target with savage amounts of strength.
+121	126	Armor S	Ammo		3	5		7	Ammo-Orange.png	Ammo that hardens the skin, guarding against attacks and Wind Pressure.
+122	127	Paint S	Ammo		1	99		6	Ammo-Pink.png	Ammo that marks a monster's position on your Map for a limited time.
+123	128	Tranq S	Ammo		3	8		4	Ammo-Red.png	Bowgun ammo used to capture monsters ensnared in traps.
+125	129	Empty Phial	Coating		1	99		1	Bottle-Empty.png	A regular old empty phial.
+126	130	Power Coating	Coating		2	50		3	Bottle-Red.png	An arrow coating that increases the Attack of arrows fired. Capacity 50.
+127	131	C.Range Coating	Coating		3	20		3	Bottle-White.png	An arrow coating that increases close-range power and melee Sharpness. Capacity 20.
+128	132	Poison Coating	Coating		3	20		2	Bottle-Purple.png	An arrow coating that applies Poison effects to arrows fired. Capacity 20
+129	133	Para Coating	Coating		3	20		3	Bottle-Yellow.png	An arrow coating that applies Paralysis effects to arrows fired. Capacity 20
+130	134	Sleep Coating	Coating		3	20		2	Bottle-Cyan.png	An arrow coating that applies Sleep effects to arrows fired. Capacity 20
+131	135	Exhaust Coating	Coating		3	20		2	Bottle-Blue.png	An arrow coating that causes arrows fired to drain monsters' stamina. Capacity 20
+132	136	Blast Coating	Coating		3	20		6	Bottle-Orange.png	
+133	137	Paint Coating	Coating		1	99		6	Bottle-Pink.png	An arrow coating that marks a monster's position on the map for a limited time. Capacity 99.
+134	275	Power Nectar: Fire	Nectar		3	99		10	Nectar-Pink.png	
+135	280	Stam Nectar: Water	Nectar		3	99		10	Nectar-Orange.png	
+136	287	Spd Nectar: Thunder	Nectar		3	99		10	Nectar-White.png	
+137	289	Speed Nectar: Ice	Nectar		3	99		10	Nectar-White.png	
+138	281	Stam Nectar: Dragon	Nectar		3	99		10	Nectar-Orange.png	
+139	277	Power+ Nectar	Nectar		4	99		20	Nectar-Pink.png	
+140	283	Stamina+ Nectar	Nectar		4	99		20	Nectar-Orange.png	
+141	291	Speed+ Nectar	Nectar		4	99		20	Nectar-White.png	
+142	294	Nectar: Fire+	Nectar		4	99		20	Nectar-Red.png	
+143	296	Nectar: Water+	Nectar		4	99		20	Nectar-Blue.png	
+144	298	Nectar: Thunder+	Nectar		4	99		20	Nectar-Yellow.png	
+145	300	Nectar: Ice+	Nectar		4	99		20	Nectar-Cyan.png	
+146	302	Nectar: Dragon+	Nectar		4	99		20	Nectar-Purple.png	
+147	278	Power+ Nectar: Fire	Nectar		5	99		30	Nectar-Pink.png	
+148	284	Stam+ Nectar: Water	Nectar		5	99		30	Nectar-Orange.png	
+149	292	Spd+ Nectar: Thunder	Nectar		5	99		30	Nectar-White.png	
+150	276	Power Nectar: Fire+	Nectar		5	99		30	Nectar-Pink.png	
+151	286	Speed Nectar: Water+	Nectar		5	99		30	Nectar-White.png	
+152	288	Spd Nectar: Thunder+	Nectar		5	99		30	Nectar-White.png	
+153	290	Speed Nectar: Ice+	Nectar		5	99		30	Nectar-White.png	
+154	282	Stam Nectar: Dragon+	Nectar		5	99		30	Nectar-Orange.png	
+155	138	Worm	Bait		1	10		2	Bait-Grey.png	A fishing lure. Wriggles underwater, enticing those fishies to bite.
+156	139	Mega Fishing Fly	Bait		3	10		3	Bait-Pink.png	A fishing lure. Causes a feeding frenzy. No fish can resist this one!
+157	140	Frog	Bait		2	10		15	Bait-Blue.png	Know any monsters good at fishing? Try fighting fire with fire.
+158	141	Sushifish Bait	Bait		2	5		2	Bait-Yellow.png	"A fishing lure with chum that makes Sushifish go, mmm."""""
+159	142	Burst Bait	Bait		2	5		7	Bait-Red.png	"A fishing lure with chum that makes fish that rupture upon death go mmm""."""
+160	143	Goldenfish Bait	Bait		4	5		30	Bait-Yellow.png	"A fishing lure with chum that makes Goldenfish go, mmm."""""
+161	144	Old Pickaxe	Tool		1	5		6	Pickaxe-Grey.png	A cheap pickaxe with an easily nicked blade.
+162	145	Iron Pickaxe	Tool		1	5		16	Pickaxe-White.png	A pickaxe with a reasonably strong blade.
+163	146	Mega Pickaxe	Tool		3	5		24	Pickaxe-Yellow.png	A pickaxe tempered with steel. This one won't nick easily.
+164	147	Old Bug Net	Tool		1	5		3	Bugnet-Grey.png	A cheap net for catching bugs. It tears easily.
+165	148	Bug Net	Tool		1	5		8	Bugnet-White.png	A durable net for catching bugs.
+166	149	Mega Bug Net	Tool		3	5		12	Bugnet-Yellow.png	An extremely durable net for catching bugs. This one is made to last.
+167	150	BBQ Spit	Tool		4	1		56	BBQSpit-Red.png	Just what you need to cook meat. A must-have item for any hungry hunter.
+168	151	Whetstone	Tool		1	20		8	Whetstone.png	A standard-sized Whetstone. Use it to restore a weapon's Sharpness.
+169	152	Binoculars	Tool		1	1		5	Binoculars.png	Allow you to see farther and observe from a distance.
+170	153	Garbage	Tool		1	99		1	QuestionMark-Yellow.png	Junk created when a combination attempt fails.
+171	154	Field Horn	Tool		2	1		48	Flute-Yellow.png	Used to attract certain monsters -- blow at your own risk. May break when used.
+172	155	Health Horn	Tool		4	1		550	Flute-Green.png	Restores Health to those who hear it. May break when used.
+173	156	Antidote Horn	Tool		4	1		270	Flute-Blue.png	Eliminates poison in the blood of those who hear it. May break when used.
+174	157	Demon Horn	Tool		5	1		1080	Flute-Red.png	Increases the strength of those who hear it. May break when used.
+175	158	Armor Horn	Tool		5	1		986	Flute-Orange.png	Bolsters the defenses of those who hear it. May break when used.
+176	170	Honey	Plant		2	10		45	Webbing-Orange.png	Full of nutrients, but indigestible in this form.
+177	171	Herb	Plant		1	10		2	Herb-Green.png	Restores a very small amount of Health, but the flavor's not too hot.
+178	172	Antidote Herb	Plant		1	10		2	Herb-Blue.png	A plant used in antidotes. It sometimes cures poison when eaten by itself.
+179	173	Fire Herb	Plant		2	20		4	Herb-Red.png	A wondrous, flammable plant.
+180	174	Ivy	Plant		1	10		8	Herb-Green.png	A vine of tough fibers. Woven, it is sturdy enough to hold a person's weight.
+181	175	Sleep Herb	Plant		1	10		5	Herb-Cyan.png	A plant containing sleeping agents.
+182	176	Sap Plant	Plant		1	30		2	Herb-White.png	The sap it secretes is a strong adhesive. Careful you don't glue your Pouch shut!
+183	177	Felvine	Plant		1	10		1	Herb-Yellow.png	Melynxes' favorite food -- they just have to steal it.
+184	178	Gloamgrass Root	Plant		2	10		10	Herb-YellowGreen.png	
+185	180	Hot Pepper	Plant		2	10		4	Herb-Red.png	Blazingly spicy. Sure, it'll warm you up, but it's too hot to handle on its own.
+186	182	Cathangea Seed	Plant		4	99		100	Seed-White.png	
+187	183	Cathangea	Plant		5	99		200	Herb-Pink.png	
+188	184	Cathangea Elixir	Plant		6	99		300	Sac-Red.png	
+189	185	Blue Mushroom	Plant		2	10		2	Mushroom-Blue.png	A well-known Combo material used to augment power. The deeper the blue, the better.
+190	186	Nitroshroom	Plant		2	20		6	Mushroom-Red.png	A hard-to-find mushroom with the power to generate blazing heat.
+191	187	Parashroom	Plant		3	10		15	Mushroom-Yellow.png	A mushroom that induces paralysis.
+192	188	Toadstool	Plant		2	10		8	Mushroom-Purple.png	Logic says not to eat this poisonous fungus, but don't write it off completely.
+193	189	Exciteshroom	Plant		3	10		18	Mushroom-Purple.png	This one has a very strange aroma... Edible? Only one way to find out.
+194	190	Mopeshroom	Plant		2	10		9	Mushroom-Cyan.png	
+195	191	Dragon Toadstool	Plant		3	10		40	Mushroom-Red.png	A dangerous fungus said to suck the life out of the one who plucks it. Beware.
+196	192	Paintberry	Plant		1	99		6	Seed-Pink.png	A berry with a shockng hue and an overwhelming scent. Look out: it WILL stain!
+197	193	Might Seed	Plant		2	10		140	Seed-Red.png	Temporarily raises your Attack when ingested by improving energy flow.
+198	194	Adamant Seed	Plant		2	10		110	Seed-Orange.png	Temporarily raises your Defense when ingested by hardening tissue.
+199	195	Nulberry	Plant		2	10		120	Seed-Blue.png	A mysterious berry that cures all elemental Blights (Fire, Water, Ice, Thunder, and Dragon)
+200	196	Dragonfell Berry	Plant		4	10		78	Seed-Red.png	Eat this to cure Dragonblight and temporarily increase Dragon Resistance.
+201	197	Scatternut	Plant		2	30		4	Seed-Grey.png	A nut that violently ejects its contents when struck.
+202	198	Needleberry	Plant		1	99		1	Seed-Grey.png	A berry covered with needle-like thorns.
+203	199	Latchberry	Plant		1	60		4	Seed-Cyan.png	
+204	200	Bomberry	Plant		2	10		12	Seed-Grey.png	A berry that explodes when struck.
+205	201	Bumblepumpkin	Plant		4	10		20	Seed-Orange.png	A trendy orange pumpkin. If left undisturbed, it can grow to gigantic proportions.
+206	202	Stone	Ore		1	99		1	Ore-Grey.png	A rock with just the right heft for throwing. Tried and tested!
+207	203	Iron Ore	Ore		4	99		60	Ore-Grey.png	Ore with high iron content. Can be smelted and forged into various equipment.
+208	204	Earth Crystal	Ore		4	99		80	Ore-White.png	Crystallized microbes which are prized as an abrasive when forging weapons.
+209	205	Machalite Ore	Ore		4	99		160	Ore-Blue.png	An ore harder than iron, but also several times more difficult to forge with.
+210	206	Dragonite Ore	Ore		4	99		480	Ore-Green.png	An ore that yields metal superior to that of Machalite. Rare and valuable.
+211	207	Lightcrystal	Ore		4	99		1150	Ore-Grey.png	An extemely hard substance with a faint glow. Sometimes used for crafting tools.
+212	208	Ice Crystal	Ore		4	20		60	Ore-Cyan.png	Ice that will not melt at room temparatures. Can be used to create denser ore.
+213	209	Firestone	Ore		4	99		860	Ore-Red.png	Combusts even at room temperature. Its high heat can be used to fuse materials.
+214	210	Gossamite Ore	Ore		4	99		720	Ore-Cyan.png	
+215	211	Heavenly Crystal	Ore		6	99		80	Ore-White.png	
+216	213	Carbalite Ore	Ore		6	99		680	Ore-Purple.png	An ore still being researched. It yields even better metal than Dragonite.
+217	214	Novacrystal	Ore		6	99		2440	Ore-White.png	
+218	215	Fucium Ore	Ore		6	99		1020	Ore-Pink.png	An ore composed of a mysterious metal, capable of fusing nearly any two materials together.
+219	218	Firecell Stone	Ore		6	99		1720	Ore-Orange.png	A magma-like deposit that only trained hands can properly work with.
+220	220	Yoldspar Ore	Ore		6	99		1440	Ore-Cyan.png	
+221	223	Abrasive	Ore		4	99		100	Whetstone.png	
+222	224	Quality Abrasive	Ore		5	99		200	Whetstone.png	
+223	225	Awesome Abrasive	Ore		6	99		300	Whetstone.png	
+224	227	Armor Stone	Ore		4	99		150	Ore-White.png	Reacts uniquely to heat. Combine with other materials to create coating for armor.
+225	228	Armor Sphere	Ore		4	99		80	Sphere-Blue.png	Reacts uniquely to heat. Fuse this to armor to increase its strength.
+226	229	Armor Sphere+	Ore		4	99		300	Sphere-Green.png	Fuse this high-quality Armor Sphere to existing armor to increase its strength.
+227	230	Adv Armor Sphere	Ore		5	99		300	Sphere-Orange.png	An advanced Armor Sphere. Rare in Moga Village. Save it for that special upgrade.
+228	231	Hard Armor Sphere	Ore		5	99		400	Sphere-Purple.png	
+229	232	Heavy Armor Sphere	Ore		6	99		600	Sphere-Red.png	
+230	233	True Armor Sphere	Ore		7	99		700	Sphere-Cyan.png	
+231	236	Whetfish	Fish		1	10		45	Fish-Yellow.png	A fish with a dorsal fin hard enough to sharpen weapons with.
+232	237	Sushifish	Fish		1	10		45	Fish-Orange.png	A fatty, delicious fish that restores a small amount of Health when consumed.
+233	238	Sleepyfish	Fish		2	10		45	Fish-Cyan.png	A fish that contains sleeping agents.
+234	239	Pin Tuna	Fish		1	30		50	Fish-Grey.png	A fish with jaws covered in tiny, needle-like spikes.
+235	240	Speartuna	Fish		5	10		1000	Fish-Blue.png	0
+236	241	Popfish	Fish		2	30		15	Fish-Grey.png	A fish that literally pops when it dies.
+237	242	Scatterfish	Fish		4	10		150	Fish-Grey.png	A fish that dashes itself to pieces when it dies.
+238	243	Burst Arowana	Fish		4	10		45	Fish-Green.png	A fish that bursts open when it dies
+239	244	Bomb Arowana	Fish		4	10		135	Fish-Purple.png	A fish that explodes when it dies.
+240	245	Glutton Tuna	Fish		4	10		13	Fish-Orange.png	A fish that eats anything -- allowing you to sometimes get items from its stomach.
+241	246	Gastronome Tuna	Fish		5	5		23	Fish-Orange.png	
+242	247	Small Goldenfish	Fish		4	99		500	Fish-Yellow.png	A rare fish that commands a high price, but beware its ferocity, rookies!
+243	248	Wanchovy	Fish		2	20		48	Fish-Green.png	A fish that can induce exhaustion.
+244	249	Ancient Fish	Fish		5	99		1500	Fish-Grey.png	
+245	250	Blue Cutthroat	Fish		4	99		100	Fish-Cyan.png	A fish that emits blue light. Its sharp body will cut you to pieces if you're not careful
+246	1439	Bronze Guild Ticket	Coin/Ticket		4				Ticket-Grey.png	
+247	1440	Silver Guild Ticket	Coin/Ticket		5				Ticket-White.png	
+248	257	Insect Husk	Bug		1	10		1	Bug-Grey.png	The remains of an insect. You must be one hardcore collector to hang onto this!
+249	1441	Gold Guild Ticket	Coin/Ticket		6				Ticket-Gold.png	
+250	258	Stinkhopper	Bug		1	99		6	Bug-Red.png	A grasshopper with a foul odor. Make fishing lures with it；its scent drives explosive fish wild.
+251	259	Snakebee Larva	Bug		1	99		30	Bug-Orange.png	An unusual larva. Make fishing lures with it； its scent drives Goldenfish wild.
+252	260	Godbug	Bug		4	10		210	Bug-White.png	An insect said to live 1000 years -- but no one's lived long enough to prove it.
+253	261	Bitterbug	Bug		1	10		2	Bug-Blue.png	Boosts your natural ability to heal when eaten. It also cures poison... sometimes.
+254	262	Flashbug	Bug		2	10		48	Bug-Yellow.png	A nocturnal insect sometimes found in daylight. They emit a bright flash upon death.
+255	263	Thunderbug	Bug		4	99		150	Bug-Yellow.png	Releases an electric shock when struck. Used to light rooms and start fires.
+256	264	Glueglopper	Bug		4	99		120	Bug-Pink.png	
+257	265	Killer Beetle	Bug		4	99		200	Bug-Green.png	This insect's hard shell is often used as an abrasive.
+258	266	Hercudrome	Bug		4	99		540	Bug-Red.png	Said to be the world's strongest bug. Used in forging, cooking, and more.
+259	267	Fulgurbug	Bug		4	99		350	Bug-Blue.png	Thunderbugs which have been stimulated by Zinogre. They emit a pale blue light.
+260	268	Rare Scarab	Bug		6	99		1000	Bug-Yellow.png	A rare and valuable insect that greatly assists in the bonding of metals.
+261	271	Great Hornfly	Bug		4	99		60	Bug-Yellow.png	
+262	273	Butterfly Beetle	Bug		4	99		220	Bug-Grey.png	A strange insect with the large jaws of a beetle and the delicate wings of a butterfly.
+263	304	Monster Bone S	Bone		3	99		10	Bone-Yellow.png	A handy material used to make everything from equipment to sundries.
+264	305	Monster Bone M	Bone		4	99		210	Bone-Yellow.png	A nicely-sized bone. Strong yet flexible, it's as reliable as steel and wood.
+265	306	Monster Bone L	Bone		4	99		440	Bone-Yellow.png	Wyvern bone needed to craft larger items. The right item will fuse this to a shell.
+266	307	Mystery Bone	Bone		1	99		1	Bone-Yellow.png	A weathered bone. Not sturdy enough to use in forging.
+267	308	Unknown Skull	Bone		4	99		120	Bone-Yellow.png	An animal skull worn and weathered beyond identification.
+268	309	Monster Bone+	Bone		4	99		560	Bone-Orange.png	A top-quality monster bone. Hard to find, but vital for crafting powerful equipment.
+269	310	Monster Keenbone	Bone		6	99		660	Bone-Pink.png	A rare bone with a razor-sharp tip that retains its strength even when crafted.
+270	311	Monster Hardbone	Bone		6	99		840	Bone-Red.png	A precious bone rarely yielded by large wyverns. Difficult to forge, but prized for its strength.
+271	313	Elder Dragon Bone	Bone		6	99		880	Bone-Purple.png	
+272	315	Avian Finebone	Bone		5	99		210	Bone-Blue.png	A bone from a Jaggi or other bird wyvern. Small in size, but high in quality.
+273	317	Brute Bone	Bone		4	99		20	Bone-White.png	
+274	318	Jumbo Bone	Bone		4	99		150	Bone-White.png	A large, thick bone. Often cut apart in workshops for use in crafting.
+275	319	Stoutbone	Bone		6	99		600	Bone-White.png	The large, sturdy bone of a beast. Prized by blacksmiths as a prime forging material.
+276	321	Dragonbone Relic	Bone		6	99		500	Bone-White.png	A curiously unfossilized bone from a dragon that once roamed these lands.
+277	323	Wyvern Fang	Flesh		3	50		6	Fang-White.png	Used in Bowgun bullet points. Gunpowder shatters them, generating shrapnel.
+278	324	Wyvern Claw	Flesh		3	50		18	Fang-White.png	Used in Bowgun bullet points. Gunpowder triggers a blast with a wide radius.
+279	325	Bird Wyvern Gem	Flesh		7	0		4850	Monster-Jewel-Blue.png	A valuable gem that can be harvested from Jaggi and other bird wyverns.
+280	327	Wyvern Gem	Flesh		7	0		6000	Monster-Jewel-Cyan.png	
+281	329	Elder Dragon Blood	Flesh		5	0		1500	Liquid-Red.png	
+282	1444	Steel Egg	Commodity		4			1000	Egg-Grey.png	A egg of glittering steel. Very valuable and rare, but of no use to a hunter.
+283	1445	Silver Egg	Commodity		4			10000	Egg-White.png	A egg of glittering silver. Very valuable and rare, but of no use to a hunter.
+284	1446	Golden Egg	Commodity		4			20000	Egg-Yellow.png	An egg of glittering gold. Insanely valuable and rare, but of no use to a hunter.
+285	1447	Slickaxe	Commodity		4				Pickaxe-Purple.png	
+286	331	Screamer Sac	Sac/Fluid		4	99		15	Sac-Grey.png	
+287	332	Poison Sac	Sac/Fluid		4	99		96	Sac-Purple.png	A monster organ that contains a lethal toxin. Handle with extreme care.
+288	333	Toxin Sac	Sac/Fluid		6	99		288	Sac-Purple.png	A monster organ that contains a lethal toxin. Handle with extreme care.
+289	335	Paralysis Sac	Sac/Fluid		4	99		120	Sac-Yellow.png	A monster organ that contains paralyzing neurotoxins.
+290	337	Sleep Sac	Sac/Fluid		4	99		230	Sac-Blue.png	A monster organ that contains a knockout powder capable of inducing sleep.
+291	339	Flame Sac	Sac/Fluid		4	99		240	Sac-Red.png	A monster organ filled with flammable powder. Handle with caution.
+292	340	Inferno Sac	Sac/Fluid		6	99		720	Sac-Red.png	A monster organ filled with powder that ignites if it so much as touches air. Danger!
+293	342	Electro Sac	Sac/Fluid		4	99		480	Sac-Yellow.png	
+294	343	Thunder Sac	Sac/Fluid		6	99		960	Sac-Yellow.png	A monster organ that can store up large amounts of high-voltage electricity.
+295	345	Frost Sac	Sac/Fluid		4	99		290	Sac-White.png	A monster organ that contains a sub-zero liquid. Handle with extreme care.
+296	346	Freezer Sac	Sac/Fluid		6	99		870	Sac-White.png	A monster organ with tremendous freezing power.
+297	348	Aqua Sac	Sac/Fluid		4	99		170	Sac-Cyan.png	A monster organ designed to hold and preserve water.
+298	349	Torrent Sac	Sac/Fluid		6	99		510	Sac-Cyan.png	A monster organ designed to hold and preserve copious amounts of water.
+299	351	Dash Extract	Sac/Fluid		4	20		56	Liquid-Yellow.png	A mysterious substance that can be culled from certain monsters.
+300	352	Pale Extract	Sac/Fluid		4	20		122	Liquid-White.png	Has the ability to amplify the effects of certain medicines.
+301	353	Gargwa Feather	Flesh		4			280	Webbing-Cyan.png	A big, beautiful feather plucked from a Gargwa. Often used as a fashion accessory.
+302	354	Kelbi Horn	Flesh		4			52	Fang-Blue.png	Infusions of powdered Kelbi Horn work wonders on tummyaches. It's a local secret!
+303	355	Blue Kelbi Horn	Flesh		5			108	Fang-Green.png	An especially rare Kelbi Horn. Popular among traders.
+304	356	Warm Pelt	Flesh		4			40	Hide-Green.png	A pelt from a small animal. Used for many things, but mostly just regular clothes.
+305	357	High-quality Pelt	Flesh		6			120	Hide-Orange.png	A pelt from a small animal. Used for many things, but mostly just regular clothes.
+306	359	Rhenoplos Shell	Flesh		4			70	Shell-Grey.png	A very strong shell, considering it comes such a small monster.
+307	360	Rhenoplos Carapace	Flesh		6			210	Shell-Grey.png	
+308	361	Rhenoplos Scalp	Flesh		4			120	Carapace-Grey.png	A sturdy part of the skill that yields, shall we say, dashing results?
+309	363	Slagtoth Hide	Flesh		4			60	Hide-Green.png	
+310	364	Slagtoth Hide+	Flesh		6			180	Hide-Green.png	Firm, lustrous hide often cut into large slabs. Prized for its water-resistant properties.
+311	365	Bnahabra Shell	Flesh		4			120	Shell-Yellow.png	Every bit as sturdy as wyvern armor in the hands of a clever craftsman.
+312	366	Bnahabra Carapace	Flesh		6			360	Shell-Yellow.png	
+313	367	Bnahabra Wing	Flesh		4			75	Webbing-Yellow.png	Difficult to forge with -- the results vary depending on which surface you use.
+314	369	Altaroth Jaw	Flesh		4			185	Fang-YellowGreen.png	These durable mouthparts are surprisingly difficult to carve loose.
+315	370	Altaroth Stomach	Flesh		4			112	Sac-YellowGreen.png	A transparent sac cut from an Altaroth's abdomen, used to store who knows what.
+316	371	Quality Stomach	Flesh		6			336	Sac-YellowGreen.png	
+317	372	Sharp Fang	Flesh		4			170	Fang-Orange.png	
+318	375	Konchu Shell	Flesh		4			160	Shell-Gold.png	
+319	376	Konchu Carapace	Flesh		6			480	Shell-Gold.png	
+320	378	Remobra Hide	Flesh		4			180	Hide-Grey.png	
+321	379	Remobra Hide+	Flesh		6			540	Hide-Grey.png	
+322	381	Striped Skin	Flesh		4			290	Hide-Grey.png	
+323	382	Remobra Head	Flesh		4			750	Carapace-Grey.png	
+324	383	Jaggi Scale	Flesh		4			38	Scale-Purple.png	A scale carved from a Jaggi. Not very valuable, but beginners can't be choosers.
+325	384	Jaggi Scale+	Flesh		6			114	Scale-Purple.png	A vividly-colored superior Jaggi scale that can be used to produce hardier equipment.
+326	385	Jaggi Hide	Flesh		4			25	Hide-Purple.png	Commonly used in this region. It can be made into any number of things.
+327	386	Bird Wyvern Fang	Flesh		4			14	Fang-Purple.png	A fang similar in value to the foreign Velociprey's. Used to make bowgun ammo.
+328	387	Tough Bird Wyv Hide	Flesh		6			750	Hide-Grey.png	
+329	388	G.Jaggi Hide	Flesh		4			260	Hide-Purple.png	Durable, elegantly patterned hide from a Great Jaggi. Befits its position as pack leader.
+330	389	G.Jaggi Hide+	Flesh		6			780	Hide-Purple.png	The rugged hide of a strong Great Jaggi. Fewer wounds means higher quality and value.
+331	390	G.Jaggi Claw	Flesh		4			180	Fang-Purple.png	A hook-shaped claw cut from a Great Jaggi. Just like a Jaggi claw, only much, much larger.
+332	391	G.Jaggi Claw+	Flesh		6			540	Fang-Purple.png	A hook-shaped claw cut from a Great Jaggi. Well-Sharpened from countless battles.
+333	392	King's Frill	Flesh		4			580	Webbing-Purple.png	Proof of who's boss among Jaggi -- and now proof you are on your way as a hunter.
+334	393	Great Jaggi Head	Flesh		4			720	Carapace-Purple.png	
+335	394	Velociprey Scale	Flesh		4			40	Scale-Blue.png	
+336	395	Velociprey Scale+	Flesh		6			120	Scale-Blue.png	
+337	396	Velociprey Hide	Flesh		4			28	Hide-Blue.png	
+338	397	Velociprey Hide+	Flesh		6			84	Hide-Blue.png	
+339	398	Velocidrome Hide	Flesh		4			240	Hide-Blue.png	
+340	399	Velocidrome Claw	Flesh		4			200	Fang-Blue.png	
+341	400	Velocidrome Claw+	Flesh		6			550	Fang-Blue.png	
+342	402	Velocidrome Head	Flesh		4			560	Carapace-Blue.png	
+343	403	Genprey Fang	Flesh		4			35	Fang-Green.png	
+344	404	Genprey Scale	Flesh		4			40	Scale-Green.png	
+345	405	Genprey Scale+	Flesh		6			180	Scale-Green.png	
+346	406	Genprey Hide	Flesh		4			28	Hide-Green.png	
+347	407	Genprey Hide+	Flesh		6			126	Hide-Green.png	
+348	408	Gendrome Hide	Flesh		4			560	Hide-Green.png	
+349	409	Gendrome Tail	Flesh		4			600	Hide-Green.png	
+350	410	Gendrome Head	Flesh		4			665	Carapace-Green.png	
+351	411	Ioprey Fang	Flesh		4			25	Fang-Red.png	
+352	412	Ioprey Scale	Flesh		4			40	Scale-Red.png	
+353	413	Ioprey Scale+	Flesh		6			240	Scale-Red.png	
+354	414	Ioprey Hide	Flesh		4			28	Hide-Red.png	
+355	415	Ioprey Hide+	Flesh		6			168	Hide-Red.png	
+356	417	Iodrome Hide	Flesh		4			560	Hide-Red.png	
+357	418	Iodrome Head	Flesh		4			770	Carapace-Red.png	
+358	419	Lagombi Pelt	Flesh		4	99		280	Hide-White.png	A white pelt carved from a Lagombi. One touch and you'll be hooked on its soft, fluffy fur.
+359	420	Lagombi Pelt+	Flesh		6	99		840	Hide-White.png	A quality white Lagombi pelt. Its glossy, frosty shine makes it a sought-after luxury item.
+360	422	Lagombi Ear	Flesh		4	99		420	Carapace-White.png	0
+361	423	Lagombi Ear+	Flesh		6	99		1260	Carapace-White.png	An impressive Lagombi ear. Highly-developed, it can become sharp as steel if polished.
+362	425	Lagombi Plastron	Flesh		4	99		320	Carapace-White.png	A shell piece from a Lagombi's belly. Its ridges are what allow the Lagombi to slide on ice.
+363	426	Lagombi Plastron+	Flesh		6	99		960	Carapace-White.png	A robust Lagombi Plastron. Strong, sticky and thick, it's used to make superior equipment.
+364	427	Lagombi Iceclaw	Flesh		4	99		210	Fang-White.png	
+365	428	Lagombi Frozenclaw	Flesh		6	99		630	Fang-White.png	
+366	429	Kut-Ku Scale	Flesh		4	99		250	Scale-Pink.png	
+367	430	Kut-Ku Scale+	Flesh		6	99		750	Scale-Pink.png	
+368	432	Kut-Ku Shell	Flesh		4	99		345	Shell-Pink.png	
+369	433	Kut-Ku Carapace	Flesh		6	99		1035	Shell-Pink.png	
+370	435	Kut-Ku Ear	Flesh		4	99		1280	Carapace-Pink.png	
+371	436	Kut-Ku Auricle	Flesh		6	99		2560	Carapace-Pink.png	
+372	438	Giant Beak	Flesh		4	99		1500	Bone-Pink.png	
+373	439	Splendid Beak	Flesh		6	99		3000	Bone-Pink.png	
+374	440	Kut-Ku Webbing	Flesh		4	99		650	Webbing-Pink.png	
+376	442	Blue Kut-Ku Scale+	Flesh		6	99		1125	Scale-Blue.png	
+377	444	Blue Kut-Ku Carapace	Flesh		6	99		1380	Shell-Blue.png	
+378	446	Rubbery Hide	Flesh		4	99		370	Hide-Blue.png	
+379	447	Rubbery Hide+	Flesh		6	99		1110	Hide-Blue.png	
+380	449	Gypceros Head	Flesh		4	99		2200	Carapace-Blue.png	
+381	451	Rubbery Purple Hide	Flesh		6	99		1280	Hide-Purple.png	
+382	453	P.Gypceros Wing	Flesh		6	99		3900	Carapace-Purple.png	
+383	455	Garuga Scale	Flesh		4	99		490	Scale-Purple.png	
+384	456	Garuga Scale+	Flesh		6	99		1470	Scale-Purple.png	
+385	458	Garuga Shell	Flesh		4	99		650	Shell-Purple.png	
+386	459	Garuga Carapace	Flesh		6	99		1950	Shell-Purple.png	
+387	461	Garuga Ear	Flesh		4	99		1500	Carapace-Purple.png	
+388	462	Garuga Auricle	Flesh		6	99		3000	Carapace-Purple.png	
+389	463	Sharpened Beak	Flesh		4	99		1800	Bone-Grey.png	
+390	464	Rejuvenated Beak	Flesh		6	99		3600	Bone-Grey.png	
+391	465	Garuga Wing	Flesh		4	99		1950	Carapace-Purple.png	
+392	467	Garuga Tail	Flesh		4	99		2000	Carapace-Purple.png	
+393	469	Garuga Mane	Flesh		4	99		1800	Carapace-Purple.png	
+394	471	Kecha Pelt	Flesh		4	99		280	Hide-Orange.png	
+395	472	Kecha Pelt+	Flesh		6	99		840	Hide-Orange.png	
+396	474	Kecha Longbone	Flesh		4	99		490	Bone-Orange.png	
+397	475	Kecha Grandbone	Flesh		6	99		1470	Bone-Orange.png	
+398	477	Kecha Talon	Flesh		4	99		560	Fang-Orange.png	
+399	479	Kecha Ear	Flesh		4	99		1300	Carapace-Orange.png	
+400	480	Kecha Ear+	Flesh		6	99		2600	Carapace-Orange.png	
+401	482	Kecha Tail	Flesh		4	99		720	Carapace-Orange.png	
+402	489	Conga Pelt	Flesh		4	99		60	Hide-Pink.png	
+403	490	Conga Pelt+	Flesh		6	99		180	Hide-Pink.png	
+404	491	Sharp Claw	Flesh		4	99		120	Fang-Grey.png	
+405	492	Congalala Pelt	Flesh		4	99		550	Hide-Pink.png	
+406	493	Congalala Pelt+	Flesh		6	99		1100	Hide-Pink.png	
+407	495	Vibrant Pelt	Flesh		4	99		1200	Hide-Yellow.png	
+408	496	Congalala Claw	Flesh		4	99		880	Fang-Pink.png	
+409	497	Congalala Claw+	Flesh		6	99		1500	Fang-Pink.png	
+410	499	Congalala Fang	Flesh		4	99		770	Fang-Pink.png	
+411	501	E.Congalala Pelt+	Flesh		6	99		1650	Hide-Green.png	
+412	503	E.Congalala Fang+	Flesh		6	99		2400	Fang-Green.png	
+413	504	E.Congalala Claw+	Flesh		6	99		2250	Fang-Green.png	
+414	507	Rajang Horn+	Flesh		6	99		3200	Fang-Yellow.png	
+415	509	Rajang Fang+	Flesh		6	99		2700	Fang-Yellow.png	
+416	511	Rajang Blackfur	Flesh		6	99		2280	Hide-Grey.png	
+417	513	Rajang Claw+	Flesh		6	99		3000	Fang-Grey.png	
+418	515	Rajang Tail	Flesh		6	99		4500	Carapace-Yellow.png	
+419	516	Gold Rajang Pelt	Flesh		6	99		9600	Hide-Yellow.png	
+420	518	Rajang Ragehair	Flesh		6	99		3420	Hide-Yellow.png	
+421	520	Rajang Nerve	Flesh		6	99		4800	Monster-Jewel-Yellow.png	
+422	522	Ghoulish Gold Horn	Flesh		7	99		12000	Fang-Yellow.png	
+423	524	Tetsucabra Scale	Flesh		4	99		320	Scale-Red.png	
+424	525	Tetsucabra Scale+	Flesh		6	99		960	Scale-Red.png	
+425	527	Tetsucabra Shell	Flesh		4	99		220	Shell-Red.png	
+426	528	Tetsucabra Carapace	Flesh		6	99		660	Shell-Red.png	
+427	530	Tetsucabra Claw	Flesh		4	99		580	Fang-Red.png	
+428	531	Tetsucabra Claw+	Flesh		6	99		1740	Fang-Red.png	
+429	533	Tetsucabra Tusks	Flesh		4	99		1020	Fang-Red.png	
+430	534	Tetsucabra Tusks+	Flesh		6	99		3060	Fang-Red.png	
+431	536	Dignified Skull	Flesh		4	99		760	Bone-Grey.png	
+432	542	Paddock Oil	Flesh		4	99		200	Liquid-Yellow.png	
+433	543	Paddock Oil+	Flesh		6	99		600	Liquid-Yellow.png	
+434	545	Sharqskin Scale	Flesh		4	99		120	Scale-Blue.png	
+435	546	Meaty Hide	Flesh		4	99		90	Hide-Blue.png	
+436	547	Meaty Hide+	Flesh		6	99		280	Hide-Blue.png	
+437	549	Zamtrios Hide	Flesh		4	99		410	Hide-Cyan.png	
+438	550	Zamtrios Hide+	Flesh		6	99		1230	Hide-Cyan.png	
+439	552	Zamtrios Scale	Flesh		4	99		740	Scale-Cyan.png	
+440	553	Zamtrios Scale+	Flesh		6	99		2220	Scale-Cyan.png	
+441	555	Zamtrios Fin	Flesh		4	99		830	Carapace-Cyan.png	
+442	556	Zamtrios Fin+	Flesh		6	99		2490	Carapace-Cyan.png	
+443	558	Zamtrios Sawtooth	Flesh		4	99		1200	Fang-Cyan.png	
+444	560	Zamtrios Tailblade	Flesh		4	99		1080	Carapace-Cyan.png	
+445	567	Najarala Shell	Flesh		4	99		480	Shell-Gold.png	
+446	568	Najarala Carapace	Flesh		6	99		1440	Shell-Gold.png	
+447	570	Najarala Hide	Flesh		4	99		600	Hide-Gold.png	
+448	571	Najarala Hide+	Flesh		6	99		1800	Hide-Gold.png	
+449	573	Najarala Marrow	Flesh		5	99		2100	Carapace-Gold.png	
+450	574	Najarala Medulla	Flesh		7	99		6300	Carapace-Gold.png	
+451	575	Najarala Sounder	Flesh		4	99		820	Carapace-Gold.png	
+452	576	Najarala Sounder+	Flesh		6	99		2460	Carapace-Gold.png	
+453	578	Najarala Fang	Flesh		4	99		750	Fang-Gold.png	
+454	579	Chilling Beak	Flesh		5	99		2400	Bone-Gold.png	
+455	584	Nerscylla Shell	Flesh		4	99		390	Shell-White.png	
+456	585	Nerscylla Carapace	Flesh		6	99		1170	Shell-White.png	
+457	587	Nerscylla Chelicera	Flesh		4	99		480	Fang-White.png	
+458	588	Nerscylla Shear	Flesh		6	99		1440	Fang-White.png	
+459	590	Nerscylla Claw	Flesh		4	99		520	Fang-White.png	
+460	591	Nerscylla Sharpclaw	Flesh		6	99		1560	Fang-White.png	
+461	593	Nerscylla Spike	Flesh		4	99		1200	Carapace-White.png	
+462	594	Nerscylla Spike+	Flesh		6	99		2800	Carapace-White.png	
+463	600	Monster Fluid	Sac/Fluid		4	99		500	Liquid-Cyan.png	Sticky fluid that is often found in insects after they feast.
+464	601	Monster Broth	Sac/Fluid		6	99		1000	Liquid-Blue.png	A broth made from only the thickest of a monster's juices. Quite rich.
+465	603	Seltas Shell	Flesh		4	99		220	Shell-Green.png	
+466	604	Seltas Carapace	Flesh		6	99		660	Shell-Green.png	
+467	606	Seltas Wing	Flesh		4	99		270	Webbing-Green.png	
+468	607	Seltas Innerwing	Flesh		6	99		810	Webbing-Green.png	
+469	609	Seltas Horn	Flesh		4	99		360	Fang-Green.png	
+470	610	Seltas Horn+	Flesh		6	99		1080	Fang-Green.png	
+471	615	S.Queen Shell	Flesh		4	99		830	Shell-DarkGreen.png	
+472	616	S.Queen Carapace	Flesh		6	99		2490	Shell-DarkGreen.png	
+473	618	S.Queen Pectus	Flesh		4	99		880	Carapace-DarkGreen.png	
+474	619	S.Queen Hardpectus	Flesh		6	99		2640	Carapace-DarkGreen.png	
+475	621	S.Queen Claw	Flesh		4	99		1320	Fang-DarkGreen.png	
+476	622	S.Queen Sharpclaw	Flesh		6	99		3960	Fang-DarkGreen.png	
+477	624	S.Queen Jaw	Flesh		4	99		1250	Carapace-DarkGreen.png	
+478	626	S.Queen Crescent	Flesh		4	99		1400	Carapace-DarkGreen.png	
+479	628	S.Queen Extract	Flesh		4	99		2500	Liquid-DarkGreen.png	
+480	629	S.Queen Concentrate	Flesh		6	99		7000	Liquid-DarkGreen.png	
+481	650	Flabby Hide	Flesh		4	99		760	Hide-White.png	
+482	651	Pearl Hide	Flesh		6	99		1520	Hide-White.png	
+483	653	Pale Bone	Flesh		4	99		2380	Carapace-White.png	
+484	654	Pale Steak	Flesh		6	99		3580	Carapace-White.png	
+485	656	Alluring Hide	Flesh		6	99		1960	Hide-Pink.png	
+486	658	Alluring Webbing	Flesh		6	99		3100	Webbing-Pink.png	
+487	660	Rathian Scale	Flesh		4	99		490	Scale-Green.png	A scale from a flying wyvern native to this area. Rathian mate with male Rathalos.
+488	661	Rathian Scale+	Flesh		6	99		1470	Scale-Green.png	A fine Rathian scale. It may not look special, but its hardness puts other scales to shame.
+489	663	Rathian Shell	Flesh		4	99		650	Shell-Green.png	A shell piece comprised of layered scales, making it much harder than just one.
+490	664	Rathian Carapace	Flesh		6	99		1950	Shell-Green.png	A sturdy Rathian carapace. Even harder than a normal Rathian shell.
+491	666	Rathian Webbing	Flesh		4	99		780	Webbing-Green.png	Hard to forge with, but its thermal properties make it ideal for armor lining.
+492	667	Rathian Spike	Flesh		4	99		2000	Carapace-Green.png	Needle-like hair found on the Rathian's back and wings. They contain poison.
+493	668	Rathian Spike+	Flesh		6	99		4000	Carapace-Green.png	As sharp as the keenest blade. It is longer and sturdier than other spikes.
+494	670	Rathian Plate	Flesh		5	99		4850	Scale-Green.png	A searing tail scale. Hard to come by and as fiery as the wyvern it came from.
+495	671	Rathian Ruby	Flesh		7	99		9700	Monster-Jewel-Green.png	A rare gem formed inside a Rathian. It seems almost too nice to forge with.
+496	673	P.Rathian Scale+	Flesh		6	99		1960	Scale-Pink.png	A high-grade scale from a Pink Rathian. Chic hunters love the blend of strength and style.
+497	675	P.Rathian Carapace	Flesh		6	99		2600	Shell-Pink.png	
+498	677	G.Rathian Scale+	Flesh		6	99		2200	Scale-Yellow.png	
+499	679	G.Rathian Carapace	Flesh		6	99		3900	Shell-Yellow.png	
+500	681	G.Rathian Spike+	Flesh		6	99		5600	Carapace-Yellow.png	
+501	683	Rathalos Scale	Flesh		4	99		490	Scale-Red.png	A Rathalos scale. Wyvern scales like this one and the harder shells are basic forging items.
+502	684	Rathalos Scale+	Flesh		6	99		1470	Scale-Red.png	An extraordinarily durable scale carved from the body of a Rathalos.
+503	686	Rathalos Shell	Flesh		4	99		650	Shell-Red.png	A shell piece comprised of layered scales, making it much harder than just one.
+504	687	Rathalos Carapace	Flesh		6	99		1950	Shell-Red.png	A rigid Rathalos carapace. Even harder than a normal Rathalos Shell.
+505	689	Rathalos Webbing	Flesh		4	99		880	Webbing-Red.png	Hard to forge with, but its thermal properties make it ideal for armor lining.
+506	690	Rathalos Wing	Flesh		6	99		2550	Carapace-Red.png	A wing that has been removed. Skilled artisans can craft it into strong equipment.
+507	692	Rathalos Tail	Flesh		4	99		1200	Carapace-Red.png	The severed tail of a Rathalos. It has any number of uses.
+508	694	Rathalos Plate	Flesh		5	99		4850	Scale-Red.png	A searing tail scale. Hard to come by and as fiery as the wyvern it came from.
+509	695	Rathalos Ruby	Flesh		7	99		9700	Monster-Jewel-Red.png	A rare gem formed inside a Rathalos. It seems almost too nice to forge with.
+510	697	A.Rathalos Scale+	Flesh		6	99		1960	Scale-Blue.png	
+511	699	A.Rathalos Carapace	Flesh		6	99		2600	Shell-Blue.png	
+512	701	A.Rathalos Tail	Flesh		6	99		1800	Carapace-Blue.png	The severed tail of an Azure Rathalos. It fetches a high price due to its rarity.
+513	703	A.Rathalos Wing	Flesh		6	99		3825	Carapace-Blue.png	A wing that has been removed. Excellent for forging both weapons and armor.
+514	704	S.Rathalos Scale+	Flesh		6	99		2200	Scale-White.png	
+515	706	S.Rathalos Carapace	Flesh		6	99		3900	Shell-White.png	
+516	708	S.Rathalos Tail	Flesh		6	99		4800	Carapace-White.png	
+517	710	Rath Wingtalon	Flesh		4	99		600	Fang-Red.png	
+518	712	Rath Marrow	Flesh		5	99		2100	Carapace-Red.png	Recent advances allow this marrow to be extracted. It ignites on air contact.
+519	713	Rath Medulla	Flesh		7	99		6300	Carapace-Red.png	Recent advances allow this red hot organ to be removed, but it's hard to forge with.
+520	714	Rath Gleam	Flesh		7	99		2500	Liquid-Yellow.png	
+521	735	Zinogre Shell	Flesh		4	99		650	Shell-Teal.png	
+522	736	Zinogre Carapace	Flesh		6	99		1950	Shell-Teal.png	The teal carapace of a Zinogre. Its magnificence reveals the futility of facing the monarch.
+523	738	Zinogre Shockfur	Flesh		4	99		490	Hide-White.png	
+524	739	Zinogre Electrofur	Flesh		6	99		1470	Hide-White.png	
+525	741	Zinogre Horn	Flesh		4	99		840	Fang-Teal.png	
+526	742	Zinogre Horn+	Flesh		6	99		2520	Fang-Teal.png	A pointed Zinogre horn. When carved, it can be used to grant equipment incomparable power.
+527	744	Zinogre Claw	Flesh		4	99		700	Fang-Teal.png	
+528	745	Zinogre Claw+	Flesh		6	99		2100	Fang-Teal.png	A sharp, high voltage Zinogre claw. Its electrified attacks are truly brutal.
+529	747	Zinogre Tail	Flesh		4	99		1200	Carapace-Teal.png	The plate-covered tail of a Zinogre. It wields deadly force when swung.
+530	749	Zinogre Shocker	Flesh		4	99		800	Carapace-Teal.png	
+531	750	Zinogre Shocker+	Flesh		6	99		2400	Carapace-Teal.png	A Zinogre shell that stores and releases electricity. Grants a thunder god's power to gear.
+532	752	Zinogre Plate	Flesh		5	99		4850	Scale-Teal.png	
+533	753	Zinogre Jasper	Flesh		7	99		9700	Monster-Jewel-Teal.png	A rare gem occasionally produced inside a Zinogre's body. The monarch's power swells within.
+534	755	S.Zinogre Carapace	Flesh		6	99		2500	Shell-Grey.png	
+535	757	S.Zinogre Horn+	Flesh		6	99		3300	Fang-Grey.png	
+536	759	S.Zinogre Claw+	Flesh		6	99		2730	Fang-Grey.png	
+537	761	S.Zinogre Tail	Flesh		6	99		3200	Carapace-Grey.png	
+538	763	S.Zin Drakeshell	Flesh		6	99		3120	Carapace-Grey.png	
+539	765	Dracophage Bug	Flesh		6	99		500	Bug-Grey.png	Dragonfell Berry-loving bugs that store up Dragon energy. A Stygian Zinogre's power source
+540	766	S.Zinogre Dragonhair	Flesh		6	99		1900	Hide-Grey.png	
+541	768	S.Zinogre Umbrage	Flesh		7	99		9700	Monster-Jewel-Grey.png	
+542	770	Brach Shell	Flesh		4	99		1000	Shell-Blue.png	
+543	771	Brach Carapace	Flesh		6	99		1500	Shell-Blue.png	A hard Brachydios carapace. Glossy like obsidian, it adds a refined beauty to crafted gear.
+544	773	Brach Ebonshell	Flesh		4	99		980	Carapace-Blue.png	An obsidian Brachydios brace. Makes especially strong armor, perhaps due to the slime mold.
+545	774	Brach Ebonshell+	Flesh		6	99		1900	Carapace-Blue.png	A premium Brachydios brace. The slime coating may contain weird bacteria, so be careful.
+546	776	Brach Scalp	Flesh		4	99		1180	Carapace-Blue.png	The large, protruding scalp of a Brachydios, covered in an explosive green substance.
+547	777	Brach Scalp+	Flesh		6	99		2430	Carapace-Blue.png	A hard and sharp scalp piece from a fierce Brachydios. Even more explosive than usual.
+548	779	Mystery Slime	Flesh		4	99		1230	Liquid-YellowGreen.png	The explosive green substance found on Brachydios monsters. Handle with extreme care.
+549	781	Brach Hammer	Flesh		4	99		1280	Carapace-Blue.png	
+550	782	Brach Pounder	Flesh		6	99		2740	Carapace-Blue.png	A Brachydios arm that buried countless foolhardy hunters. It's covered in green slime.
+551	784	Brach Tail	Flesh		6	99		1500	Carapace-Blue.png	
+552	786	Brach Marrow	Flesh		5	99		2100	Carapace-Blue.png	
+553	787	Brach Gem	Flesh		7	99		9300	Monster-Jewel-Blue.png	
+554	793	Basarios Shell	Flesh		4	99		440	Shell-Grey.png	
+555	794	Basarios Carapace	Flesh		6	99		1320	Shell-Grey.png	
+556	796	Basarios Wing	Flesh		4	99		1420	Carapace-Grey.png	
+557	798	Basarios Tears	Flesh		6	99		8888	Ore-Pink.png	
+558	799	R.Basarios Wing	Flesh		6	99		2080	Carapace-Pink.png	
+559	801	R.Basarios Carapace	Flesh		6	99		1860	Shell-Pink.png	
+560	803	Gravios Shell	Flesh		4	99		970	Shell-White.png	
+561	804	Gravios Carapace	Flesh		6	99		1880	Shell-White.png	
+562	806	Gravios Scalp	Flesh		4	99		2550	Carapace-White.png	
+563	808	Gravios Medulla	Flesh		7	99		6260	Carapace-Red.png	
+564	809	Gravios Wing	Flesh		4	99		1800	Carapace-White.png	
+565	812	B.Gravios Carapace	Flesh		6	99		2910	Shell-Grey.png	
+566	814	B.Gravios Scalp	Flesh		4	99		3825	Carapace-Grey.png	
+567	817	Tigrex Scale	Flesh		4	99		520	Scale-Yellow.png	
+568	818	Tigrex Scale+	Flesh		6	99		1560	Scale-Yellow.png	
+569	820	Tigrex Shell	Flesh		4	99		750	Shell-Yellow.png	
+570	821	Tigrex Carapace	Flesh		6	99		2250	Shell-Yellow.png	
+571	823	Tigrex Tail	Flesh		4	99		1250	Carapace-Yellow.png	
+572	825	Tigrex Claw	Flesh		4	99		700	Fang-Yellow.png	
+573	826	Tigrex Claw+	Flesh		6	99		2100	Fang-Yellow.png	
+574	828	Tigrex Fang	Flesh		4	99		600	Fang-Yellow.png	
+575	829	Tigrex Fang+	Flesh		6	99		1800	Fang-Yellow.png	
+576	831	Tigrex Scalp	Flesh		4	99		2300	Carapace-Yellow.png	
+577	832	Tigrex Maw	Flesh		7	99		6800	Carapace-Yellow.png	
+578	834	B.Tigrex Scale+	Flesh		6	99		2050	Scale-Grey.png	
+579	836	B.Tigrex Carapace	Flesh		6	99		2730	Shell-Grey.png	
+580	838	B.Tigrex Claw+	Flesh		6	99		2940	Fang-Grey.png	
+581	840	B.Tigrex Fang+	Flesh		6	99		2520	Fang-Grey.png	
+582	842	M.Tigrex Scale+	Flesh		6	99		2960	Scale-Red.png	
+583	844	M.Tigrex Carapace	Flesh		6	99		5380	Shell-Red.png	
+584	846	M.Tigrex Blastclaw	Flesh		6	99		3460	Fang-Red.png	
+585	848	M.Tigrex Fang+	Flesh		6	99		3020	Fang-Red.png	
+586	850	M.Tigrex Tail	Flesh		6	99		9200	Carapace-Red.png	
+587	852	Pulsating Blastheart	Flesh		7	99		12000	Monster-Jewel-Red.png	
+588	854	Gore Magala Scale	Flesh		4	99		540	Scale-Grey.png	
+589	855	Gore Magala Scale+	Flesh		6	99		1290	Scale-Grey.png	
+590	857	Gore Magala Shell	Flesh		4	99		420	Shell-Grey.png	
+591	858	Gore Magala Carapace	Flesh		6	99		1150	Shell-Grey.png	
+592	860	Gore Magala Wing	Flesh		4	99		980	Carapace-Grey.png	
+593	861	Gore Magala Wing+	Flesh		6	99		2100	Carapace-Grey.png	
+594	863	Gore Magala Ripclaw	Flesh		4	99		680	Fang-Grey.png	
+595	864	Gore Magala Ripclaw+	Flesh		6	99		1580	Fang-Grey.png	
+596	866	Gore Magala Tail	Flesh		4	99		1100	Carapace-Grey.png	
+597	868	Gore Magala Plate	Flesh		5	99		5040	Scale-Grey.png	
+598	869	Gore Magala Nyctgem	Flesh		7	99		8000	Monster-Jewel-Grey.png	
+599	871	Gore Magala Feeler	Flesh		4	99		1240	Fang-Grey.png	
+600	872	Gore Magala Feeler+	Flesh		6	99		2100	Fang-Grey.png	
+601	874	Defiled Scale	Flesh		4	99		560	Scale-Grey.png	
+602	879	S.Magala Scale	Flesh		4	99		700	Scale-White.png	
+603	880	S.Magala Scale+	Flesh		6	99		1650	Scale-White.png	
+604	882	S.Magala Shell	Flesh		4	99		550	Shell-White.png	
+605	883	S.Magala Carapace	Flesh		6	99		1500	Shell-White.png	
+606	885	S.Magala Prismwing	Flesh		4	99		1270	Carapace-White.png	
+607	886	S.Magala Prismwing+	Flesh		6	99		2730	Carapace-White.png	
+608	888	S.Magala Caress	Flesh		4	99		880	Fang-White.png	
+609	889	S.Magala Caress+	Flesh		6	99		2050	Fang-White.png	
+610	891	S.Magala Tail	Flesh		4	99		1430	Carapace-White.png	
+611	893	S.Magala Plate	Flesh		5	99		6550	Scale-White.png	
+612	894	S.Magala Phosgem	Flesh		7	99		10000	Monster-Jewel-White.png	
+613	896	S.Magala Horn	Flesh		4	99		1600	Fang-White.png	
+614	897	S.Magala Horn+	Flesh		6	99		3000	Fang-White.png	
+615	899	Pure Scale	Flesh		4	99		720	Scale-White.png	
+616	914	Deviljho Scale	Flesh		6	99		2100	Scale-DarkGreen.png	A greenish-black Deviljho scale. It's not often sold, as rumors claim it brings it misfortune.
+617	916	Deviljho Hide	Flesh		6	99		2800	Hide-DarkGreen.png	Black hide that is oddly slimy and difficult to forge with.
+618	918	Deviljho Tallfang	Flesh		6	99		2980	Fang-DarkGreen.png	
+619	920	Deviljho Talon	Flesh		6	99		2600	Fang-DarkGreen.png	A dangerously sharp, hooked talon. Inexperienced crafters risk serious injury.
+620	922	Deviljho Scalp	Flesh		6	99		3800	Carapace-DarkGreen.png	Removing this part of a Deviljho's skull releases an unimaginably putrid odor.
+621	923	Deviljho Tail	Flesh		6	99		4000	Carapace-DarkGreen.png	A masive tail resembling a fin. Some folks are out to collect these exclusively.
+622	925	Deviljho Saliva	Flesh		6	99		1700	Liquid-DarkGreen.png	The symbol of a Deviljho's insatiable appetite. The strong acid corrodes all it touches.
+623	926	Black Blood	Flesh		6	99		5100	Liquid-Red.png	Dark black blood characteristic of a Deviljho. It feels like it could jump up and attack at any time.
+624	928	Spattered Hide	Flesh		6	99		5400	Hide-Grey.png	
+625	930	Deviljho Gem	Flesh		7	99		9700	Monster-Jewel-DarkGreen.png	A precious gem said to contain a Deviljho's might. Used in shady rituals.
+626	932	Kirin Thunderhorn	Flesh		4	99		1800	Fang-White.png	
+627	933	Kirin Hide	Flesh		4	99		680	Hide-White.png	
+628	934	Kirin Hide+	Flesh		6	99		2100	Hide-White.png	
+629	936	Kirin Mane	Flesh		4	99		2500	Carapace-White.png	
+630	938	Kirin Thundertail	Flesh		4	99		4000	Carapace-White.png	
+631	940	Kirin Azure Horn	Flesh		6	99		5400	Fang-Blue.png	
+632	942	Kirin Icehorn	Flesh		6	99		5800	Fang-Purple.png	
+633	944	Kirin Frost Tail	Flesh		6	99		4300	Carapace-Purple.png	
+634	946	Daora Scale	Flesh		6	99		3900	Scale-Grey.png	
+635	948	Daora Carapace	Flesh		6	99		3100	Shell-Grey.png	
+636	950	Daora Claw+	Flesh		6	99		5500	Fang-Grey.png	
+637	952	Daora Tail	Flesh		6	99		7000	Carapace-Grey.png	
+638	954	Daora Webbing	Flesh		6	99		6400	Webbing-Grey.png	
+639	956	Daora Horn+	Flesh		6	99		9000	Fang-Grey.png	
+640	958	Daora Gem	Flesh		7	99		12000	Monster-Jewel-Grey.png	
+641	964	Teostra Carapace	Flesh		6	99		3100	Shell-Red.png	
+642	966	Teostra Mane	Flesh		6	99		4600	Carapace-Red.png	
+643	967	Teostra Tail	Flesh		6	99		7100	Carapace-Red.png	
+644	969	Teostra Horn+	Flesh		6	99		8800	Fang-Red.png	
+645	971	Fire Dragon Scale+	Flesh		6	99		3700	Scale-Red.png	
+646	973	Teostra Claw+	Flesh		6	99		5300	Fang-Red.png	
+647	975	Teostra Webbing	Flesh		6	99		6600	Webbing-Red.png	
+648	976	Teostra Powder	Flesh		6	99		3900	Sac-Red.png	
+649	977	Teostra Gem	Flesh		7	99		12000	Monster-Jewel-Red.png	
+650	982	D.Mohran Shell	Flesh		4	99		850	Shell-Red.png	
+651	983	D.Mohran Carapace	Flesh		6	99		2550	Shell-Red.png	
+652	985	D.Mohran Bloodscale	Flesh		4	99		680	Scale-Red.png	
+653	986	D.Mohran Bloodscale+	Flesh		6	99		2040	Scale-Red.png	
+654	988	D.Mohran Brace	Flesh		4	99		1000	Carapace-Red.png	
+655	989	D.Mohran Brace+	Flesh		6	99		3000	Carapace-Red.png	
+656	991	Brutal Horn	Flesh		4	99		1500	Fang-Red.png	
+657	992	Brutal Horn+	Flesh		6	99		5200	Fang-Red.png	
+658	994	Dah'renstone	Flesh		4	99		1200	Ore-Red.png	
+659	995	Earth Dragongem	Flesh		5	99		8000	Mantle-Yellow.png	One of the tougher materials to get from a Jhen Mohran, and that's saying something.
+660	997	Akantor Scale+	Flesh		6	99		4272	Scale-Grey.png	
+661	999	Akantor Carapace	Flesh		6	99		5580	Shell-Grey.png	
+662	1001	Akantor Tail	Flesh		6	99		8000	Carapace-Grey.png	
+663	1003	Akantor Hardclaw	Flesh		6	99		5700	Fang-Grey.png	
+664	1005	Akantor Tallfang	Flesh		6	99		8500	Fang-Grey.png	
+665	1007	Akantor Spike	Flesh		6	99		9500	Carapace-Grey.png	
+666	1009	Akantor Gem	Flesh		7	99		15000	Monster-Jewel-Red.png	
+667	1022	Fatalis Horn	Flesh		6	99		7860	Fang-Grey.png	
+668	1024	Fatalis Scale	Flesh		6	99		5580	Scale-Grey.png	
+669	1026	Fatalis Shell	Flesh		6	99		4272	Shell-Grey.png	
+670	1028	Fatalis Eye	Flesh		6	99		13000	Carapace-Yellow.png	
+671	1030	Fatalis Webbing	Flesh		6	99		9000	Webbing-Grey.png	
+672	1032	Fatalis Bloodhorn	Flesh		6	99		7860	Fang-Red.png	
+673	1033	Fatalis Bloodscale	Flesh		6	99		5580	Scale-Red.png	
+674	1034	Fatalis Bloodshell	Flesh		6	99		4272	Shell-Red.png	
+675	1035	Fatalis Devileye	Flesh		6	99		25000	Carapace-Red.png	
+676	1036	Fatalis Bloodwing	Flesh		6	99		9500	Carapace-Red.png	
+677	1047	Dalamadur Steel	Flesh		6	99		5000	Hide-Grey.png	
+678	1049	Dalam Tail Scale	Flesh		6	99		4000	Scale-Grey.png	
+679	1051	Dalamadur Gazer	Flesh		6	99		10000	Carapace-Grey.png	
+680	1052	Dalamadur Pectus	Flesh		6	99		9000	Carapace-Grey.png	
+681	1054	Dalamadur Glaive	Flesh		6	99		6000	Scale-Grey.png	
+682	1056	Dalamadur Talon	Flesh		6	99		7000	Fang-Grey.png	
+683	1058	Dalam Tail Shell	Flesh		6	99		8000	Carapace-Grey.png	
+684	1060	Dalamadur Fanblade	Flesh		6	99		9500	Carapace-Grey.png	
+685	1062	Vortex Bone	Flesh		6	99		4800	Bone-Grey.png	
+686	1063	Skyblade Gem	Flesh		7	99		20000	Monster-Jewel-Grey.png	
+687	1065	Shattered Omen	Flesh		6	99		3000	Ore-White.png	
+688	1082	Frenzy Shard	Flesh		4	99		1000	Wyvern-Crystal-Purple.png	
+689	1083	Frenzy Crystal	Flesh		5	99		2000	Wyvern-Crystal-Purple.png	
+690	1084	Vile Frenzy Crystal	Flesh		6	99		3000	Wyvern-Crystal-Purple.png	
+691	1088	Small Lobstershell	Flesh		4	99		150	Shell-Pink.png	
+692	1089	Lobster Tail Fan	Flesh		4	99		350	Scale-Pink.png	
+693	1090	Plesioth Scale	Flesh		4	99		480	Scale-Blue.png	
+694	1091	Plesioth Fin	Flesh		4	99		820	Carapace-Blue.png	
+695	1094	Arzuros Shell	Flesh		4	99		180	Shell-Blue.png	A shell piece from an Arzuros's head or back. Bends willingly and is easy to forge.
+696	1095	Arzuros Pelt	Flesh		4	99		260	Hide-Blue.png	A pelt carved from an Arzuros. The white portion is soft, while the blue is short and taut.
+697	1096	Royal Ludroth Claw	Flesh		4	99		200	Fang-Yellow.png	
+698	1097	Spongy Hide	Flesh		4	99		240	Hide-Yellow.png	Uncannily elastic hide that retains water quite well.
+699	1098	Vivid Feather	Flesh		4	99		280	Carapace-YellowGreen.png	A superbly colored Qurupeo feather. Nothing less than a natural work of art.
+700	1099	Strange Beak	Flesh		4	99		1300	Bone-YellowGreen.png	An oddly shaped beak. It's pleasant enough.
+701	1100	Barroth Shell	Flesh		4	99		370	Shell-Orange.png	A Barroth's shell -- more often than not covered in mud, but strong either way.
+702	1101	Barroth Scalp	Flesh		4	99		2200	Carapace-Orange.png	This durable part of the skull is also the hardest to remove.
+703	1102	Nibelsnarf Hide	Flesh		4	99		440	Hide-Gold.png	Hide from a Nibelsnarf. Many are surprised by its bright colors, in contrast to the outer shell.
+704	1103	Vivid Fluid	Flesh		4	99		1420	Liquid-Cyan.png	A fluid which helps retain water in a Nibelsnarf and allows the beast to thrive in the desert.
+705	1104	Ceanataur Shell	Flesh		4	99		480	Shell-Blue.png	
+706	1105	Ceanataur Pincer	Flesh		5	99		2400	Fang-Blue.png	
+707	1106	Uragaan Marrow	Flesh		5	99		2550	Carapace-Yellow.png	Hard-to-obtain bone marrow used for special crafts as well as medicinal purposes.
+708	1107	Uragaan Scute	Flesh		4	99		970	Carapace-Yellow.png	Even more heat resistant than the Shell, this is said to protect sensitive organs.
+709	1108	Nargacuga Blackfur	Flesh		4	99		650	Hide-Grey.png	
+710	1109	Nargacuga Marrow	Flesh		5	99		4850	Carapace-Grey.png	
+711	1110	Nargacuga Cutwing	Flesh		4	99		700	Carapace-Grey.png	
+712	1111	Duramboros Mossplate	Flesh		4	99		650	Hide-Green.png	
+713	1112	Duramboros Horn	Flesh		4	99		1200	Fang-Green.png	The horn of a Duramboros. Wider than a man's chest；all who see it are rendered speechless.
+714	1113	Lavasioth Scale	Flesh		4	99		520	Scale-Grey.png	
+715	1114	Lavasioth Fin	Flesh		4	99		600	Carapace-Grey.png	
+716	1115	Diablos Shell	Flesh		4	99		1000	Shell-Gold.png	This shell piece is dense, as one knock will tell you, and heavier than it looks.
+717	1116	Majestic Horn	Flesh		5	99		2100	Fang-Gold.png	A twisted Diablos horn in great shape. Use it to make more powerful weapons.
+718	1117	Lao-Shan Shell	Flesh		4	99		680	Shell-Red.png	
+719	1118	Lao-Shan Claw	Flesh		4	99		1000	Fang-Red.png	
+720	1119	Lao-Shan Horn	Flesh		5	99		8000	Fang-Red.png	
+721	1120	Vespoid Innerwing	Flesh		6	99		360	Webbing-Yellow.png	
+722	1121	Cephalos Fin+	Flesh		6	99		540	Carapace-Cyan.png	
+723	1122	Cephalos Scale+	Flesh		6	99		780	Scale-Cyan.png	
+724	1123	Hermitaur Carapace	Flesh		6	99		1100	Shell-Red.png	
+725	1124	Hermitaur Claw+	Flesh		6	99		1500	Fang-Red.png	
+726	1125	Gobul Hide+	Flesh		6	99		1470	Hide-Purple.png	Fine skin from a Gobul. Said to rejuvenate the skin, and quite popular with the ladies.
+727	1126	Gobul Spike+	Flesh		6	99		4000	Carapace-Purple.png	A high-quality barb from a Gobul. Only stroner monsters have such well-shaped spikes.
+728	1127	Volvidon Carapace	Flesh		6	99		840	Shell-Red.png	
+729	1128	Amber Tusks+	Flesh		6	99		2460	Fang-Orange.png	Amber tusks sharpened by countless kills. They can smash through gigantic ice blocks.
+730	1129	Barioth Pelt+	Flesh		6	99		1800	Hide-White.png	A high-quality white pelt with a lovely texture. Nobles use it as a symbol of authority.
+731	1130	Blangonga Pelt+	Flesh		6	99		1230	Hide-White.png	
+732	1131	Blangonga Whisker	Flesh		6	99		2220	Carapace-White.png	
+733	1132	Blangonga Fang+	Flesh		6	99		2490	Fang-White.png	
+734	1133	Shell Shocker+	Flesh		6	99		3825	Carapace-Cyan.png	A superior shell found only on certain Lagiacrus. Its structure permits greater electric output.
+735	1134	Lagiacrus Sapphire	Flesh		7	99		6260	Monster-Jewel-Cyan.png	
+736	1135	Agnaktor Carapace	Flesh		6	99		2730	Shell-Red.png	
+737	1136	Agnaktor Fin+	Flesh		6	99		2940	Carapace-Red.png	An Agnaktor fin with an elegant dappled pattern. Aparently a popular item with collectors.
+738	1137	Lunastra Carapace	Flesh		6	99		2600	Shell-Blue.png	
+739	1138	Lunastra Mane	Flesh		6	99		3825	Carapace-Blue.png	
+740	1139	Chameleos Hide+	Flesh		6	99		3900	Hide-Purple.png	
+741	1140	Chameleos Gem	Flesh		6	99		12000	Monster-Jewel-Purple.png	
+742	1141	Chameleos Tail	Flesh		6	99		7000	Carapace-Purple.png	
+743	1142	Tsukami Fluid	Flesh		6	99		2040	Liquid-Green.png	
+744	1143	Dragonwood+	Flesh		6	99		5200	Carapace-Green.png	
+745	1144	Dragonmoss+	Flesh		6	99		3000	Carapace-Green.png	
+746	1145	Ukanlos Shoveljaw	Flesh		6	99		8500	Carapace-White.png	
+747	1146	Ukanlos Carapace	Flesh		6	99		5580	Shell-White.png	
+748	1147	Ukanlos Gem	Flesh		7	99		15000	Monster-Jewel-Cyan.png	
+749	1148	Gaoren Pincer	Flesh		6	99		3420	Fang-Grey.png	
+750	1149	Gaoren Thoracic	Flesh		6	99		4800	Shell-Grey.png	
+751	1150	Gaoren Claw+	Flesh		6	99		12000	Fang-Grey.png	
+752	1151	Ceadeus Hide	Flesh		6	99		2800	Hide-White.png	Even for monster skin, this is remarkably solid. Takes time and effort to craft.
+753	1152	Crooked Horn	Flesh		6	99		2980	Fang-White.png	A giant horn that was formed over ages. It evinces all weight of history.
+754	1153	Luminous Organ	Flesh		6	99		9700	Monster-Jewel-Cyan.png	Who knows why this organ glows, but it seems to hold incredible power.
+755	1154	Alatreon Plate	Flesh		6	99		4000	Scale-Purple.png	This particular Alatreon scale grows in backwards. It is as sharp as a blade.
+756	1155	Alatreon Webbing	Flesh		6	99		10000	Webbing-Purple.png	At times this looks like a dark abyss； at others, like the coming of first light.
+757	1156	Skypiercer	Flesh		6	99		20000	Fang-Purple.png	0
+758	1222	Rustshard	Ore		5				QuestionMark-Grey.png	A hunk of rock? No, it seems to be metal... With a little polish, it could be more.
+759	1223	Ancient Shard	Ore		7				QuestionMark-Grey.png	A fossil? No, it seems to be metal... With a little polish, it could be more.
+760	1224	Rusted Fragment	Ore		4			180	QuestionMark-Grey.png	A uniquely shaped metal fragment covered in rust. It looks like it could be used for something..
+761	1225	Ancient Fragment	Ore		6			360	QuestionMark-Grey.png	
+762	1227	Battered Weapon	Ore		5				QuestionMark-Grey.png	
+763	1228	Battered Armor	Ore		5				QuestionMark-Grey.png	
+764	1229	Seasoned Weapon	Ore		6				QuestionMark-Grey.png	
+765	1230	Seasoned Armor	Ore		6				QuestionMark-Grey.png	
+766	1231	Venerable Weapon	Ore		7				QuestionMark-Grey.png	
+767	1232	Venerable Armor	Ore		7				QuestionMark-Grey.png	
+768	1237	Map	Supply		1				MealTicket-White.png	A map of the hunting ground.
+769	1238	First-aid Med	Supply		1				Liquid-Green.png	Restores a tiny bit of Health. It does a body... sort of good!
+770	1239	First-aid Med+	Supply		2				Liquid-Green.png	
+771	1240	Ration	Supply		1				Meat-Orange.png	Slightly boosts current/max Stamina. Most hunters agree: it's gross.
+772	1241	Portable Spit	Supply		1				BBQSpit-Red.png	A Guild-provided BBQ Spit useful for novice hunters.
+773	1242	Mini Whetstone	Supply		1				Whetstone.png	A portable Whetstone you can use to restore Sharpness to weapons.
+774	1243	EZ Shock Trap	Supply		3				Trap-Purple.png	Immobilizes a target for easy capture.
+775	1244	EZ Flash Bomb	Supply		2				Bomb-Blue.png	A grenade-like bomb that flashes brightly on impact.
+776	1245	EZ Sonic Bomb	Supply		2				Bomb-Cyan.png	
+777	1247	EZ Max Potion	Supply		2				Sac-Blue.png	
+778	1250	EZ Pitfall Trap	Supply		3				Trap-Blue.png	
+779	1251	EZ Barrel Bomb L	Supply		3				Barrel-Bomb-Blue.png	A powered-up Barrel Bomb L (as potent as a B. Bomb L+). OK underwater.
+780	1252	Ballista Ammo	Supply		5				Ammo-Grey.png	Ammunition for a large mounted Bowgun.
+781	1253	Ballista Binder	Supply		6				Ammo-Yellow.png	Ammunition for a large mounted Bowgun. Keep giants from moving!
+782	1254	One-shot Binder	Supply		3				Ammo-Orange.png	
+783	1255	Cannon Ammo	Supply		5				Ammo-Grey.png	Special ammunition for an anti-dragon cannon. Not fun to lug around.
+784	1256	Anti-dragon Bomb	Supply		3				Barrel-Bomb-Yellow.png	A small time bomb that sticks to targets.
+785	1259	Torch	Supply		1				Torch.png	Use this to light up dark places and stave off certain monsters.
+786	1260	Paw Pass Ticket	Supply		5				Ticket-White.png	Deliver to end the Quest. Maybe the Felynes will take you home...
+787	1261	Unique Mushroom	Plant		2			40	Mushroom-White.png	A pinky-sized mushroom valued for its unusual aroma.
+788	1262	Choice Mushroom	Plant		4			300	Mushroom-White.png	The perfect shape and aroma. Even better than a Unique Mushroom.
+789	1263	Ripened Mushroom	Plant		3			50	Mushroom-Green.png	A unique Mushroom made more unique by maturing its aroma and flavor.
+790	1264	Goldenfish	Fish		3			500	Fish-Yellow.png	A rare fish made of solid gold. Sell it for a tidy sum.
+791	1265	Silverfish	Fish		5			1500	Fish-White.png	
+792	1270	Royal Rhino	Bug		2			80	Bug-Cyan.png	A beetle with a jewel-like gleam. Prized by bug fans of all ages.
+793	1276	Sulfur Crystal	Account		1			50	Ore-Yellow.png	
+794	1277	Auristone Chunk	Account		4			1000	Ore-Yellow.png	
+795	1278	Crystal Bone	Account		2			60	Bone-Purple.png	A unique bone prized in the village for reasons unknown.
+796	1279	Bloodstone	Account		3			60	Ore-Red.png	Is this crimson stone the relic of some ancient beast?
+797	1280	Coal	Account		3			60	Ore-Grey.png	
+798	1281	Fossilized Bone	Account		2			60	Carapace-White.png	
+799	1282	Mistentoe	Account		3			100	Herb-Cyan.png	
+800	1284	Decayed Scale	Account		5			200	Scale-Grey.png	
+801	1285	Tiny Spall	Account		4				Ore-White.png	
+802	1286	Lucky Spall	Account		5				Ore-Orange.png	
+803	1287	Miracle Spall	Account		6				Ore-Yellow.png	
+804	1289	White Liver	Account		2			50	Meat-White.png	
+805	1290	Slagtoth Oil	Account		3			60	Liquid-Green.png	
+806	1291	Secret Stash	Account		3			80	Seed-Green.png	
+807	1292	Round Acorn	Account		3				Seed-Green.png	
+808	1293	Fine Stomach	Account		2			400	Sac-Yellow.png	
+809	1294	Luminous Stomach	Account		3			800	Sac-Orange.png	
+810	1295	Monster Guts	Account		3			90	Carapace-Yellow.png	Monster innards galore. A prized delicacy.
+811	1297	Popo Tongue	Account		3			60	Meat-Red.png	Popo Tongue are popular, healthy, and fun to eat.
+812	1301	Gargwa Egg	Account		4				Egg-Cyan.png	
+813	1302	Gold Gargwa Egg	Account		5			500	Egg-Yellow.png	
+814	1303	Wyvern Egg	Account		5				Egg-White.png	An egg taken from a flying wyvern's nest. Very fragile, so handle with care.
+815	1304	Herbivore Egg	Account		5				Egg-Orange.png	An egg stolen from an herbivore's nest. It looks pretty tasty.
+816	1305	Sootstone Ore	Account		5			500	Ore-Grey.png	
+817	1306	Powderstone	Account		5			800	Ore-Red.png	A rock that explodes with even the slightest jolt. Careful!
+818	1308	Gargwa Guano	Account		2				Dung.png	
+819	1309	Territorial Dung	Account		3				Dung-Dark.png	
+820	1310	Territorial Dung+	Account		5				Dung-Dark.png	
+821	1311	Drone Substance	Account		3				Liquid-Yellow.png	
+822	1312	Queen Substance	Account		5				Liquid-Yellow.png	
+823	1313	Toad Tear	Account		3				Carapace-Yellow.png	
+824	1314	Large Toad Tear	Account		5				Carapace-Yellow.png	
+825	1315	Wyvern Tear	Account		3				Carapace-Blue.png	Mysterious tears wept only on special occasions.
+826	1316	Large Wyvern Tear	Account		5				Carapace-Blue.png	
+827	1317	Beast Tear	Account		3				Carapace-Cyan.png	
+828	1318	Large Beast Tear	Account		5				Carapace-Cyan.png	
+829	1321	Dragon Treasure	Account		3				Carapace-Purple.png	
+830	1322	Old Dragon Treasure	Account		5				Carapace-Purple.png	
+831	1323	Pinnacle Coin	Coin/Ticket		4			900	Coin-Red.png	A glorious coin given only to unquestioned Masters of Hunting. Beyond priceless.
+832	1324	Hunter King Coin	Coin/Ticket		5			1300	Coin-White.png	A silver coin given only to True Hunters. Its gleam is a symbol of your glory.
+833	1325	Ace Hunter Coin	Coin/Ticket		6			1300	Coin-Yellow.png	
+834	1329	Beast Coin	Coin/Ticket		4			600	Coin-Blue.png	An award granted for defeating a fanged beast in the Arena. A sharp fang is carved on it.
+835	1330	Flying Coin	Coin/Ticket		4			1100	Coin-Red.png	An award granted for defeating a flying wyvern in the Arena. Proof one challenged the skies.
+836	1332	Bird Coin	Coin/Ticket		4			600	Coin-Pink.png	
+837	1333	Fang Coin	Coin/Ticket		6			1300	Coin-White.png	
+838	1334	Brute Coin	Coin/Ticket		6			1300	Coin-Green.png	
+839	1336	Vermin Coin	Coin/Ticket		4			600	Coin-DarkGreen.png	
+840	1338	Toad Coin	Coin/Ticket		6			1100	Coin-Cyan.png	
+842	1342	Voucher	Coin/Ticket		4			500	MealTicket-White.png	Redeem this for a special meal with stronger effects than usual.
+843	1343	Gourmet Voucher	Coin/Ticket		5			1000	MealTicket-Yellow.png	Exchange this for a kingly meal. Both its flavor and effects are top notch.
+844	1344	Studio Pass	Coin/Ticket		5				Ticket-Blue.png	
+852	1352	Fan Club Invite	Coin/Ticket		5				Ticket-Pink.png	
+853	1353	Monqlo Ticket	Coin/Ticket		5				Ticket-Red.png	
+854	1354	Gold Studio Pass	Coin/Ticket		5				Ticket-Blue.png	
+855	1355	Platinum Pass	Coin/Ticket		5				Ticket-Blue.png	
+857	1357	Amulet Keepsake	Coin/Ticket		5				Monster-Jewel-Red.png	
+860	1360	Interpol Badge	Coin/Ticket		5				Coin-Blue.png	
+861	1361	Val Habar Ticket	Coin/Ticket		5				Ticket-Yellow.png	
+863	1363	Goddess's Melody	Coin/Ticket		5				Charm-Stone-Blue.png	
+864	1364	Goddess's Embrace	Coin/Ticket		5				Mantle-Cyan.png	
+866	1366	Uniqlo Ticket	Coin/Ticket		5				Ticket-Red.png	
+870	1370	Anklet Memento	Coin/Ticket		5				Fang-Yellow.png	
+874	1374	Fan Club Certificate	Coin/Ticket		5				Ticket-Pink.png	
+875	1375	Triforce	Coin/Ticket		5				Ticket-Yellow.png	
+876	1376	Goddess's Fire	Coin/Ticket		5				Torch.png	
+877	1377	Super Mushroom	Coin/Ticket		5				Mushroom-Red.png	
+879	1405	D.Mohran Ticket	Coin/Ticket		5				Ticket-Orange.png	
+881	1406	Dalamadur Ticket	Coin/Ticket		5				Ticket-Purple.png	
+882	1407	Rajang Ticket	Coin/Ticket		5				Ticket-Yellow.png	
+883	1408	Gore Magala Ticket	Coin/Ticket		5				Ticket-Grey.png	
+884	1409	Viper & Toad Ticket	Coin/Ticket		5				Ticket-Gold.png	
+885	1410	Oroshi Kirin Ticket	Coin/Ticket		5				Ticket-Cyan.png	
+886	1411	Commendation	Coin/Ticket		4				Ticket-Orange.png	A ticket awarded for a display of bravery. Collect enough and it might pay off.
+887	1412	Commendation G	Coin/Ticket		5				Ticket-Orange.png	
+888	1413	Accolade	Coin/Ticket		6				Ticket-Yellow.png	
+889	1414	Accolade G	Coin/Ticket		7				Ticket-Yellow.png	
+890	1417	Caravan Ticket	Coin/Ticket		5				Ticket-Red.png	
+891	1420	Palico Ticket	Coin/Ticket		5				Ticket-Blue.png	
+892	1421	Meownster Ticket	Coin/Ticket		5				Ticket-Cyan.png	
+893	1422	Quester's Ticket	Coin/Ticket		5				Ticket-Yellow.png	
+894	1430	Kushala Daora Ticket	Coin/Ticket		5				Ticket-Grey.png	
+895	1431	Teostra Ticket	Coin/Ticket		5				Ticket-Red.png	
+896	1432	Pawprint Stamp	Coin/Ticket		5				Ticket-White.png	Lynain paper currency, stamped with a pawprint. The letters written on it are unfamiliar.
+897	1433	VE Ticket	Coin/Ticket		4				Ticket-Green.png	A ticket awarded in recognition of contributions to the Guild. Trade it with the Veggie Elder.
+898	1434	VE Deluxe Ticket	Coin/Ticket		4				Ticket-Green.png	A ticket awarded in recognition of contributions to the Guild. Trade it with the Veggie Elder.
+899	1435	VE Bronze Ticket	Coin/Ticket		4				Ticket-Purple.png	A ticket awarded for hunting with friends. Trade it with the Veggie Elder.
+900	1436	VE Silver Ticket	Coin/Ticket		4				Ticket-White.png	A ticket awarded for hunting with friends. The Veggie Elder may offer a rare trade...
+901	1437	VE Golden Ticket	Coin/Ticket		4				Ticket-Yellow.png	
+902	1448	Humble Scrap	Scrap		4	99		10	Scraps-White.png	
+903	1450	Handsome Scrap	Scrap		4	99		10	Scraps-White.png	
+904	1452	Gargwa Scrap	Scrap		4	99		10	Scraps-Cyan.png	
+905	1454	Arzuros Scrap	Scrap		4	99		10	Scraps-Blue.png	
+906	1456	Kecha Wacha Scrap	Scrap		4	99		10	Scraps-Orange.png	
+907	1458	Yian Kut-Ku Scrap	Scrap		4	99		10	Scraps-Pink.png	
+908	1460	Bnahabra Scrap	Scrap		4	99		10	Scraps-Yellow.png	
+909	1463	Bulldrome Scrap	Scrap		4	99		10	Scraps-White.png	
+910	1465	Rhenoplos Scrap	Scrap		4	99		10	Scraps-Grey.png	
+911	1467	Great Jaggi Scrap	Scrap		4	99		10	Scraps-Purple.png	
+912	1471	Nerscylla Scrap	Scrap		4	99		10	Scraps-White.png	
+913	1473	Qurupeco Scrap	Scrap		4	99		10	Scraps-YellowGreen.png	
+914	1475	Zamtrios Scrap	Scrap		4	99		10	Scraps-Cyan.png	
+915	1477	Lagombi Scrap	Scrap		4	99		10	Scraps-White.png	
+916	1479	Tetsucabra Scrap	Scrap		4	99		10	Scraps-Red.png	
+917	1481	Barroth Scrap	Scrap		4	99		10	Scraps-Orange.png	
+918	1483	Slagtoth Scrap	Scrap		4	99		10	Scraps-Green.png	
+919	1485	Volvidon Scrap	Scrap		4	99		10	Scraps-Red.png	
+920	1489	Tigrex Scrap	Scrap		4	99		10	Scraps-Yellow.png	
+921	1491	Great Baggi Scrap	Scrap		4	99		10	Scraps-Cyan.png	
+922	1493	Nibelsnarf Scrap	Scrap		4	99		10	Scraps-Gold.png	
+923	1495	Seltas Queen Scrap	Scrap		4	99		10	Scraps-Green.png	
+924	1497	Uragaan Scrap	Scrap		4	99		10	Scraps-Yellow.png	
+925	1499	Great Wroggi Scrap	Scrap		4	99		10	Scraps-Orange.png	
+926	1503	Diablos Scrap	Scrap		4	99		10	Scraps-Gold.png	
+927	1507	Rathian Scrap	Scrap		4	99		10	Scraps-Green.png	
+928	1509	Khezu Scrap	Scrap		4	99		10	Scraps-White.png	
+929	1511	Duramboros Scrap	Scrap		4	99		10	Scraps-Green.png	
+930	1513	Zinogre Scrap	Scrap		4	99		10	Scraps-Cyan.png	
+931	1515	Nargacuga Scrap	Scrap		4	99		10	Scraps-Grey.png	
+932	1517	Rathalos Scrap	Scrap		4	99		10	Scraps-Red.png	
+933	1519	Agnaktor Scrap	Scrap		4	99		10	Scraps-Red.png	
+934	1521	Najarala Scrap	Scrap		4	99		10	Scraps-Gold.png	
+935	1524	Gore Magala Scrap	Scrap		4	99		10	Scraps-Grey.png	
+936	1526	Shagaru Magala Scrap	Scrap		4	99		10	Scraps-White.png	
+937	1528	Teostra Scrap	Scrap		4	99		10	Scraps-Red.png	
+938	1530	Deviljho Scrap	Scrap		4	99		10	Scraps-Green.png	
+939	1532	Akantor Scrap	Scrap		4	99		10	Scraps-Grey.png	
+940	1534	Alatreon Scrap	Scrap		4	99		10	Scraps-Purple.png	
+941	1536	Kushala Daora Scrap	Scrap		4	99		10	Scraps-Grey.png	
+942	1539	Ukanlos Scrap	Scrap		4	99		10	Scraps-White.png	
+943	1541	Kirin Scrap	Scrap		4	99		10	Scraps-White.png	
+944	1543	Gigginox Scrap	Scrap		4	99		10	Scraps-Red.png	
+945	1545	Rajang Scrap	Scrap		4	99		10	Scraps-Grey.png	
+946	1547	Brach Scrap	Scrap		4	99		10	Scraps-Blue.png	
+947	1549	Barioth Scrap	Scrap		4	99		10	Scraps-White.png	
+948	1551	Amatsu Scrap	Scrap		6	99		10	Scraps-White.png	
+949	1553	Dah'ren Mohran Scrap	Scrap		6	99		10	Scraps-Red.png	
+950	1555	Jhen Mohran Scrap	Scrap		6	99		10	Scraps-Blue.png	
+951	1557	Dalamadur Scrap	Scrap		6	99		10	Scraps-Grey.png	
+952	1560	Royal Ludroth Scrap	Scrap		4	99		10	Scraps-Yellow.png	
+953	1562	Plesioth Scrap	Scrap		4	99		10	Scraps-Blue.png	
+954	1564	Lagiacrus Scrap	Scrap		6	99		10	Scraps-Cyan.png	
+955	1566	Aquaglow Jewel	Ore		4	99		50	Jewel-Cyan.png	An indispensible item used in Decorations.
+956	1567	Sunspire Jewel	Ore		4	99		350	Jewel-White.png	An indispensible item used in Decorations.
+957	1568	Bloodrun Jewel	Ore		5	99		530	Jewel-Purple.png	An indispensible item used in Decorations. A shame that these are so high-end.
+958	1569	Lazurite Jewel	Ore		5	99		880	Jewel-Yellow.png	An indispensible item used in Decorations. This one doesn't come along often.
+959	1570	Adamant Orb	Ore		6	99		1000	Jewel-Orange.png	An indispensible item used in Decorations. A rare orb that houses immense power.
+960	1572	Antidote Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+961	1573	Antidote Jewel 2	Decoration		5	99		60	Jewel-Purple.png	
+962	1574	Paralysis Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+963	1575	Paralysis Jwl 2	Decoration		5	99		60	Jewel-Yellow.png	
+964	1576	Pep Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+965	1577	Pep Jewel 2	Decoration		5	99		60	Jewel-Cyan.png	
+966	1578	Steadfast Jwl 1	Decoration		4	99		40	Jewel-Blue.png	
+967	1579	Standfast Jwl 1	Decoration		4	99		60	Jewel-Blue.png	
+968	1580	Tracker Jewel 1	Decoration		4	99		40	Jewel-White.png	
+969	1581	Trekker Jewel 1	Decoration		4	99		40	Jewel-White.png	
+970	1587	Ninja Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+971	1588	Vitality Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+972	1589	Recovery Jewel 1	Decoration		4	99		40	Jewel-Green.png	
+973	1590	Recovery Jewel 2	Decoration		5	99		60	Jewel-Green.png	
+974	1591	Razor Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+975	1592	Razor Jewel 3	Decoration		6	99		80	Jewel-Grey.png	
+976	1593	Handicraft Jwl 2	Decoration		5	99		60	Jewel-Purple.png	
+977	1594	Handicraft Jwl 3	Decoration		6	99		80	Jewel-Purple.png	
+978	1596	Fencer Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+979	1597	Fencer Jewel 3	Decoration		6	99		80	Jewel-Cyan.png	
+980	1598	Expert Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+981	1599	Expert Jewel 2	Decoration		5	99		60	Jewel-Blue.png	
+982	1600	Expert Jewel 3	Decoration		6	99		80	Jewel-Blue.png	
+983	1601	Grinder Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+984	1602	Ironwall Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+985	1603	Ironwall Jewel 2	Decoration		5	99		60	Jewel-Grey.png	
+986	1604	Shield Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+987	1605	Shield Jewel 2	Decoration		5	99		60	Jewel-Grey.png	
+988	1606	Quickload Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+989	1607	Quickload Jwl 2	Decoration		5	99		60	Jewel-Cyan.png	
+990	1608	Absorber Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+991	1609	Absorber Jewel 3	Decoration		6	99		80	Jewel-Grey.png	
+992	1612	Forceshot Jwl 1	Decoration		4	99		40	Jewel-White.png	
+993	1613	Forceshot Jwl 3	Decoration		6	99		80	Jewel-White.png	
+994	1614	Pierce Jewel 1	Decoration		4	99		40	Jewel-White.png	
+995	1615	Pierce Jewel 3	Decoration		6	99		80	Jewel-White.png	
+996	1616	Pellet Jewel 1	Decoration		4	99		40	Jewel-White.png	
+997	1617	Pellet Jewel 3	Decoration		6	99		80	Jewel-White.png	
+998	1618	ShotPlus Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+999	1619	ShotPlus Jewel 2	Decoration		5	99		60	Jewel-Orange.png	
+1000	1620	PiercePlus Jwl 1	Decoration		4	99		40	Jewel-Orange.png	
+1001	1621	PelletPlus Jwl 1	Decoration		4	99		40	Jewel-Orange.png	
+1002	1622	CragPlus Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1003	1623	ClustPlus Jwl 1	Decoration		4	99		40	Jewel-Orange.png	
+1004	1624	Disabler Jewel 1	Decoration		4	99		40	Jewel-Pink.png	
+1005	1625	Disabler Jewel 2	Decoration		5	99		60	Jewel-Pink.png	
+1006	1626	Element Jewel 1	Decoration		4	99		40	Jewel-Pink.png	
+1007	1627	Element Jewel 3	Decoration		6	99		80	Jewel-Pink.png	
+1008	1628	Bombardier Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1009	1629	Hungerless Jwl 1	Decoration		4	99		40	Jewel-White.png	
+1010	1630	Metabolism Jwl 1	Decoration		4	99		40	Jewel-Orange.png	
+1011	1631	Attack Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1012	1632	Attack Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1013	1633	Attack Jewel 3	Decoration		6	99		80	Jewel-Red.png	
+1014	1634	Defense Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+1015	1635	Defense Jewel 2	Decoration		5	99		60	Jewel-Blue.png	
+1016	1637	Protection Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1017	1638	Asylum Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+1018	1639	Earplug Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+1019	1640	Earplug Jewel 3	Decoration		6	99		80	Jewel-Grey.png	
+1020	1641	Alarm Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+1021	1642	Friendship Jwl 1	Decoration		4	99		40	Jewel-Pink.png	
+1022	1643	Friendship Jwl 2	Decoration		5	99		60	Jewel-Pink.png	
+1023	1644	Transportr Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1024	1645	Fire Res Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1025	1646	Water Res Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1026	1647	Ice Res Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+1027	1648	ThunderRes Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1028	1649	Dragon Res Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1029	1650	Heat Res Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1030	1651	Cold Res Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1031	1652	Wind Res Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+1032	1653	Wind Res Jewel 2	Decoration		5	99		60	Jewel-Grey.png	
+1033	1654	Gathering Jwl 1	Decoration		4	99		40	Jewel-Green.png	
+1034	1655	Spree Jewel 1	Decoration		4	99		40	Jewel-Green.png	
+1035	1656	Blessing Jewel 1	Decoration		4	99		40	Jewel-Pink.png	
+1036	1657	Fate Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1037	1658	Fate Jewel 3	Decoration		6	99		80	Jewel-Red.png	
+1038	1659	Psychic Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1039	1660	Medicine Jewel 1	Decoration		4	99		40	Jewel-Green.png	
+1040	1661	Medicine Jewel 2	Decoration		5	99		60	Jewel-Green.png	
+1041	1662	Professor Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1042	1663	Factory Jewel 1	Decoration		4	99		40	Jewel-White.png	
+1043	1664	Evasion Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1044	1665	Evasion Jewel 2	Decoration		5	99		60	Jewel-Cyan.png	
+1045	1666	Potential Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1046	1667	Potential Jwl 2	Decoration		5	99		60	Jewel-Red.png	
+1047	1668	Enduring Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+1048	1669	Sprinter Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+1049	1670	Sprinter Jewel 3	Decoration		6	99		80	Jewel-Yellow.png	
+1050	1671	Capacity Jewel 2	Decoration		5	99		60	Jewel-Grey.png	
+1051	1672	Capacity Jewel 3	Decoration		6	99		80	Jewel-Grey.png	
+1052	1674	Sniper Jewel 1	Decoration		4	99		40	Jewel-White.png	
+1053	1675	Gobbler Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+1054	1676	Gobbler Jewel 3	Decoration		6	99		80	Jewel-Yellow.png	
+1055	1679	Carver Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1056	1680	Carver Jewel 3	Decoration		6	99		80	Jewel-Orange.png	
+1057	1681	Footing Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+1058	1682	Tectonic Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+1059	1683	Jumping Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+1060	1685	Draw Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1061	1686	Draw Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1062	1687	Trapmaster Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1063	1688	Physique Jewel 1	Decoration		4	99		40	Jewel-White.png	
+1064	1689	Physique Jewel 2	Decoration		5	99		60	Jewel-White.png	
+1065	1690	Capture Jewel 1	Decoration		4	99		40	Jewel-Green.png	
+1066	1691	Capture Jewel 3	Decoration		6	99		80	Jewel-Green.png	
+1067	1692	Perception Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1068	1693	Charger Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1069	1694	Charger Jewel 3	Decoration		6	99		80	Jewel-Orange.png	
+1070	1695	Gambit Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1071	1696	Gambit Jewel 3	Decoration		6	99		80	Jewel-Orange.png	
+1072	1697	Resistor Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1073	1698	Release Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1074	1699	Catalyst Jewel 3	Decoration		6	99		80	Jewel-Red.png	
+1075	1705	Fortitude Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1076	1706	Fortitude Jwl 2	Decoration		5	99		60	Jewel-Red.png	
+1077	1707	Salvo Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1078	1708	Salvo Jewel 3	Decoration		6	99		80	Jewel-Cyan.png	
+1079	1709	Torchlight Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1080	1710	Def Lock Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+1081	1711	Blaze Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1082	1712	Blaze Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1083	1713	Stream Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1084	1714	Stream Jewel 2	Decoration		5	99		60	Jewel-Cyan.png	
+1085	1715	Bolt Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+1086	1716	Bolt Jewel 2	Decoration		5	99		80	Jewel-Yellow.png	
+1087	1717	Frost Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+1088	1718	Frost Jewel 2	Decoration		5	99		60	Jewel-Blue.png	
+1089	1719	Dragon Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+1090	1720	Dragon Jewel 2	Decoration		5	99		60	Jewel-Purple.png	
+1091	1721	Tenderizer Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1092	1722	Tenderizer Jwl 3	Decoration		6	99		80	Jewel-Red.png	
+1093	1723	Destroyer Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1094	1724	Destroyer Jwl 3	Decoration		6	99		80	Jewel-Purple.png	
+1095	1725	Throttle Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1096	1726	Throttle Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1097	1727	KO Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1098	1728	Drain Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+1099	1729	Drain Jewel 2	Decoration		5	99		60	Jewel-Yellow.png	
+1100	1730	Sonorous Jewel 1	Decoration		4	99		40	Jewel-Pink.png	
+1101	1731	Artillery Jwl 1	Decoration		4	99		40	Jewel-Grey.png	
+1102	1732	Resistor Jewel 3	Decoration		6	99		80	Jewel-Cyan.png	
+1103	1733	Nul-Fire Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1104	1734	Nul-Water Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1105	1735	Nul-Thundr Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1106	1736	Nul-Ice Jewel 1	Decoration		4	99		40	Jewel-Blue.png	
+1107	1737	Nul-Dragon Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1108	1738	Sheath Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1109	1739	Sheath Jewel 2	Decoration		5	99		60	Jewel-Cyan.png	
+1110	1740	Refresh Jewel 1	Decoration		4	99		40	Jewel-White.png	
+1111	1741	Refresh Jewel 2	Decoration		5	99		60	Jewel-White.png	
+1112	1742	Ranger Jewel 1	Decoration		4	99		40	Jewel-White.png	
+1113	1743	SlicePlus Jwl 1	Decoration		4	99		40	Jewel-Orange.png	
+1114	1744	Paracoat Jewel 1	Decoration		4	99		40	Jewel-Unknown.png	
+1115	1745	Paracoat Jewel 2	Decoration		5	99		60	Jewel-Unknown.png	
+1116	1746	Sleepcoat Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1117	1747	Poisoncoat Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1118	1748	Powercoat Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1119	1749	Powercoat Jwl 2	Decoration		5	99		80	Jewel-Red.png	
+1120	1750	Rangecoat Jwl 1	Decoration		4	99		40	Jewel-White.png	
+1121	1751	Draincoat Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1122	1752	Guts Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1123	1753	Guts Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1124	1754	Meateater Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1125	1755	Meatlover Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1126	1756	Honeybee Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1127	1757	Queenbee Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1128	1758	Biology Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+1129	1759	Microbio Jewel 1	Decoration		4	99		40	Jewel-Purple.png	
+1130	1760	Spirit Jewel 1	Decoration		4	99		40	Jewel-Red.png	
+1131	1761	Spirit Jewel 2	Decoration		5	99		60	Jewel-Red.png	
+1132	1762	Flawless Jewel 1	Decoration		4	99		40	Jewel-White.png	
+1133	1763	Flawless Jewel 2	Decoration		5	99		60	Jewel-White.png	
+1134	1764	Steady Jewel 1	Decoration		4	99		40	Jewel-Grey.png	
+1135	1765	Steady Jewel 3	Decoration		6	99		80	Jewel-Grey.png	
+1136	1766	Player Jewel 1	Decoration		4	99		40	Jewel-Green.png	
+1137	1767	Morale Jewel 1	Decoration		5	99		60	Jewel-Green.png	
+1138	1768	Leader Jewel 1	Decoration		4	99		40	Jewel-Cyan.png	
+1139	1769	Leader Jewel 2	Decoration		5	99		60	Jewel-Cyan.png	
+1140	1770	KO Jewel 2	Decoration		5	99		60	Jewel-Orange.png	
+1141	1771	Charmer Jewel 1	Decoration		4	99		40	Jewel-Yellow.png	
+1142	1772	BlastPlus Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1143	1773	Blastcoat Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1144	1861	Lynians	Book		1	1			Book-White.png	
+1145	1862	Neopterons Vol 1	Book		2	1			Book-White.png	
+1146	1865	Nerscylla	Book		1	1			Book-White.png	
+1147	1866	Seltas Queen	Book		2	1			Book-White.png	
+1148	1869	Piscine Wyverns Vol1	Book		1	1			Book-White.png	
+1149	1871	Herbivores Vol 1	Book		1	1			Book-White.png	
+1150	1872	Herbivores Vol 2	Book		1	1			Book-White.png	
+1151	1874	Bird Wyverns Vol 1	Book		1	1			Book-White.png	
+1152	1875	Bird Wyverns Vol 2	Book		1	1			Book-White.png	
+1153	1876	Bird Wyverns Vol 3	Book		2	1			Book-White.png	
+1154	1877	Fanged Beasts Vol 1	Book		1	1			Book-White.png	
+1155	1878	Fanged Beasts Vol 2	Book		1	1			Book-White.png	
+1156	1879	Fanged Beasts Vol 3	Book		2	1			Book-White.png	
+1157	1881	Rajang	Book		3	1			Book-White.png	
+1158	1882	Tetsucabra	Book		2	1			Book-White.png	
+1159	1883	Zamtrios	Book		2	1			Book-White.png	
+1160	1886	Snake Wyverns Vol 1	Book		2	1			Book-White.png	
+1161	1888	Brachydios	Book		2	1			Book-White.png	
+1162	1889	Deviljho	Book		3	1			Book-White.png	
+1163	1890	Flying Wyverns Vol 1	Book		1	1			Book-White.png	
+1164	1891	Flying Wyverns Vol 2	Book		2	1			Book-White.png	
+1165	1892	Flying Wyverns Vol 3	Book		2	1			Book-White.png	
+1166	1893	Flying Wyverns Vol 4	Book		2	1			Book-White.png	
+1167	1894	Flying Wyverns Vol 5	Book		3	1			Book-White.png	
+1168	1895	Flying Wyverns Vol 6	Book		3	1			Book-White.png	
+1169	1899	Gore Magala	Book		2	1			Book-White.png	
+1170	1900	Akantor	Book		3	1			Book-White.png	
+1171	1902	Fanged Wyverns Vol 1	Book		2	1			Book-White.png	
+1172	1903	Fanged Wyverns Vol 2	Book		2	1			Book-White.png	
+1173	1905	Kirin	Book		2	1			Book-White.png	
+1174	1906	Oroshi Kirin	Book		3	1			Book-White.png	
+1175	1907	Shagaru Magala	Book		3	1			Book-White.png	
+1176	1908	Dah'ren Mohran	Book		3	1			Book-White.png	
+1177	1909	Kushala Daora	Book		3	1			Book-White.png	
+1178	1910	Teostra	Book		3	1			Book-White.png	
+1179	1911	Dalamadur	Book		3	1			Book-White.png	
+1180	1912	Fatalis	Book		3	1			Book-White.png	
+1181	1774	Honed Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1182	1775	Honed Jwl 2	Decoration		5	99		60	Jewel-Purple.png	
+1183	1776	Honed Jwl 3	Decoration		6	99		80	Jewel-Purple.png	
+1184	1778	True Honed Jwl 3	Decoration		7	99		100	Jewel-Purple.png	
+1185	1784	Calm Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1186	1785	Calm Jwl 2	Decoration		5	99		60	Jewel-Cyan.png	
+1187	1786	Calm Jwl 3	Decoration		6	99		80	Jewel-Cyan.png	
+1188	1788	True Calm Jwl 3	Decoration		7	99		100	Jewel-Cyan.png	
+1189	1790	Hale Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1190	1791	Hale Jwl 2	Decoration		5	99		60	Jewel-Cyan.png	
+1191	1792	Hale Jwl 3	Decoration		6	99		80	Jewel-Cyan.png	
+1192	1794	True Hale Jwl 3	Decoration		7	99		100	Jewel-Cyan.png	
+1193	1796	Ire Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1194	1797	Ire Jwl 2	Decoration		5	99		60	Jewel-Red.png	
+1195	1798	Ire Jwl 3	Decoration		6	99		80	Jewel-Red.png	
+1196	1800	True Ire Jwl 3	Decoration		7	99		100	Jewel-Red.png	
+1197	1802	Nimble Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1198	1803	True Nimble Jwl 1	Decoration		5	99		60	Jewel-Cyan.png	
+1199	1804	Nimble Jwl 2	Decoration		5	99		60	Jewel-Cyan.png	
+1200	1805	Nimble Jwl 3	Decoration		6	99		80	Jewel-Cyan.png	
+1201	1806	True Nimble Jwl 3	Decoration		7	99		100	Jewel-Cyan.png	
+1202	1807	Hardy Jwl 1	Decoration		4	99		40	Jewel-Yellow.png	
+1203	1808	True Hardy Jwl 1	Decoration		5	99		60	Jewel-Yellow.png	
+1204	1809	Hardy Jwl 2	Decoration		5	99		60	Jewel-Yellow.png	
+1205	1810	Hardy Jwl 3	Decoration		6	99		80	Jewel-Yellow.png	
+1206	1811	True Hardy Jwl 3	Decoration		7	99		100	Jewel-Yellow.png	
+1207	1816	Withdrawn Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1208	1818	Withdrawn Jwl 3	Decoration		6	99		80	Jewel-Red.png	
+1209	1828	Impactful Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1210	1830	Impactful Jwl 3	Decoration		6	99		80	Jewel-Red.png	
+1211	1832	Intense Jwl 2	Decoration		5	99		60	Jewel-Orange.png	
+1212	1833	Intense Jwl 3	Decoration		6	99		80	Jewel-Orange.png	
+1213	1836	Aegis Jwl 2	Decoration		5	99		60	Jewel-Blue.png	
+1214	1837	Aegis Jwl 3	Decoration		6	99		80	Jewel-Blue.png	
+1215	1840	Tactful Jwl 2	Decoration		5	99		60	Jewel-White.png	
+1216	1841	Tactful Jwl 3	Decoration		6	99		80	Jewel-White.png	
+1217	1844	Broad Jwl 2	Decoration		5	99		60	Jewel-Pink.png	
+1218	1845	Broad Jwl 3	Decoration		6	99		80	Jewel-Pink.png	
+1219	1851	Trove Jwl 1	Decoration		4	99		40	Jewel-Green.png	
+1220	1852	True Trove Jwl 1	Decoration		5	99		60	Jewel-Green.png	
+1221	1853	Trove Jwl 2	Decoration		5	99		60	Jewel-Green.png	
+1222	1854	True Trove Jwl 2	Decoration		6	99		80	Jewel-Green.png	
+1223	1855	Trove Jwl 3	Decoration		6	99		80	Jewel-Green.png	
+1224	1856	Avid Jwl 1	Decoration		4	99		40	Jewel-Green.png	
+1225	1859	True Avid Jwl 1	Decoration		5	99		60	Jewel-Green.png	
+1226	1857	Avid Jwl 2	Decoration		5	99		60	Jewel-Green.png	
+1227	1860	True Avid Jwl 2	Decoration		6	99		80	Jewel-Green.png	
+1228	1858	Avid Jwl 3	Decoration		6	99		80	Jewel-Green.png	
+1229	279	Power++ Nectar	Nectar		6	99		60	Nectar-Pink.png	
+1230	285	Stamina++ Nectar	Nectar		6	99		60	Nectar-Orange.png	
+1231	293	Speed++ Nectar	Nectar		6	99		60	Nectar-White.png	
+1232	295	Nectar: Fire++	Nectar		6	99		60	Nectar-Red.png	
+1233	297	Nectar: Water++	Nectar		6	99		60	Nectar-Blue.png	
+1234	299	Nectar: Thunder++	Nectar		6	99		60	Nectar-Yellow.png	
+1235	301	Nectar: Ice++	Nectar		6	99		60	Nectar-Cyan.png	
+1236	303	Nectar: Dragon++			6	99		60	Nectar-Purple.png	
+1237	159	Wystone Lv1: Brace	Wystone		5	1			Wystone-Orange.png	
+1238	161	Wystone Lv1: Element	Wystone		5	1			Wystone-Cyan.png	
+1239	163	Wystone Lv1: Force	Wystone		5	1			Wystone-Red.png	
+1240	165	Wystone Lv1: Drive	Wystone		5	1			Wystone-Purple.png	
+1241	1870	Piscine Wyverns Vol2	Book		3	1			Book-White.png	
+1242	1873	Herbivores Vol 3	Book		3	1			Book-White.png	
+1243	1867	Carapaceons Vol 1	Book		3	1			Book-White.png	
+1244	1868	Carapaceons Vol 2	Book		3	1			Book-White.png	
+1245	1863	Neopterons Vol 2	Book		3	1			Book-White.png	
+1246	1864	Neopterons Vol 3	Book		3	1			Book-White.png	
+1247	1896	Flying Wyverns Vol 7	Book		3	1			Book-White.png	
+1248	1897	Flying Wyverns Vol 8	Book		3	1			Book-White.png	
+1249	1898	Seregios	Book		3	1			Book-White.png	
+1250	1880	Fanged Beasts Vol 4	Book		3	1			Book-White.png	
+1251	1884	Amphibians	Book		3	1			Book-White.png	
+1252	1887	Snake Wyverns Vol 2	Book		3	1			Book-White.png	
+1254	1901	Ukanlos	Book		4	1			Book-White.png	
+1255	1904	Elder Dragons	Book		4	1			Book-White.png	
+1256	1913	Gogmazios	Book		4	1			Book-White.png	
+1257	251	Coinperch S	Fish		4	99		150	Fish-Grey.png	
+1258	252	Coinperch M	Fish		4	99		500	Fish-Gold.png	
+1259	253	Coinperch L	Fish		5	99		2500	Fish-Yellow.png	
+1260	255	Cathangeafish Fry	Fish		4	99		80	Fish-Purple.png	
+1261	256	Cathangeafish	Fish		5	99		120	Fish-Purple.png	
+1262	254	Dundorma Tuna	Fish		5	99		20	Fish-Red.png	
+1263	1885	Temnocerans	Book		3	1			Book-White.png	
+1264	662	Rathian Shard	Flesh		8	99		4410	Scale-Green.png	A particularly thick Rathian scale. Its large size proves its owner's advanced age.
+1265	665	Rathian Cortex	Flesh		8	99		5850	Shell-Green.png	A Rathian shell heavier than a carapace. Used to reinforce parts of equipment.
+1266	669	Rathian Surspike	Flesh		8	99		9180	Carapace-Green.png	Only a few of those superior spikes grow on a Rathian. It is both sharp and highly toxic.
+1267	672	Rathian Mantle	Flesh		9	99		15000	Mantle-Green.png	A legendary Rathian scale. Those who craft it are said to rule the earth and seize the sky.
+1268	711	Rath Wingtalon+	Flesh		8	99		5400	Fang-Red.png	
+1269	674	P.Rathian Shard	Flesh		8	99		5880	Scale-Pink.png	A thick, shiny scale from a Pink Rathian. Rare is the artisan who has ever laid eyes on one.
+1270	676	P.Rathian Cortex	Flesh		8	99		7800	Shell-Pink.png	A hevy Pink Rathian cortex made up of a single beautiful plate. It commands top zenny when sold.
+1271	678	G.Rathian Shard	Flesh		8	99		6600	Scale-Yellow.png	A thick Gold Rathian scale unlike anything seen before. Sunlight gives it an almost sacred glow.
+1272	680	G.Rathian Cortex	Flesh		8	99		8775	Shell-Yellow.png	A cortex carved from a Gold Rathian. All who see it gasp at its intense glow.
+1273	682	G.Rath Surspike	Flesh		8	99		12000	Carapace-Yellow.png	A poisonous spike found on Gold Rathians in rare circumstances. It can pierce through anything.
+1274	715	Firegleam Dollop	Flesh		9	99		7500	Liquid-Yellow.png	
+1275	685	Rathalos Shard	Flesh		8	99		4410	Scale-Red.png	A Rathalos part made of several overlapping scales. Its strength is a natural wonder.
+1276	688	Rathalos Cortex	Flesh		8	99		5850	Shell-Red.png	A robust Rathalos shell that is harder and sturdier than a carapace.
+1277	693	Rathalos Lash	Flesh		8	99		7200	Carapace-Red.png	A top-grade Rathalos tail. Strong ones like this are precious, and only used in select equipment.
+1278	691	Rathalos Fellwing	Flesh		8	99		7650	Carapace-Red.png	A top-grade Rathalos wing, removed in full. Such majesty befits the King of the Skies.
+1279	696	Rathalos Mantle	Flesh		9	99		15000	Mantle-Red.png	A legendary Rathalos scale. Those who craft it are said to rule the earth and seize the sky.
+1280	698	A.Rathalos Shard	Flesh		8	99		5880	Scale-Blue.png	An Azure Rathalos part made of several overlapping scales. It boasts beauty and strength.
+1281	700	A.Rathalos Cortex	Flesh		8	99		7800	Shell-Blue.png	
+1282	702	A.Rathalos Lash	Flesh		8	99		9000	Carapace-Blue.png	A top-grade Azure Rathalos tail. Strong ones like this are prized by all and sold at high prices.
+1283	705	S.Rathalos Shard	Flesh		8	99		6600	Scale-White.png	A Silver Rathalos part made of several overlapping scales. Makes for a nice silver accessory.
+1284	707	S.Rath Cortex	Flesh		8	99		8775	Shell-White.png	A heavy Silver Rathalos cortex. This legendary item shines like moonlight, even in darkness.
+1285	709	S.Rath Lash	Flesh		8	99		9600	Carapace-White.png	
+1286	431	Kut-Ku Shard	Flesh		8	99		2250	Scale-Pink.png	
+1287	434	Kut-Ku Cortex	Flesh		8	99		3105	Shell-Pink.png	
+1288	441	Kut-Ku Fellwing	Flesh		8	99		5850	Carapace-Pink.png	
+1289	437	Kut-Ku Luckear	Flesh		8	99		5120	Carapace-Pink.png	
+1290	443	Blue Kut-Ku Shard	Flesh		8	99		3375	Scale-Blue.png	
+1291	445	Blue Kut-Ku Cortex	Flesh		8	99		4140	Shell-Blue.png	
+1292	457	Garuga Shard	Flesh		8	99		4410	Scale-Purple.png	
+1293	460	Garuga Cortex	Flesh		8	99		5850	Shell-Purple.png	
+1294	470	Garuga Silverpelt	Flesh		8	99		7200	Carapace-White.png	
+1295	466	Garuga Fellwing	Flesh		8	99		7800	Carapace-Purple.png	
+1296	468	Garuga Lash	Flesh		8	99		8000	Carapace-Purple.png	
+1297	448	Rubbery Finehide	Flesh		8	99		3330	Hide-Blue.png	
+1298	450	Gypceros Hardhead	Flesh		8	99		8800	Carapace-Blue.png	
+1299	452	Rubbery Purple Hide+	Flesh		8	99		3840	Hide-Purple.png	
+1300	454	P.Gypceros Fellwing	Flesh		8	99		7800	Carapace-Purple.png	
+1301	819	Tigrex Shard	Flesh		8	99		4680	Scale-Yellow.png	
+1302	822	Tigrex Cortex	Flesh		8	99		6750	Shell-Yellow.png	
+1303	830	Tigrex Hardfang	Flesh		8	99		5400	Fang-Yellow.png	
+1304	827	Tigrex Hardclaw	Flesh		8	99		6300	Fang-Yellow.png	
+1305	824	Tigrex Lash	Flesh		8	99		7500	Carapace-Yellow.png	
+1306	833	Tigrex Mantle	Flesh		9	99		10200	Mantle-Yellow.png	
+1307	835	B.Tigrex Shard	Flesh		8	99		6150	Scale-Grey.png	
+1308	837	B.Tigrex Cortex	Flesh		8	99		8190	Shell-Grey.png	
+1309	841	B.Tigrex Hardfang	Flesh		8	99		7560	Fang-Grey.png	
+1310	839	B.Tigrex Hardclaw	Flesh		8	99		8820	Fang-Grey.png	
+1311	843	M.Tigrex Shard	Flesh		8	99		8880	Scale-Red.png	
+1312	845	M.Tigrex Cortex	Flesh		8	99		16140	Shell-Red.png	
+1313	849	M.Tigrex Hardfang	Flesh		8	99		9060	Fang-Red.png	
+1314	847	M.Tigrex Trigger	Flesh		8	99		10380	Fang-Red.png	
+1315	851	M.Tigrex Lash	Flesh		8	99		15600	Carapace-Red.png	
+1316	853	Dire Blastheart	Flesh		9	99		18000	Monster-Jewel-Red.png	
+1317	416	Ioprey Piel	Flesh		8			504	Hide-Red.png	
+1318	401	Velocidrome Hardclaw	Flesh		8			1650	Fang-Blue.png	
+1319	494	Congalala Fur	Flesh		8	99		3300	Hide-Pink.png	
+1320	498	Congalala Hardclaw	Flesh		8	99		4500	Fang-Pink.png	
+1321	500	Beastly Fang	Flesh		8	99		3850	Fang-Yellow.png	
+1322	502	E.Congalala Fur	Flesh		8	99		4950	Hide-Green.png	
+1323	505	E.Congalala Hardclaw	Flesh		8	99		6750	Fang-Green.png	
+1324	506	Vibrant Comb	Flesh		8	99		9600	Fang-Orange.png	
+1325	512	Rajang Wildpelt	Flesh		8	99		5700	Hide-Grey.png	
+1326	508	Rajang Hardhorn	Flesh		8	99		8000	Fang-Yellow.png	
+1327	510	Rajang Hardfang	Flesh		8	99		6750	Fang-Yellow.png	
+1328	514	Rajang Hardclaw	Flesh		8	99		7500	Fang-Grey.png	
+1329	517	Gold Rajang Pelt+	Flesh		8	99		15000	Hide-Yellow.png	
+1330	519	Rajang Apoplexy	Flesh		8	99		8550	Hide-Yellow.png	
+1331	523	Ghoulish Gold Gorer	Flesh		9	99		30000	Fang-Yellow.png	
+1332	521	Rajang Heart	Flesh		9	99		12000	Carapace-Red.png	
+1333	473	Kecha Fur	Flesh		8	99		2520	Hide-Orange.png	
+1334	476	Kecha Leadbone	Flesh		8	99		4410	Bone-Orange.png	
+1335	481	Kecha Auricle	Flesh		8	99		5200	Carapace-Orange.png	
+1336	478	Kecha Ripper	Flesh		8	99		2240	Fang-Orange.png	
+1337	483	Kecha Lash	Flesh		8	99		2880	Carapace-Orange.png	
+1338	484	A.Kecha Fur	Flesh		8	99		3270	Hide-White.png	
+1339	485	A.Kecha Leadbone	Flesh		8	99		5730	Bone-Grey.png	
+1340	487	A.Kecha Auricle	Flesh		8	99		6760	Carapace-White.png	
+1341	486	A.Kecha Ripper	Flesh		8	99		2910	Fang-White.png	
+1342	488	A.Kecha Lash	Flesh		8	99		3740	Carapace-White.png	
+1343	526	Tetsucabra Shard	Flesh		8	99		2880	Scale-Red.png	
+1344	529	Tetsucabra Cortex	Flesh		8	99		1980	Shell-Red.png	
+1345	535	Tetsucabra Gnawrl	Flesh		8	99		9180	Fang-Red.png	
+1346	532	Tetsucabra Hardclaw	Flesh		8	99		5220	Fang-Red.png	
+1347	537	Vicious Visage	Flesh		8	99		6840	Bone-Grey.png	
+1348	538	B.Tetsucabra Shard	Flesh		8	99		3740	Scale-Green.png	
+1349	539	B.Tetsucabra Cortex	Flesh		8	99		2570	Shell-Green.png	
+1350	541	B.Tetsucabra Gnawrl	Flesh		8	99		11930	Fang-Green.png	
+1351	540	B.TetsucabraHardclaw	Flesh		8	99		6780	Fang-Green.png	
+1352	551	Zamtrios Shard	Flesh		8	99		3690	Scale-Cyan.png	
+1353	554	Zamtrios Piel	Flesh		8	99		6660	Hide-Cyan.png	
+1354	557	Zamtrios Grandfin	Flesh		8	99		7470	Carapace-Cyan.png	
+1355	559	Zamtrios Sawtooth+	Flesh		8	99		4800	Fang-Cyan.png	
+1356	561	Zamtrios Tailbrand	Flesh		8	99		4320	Carapace-Cyan.png	
+1357	563	T.Zamtrios Shard	Flesh		8	99		8650	Scale-Yellow.png	
+1358	562	T.Zamtrios Piel	Flesh		8	99		4790	Hide-Yellow.png	
+1359	564	T.Zamtrios Grandfin	Flesh		8	99		9710	Carapace-Yellow.png	
+1360	565	T.Zamtrios Sawtooth+	Flesh		8	99		6240	Fang-Yellow.png	
+1361	566	T.Zamtrios Tailbrand	Flesh		8	99		5610	Carapace-Yellow.png	
+1362	572	Najarala Piel	Flesh		8	99		5400	Hide-Gold.png	
+1363	569	Najarala Cortex	Flesh		8	99		4320	Shell-Gold.png	
+1364	580	Heart-stopping Beak	Flesh		9	99		9600	Bone-Gold.png	
+1365	577	Najarala Ampsounder	Flesh		8	99		7380	Carapace-Gold.png	
+1366	582	T.Najarala Piel	Flesh		8	99		7020	Hide-Cyan.png	
+1367	581	T.Najarala Cortex	Flesh		8	99		5610	Shell-Cyan.png	
+1368	583	T.Najarala Splasher	Flesh		8	99		9590	Carapace-Cyan.png	
+1369	1048	Dalamadur Steel+	Flesh		8	99		12500	Hide-Grey.png	
+1370	1055	Dalamadur Glaive+	Flesh		8	99		15000	Scale-Grey.png	
+1371	1053	Dalamadur Pectus+	Flesh		8	99		22500	Carapace-Grey.png	
+1372	1057	Dalamadur Ripper	Flesh		8	99		17500	Fang-Grey.png	
+1373	1061	Dalamadur Fanblade+	Flesh		8	99		23750	Carapace-Grey.png	
+1374	1050	Dalam Tail Scale+	Flesh		8	99		10000	Scale-Grey.png	
+1375	1059	Dalam Tail Shell+	Flesh		8	99		20000	Carapace-Grey.png	
+1376	1064	Skyblade Drgnsphire	Flesh		9	99		40000	Monster-Jewel-Grey.png	
+1377	1066	S.Dalamadur Steel+	Flesh		8	99		16250	Hide-Red.png	
+1378	1068	S.Dalamadur Glaive+	Flesh		8	99		19500	Scale-Red.png	
+1379	1069	S.Dalamadur Gazer	Flesh		8	99		32500	Carapace-Red.png	
+1380	1070	S.Dalamadur Pectus+	Flesh		8	99		29250	Carapace-Red.png	
+1381	1071	S.Dalamadur Ripper	Flesh		8	99		22750	Fang-Red.png	
+1382	1073	S.Dalam Fanblade+	Flesh		8	99		30875	Carapace-Red.png	
+1383	1067	S.Dalam Tail Scale+	Flesh		8	99		13000	Scale-Red.png	
+1384	1072	S.Dalam Tail Shell+	Flesh		8	99		26000	Carapace-Red.png	
+1385	605	Seltas Cortex	Flesh		8	99		1980	Shell-Green.png	
+1386	608	Seltas Razorwing	Flesh		8	99		2430	Webbing-Green.png	
+1387	611	Seltas Hardhorn	Flesh		8	99		3240	Fang-Green.png	
+1388	612	D.Seltas Cortex	Flesh		8	99		2570	Shell-YellowGreen.png	
+1389	613	D.Seltas Razorwing	Flesh		8	99		3150	Webbing-YellowGreen.png	
+1390	614	D.Seltas Hardhorn	Flesh		8	99		4210	Fang-YellowGreen.png	
+1391	617	S.Queen Cortex	Flesh		8	99		5600	Shell-DarkGreen.png	
+1392	620	S.Queen Pectus+	Flesh		8	99		5940	Carapace-DarkGreen.png	
+1393	625	S.Queen Maw	Flesh		8	99		6320	Carapace-DarkGreen.png	
+1394	623	S.Queen Hardclaw	Flesh		8	99		8910	Fang-DarkGreen.png	
+1395	627	S.Queen Moonlash	Flesh		8	99		7080	Carapace-DarkGreen.png	
+1396	630	D.S.QueenConcentrate	Flesh		8	99		14000	Liquid-DarkGreen.png	
+1397	631	D.S.Queen Cortex	Flesh		8	99		7280	Shell-Green.png	
+1398	632	D.S.Queen Pectus+	Flesh		8	99		7720	Carapace-Green.png	
+1399	634	D.S.Queen Maw	Flesh		8	99		8210	Carapace-Green.png	
+1400	633	D.S.Queen Hardclaw	Flesh		8	99		11580	Fang-Green.png	
+1401	635	D.S.Queen Moonlash	Flesh		8	99		9200	Carapace-Green.png	
+1402	586	Nerscylla Cortex	Flesh		8	99		3510	Shell-White.png	
+1403	589	Nerscylla Scishorn	Flesh		8	99		4320	Fang-White.png	
+1404	592	Nerscylla Hardclaw	Flesh		8	99		4680	Fang-White.png	
+1405	595	Nerscylla Surspike	Flesh		8	99		5600	Carapace-White.png	
+1406	596	S.Nerscylla Cortex	Flesh		8	99		4560	Shell-Purple.png	
+1407	597	S.Nerscylla Scishorn	Flesh		8	99		5610	Fang-Purple.png	
+1408	598	S.Nerscylla Hardclaw	Flesh		8	99		6080	Fang-Purple.png	
+1409	599	S.Nerscylla Surspike	Flesh		8	99		7280	Carapace-Purple.png	
+1410	856	Gore Magala Shard	Flesh		8	99		3870	Scale-Grey.png	
+1411	859	Gore Magala Cortex	Flesh		8	99		3450	Shell-Grey.png	
+1412	873	Gore Magala Sensor	Flesh		8	99		6300	Fang-Grey.png	
+1413	865	Gore Magala Shredder	Flesh		8	99		4740	Fang-Grey.png	
+1414	862	Gore Magala Eclipse	Flesh		8	99		6300	Carapace-Grey.png	
+1415	867	Gore Magala Lash	Flesh		8	99		3300	Carapace-Grey.png	
+1416	870	Gore Magala Mantle	Flesh		9	99		12000	Mantle-Grey.png	
+1417	875	Chaos Scale	Flesh		8	99		5030	Scale-Grey.png	
+1418	876	Diametrical Horn	Flesh		8	99		8190	Fang-Grey.png	
+1419	877	Antinomic Wing	Flesh		8	99		8190	Carapace-Grey.png	
+1420	878	Contrary Scale	Flesh		9	99		15600	Scale-Grey.png	
+1421	881	S.Magala Shard	Flesh		8	99		4950	Scale-White.png	
+1422	884	S.Magala Cortex	Flesh		8	99		4500	Shell-White.png	
+1423	898	S.Magala Hardhorn	Flesh		8	99		9000	Fang-White.png	
+1424	890	S.Magala Purifier	Flesh		8	99		6150	Fang-White.png	
+1425	887	S.Magala Lightwing	Flesh		8	99		8190	Carapace-White.png	
+1426	892	S.Magala Lash	Flesh		8	99		8580	Carapace-White.png	
+1427	895	S.Magala Mantle	Flesh		9	99		15000	Mantle-White.png	
+1428	949	Daora Cortex	Flesh		8	99		7750	Shell-Grey.png	
+1429	957	Daora Hardhorn	Flesh		8	99		18000	Fang-Grey.png	
+1430	955	Daora Fellwing	Flesh		8	99		16000	Carapace-Grey.png	
+1431	953	Daora Lash	Flesh		8	99		17500	Carapace-Grey.png	
+1432	947	Daora Shard	Flesh		8	99		9750	Scale-Grey.png	
+1433	951	Daora Hardclaw	Flesh		8	99		13750	Fang-Grey.png	
+1434	960	Steelrust Drakeshell	Flesh		8	99		10070	Carapace-Grey.png	
+1435	963	Silverpeak Corona	Flesh		9	99		29250	Carapace-White.png	
+1436	961	Steelrust Claw	Flesh		8	99		17870	Fang-Grey.png	
+1437	962	Maelstriker Wing	Flesh		8	99		20800	Carapace-Grey.png	
+1438	959	Steelrust Scale	Flesh		8	99		12675	Scale-Grey.png	
+1439	972	Flame Shard	Flesh		8	99		9250	Scale-Red.png	
+1440	965	Teostra Cortex	Flesh		8	99		7750	Shell-Red.png	
+1441	970	Teostra Hardhorn	Flesh		8	99		22000	Fang-Red.png	
+1442	974	Fire Dragon Hardclaw	Flesh		8	99		13250	Fang-Red.png	
+1443	968	Teostra Lash	Flesh		8	99		17750	Carapace-Red.png	
+1444	998	Akantor Shard	Flesh		8	99		10680	Scale-Grey.png	
+1445	1000	Akantor Cortex	Flesh		8	99		13950	Shell-Grey.png	
+1446	1006	Akantor Greatfang	Flesh		8	99		21250	Fang-Grey.png	
+1447	1004	Akantor Shredtalon	Flesh		8	99		14250	Fang-Grey.png	
+1448	1008	Akantor Thickspike	Flesh		8	99		23750	Carapace-Grey.png	
+1449	1002	Akantor Flail	Flesh		8	99		20000	Carapace-Grey.png	
+1450	1010	Conquest Sphere	Flesh		9	99		30000	Monster-Jewel-Red.png	
+1451	935	Kirin Finehide	Flesh		8	99		5250	Hide-White.png	
+1452	941	Kirin Azure Peak	Flesh		8	99		13500	Fang-Blue.png	
+1453	937	Platinum Mane	Flesh		8	99		15620	Carapace-White.png	
+1454	939	Kirin Thunderlash	Flesh		8	99		10000	Carapace-White.png	
+1455	943	Kirin Ice Peak	Flesh		8	99		14500	Fang-Purple.png	
+1456	945	Kirin Frostlash	Flesh		8	99		10750	Carapace-Purple.png	
+1457	652	Pearl Glosshide	Flesh		8	99		4560	Hide-White.png	
+1458	655	Khezu Special Cut	Flesh		8	99		10740	Carapace-White.png	
+1459	657	Alluring Glosshide	Flesh		8	99		5880	Hide-Pink.png	
+1460	659	Alluring Fellwing	Flesh		8	99		9300	Carapace-Pink.png	
+1461	795	Basarios Cortex	Flesh		8	99		3960	Shell-Grey.png	
+1462	797	Basarios Fellwing	Flesh		8	99		11000	Carapace-Grey.png	
+1463	802	R.Basarios Cortex	Flesh		8	99		5580	Shell-Pink.png	
+1464	800	R.Basarios Fellwing	Flesh		8	99		14300	Carapace-Pink.png	
+1465	805	Gravios Cortex	Flesh		8	99		5640	Shell-White.png	
+1466	807	Gravios Crown	Flesh		8	99		7650	Carapace-White.png	
+1467	810	Gravios Fellwing	Flesh		8	99		7200	Carapace-White.png	
+1468	811	Gravios Pallium	Flesh		9	99		16000	Mantle-White.png	
+1469	813	B.Gravios Cortex	Flesh		8	99		8730	Shell-Grey.png	
+1470	815	B.Gravios Crown	Flesh		8	99		9560	Carapace-Grey.png	
+1471	816	B.Gravios Pallium	Flesh		9	99		16000	Mantle-Grey.png	
+1472	915	Deviljho Shard	Flesh		8	99		6300	Scale-DarkGreen.png	A heavy, high-quality Deviljho scale. Rumored to bring bad luck, but actually an excellent material.
+1473	917	Deviljho Blackpiel	Flesh		8	99		5400	Hide-DarkGreen.png	
+1474	919	Deviljho Hardfang	Flesh		8	99		8940	Fang-DarkGreen.png	
+1475	921	Deviljho Ripper	Flesh		8	99		6300	Fang-DarkGreen.png	An incredibly sharp, rigid talon. Even experienced handlers can be injured if not careful.
+1476	924	Deviljho Flail	Flesh		8	99		9200	Carapace-DarkGreen.png	A large slab of a Deviljho's leech-like tail. Even so-called experts are shocked by it.
+1477	931	Deviljho Crook	Flesh		9	99		15000	Mantle-DarkGreen.png	An unsettling scale that became warped as it absorbed the malice of the Deviljho's various prey.
+1478	929	Bloodied Ebonhide	Flesh		8	99		10410	Hide-Grey.png	
+1479	927	Vile Fang	Flesh		8	99		8940	Fang-DarkGreen.png	A massive, overgrown fang that can chomp through anything. Filled with pure evil.
+1480	772	Brach Cortex	Flesh		8	99		4500	Shell-Blue.png	The thick cortex of a Brachydios. Its stoic beauty adds strength and dignity to equipment.
+1481	775	Fine Brach Ebonshell	Flesh		8	99		5700	Carapace-Blue.png	
+1482	778	Brach Crown	Flesh		8	99		7290	Carapace-Blue.png	
+1483	783	Brach Pounder+	Flesh		8	99		8220	Carapace-Blue.png	The arm of an especially angry Brachydios. Strong and heavy, as if made of iron.
+1484	785	Brach Lash	Flesh		8	99		3200	Carapace-Blue.png	
+1485	788	Brach Pallium	Flesh		9	99		14400	Mantle-Blue.png	A legendary Brachydios shell. Those who craft it are said to rule the earth and seize the sky.
+1486	780	Glowing Slime	Flesh		8	99		3690	Liquid-YellowGreen.png	Highly explosive green slime found on a fierce Brachydios. Handle with extreme care.
+1493	984	D.Mohran Rockskin	Flesh		8	99		7650	Shell-Red.png	
+1494	987	D.Mohran Heavyscale	Flesh		8	99		6120	Scale-Red.png	
+1495	993	Brutal Biter	Flesh		8	99		15600	Fang-Red.png	
+1496	990	D.Mohran Allbrace	Flesh		8	99		9000	Carapace-Red.png	
+1497	996	Earth Dragonsphire	Flesh		9	99		15000	Mantle-Yellow.png	
+1498	421	Lagombi Fur	Flesh		8	99		2520	Hide-White.png	The very finest Lagombi fur, durable and yet surprisingly soft. A top-shelf item.
+1499	424	Lagombi Auricle	Flesh		8	99		3780	Carapace-White.png	A superior Lagombi ear with astonishing hearing capabilities. An exceptional crafting material.
+1500	740	Zinogre Electrofur+	Flesh		8	99		4410	Hide-White.png	
+1501	737	Zinogre Cortex	Flesh		8	99		5850	Shell-Teal.png	The teal cortex of a Zinogre. The monarch's armor crushes wills with its immense power.
+1502	743	Zinogre Hardhorn	Flesh		8	99		7560	Fang-Teal.png	A mighty Zinogre horn. None can sand before its sky-shattering, awe-inspiring power.
+1503	746	Zinogre Hardclaw	Flesh		8	99		6300	Fang-Teal.png	
+1504	751	Zinogre D-Shocker	Flesh		8	99		7200	Carapace-Teal.png	
+1505	748	Zinogre Lash	Flesh		8	99		9200	Carapace-Teal.png	A superior Zinogre tail that wields incomparable destructive power.
+1506	754	Zinogre Skymerald	Flesh		9	99		14200	Monster-Jewel-Teal.png	
+1507	767	S.Zin Dragonlocks	Flesh		8	99		5700	Hide-Grey.png	
+1508	756	S.Zinogre Cortex	Flesh		8	99		6440	Shell-Grey.png	
+1509	758	S.Zinogre Hardhorn	Flesh		8	99		8320	Fang-Grey.png	
+1510	760	S.Zinogre Hardclaw	Flesh		8	99		6930	Fang-Grey.png	
+1511	764	S.Zinogre Drakehold	Flesh		8	99		7920	Carapace-Grey.png	
+1512	762	S.Zinogre Lash	Flesh		8	99		10120	Carapace-Grey.png	A Stygian Zinogre's terrifyingly strong tail. Said to be able to slice through solid steel.
+1513	769	S.Zinogre Skymerald	Flesh		9	99		15620	Monster-Jewel-Grey.png	
+1514	900	Seregios Slavescale	Flesh		6	99		1470	Scale-Yellow.png	
+1515	901	Seregios Slavescale+	Flesh		8	99		4410	Scale-Yellow.png	
+1516	902	Seregios Airblade	Flesh		6	99		1950	Scale-Yellow.png	
+1517	903	Seregios Airblade+	Flesh		8	99		5850	Scale-Yellow.png	
+1518	904	Seregios Carver	Flesh		6	99		2550	Fang-Yellow.png	
+1519	905	Seregios Carver+	Flesh		8	99		7650	Fang-Yellow.png	
+1520	910	Seregios Impaler	Flesh		6	99		2400	Carapace-Yellow.png	
+1521	911	Seregios Impaler+	Flesh		8	99		7200	Carapace-Yellow.png	
+1522	906	Seregios Breacher	Flesh		6	99		2100	Fang-Yellow.png	
+1523	907	Seregios Breacher+	Flesh		8	99		6300	Fang-Yellow.png	
+1524	908	Seregios Scraper	Flesh		6	99		1800	Fang-Yellow.png	
+1525	909	Seregios Scraper+	Flesh		8	99		5400	Fang-Yellow.png	
+1526	912	Seregios Dissenter	Flesh		7	99		9700	Scale-Yellow.png	
+1527	913	Seregios Lens	Flesh		9	99		15000	Monster-Jewel-Yellow.png	
+1528	1074	Gogmazios Battlement	Flesh		8	99		13000	Scale-Blue.png	
+1529	1075	Gogmazios Fortress	Flesh		8	99		16250	Shell-Blue.png	
+1530	1076	Gogmazios Gasher	Flesh		8	99		22750	Fang-Blue.png	
+1531	1077	Gogmazios Offenders	Flesh		8	99		26000	Fang-Blue.png	
+1532	1078	Gogmazios Fiberwing	Flesh		8	99		23750	Carapace-Blue.png	
+1533	1079	Gogmazios Briartail	Flesh		8	99		23500	Carapace-Blue.png	
+1534	1080	Wartorn Dragonsphire	Flesh		9	99		40000	Monster-Jewel-Red.png	
+1535	1081	Heavy Drakesbone Oil	Flesh		8	99		13000	Liquid-Blue.png	
+1536	726	Diablos Cortex	Flesh		8	99		5850	Shell-Gold.png	The rigid cortex of a Diablos, both harder and sturdier than its carapace.
+1537	727	Diablos Chine	Flesh		8	99		7500	Carapace-Gold.png	Tough Diablos backplate, strengthened by burning sands. An ideal material for armor.
+1538	729	Twisted Stouthorn	Flesh		8	99		7200	Fang-Gold.png	
+1539	730	Diablos Hardhorn	Flesh		9	99		11530	Fang-Gold.png	An especially elegant Diablos horn with almost perfect shape. An extremely rare material.
+1540	728	Diablos Tailcase+	Flesh		8	99		7680	Carapace-Gold.png	
+1541	731	Blos Medulla	Flesh		7	99		6300	Carapace-Red.png	
+1542	732	B.Diablos Cortex	Flesh		8	99		8200	Shell-Grey.png	A heavy Black Diablos cortex. Its weight reveals its overwhelming density and strength.
+1543	733	B.Diablos Chine	Flesh		8	99		9045	Carapace-Grey.png	Finely honed Black Diablos backplate. Best described as black, hard, and heavy.
+1544	734	Blackcurl Stouthorn	Flesh		8	99		9000	Fang-Grey.png	
+1545	716	Monoblos Carapace	Flesh		6	99		1850	Shell-Red.png	
+1546	717	Monoblos Cortex	Flesh		8	99		5550	Shell-Red.png	
+1547	718	Monoblos Thoracic	Flesh		6	99		2850	Carapace-Red.png	
+1548	719	Monoblos Chine	Flesh		8	99		7125	Carapace-Red.png	
+1549	720	Scarlet Finehorn	Flesh		6	99		2280	Fang-Red.png	
+1550	721	Scarlet Stouthorn	Flesh		8	99		6840	Fang-Red.png	
+1551	722	Monoblos Heart	Flesh		6	99		4600	Carapace-Red.png	
+1552	723	W.Monoblos Cortex	Flesh		8	99		7210	Shell-White.png	
+1553	724	W.Monoblos Chine	Flesh		8	99		9260	Carapace-White.png	
+1554	725	Argent Stouthorn	Flesh		8	99		8890	Fang-White.png	
+1555	637	Hermitaur Cortex	Flesh		8	99		4290	Shell-Red.png	
+1556	638	Hermitaur Hardclaw	Flesh		8	99		7600	Fang-Red.png	
+1557	640	Black Pearl	Flesh		6	99		190	Scale-Grey.png	The Hunting Fleet sometimes brings these back. The black glow fetches a high price.
+1558	641	Fine Black Pearl	Flesh		8	99		1950	Scale-Grey.png	
+1559	639	Wyvern Scalp	Flesh		6	99		1410	Carapace-Grey.png	
+1560	642	Hermitaur Purpshell	Flesh		8	99		5570	Shell-Purple.png	
+1561	643	Hermitaur Purpclaw	Flesh		8	99		9880	Fang-Purple.png	
+1562	644	Cephalos Shard	Flesh		8	99		3600	Scale-Cyan.png	
+1563	645	Cephalos Purpscale	Flesh		8	99		2400	Scale-Purple.png	
+1564	648	Cephalos Grandfin	Flesh		8	99		3150	Carapace-Cyan.png	
+1565	649	Cephalos Pinkfin	Flesh		8	99		2750	Carapace-Pink.png	
+1566	646	Cephalos Fang+	Flesh		6	99		840	Fang-Cyan.png	
+1567	647	Cephalos Hardfang	Flesh		8	99		2520	Fang-Cyan.png	
+1568	1296	Piscine Liver	Account		3			90	Carapace-Yellow.png	
+1569	1011	Ukanlos Cortex	Flesh		8	99		15250	Shell-White.png	
+1570	1012	Ukanlos Underscale	Flesh		6	99		4500	Scale-White.png	
+1571	1013	Ukanlos Underscale+	Flesh		8	99		11250	Scale-White.png	
+1572	1018	Ukanlos Tail	Flesh		6	99		8000	Carapace-White.png	
+1573	1019	Ukanlos Flail	Flesh		8	99		20000	Carapace-White.png	
+1574	1014	Ukanlos Digger	Flesh		6	99		5700	Fang-White.png	
+1575	1015	Ukanlos Digger+	Flesh		8	99		14250	Fang-White.png	
+1576	1020	Ukanlos Shoveljaw+	Flesh		8	99		23750	Carapace-White.png	
+1577	1016	Ukanlos Fin+	Flesh		6	99		8500	Carapace-White.png	
+1578	1017	Ukanlos Strongfin	Flesh		8	99		21250	Carapace-White.png	
+1579	1021	Ukanlos Stone	Flesh		9	99		30000	Monster-Jewel-White.png	
+1580	978	Chameleos Finehide	Flesh		8	99		9500	Hide-Purple.png	
+1581	980	Chameleos Hardhorn	Flesh		8	99		22250	Fang-Purple.png	
+1582	979	Chameleos Fellwing	Flesh		8	99		14620	Carapace-Purple.png	
+1583	981	Chameleos Lash	Flesh		8	99		17620	Carapace-Purple.png	
+1584	1025	Fatalis Shard	Flesh		8	99		13950	Scale-Grey.png	
+1585	1027	Fatalis Cortex	Flesh		8	99		10680	Shell-Grey.png	
+1586	1023	Fatalis Hardhorn	Flesh		8	99		19650	Fang-Grey.png	
+1587	1029	Fatalis Evil Eye	Flesh		8	99		26000	Carapace-Yellow.png	
+1588	1031	Fatalis Fellwing	Flesh		8	99		22500	Carapace-Grey.png	
+1589	1038	Fatalis Flamescale	Flesh		8	99		13650	Scale-Red.png	
+1590	1039	Fatalis Flameshell	Flesh		8	99		10680	Shell-Red.png	
+1591	1037	Fatalis Flamehorn	Flesh		8	99		19650	Fang-Red.png	
+1592	1041	Fatalis Flamewing	Flesh		8	99		23750	Carapace-Red.png	
+1593	1040	Fatalis Devileye+	Flesh		8	99		32500	Carapace-Red.png	
+1594	1043	Old Fatalis Shard	Flesh		8	99		18130	Scale-White.png	
+1595	1044	Old Fatalis Cortex	Flesh		8	99		13880	Shell-White.png	
+1596	1046	Old Fatalis Fellwing	Flesh		8	99		29250	Carapace-White.png	
+1597	1042	Old Fatalis Hardhorn	Flesh		8	99		25540	Fang-White.png	
+1598	1045	Old Fatalis Souleye	Flesh		8	99		33800	Carapace-Red.png	
+1599	334	Deadly Poison Sac	Sac/Fluid		8	99		864	Sac-Purple.png	
+1600	341	Conflagrant Sac	Sac/Fluid		8	99		1920	Sac-Red.png	A monster organ filled with a highly explosive powder. Extremely dangerous!
+1601	350	Flood Sac	Sac/Fluid		8	99		1020	Sac-Cyan.png	A monster organ designed to hold and preserve tremendous amounts of water.
+1602	347	Cryo Sac	Sac/Fluid		8	99		1200	Sac-White.png	A monster organ that has fierce freezing properties. It can coat an area in ice in a flash.
+1603	344	Lightning Sac	Sac/Fluid		8	99		2400	Sac-Yellow.png	A monster organ that can store electricity as strong as lightning. It rumbles like thunder.
+1604	336	Omniplegia Sac	Sac/Fluid		8	99		360	Sac-Yellow.png	A monster organ filled with potent neurotoxins. A single touch can cause paralysis.
+1605	338	Coma Sac	Sac/Fluid		8	99		690	Sac-Blue.png	A monster organ that contains dangerous powder. One whiff can induce a coma.
+1606	326	Fey Wyvern Gem	Flesh		9	0		9700	Monster-Jewel-Yellow.png	An exceptionally pure gem taken from a bird wyvern. Its fragility makes it difficult to carve.
+1607	544	Paddock Cream	Flesh		8	99		1800	Liquid-Yellow.png	
+1608	314	Lrg ElderDragon Bone	Bone		8	99		2200	Bone-Purple.png	
+1609	330	Lrg Elder Dragon Gem	Flesh		9	0		18000	Monster-Jewel-Purple.png	
+1610	328	Lrg Wyvern Gem	Flesh		9	0		12000	Monster-Jewel-Blue.png	
+1611	312	Monster Slogbone	Bone		8	99		1320	Bone-Grey.png	An incredibly strong bone harvested from a fearsome wyvern. Its heft is impressive.
+1612	322	Dragonbone Artifact	Bone		8	99		1500	Bone-Gold.png	
+1613	320	Massive Bone	Bone		8	99		1200	Bone-White.png	An impossibly hard bone from a large beast. It exceeds all known standards for crafting material.
+1614	358	Prized Pelt	Flesh		8			360	Hide-Green.png	A pelt from a small animal. Used for many things, but mostly just regular clothes.
+1615	362	Rhenoplos Bone	Flesh		8			1080	Bone-Grey.png	As strong as it is heavy, this Rhenoplos bone is well-suited for use in crafting armor.
+1616	316	Avian Stoutbone	Bone		8	99		800	Bone-Blue.png	The robust bone of a bird wyvern. Durable and easy to craft with this.
+1617	380	Remobra Finehide	Flesh		8			1620	Hide-Grey.png	
+1618	548	Meaty Piel	Flesh		8	99		840	Hide-Blue.png	
+1619	373	Crushing Fang	Flesh		8			4500	Fang-Yellow.png	The strongest fang of a fanged beast. It can pierce a monsters's shell as if it were paper.
+1620	636	Sml Hermitaur Shell	Flesh		6	99		60	Shell-Red.png	
+1621	374	Piercing Claw	Flesh		8			600	Fang-Grey.png	
+1622	368	Bnahabra Razorwing	Flesh		8			675	Webbing-Yellow.png	
+1623	377	Konchu Cortex	Flesh		8			1440	Shell-Gold.png	
+1624	602	Monster Essence	Sac/Fluid		8	99		2000	Liquid-Blue.png	A broth made from only the thickest, choicest parts of a monster's juices. Gross?
+1625	1298	Carapaceon Brains	Account		3			10	Carapace-Orange.png	
+1626	1299	Carapaceon Brains+	Account		3			50	Carapace-Orange.png	
+1627	1319	Crab Pearl	Account		3				Carapace-Grey.png	
+1628	1320	Crab Pearl+	Account		3				Carapace-Grey.png	
+1629	269	Emperor Hopper	Bug		8	99		1200	Bug-Orange.png	A grasshopper with an exceptionally strong shell. Prized as a crafting material.
+1630	270	Flutterfly	Bug		8	99		1800	Bug-White.png	A butterfly with shimmering wings. So rarely seen in the wild, many believe it to be a myth.
+1631	272	Elder Bfly Beetle	Bug		8	99		500	Bug-Purple.png	
+1632	274	Great Elder Hornfly	Bug		8	99		330	Nectar-Pink.png	
+1633	1271	Divine Rhino	Bug		4			1000	Bug-Cyan.png	
+1634	212	Meteor Crystal	Ore		8	99		1280	Ore-White.png	
+1635	216	Eltalite Ore	Ore		8	99		1280	Ore-Red.png	A promising new ore that produces higher quality metal than Carbalite Ore.
+1636	217	Meldspar Ore	Ore		8	99		1920	Ore-White.png	An ore composed of a durable, flexible metal that works well as a combining agent.
+1637	219	Allfire Stone	Ore		8	99		5160	Ore-Red.png	An ore that blazes with an all-consuming flame. Requires considerable skill to mine.
+1638	222	Purecrystal	Ore		8	99		7320	Ore-Blue.png	A crystal that's 100% pure. Hard enough to be used in workshop tools.
+1639	221	Cosmicite Ore	Ore		8	99		4320	Ore-Purple.png	
+1640	1226	Distorted Fragment	Ore		8			720	QuestionMark-Grey.png	
+1641	226	Ultimate Abrasive	Ore		7	99		400	Whetstone.png	
+1642	1571	Sovereign Orb	Ore		8	99		1500	Jewel-Red.png	
+1643	234	Strong Armor Sphere	Ore		8	99		800	Sphere-YellowGreen.png	
+1644	235	Divine Armor Sphere	Ore		9	99		900	Sphere-Yellow.png	
+1645	1085	Pure Frenzy Crystal	Flesh		7	99		4000	Wyvern-Crystal-White.png	
+1646	1086	Zenith Wyvern Gem	Flesh		8	99		5000	Monster-Jewel-Purple.png	
+1647	1087	Zenith Wyvern Gem L	Flesh		9	99		6000	Monster-Jewel-Grey.png	
+1648	41	Enduring Charm	Ore		7				Charm-Stone-Blue.png	
+1649	43	Graven Charm	Ore		7				Charm-Stone-Green.png	
+1650	1233	Champion's Weapon	Ore		8				QuestionMark-Grey.png	
+1651	1235	Beshackled Weapon	Ore		9				QuestionMark-Grey.png	
+1652	1234	Champion's Armor	Ore		8				QuestionMark-Grey.png	
+1653	1236	Beshackled Armor	Ore		9				QuestionMark-Grey.png	
+1654	179	Gloamgrass Bud	Plant		5	10		350	Herb-Teal.png	A night-blooming flower from a special herb native to Moga. It may have healing properties.
+1655	1449	Humble Scrap+	Scrap		6	99		30	Scraps-White.png	
+1656	1451	Handsome Scrap+	Scrap		6	99		30	Scraps-White.png	
+1657	1453	Gargwa Scrap+	Scrap		6	99		30	Scraps-Cyan.png	
+1658	1455	Arzuros Scrap+	Scrap		6	99		30	Scraps-Blue.png	
+1659	1466	Rhenoplos Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1660	1468	Great Jaggi Scrap+	Scrap		6	99		30	Scraps-Purple.png	
+1661	1461	Bnahabra Scrap+	Scrap		6	99		30	Scraps-Yellow.png	
+1662	1464	Bulldrome Scrap+	Scrap		6	99		30	Scraps-White.png	
+1663	1484	Slagtoth Scrap+	Scrap		6	99		30	Scraps-Green.png	
+1664	1486	Volvidon Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1665	1470	Cephalos Scrap+	Scrap		6	99		30	Scraps-Cyan.png	
+1666	1462	Konchu Scrap+	Scrap		6	99		30	Scraps-Gold.png	
+1667	1457	Kecha Wacha Scrap+	Scrap		6	99		30	Scraps-Orange.png	
+1668	1459	Yian Kut-Ku Scrap+	Scrap		6	99		30	Scraps-Pink.png	
+1669	1480	Tetsucabra Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1670	1482	Barroth Scrap+	Scrap		6	99		30	Scraps-Orange.png	
+1671	1476	Zamtrios Scrap+	Scrap		6	99		30	Scraps-Cyan.png	
+1672	1478	Lagombi Scrap+	Scrap		6	99		30	Scraps-White.png	
+1673	1498	Uragaan Scrap+	Scrap		6	99		30	Scraps-Yellow.png	
+1674	1508	Rathian Scrap+	Scrap		6	99		30	Scraps-Green.png	
+1675	1510	Khezu Scrap+	Scrap		6	99		30	Scraps-White.png	
+1676	1500	Great Wroggi Scrap+	Scrap		6	99		30	Scraps-Orange.png	
+1677	1488	Congalala Scrap+	Scrap		6	99		30	Scraps-Pink.png	
+1678	1501	Basarios Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1679	1472	Nerscylla Scrap+	Scrap		6	99		30	Scraps-White.png	
+1680	1474	Qurupeco Scrap+	Scrap		6	99		30	Scraps-YellowGreen.png	
+1681	1494	Nibelsnarf Scrap+	Scrap		6	99		30	Scraps-Gold.png	
+1682	1490	Tigrex Scrap+	Scrap		6	99		30	Scraps-Yellow.png	
+1683	1492	Great Baggi Scrap+	Scrap		6	99		30	Scraps-Cyan.png	
+1684	1518	Rathalos Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1685	1520	Agnaktor Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1686	1496	Seltas Queen Scrap+	Scrap		6	99		30	Scraps-Green.png	
+1687	1512	Duramboros Scrap+	Scrap		6	99		30	Scraps-Green.png	
+1688	1504	Diablos Scrap+	Scrap		6	99		30	Scraps-Gold.png	
+1689	1546	Rajang Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1690	1550	Barioth Scrap+	Scrap		6	99		30	Scraps-White.png	
+1691	1548	Brach Scrap+	Scrap		6	99		30	Scraps-Blue.png	
+1692	1514	Zinogre Scrap+	Scrap		6	99		30	Scraps-Cyan.png	
+1693	1516	Nargacuga Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1694	1522	Najarala Scrap+	Scrap		6	99		30	Scraps-Gold.png	
+1695	1523	Seregios Scrap+	Scrap		6	99		30	Scraps-Yellow.png	
+1696	1505	Monoblos Scrap+	Scrap		6	99		30	Scraps-White.png	
+1697	1502	Gravios Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1698	1469	Yian Garuga Scrap+	Scrap		6	99		30	Scraps-Purple.png	
+1699	1487	Gypceros Scrap+	Scrap		6	99		30	Scraps-Purple.png	
+1700	1558	Dalamadur Scrap+	Scrap		8	99		30	Scraps-Grey.png	
+1701	1552	Amatsu Scrap+	Scrap		8	99		30	Scraps-White.png	
+1702	1527	S.Magala Scrap+	Scrap		6	99		30	Scraps-White.png	
+1703	1525	Gore Magala Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1704	1537	Kushala Daora Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1705	1540	Ukanlos Scrap+	Scrap		6	99		30	Scraps-White.png	
+1706	1529	Teostra Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1707	1531	Deviljho Scrap+	Scrap		6	99		30	Scraps-Green.png	
+1708	1542	Kirin Scrap+	Scrap		6	99		30	Scraps-White.png	
+1709	1533	Akantor Scrap+	Scrap		6	99		30	Scraps-Grey.png	
+1710	1535	Alatreon Scrap+	Scrap		6	99		30	Scraps-Purple.png	
+1711	1554	Dah'renMohran Scrap+	Scrap		8	99		30	Scraps-Red.png	
+1712	1556	Jhen Mohran Scrap+	Scrap		8	99		30	Scraps-Blue.png	
+1713	1559	Gogmazios Scrap+	Scrap		8	99		30	Scraps-Blue.png	
+1714	1538	Chameleos Scrap+	Scrap		6	99		30	Scraps-Purple.png	
+1715	35	Dust of Life	Consumable		5	2		100	Sac-Teal.png	A medicine with strone curative properties. Studied in secret, it is said to restore youth.
+1716	1326	Black Belt Coin G	Coin/Ticket		7			1500	Coin-Grey.png	
+1717	1327	Expert Coin G	Coin/Ticket		8			2000	Coin-Yellow.png	
+1718	1328	Legend Coin G	Coin/Ticket		9			5000	Coin-Red.png	
+1719	1438	VE Cosmic Ticket	Coin/Ticket		4				Ticket-Cyan.png	A ticket awarded for hunting with friends. The Veggie Elder may offer an amazing trade...
+1720	1415	Conqueror's Seal	Coin/Ticket		8				Ticket-Red.png	Proof you have overcome countless trials, and a true badge of honor.
+1721	1416	Conqueror's Seal G	Coin/Ticket		9				Ticket-Red.png	
+1722	1418	Caravan Ticket G	Coin/Ticket		6				Ticket-Red.png	
+1723	1442	Immenseness Ticket	Coin/Ticket		7				Ticket-White.png	
+1724	1443	Immenseness Ticket S	Coin/Ticket		8				Ticket-White.png	
+1725	167	Proto Wystone: Drive	Wystone		5	1			Wystone-Purple.png	
+1726	1283	Tropical Berry	Account		3			40	Seed-Red.png	
+1727	73	Portable Steam Bomb	Tool		5	3		60	Smoke-Yellow.png	
+1728	36	Disposable Earplugs	Consumable		5	3		40	Sac-Pink.png	
+1729	168	Garrison Bllsta Ammo	Tool		5	10		10	Ammo-Yellow.png	
+1730	169	Dense Marcoal	Tool		5	1		200	Coin-Yellow.png	
+1731	1246	EZ Farcaster	Supply		2				Smoke-Green.png	
+1732	1248	EZ Lifepowder	Supply		2				Sac-White.png	
+1733	1249	EZ Dust of Life	Supply		3				Sac-Cyan.png	
+1734	1307	Meteor Chunk	Account		5			100	Ore-Blue.png	
+1735	181	Frozen Berry	Plant		3	10		54	Seed-Pink.png	
+1736	1288	Poogie Pearl	Account		9				Ore-Cyan.png	
+1737	789	Brach Warhead	Flesh		8	99		9470	Carapace-Blue.png	
+1738	791	Brach Obliterator	Flesh		8	99		10680	Carapace-Blue.png	
+1739	792	Immortal Reactor	Flesh		9	99		18720	Mantle-Blue.png	
+1740	790	Flashpoint Slime	Flesh		8	99		4790	Liquid-Red.png	
+1741	1092	G.Plesioth Shard	Flesh		8	99		6480	Scale-Green.png	
+1742	1093	Fine G.Plesioth Fin	Flesh		8	99		7380	Carapace-Green.png	
+1743	1544	Gigginox Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1744	1561	Royal Ludroth Scrap+	Scrap		6	99		30	Scraps-Yellow.png	
+1745	1563	Plesioth Scrap+	Scrap		6	99		30	Scraps-Blue.png	
+1746	1565	Lagiacrus Scrap+	Scrap		8	99		30	Scraps-Cyan.png	
+1747	1506	Hermitaur Scrap+	Scrap		6	99		30	Scraps-Red.png	
+1748	1157	S.Barioth Sharpclaw	Flesh		6	99		2100	Fang-Orange.png	
+1749	1158	J.Barroth Thoracic	Flesh		6	99		2520	Carapace-Cyan.png	
+1750	1159	Qurupeco Shard	Flesh		8	99		2520	Scale-YellowGreen.png	A strong scale concealed by vivid plumage, grown to full maturity over many years.
+1751	1160	Lustrous Feather	Flesh		8	99		5200	Carapace-YellowGreen.png	A vivid feather with an elegant luster. Qurupeco with these only live in certain regions.
+1752	1161	C.Qurupeco Fellwing	Flesh		8	99		7800	Carapace-Red.png	
+1753	1162	Gobul Piel	Flesh		8	99		2400	Hide-Purple.png	Thick skin from a Gobul. Too rubbery for eating, but perfect for crafting equipment.
+1754	1163	Gobul Surspike	Flesh		8	99		2750	Carapace-Purple.png	An unusual barb from a Gobul. Only the most formidable of the breed have such precious spikes.
+1755	1164	Vespoid Razorwing	Flesh		8	99		675	Webbing-Yellow.png	
+1756	1165	Arzuros Cortex	Flesh		8	99		1980	Shell-Blue.png	A superior Arzuros cortext. This highly-developed shell is a huge thorn in all hunters' sides.
+1757	1166	Nibelsnarf Cortex	Flesh		8	99		4410	Shell-Gold.png	
+1758	1167	Dazzling Fluid	Flesh		9	99		5850	Liquid-Cyan.png	A sparkling fluid with impressive water-retention ability. Improves performance and style.
+1759	1168	Ceanataur Terraclaw	Flesh		8	99		9880	Fang-Orange.png	
+1760	1170	Barioth Thickfur	Flesh		8	99		5400	Hide-White.png	
+1761	1169	Heavy Amber Tusk	Flesh		8	99		7380	Fang-Orange.png	
+1762	1171	Barroth Cortex	Flesh		8	99		4560	Shell-Orange.png	A Barroth's cortex. Years worth of mud have hardened it beyond all measure.
+1763	1172	Barroth Crown	Flesh		8	99		10740	Carapace-Orange.png	The heavy scalp of a formidable Barroth. As hard to remove as it is durable.
+1764	1173	S.Barioth Hardclaw	Flesh		8	99		5220	Fang-Orange.png	
+1765	1174	Volvidon Cortex	Flesh		8	99		2520	Shell-Red.png	A heavy Volvidon cortext. Difficult to forge with, but can produce genuinely powerful gear.
+1766	1175	Agnaktor Cortex	Flesh		8	99		5880	Shell-Red.png	The rigid cortex of an Agnaktor. Highly heat-resistant, it produces bright red items when forged.
+1767	1176	Fine Agnaktor Fin	Flesh		8	99		7800	Carapace-Red.png	
+1768	1177	J.Barroth Cortex	Flesh		8	99		3510	Shell-Cyan.png	The solid, ice-covered cortex of a Jade Barroth. The frosty coating is surprisngly strong.
+1769	1178	Duramboros Cortex	Flesh		8	99		5600	Shell-Green.png	
+1770	1179	Duramboros Hardhorn	Flesh		8	99		6320	Fang-Green.png	
+1771	1180	Durambolite	Flesh		9	99		14000	Ore-White.png	A legendary gem rarely produced inside a Duramboros's body. Elegant, though gloomy.
+1772	1181	Uragaan Cortex	Flesh		8	99		5640	Shell-Yellow.png	An especially hard Uragaan cortex. Crafting with it can be a trying task, to say the least.
+1773	1182	Uragaan Pallium	Flesh		9	99		16000	Mantle-Yellow.png	A legendary Uragaan shell. Those who craft it are said to rule the earth and seize the sky.
+1774	1183	Nargacuga Blackfur+	Flesh		8	99		4410	Hide-Grey.png	
+1775	1184	Nargacuga Cutwing+	Flesh		8	99		6300	Mantle-Grey.png	
+1776	1185	Nargacuga Mantle	Flesh		9	99		14200	Mantle-Grey.png	A legendary Nargacuga scale. Those who craft it are said to rule the earth and seize the sky.
+1777	1186	Lagiacrus Shard	Flesh		8	99		4410	Scale-Cyan.png	The ultimate specimen of Lagiacrus Scale. Special skills are required to craft with it.
+1778	1187	Deathly Shocker	Flesh		8	99		7650	Carapace-Cyan.png	A thick shell found on a select few Lagiacrus. It releases huge bolts of electricity.
+1779	1188	Lagiacrus Mantle	Flesh		9	99		15000	Mantle-Cyan.png	A valuable azure scale found on select Lagiacrus. Said to greatly boost equipment performance.
+1780	1189	I.Lagi D-Shocker	Flesh		8	99		7800	Carapace-White.png	A thick shell seen only rarely on Ivory Lagiacrus. It can produce a veritable rain of thunderbolts.
+1781	1190	I.Lagi Hardhorn	Flesh		8	99		9000	Fang-White.png	A fine horn from an Ivory Lagiacrus. Beloved by the rich for its flawless elegance.
+1782	1191	Lavasioth Shard	Flesh		8	99		6150	Scale-Grey.png	
+1783	1192	Fine Lavasioth Fin	Flesh		8	99		8820	Carapace-Grey.png	
+1784	1193	S.Uragaan Scute+	Flesh		8	99		7650	Carapace-Blue.png	A highly heat-resistant Steel Uragaan scute. Its rigidity makes it hard to use in forging.
+1785	1194	Ceadeus Scale	Flesh		8	99		540	Scale-White.png	Almost too large to be called a scale. Not as hard as you might think.
+1786	1195	Ceadeus Strongfur	Flesh		8	99		540	Carapace-White.png	
+1787	1196	Deep Dragongem	Flesh		9	99		540	Mantle-Grey.png	One of the hardest materials to reap from a Ceadeus. Its center is a bottomless void.
+1788	1197	Tsukami Fillet	Flesh		8	99		14620	Carapace-Green.png	
+1789	1198	Ancient Dragonmoss	Flesh		8	99		9500	Carapace-Green.png	
+1790	1199	Ancient Dragonwood	Flesh		8	99		17620	Carapace-Green.png	
+1791	1200	Mohran Rockskin	Flesh		8	99		5700	Shell-Blue.png	A heavy shell piece taken from a Jhen Mohran. It surpasses even steel in strength.
+1792	1201	Mohran Allbrace	Flesh		8	99		15000	Carapace-Blue.png	A thick, high quality brace from a Jhen Mohran. Easy craftable with the right amount of force.
+1793	1202	Deific Fang	Flesh		9	99		8000	Fang-Blue.png	A beautiful fang with a divine aura. Its shape and color best other Jhen Mohran fangs.
+1794	1203	Lunastra Cortex	Flesh		8	99		7750	Shell-Blue.png	
+1795	1204	Lunastra Tail	Flesh		8	99		17750	Carapace-Blue.png	
+1796	1205	Lao-Shan Azure Claw	Flesh		8	99		13750	Fang-Blue.png	
+1797	1219	Miralis Scale	Flesh		8	99		13000	Scale-Red.png	"A fiery black scale from a Dire Miralis. Also called the burning flower"" for its eerie beauty."""
+1798	1220	Miralis Smelter	Flesh		8	99		26000	Monster-Jewel-Red.png	A burning hot core from a Dire Miralis's hips. A magma-like substance swirls inside it.
+1799	1221	Dire Dragongem	Flesh		9	99		40000	Mantle-Red.png	A legendary gem expelled from the body of a Dire Miralis. It formed from crystallized magma.
+1800	1214	A.Lagi D-Shocker	Flesh		8	99		10680	Carapace-Purple.png	A thick shell from an Abyssal Lagiacrus's back. Turns the sea itself into an electrified weapon.
+1801	1215	A.Lagi Dynamo	Flesh		9	99		18720	Mantle-White.png	An unknown Abyssal Lagiacrus organ. Rumored to be the source of the monster's electricity.
+1802	1206	L.Nargacuga Razor	Flesh		8	99		10380	Carapace-White.png	
+1803	1207	Cloudy Moonshard	Flesh		9	99		18000	Mantle-White.png	The moon-like bladewing of a Lucent Nargacuga. He who crafts it controls the night.
+1804	1216	Lao-Shan Cortex	Flesh		8	99		15250	Shell-Red.png	
+1805	1217	Lao-Shan Shard	Flesh		8	99		11250	Scale-Red.png	
+1806	1218	Lao-Shan Mantle	Flesh		9	99		30000	Mantle-Red.png	
+1807	1208	Amatsu Carapace	Flesh		8	99		13950	Shell-White.png	
+1808	1209	Amatsu Webbing	Flesh		8	99		23750	Webbing-White.png	
+1809	1210	Heavenly Dragongem	Flesh		9	99		30000	Monster-Jewel-Cyan.png	
+1810	1211	Alatreon Mantle	Flesh		9	99		16250	Scale-Purple.png	The mantle of an Alatreon is the stuff of legend, containing traces of every element within.
+1811	1212	Alatreon Riptalon	Flesh		8	99		22750	Fang-Purple.png	
+1812	1213	Azure Dragonsphire	Flesh		9	99		40000	Monster-Jewel-Blue.png	
+1813	160	Wystone Lv2: Brace	Wystone		6	1			Wystone-Orange.png	
+1814	162	Wystone Lv2: Element	Wystone		6	1			Wystone-Cyan.png	
+1815	164	Wystone Lv2: Force	Wystone		6	1			Wystone-Red.png	
+1816	166	Wystone Lv2: Drive	Wystone		6	1			Wystone-Purple.png	
+1817	1300	Fardrake's Eye	Account		5			1000	Ore-Red.png	
+1818	1701	CritElementJwl 1	Decoration		8	99		120	Jewel-Pink.png	
+1819	1702	CritElementJwl 2	Decoration		9	99		140	Jewel-Pink.png	
+1820	1703	Crit Status Jwl 1	Decoration		8	99		120	Jewel-Pink.png	
+1821	1704	Crit Status Jwl 2	Decoration		9	99		140	Jewel-Pink.png	
+1822	1610	Precise Jewel 1	Decoration		9	99		140	Jewel-White.png	
+1823	1611	Precise Jewel 2	Decoration		9	99		140	Jewel-White.png	
+1824	1677	Fungiform Jewel 1	Decoration		7	99		100	Jewel-Yellow.png	
+1825	1678	Satiated Jewel 1	Decoration		7	99		100	Jewel-Blue.png	
+1826	1584	Staunch Jewel 1	Decoration		4	99		40	Jewel-Orange.png	
+1827	1582	Clean Jewel 1	Decoration		7	99		100	Jewel-White.png	
+1828	1583	Rodeo Jewel 1	Decoration		7	99		100	Jewel-Red.png	
+1829	1585	Sane Jewel 1	Decoration		8	99		120	Jewel-Purple.png	
+1830	1586	Sane Jewel 3	Decoration		8	99		120	Jewel-Purple.png	
+1831	1595	Artisan Jewel 3	Decoration		8	99		120	Jewel-Purple.png	
+1832	1636	Defense Jewel 3	Decoration		7	99		100	Jewel-Blue.png	
+1833	1700	TrueCatalystJwl 3	Decoration		8	99		120	Jewel-Red.png	
+1834	1780	Cutting Jwl 1	Decoration		4	99		40	Jewel-Cyan.png	
+1835	1781	Cutting Jwl 2	Decoration		5	99		60	Jewel-Cyan.png	
+1836	1782	Cutting Jwl 3	Decoration		6	99		80	Jewel-Cyan.png	
+1837	1783	TrueCuttingJwl 3	Decoration		7	99		100	Jewel-Cyan.png	
+1838	1820	Arcane Jwl 1	Decoration		4	99		40	Jewel-Red.png	
+1839	1821	Arcane Jwl 2	Decoration		5	99		60	Jewel-Red.png	
+1840	1822	Arcane Jwl 3	Decoration		6	99		80	Jewel-Red.png	
+1841	1823	True Arcane Jwl 3	Decoration		7	99		100	Jewel-Red.png	
+1842	1824	Brawn Jwl 1	Decoration		4	99		40	Jewel-Orange.png	
+1843	1825	Brawn Jwl 2	Decoration		5	99		60	Jewel-Orange.png	
+1844	1826	Brawn Jwl 3	Decoration		6	99		80	Jewel-Orange.png	
+1845	1827	True Brawn Jwl 3	Decoration		7	99		100	Jewel-Orange.png	
+1846	1848	Supplicant Jwl 1	Decoration		4	99		40	Jewel-Green.png	
+1847	1849	Supplicant Jwl 2	Decoration		5	99		60	Jewel-Green.png	
+1848	1850	Supplicant Jwl 3	Decoration		6	99		80	Jewel-Green.png	
+1849	1812	Furtive Jwl 1	Decoration		4	99		40	Jewel-Purple.png	
+1850	1813	Furtive Jwl 2	Decoration		5	99		60	Jewel-Purple.png	
+1851	1814	Furtive Jwl 3	Decoration		6	99		80	Jewel-Purple.png	
+1852	1815	TrueFurtiveJwl 3	Decoration		7	99		100	Jewel-Purple.png	
+1853	1777	True Honed Jwl 2	Decoration		6	99		80	Jewel-Purple.png	
+1854	1779	UltimateHonedJwl3	Decoration		8	99		120	Jewel-Purple.png	
+1855	1787	True Calm Jwl 2	Decoration		6	99		80	Jewel-Cyan.png	
+1856	1789	UltimateCalmJwl 3	Decoration		8	99		120	Jewel-Cyan.png	
+1857	1793	True Hale Jwl 2	Decoration		6	99		80	Jewel-Cyan.png	
+1858	1795	UltimateHaleJwl 3	Decoration		8	99		120	Jewel-Cyan.png	
+1859	1799	True Ire Jwl 2	Decoration		6	99		80	Jewel-Red.png	
+1860	1801	UltimateIreJwl 3	Decoration		8	99		120	Jewel-Red.png	
+1861	1817	Withdrawn Jwl 2	Decoration		5	99		60	Jewel-Red.png	
+1862	1819	TrueWithdrawnJwl3	Decoration		7	99		100	Jewel-Red.png	
+1863	1829	Impactful Jwl 2	Decoration		5	99		60	Jewel-Red.png	
+1864	1831	TrueImpactfulJwl3	Decoration		7	99		100	Jewel-Red.png	
+1865	1834	TrueIntenseJwl 2	Decoration		6	99		80	Jewel-Orange.png	
+1866	1835	TrueIntenseJwl 3	Decoration		7	99		100	Jewel-Orange.png	
+1867	1838	True Aegis Jwl 2	Decoration		6	99		80	Jewel-Blue.png	
+1868	1839	True Aegis Jwl 3	Decoration		7	99		100	Jewel-Blue.png	
+1869	1842	TrueTactfulJwl 2	Decoration		6	99		80	Jewel-White.png	
+1870	1843	TrueTactfulJwl 3	Decoration		7	99		100	Jewel-White.png	
+1871	1846	True Broad Jwl 2	Decoration		6	99		80	Jewel-Pink.png	
+1872	1847	True Broad Jwl 3	Decoration		7	99		100	Jewel-Pink.png	
+1874	1673	Laden Jewel 3	Decoration		8	99		120	Jewel-Grey.png	
+1875	1341	Daimyo Coin	Coin/Ticket		6			800	Coin-Red.png	
+1876	1423	Argosy Ticket	Coin/Ticket		8				Ticket-Blue.png	
+1877	1424	Yukumo Ticket	Coin/Ticket		8				Ticket-Red.png	
+1878	1425	Felcote Ticket	Coin/Ticket		8				Ticket-White.png	
+1879	1426	Shakalaka Ticket	Coin/Ticket		8				Ticket-Yellow.png	
+1880	1427	Instructor's Ticket	Coin/Ticket		8				Ticket-Unknown.png	
+1881	1428	Guild Clerk Ticket	Coin/Ticket		8				Ticket-Green.png	
+1882	1429	Jumbo Ticket	Coin/Ticket		8				Ticket-Cyan.png	
+1883	1378	Hunter's Ticket	Coin/Ticket		5				Ticket-Red.png	
+1884	1379	Deviljho Ticket	Coin/Ticket		5				Ticket-White.png	
+1885	1380	Amatsu Ticket	Coin/Ticket		5				Ticket-Green.png	
+1886	1381	Crimson Fatalis Ticket	Coin/Ticket		5				Ticket-Red.png	
+1887	1382	Wonderful Pass	Coin/Ticket		5				Ticket-Blue.png	
+1888	1383	Special Pass	Coin/Ticket		5				Ticket-Blue.png	
+1893	1388	Clockwork Blueprint	Coin/Ticket		5				Ticket-Grey.png	
+1895	1390	Fan Club Newsletter	Coin/Ticket		5				Book-Pink.png	
+1896	1391	Fan Club Cheer	Coin/Ticket		5				Ticket-Pink.png	
+1897	1392	E-Tank	Coin/Ticket		5				Bottle-Blue.png	
+1898	1393	Vintage Meat Ticket	Coin/Ticket		5				Ticket-Orange.png	
+1899	1394	Fake Catalog	Coin/Ticket		5				Book-Red.png	
+1900	1395	Recruitment Poster	Coin/Ticket		5				Ticket-Red.png	
+1901	1396	Hero's Seal	Coin/Ticket		5				Ticket-Red.png	
+1902	1397	Design Pattern	Coin/Ticket		5				Ticket-Red.png	
+1903	1398	Weapon Data	Coin/Ticket		5				Traptool-Cyan.png	
+1905	1400	The Tale of Poogie	Coin/Ticket		5				Book-Pink.png	
+1906	1401	Goddess's Grace	Coin/Ticket		5				Jewel-Cyan.png	
+1907	1402	Gold Ring	Coin/Ticket		5				Coin-Yellow.png	
+1908	1403	Festival Drum Music	Coin/Ticket		5				Ticket-Red.png	
+1917	1257	Proto Dense Marcoal	Supply		5				Coin-Yellow.png	
+1918	1331	Flying Coin G	Coin/Ticket		8			3300	Coin-Red.png	
+1919	1335	Brute Coin G	Coin/Ticket		8			3960	Coin-Green.png	
+1920	1337	Vermin Coin G	Coin/Ticket		8			2970	Coin-DarkGreen.png	
+1921	1339	Toad Coin G	Coin/Ticket		8			2640	Coin-Cyan.png	
+1922	1340	Snake Coin G	Coin/Ticket		8			2640	Coin-Yellow.png	
+1923	1419	Ace Ticket	Coin/Ticket		6				Ticket-Blue.png	
+1926	1684	Jumping Jewel 2	Decoration		8	99		120	Jewel-Blue.png	
+1927	1266	Live Bombfish	Fish		4			50	Fish-Green.png	
+1928	1267	Blue Marlin	Fish		5			1000	Fish-Cyan.png	
+1929	1268	Horse Mackerel	Fish		4			150	Fish-Grey.png	
+1930	1269	Pop-eyed Goldfish	Fish		4			130	Fish-Orange.png	
+1931	1272	Giant Stag	Bug		5			1000	Bug-Gold.png	
+1932	1273	Darner Dragonfly	Bug		4			200	Bug-Green.png	
+1933	1274	Common Butterfly	Bug		4			90	Bug-White.png	
+1934	1275	Flea	Bug		1			7	Bug-Grey.png	
+1935	1258	EZ Marcoal	Supply		5				Coin-Yellow.png	
